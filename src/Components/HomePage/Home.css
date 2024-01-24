@@ -40,7 +40,7 @@
     position: relative;
     top: 30px;
 }
-.features-button{
+.features-button {
     width: 150px;
     height: 40px;
     background-color: #5ca4e3;
@@ -48,12 +48,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto; /* Center the box horizontally */
-    margin-top: 450px; /* Adjust the top margin as needed */
+    margin: auto;
+    margin-top: 450px;
     margin-left: 80px;
     cursor: pointer;
+    position: relative; /* Add relative positioning to the parent */
+    overflow: hidden; /* Ensure that the pseudo-element does not overflow */
 }
-.features-button h4{
+
+.features-button h4 {
     color: #ffffff;
     font-weight: lighter;
+}
+
+.features-button:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+.features-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 37px;
+    width: 120px;
+    border-radius: 30px;
+    background-color: #5ca4e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Set initial opacity to 0 */
+    transition: opacity 0.3s; /* Add a smooth transition effect */
+}
+
+.features-button:hover::before {
+    opacity: 1; /* Change opacity on hover to make the pseudo-element visible */
 }

@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     width: 100%;
     display: flex;
     align-items: center;
@@ -6,22 +6,50 @@
     background-color: rgb(196, 226, 251);
     padding: 15px 7%;
 }
-.logoImg{
+
+.logoImg {
     width: 80px;
     cursor: pointer;
 }
-ul{
+
+ul {
     flex: 1;
     list-style: none;
     text-align: center;
 }
-ul li{
+
+ul li {
     display: inline-block;
     margin: 10px 40px;
     font-size: 18px;
     cursor: pointer;
+    position: relative;
+    z-index: 1; /* Ensure the content is above the pseudo-element */
+    transition: transform 0.3s; /* Adding a smooth transition effect */
 }
-.profileImg{
+
+ul li:hover {
+    transform: scale(1.1); /* Scale the item on hover */
+}
+
+ul li:hover::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(144, 197, 212);
+    color: #ffffff; /* Change the color to your desired hover color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+
+.profileImg {
     width: 50px;
     cursor: pointer;
 }
