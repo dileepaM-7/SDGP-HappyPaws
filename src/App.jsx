@@ -1,24 +1,18 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar/Navbar';
-import Home from './Pages/HomePage/Home';
-import ContactUs from './Pages/ContactUsPage/ContactUs';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import { Navbar } from "./components/NavigationBar/Navbar";
+import { About, Contact, Home, Services } from "./components/pages";
 
-const App = () => {
-  let Component
-  switch(window.location.pathname){
-    case "/":
-      Component = Home
-      break;
-    case '/../ContactUspage/ContactUs':
-      Component = ContactUs
-      break;
-  }
-  
+function App() {
   return (
-    <div className='container'>
-      <Home/>
-      
+    <div className="App">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
