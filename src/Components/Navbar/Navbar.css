@@ -1,12 +1,21 @@
-.navbar {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(196, 226, 251);
-    padding: 15px 7%;
+*{
+    box-sizing: border-box;
 }
-
+.navbar {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 15px 7%;
+    width: 100%;   
+}
+.navbar a{
+    content: inherit;
+    text-decoration: none;
+    color: #000000;
+}
 .logoImg {
     width: 80px;
     cursor: pointer;
@@ -27,9 +36,13 @@ ul li {
     z-index: 1; /* Ensure the content is above the pseudo-element */
     transition: transform 0.3s; /* Adding a smooth transition effect */
 }
+ul li.active{
+    background-color: #555;
+}
 
 ul li:hover {
     transform: scale(1.1); /* Scale the item on hover */
+    color: #363535; /* Change the color to your desired hover color */
 }
 
 ul li:hover::before {
@@ -39,10 +52,9 @@ ul li:hover::before {
     left: 50%;
     transform: translate(-50%, -50%);
     height: 40px;
-    width: 100px;
+    width: 120px;
     border-radius: 30px;
-    background-color: rgb(144, 197, 212);
-    color: #ffffff; /* Change the color to your desired hover color */
+    background-color: rgb(171, 212, 223);
     display: flex;
     align-items: center;
     justify-content: center;
