@@ -10,7 +10,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <Link to="/" className="title">
+      <Link to="/register" className="title">
       <img className='logoImg' src={logoImage} alt="" />
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
@@ -19,9 +19,6 @@ export const Navbar = () => {
         <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
-      <li>
-          <NavLink to="/register">Register</NavLink>
-        </li>
         <li>
           <NavLink to="/">Home</NavLink>
         </li>
