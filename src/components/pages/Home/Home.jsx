@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import './Home.css';
-import doggy_Image from '../../../assets/doggy.png';
 import play_Image from '../../../assets/play.png';
 import MainContent from "../../MainContent/MainContent";
 
