@@ -1,18 +1,6 @@
-.main_content{
-    width: 1300px; /* Set the width of the box */
-    height: 650px; /* Set the height of the box */
-    background-color: #ffffff91; /* Set the background color */
-    border-radius: 100px; /* Set the border-radius for rounded corners */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto; /* Center the box horizontally */
-    margin-top: 15px; /* Adjust the top margin as needed */
-}
 .dogImage{
     width: 550px;
     align-items: right;
-    
     position: absolute; /* Use absolute positioning */
     right: 130px; /* Align to the right */
     top: 250px;
@@ -49,8 +37,8 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 450px;
-    margin-left: 80px;
+    margin-top: 80px;
+    margin-left: 1px;
     cursor: pointer;
     position: relative; /* Add relative positioning to the parent */
     overflow: hidden; /* Ensure that the pseudo-element does not overflow */
@@ -64,7 +52,6 @@
 }
 
 .features-button::before {
-    
     position: absolute;
     top: 50%;
     left: 50%;
