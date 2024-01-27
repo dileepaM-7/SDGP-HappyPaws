@@ -7,7 +7,6 @@ import Register from "./components/pages/Register/Register";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

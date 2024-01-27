@@ -3,10 +3,12 @@ import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import './Home.css';
 import play_Image from '../../../assets/play.png';
 import MainContent from "../../MainContent/MainContent";
+import { Navbar } from "../../NavigationBar/Navbar";
 
 export const Home = () => {
   return (
     <div>
+      <Navbar/>
       <MainContent/>
       <div className='text'>
         <span className='welcome_txt'>Welcome... <br /><br /></span>
