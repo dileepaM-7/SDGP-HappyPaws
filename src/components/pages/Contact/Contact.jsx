@@ -4,8 +4,10 @@ import { Navbar } from "../../NavigationBar/Navbar";
 
 export const Contact = () => {
   return (
-    <div className="contact-us-container">
+    <div>
       <Navbar/>
+      <div className="contact-us-container">
+      
       <h2>Contact Us</h2>
       <p> <br />
         If you have any questions or inquiries, please feel free to reach out to
@@ -30,5 +32,7 @@ export const Contact = () => {
         </div>
       </form>
     </div>
+    </div>
+    
   );
 };
