@@ -21,5 +21,5 @@ export const Home = () => {
       </Link>
       </div>
     </div>
-  )
+  );
 };

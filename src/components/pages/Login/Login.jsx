@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import MainContent from '../../MainContent/MainContent';
 import { Navbar } from '../../NavigationBar/Navbar';
 import './Login.css'; // Import a separate CSS file for styling
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const Register = () => {
   // State variables to store the input values
@@ -55,7 +56,9 @@ const Register = () => {
           <br />
           <button type="submit" className='login-btn'>Login</button>
         </form>
-        <button className='Register-btn'>Register</button>
+        <Link to="/Register">
+        <button className='Register-btn'>Register</button> 
+        </Link>    
       </div>
     </div>
   );
