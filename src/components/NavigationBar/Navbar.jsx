@@ -10,7 +10,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <Link to="/register" className="title">
+      <Link to="/Login" className="title">
       <img className='logoImg' src={logoImage} alt="" />
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
