@@ -55,6 +55,7 @@ const Register = () => {
           <br />
           <button type="submit" className='login-btn'>Login</button>
         </form>
+        <button className='Register-btn'>Register</button>
       </div>
     </div>
   );

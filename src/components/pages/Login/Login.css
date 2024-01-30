@@ -33,12 +33,20 @@
 .login-btn{
     position: absolute;
     top: 320px;
-    left: 200px;
+    left: 270px;
     background-color: #3431c7;
     border-radius: 70px;
     width: 20%;
 }
 .input-field{
     width: 140%;
+}
+.Register-btn{
+    position: absolute;
+    top: 320px;
+    left: 130px;
+    background-color: #3431c7;
+    border-radius: 70px;
+    width: 20%;
 }
   
