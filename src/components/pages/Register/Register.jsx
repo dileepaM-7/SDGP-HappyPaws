@@ -25,29 +25,35 @@ const Register = () => {
     <div className="register-container">
       <Navbar />
       <MainContent className="main-content" />
+      
       <div className="form-content">
         <form onSubmit={handleFormSubmit}>
-          <label>
-            Username:
+          <label className='userName-lbl'>
+            Username :
+            <br />
             <input
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               required
+              className='input-field'
             />
           </label>
           <br />
-          <label>
-            Password:
+          <label className='password-lbl'>
+            Password :
+            <br />
             <input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
+              className='input-field'
             />
           </label>
+          <a href="" className='forgetPw-lbl'>Forgot Password?</a>
           <br />
-          <button type="submit">Login</button>
+          <button type="submit" className='login-btn'>Login</button>
         </form>
       </div>
     </div>
