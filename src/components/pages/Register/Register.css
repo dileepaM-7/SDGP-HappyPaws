@@ -1,0 +1,8 @@
+ .main-content {
+    margin-bottom: 20px; /* Add margin-bottom to create space between MainContent and the form */
+}
+  
+.form-content {
+    width: 300px; /* Set the width of the form content as needed */
+}
+  
