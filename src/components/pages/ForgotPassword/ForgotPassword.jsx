@@ -1,8 +1,13 @@
 import React from 'react'
+import './ForgotPassword.css'
+import { Navbar } from '../../NavigationBar/Navbar'
+import MainContent from '../../MainContent/MainContent'
 
 const ForgotPassword = () => {
   return (
-    <div>
+    <div className=''>
+      <Navbar/>
+      <MainContent/>
       
     </div>
   )

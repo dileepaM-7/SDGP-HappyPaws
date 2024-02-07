@@ -52,7 +52,10 @@ const Register = () => {
               className='input-field'
             />
           </label>
+          <Link to="/ForgotPassword">
           <a href="" className='forgetPw-lbl'>Forgot Password?</a>
+          </Link>
+          
           <br />
           <button type="submit" className='login-btn'>Login</button>
         </form>

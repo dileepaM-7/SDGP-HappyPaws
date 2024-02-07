@@ -4,9 +4,10 @@ import { Navbar } from '../../NavigationBar/Navbar'
 import MainContent from '../../MainContent/MainContent'
 const Register = () => {
   return (
-    <div>
+    <div className='register-content'>
       <Navbar/>
       <MainContent/>
+      
     </div>
   )
 }
