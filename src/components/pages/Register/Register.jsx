@@ -3,6 +3,7 @@ import './Register.css'
 import { Navbar } from '../../NavigationBar/Navbar'
 import MainContent from '../../MainContent/MainContent'
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import googleImg from "../../../assets/google.png"
 
 const Register = () => {
   return (
@@ -10,6 +11,7 @@ const Register = () => {
       <Navbar/>
       <MainContent className="main-content" />
       <div className="form-content">
+        <h3>Please enter your details</h3>
         <form >
           <label className='userName-lbl'>
           Username :
@@ -47,10 +49,10 @@ const Register = () => {
           <button type="submit" className='reg-btn'>Register</button>
         </form>
         <Link to="/Login">
-        <button className='log-btn'>Login</button> 
-        </Link>  
+        <h6 className='log-label'>- Already have an account -</h6>
+        </Link>
+        <button className='google-btn'><img src={googleImg} alt="" className='google-image'/> Sign with google</button>
       </div>
-      
     </div>
   )
 }

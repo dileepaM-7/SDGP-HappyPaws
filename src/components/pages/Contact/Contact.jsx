@@ -20,7 +20,7 @@ export const Contact = () => {
         <label htmlFor="email">Your Email:</label>
         <input type="email" id="email" name="email" required />
 
-        <label htmlFor="phone">Your Phone NO:</label>
+        <label htmlFor="phone">Your Phone No:</label>
         <input type="phone" id="phone" name="phone" required />
 
         <label htmlFor="message">Your Message:</label>

@@ -27,8 +27,8 @@ const Register = () => {
       <Navbar />
       <MainContent className="main-content" />
       
-      <div className="form-content">
-      <h3>Please enter your details</h3>
+      <div className="log-form-content">
+      <h3>Enter your Credentials</h3>
         <form onSubmit={handleFormSubmit}>
           <label className='log-userName-lbl'>
             Username :

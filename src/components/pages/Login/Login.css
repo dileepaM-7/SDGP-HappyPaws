@@ -2,7 +2,7 @@
     margin-bottom: 20px; /* Add margin-bottom to create space between MainContent and the form */
 }
   
-.form-content {
+.log-form-content {
     background-color: rgba(186, 213, 228, 0.603);
     position: absolute;
     top: 230px;
@@ -29,6 +29,7 @@
     left: 67%;
     font-size: small;
     text-decoration: none;
+    color: #000;
 }
 .login-btn{
     position: absolute;
@@ -49,9 +50,9 @@
     border-radius: 70px;
     width: 20%;
 }
-.form-content h3{
+.log-form-content h3{
     position: absolute;
-    left: 25%;
+    left: 27%;
     top: 8%;
 }
 h6{
@@ -60,5 +61,6 @@ h6{
     left: 32%;
     font-size: small;
     text-decoration: none;
+    color: #000;
 }
   
