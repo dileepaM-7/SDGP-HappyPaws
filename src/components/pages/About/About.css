@@ -1,0 +1,24 @@
+h1{
+    background-image: radial-gradient(
+    ellipse 186.99999999999997px 28px at 187px 27.999999999999996px,
+    #635bd7ff 62%,
+    #040006ff 86%,
+    #635bd7ff 100%);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: Inknut Antiqua, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  text-shadow: 0px 4px 4px #00000040;
+  flex-direction: column;
+    
+}
