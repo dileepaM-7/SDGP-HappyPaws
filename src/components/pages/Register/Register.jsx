@@ -2,6 +2,8 @@ import React from 'react'
 import './Register.css'
 import { Navbar } from '../../NavigationBar/Navbar'
 import MainContent from '../../MainContent/MainContent'
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
+
 const Register = () => {
   return (
     <div >
@@ -9,7 +11,7 @@ const Register = () => {
       <MainContent className="main-content" />
       <div className="form-content">
         <form >
-          <label className='Name-lbl'>
+          <label className='userName-lbl'>
           Username :
           <input
               type="text"
@@ -19,6 +21,7 @@ const Register = () => {
           </label>
           <label className='email-lbl'>
           Email :
+          <br />
           <input
               type="text"
               required
@@ -41,7 +44,11 @@ const Register = () => {
               className='input-field'
             />
           </label>
+          <button type="submit" className='reg-btn'>Register</button>
         </form>
+        <Link to="/Login">
+        <button className='log-btn'>Login</button> 
+        </Link>  
       </div>
       
     </div>

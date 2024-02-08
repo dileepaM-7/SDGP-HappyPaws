@@ -28,8 +28,9 @@ const Register = () => {
       <MainContent className="main-content" />
       
       <div className="form-content">
+      <h3>Please enter your details</h3>
         <form onSubmit={handleFormSubmit}>
-          <label className='userName-lbl'>
+          <label className='log-userName-lbl'>
             Username :
             <br />
             <input
@@ -41,7 +42,7 @@ const Register = () => {
             />
           </label>
           <br />
-          <label className='password-lbl'>
+          <label className='log-password-lbl'>
             Password :
             <br />
             <input
@@ -57,10 +58,10 @@ const Register = () => {
           </Link>
           
           <br />
-          <button type="submit" className='login-btn'>Login</button>
+          <button type="submit" className='login-btn'>Log In</button>
         </form>
         <Link to="/Register">
-        <button className='Register-btn'>Register</button> 
+        <h6 className='reg'>- Create an account -</h6>
         </Link>    
       </div>
     </div>

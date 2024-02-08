@@ -12,31 +12,31 @@
     border-radius: 20px;
     
 }
-.userName-lbl{
+.log-userName-lbl{
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 20%;
+    left: 10%;
     
 }
-.password-lbl{
+.log-password-lbl{
     position: absolute;
-    top: 170px;
-    left: 100px;
+    top: 38%;
+    left: 10%;
 }
 .forgetPw-lbl{
     position: absolute;
-    top: 270px;
-    left: 350px;
+    top: 58%;
+    left: 67%;
     font-size: small;
     text-decoration: none;
 }
 .login-btn{
     position: absolute;
-    top: 320px;
-    left: 270px;
+    top: 260px;
+    left: 36%;
     background-color: #3431c7;
     border-radius: 70px;
-    width: 20%;
+    width: 25%;
 }
 .input-field{
     width: 140%;
@@ -48,5 +48,17 @@
     background-color: #3431c7;
     border-radius: 70px;
     width: 20%;
+}
+.form-content h3{
+    position: absolute;
+    left: 25%;
+    top: 8%;
+}
+h6{
+    position: absolute;
+    top: 83%;
+    left: 32%;
+    font-size: small;
+    text-decoration: none;
 }
   
