@@ -29,7 +29,7 @@ const ForgotPassword = () => {
               className='input-field'
             />
           </label>
-          <button type="submit" className='reset-btn'>Send</button>
+          <button type="submit" className='email-reset-btn'>Send</button>
       </form>
     </div>
   )

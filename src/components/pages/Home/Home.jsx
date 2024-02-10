@@ -4,6 +4,7 @@ import './Home.css';
 import play_Image from '../../../assets/play.png';
 import MainContent from "../../MainContent/MainContent";
 import { Navbar } from "../../NavigationBar/Navbar";
+import Footer from "../../Footer/Footer";
 
 export const Home = () => {
   return (
@@ -20,6 +21,7 @@ export const Home = () => {
         Our Services <img src={play_Image} alt="" className="playImage"/>
       </Link>
       </div>
+      <Footer/>
     </div>
   );
 };

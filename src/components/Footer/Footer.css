@@ -2,7 +2,8 @@
     padding: 4rem 4rem;
 }
 .footer{
-    background-color: #2d2d32;
+    background-color: #80a5d6;
+    margin-top: 2%;
 }
 .sb_footer{
     display: flex;
@@ -47,6 +48,7 @@ a{
     line-height: 15px;
     margin: 0.5rem 0;
     cursor: pointer;
+    color: aliceblue;
 }
 .footer-below{
     display: flex;
@@ -75,6 +77,9 @@ hr{
     color: white;
     font-weight: 600;
 
+}
+.images{
+    width: 10px;
 }
 @media screen and (max-width: 550px){
     .sb_footer-heading h1{
@@ -105,6 +110,5 @@ hr{
             font-size: 27px;
             line-height: 38px;
         }
-        
     }
 }

@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Navbar } from "./components/NavigationBar/Navbar";
+// import { Navbar } from "./components/NavigationBar/Navbar";
 import { About, Contact, Home, Services } from "./components/pages";
 import Login from "./components/pages/Login/Login";
 import Register from "./components/pages/Register/Register";
-import ForgotPassword from "./components/pages/ForgotPassword/ForgotPassword";
+import ForgotPassword from "./Components/pages/ForgotPassword/ForgotPassword";
 
 function App() {
   return (

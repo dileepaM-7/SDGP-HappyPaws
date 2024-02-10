@@ -1,6 +1,8 @@
 import React from "react";
 import './Contact.css';
 import { Navbar } from "../../NavigationBar/Navbar";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import Footer from "../../Footer/Footer";
 
 export const Contact = () => {
   return (
@@ -32,6 +34,7 @@ export const Contact = () => {
         </div>
       </form>
     </div>
+    <Footer/>
     </div>
     
   );
