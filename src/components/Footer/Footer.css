@@ -2,7 +2,8 @@
     padding: 4rem 4rem;
 }
 .footer{
-    background-color: #2d2d32;
+    background-color: #2b3440;
+    margin-top: 2%;
 }
 .sb_footer{
     display: flex;
@@ -20,11 +21,12 @@
 }
 .sb_footer-links-div{
     width: 150px;
-    margin: 1rem;
+    margin: 2rem;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    color: azure;
+    color: rgb(235, 235, 235);
+    font-size: large;
 }
 a{
     color: aliceblue(175,175,175);
@@ -35,47 +37,108 @@ a{
     flex-direction: row;
 }
 .socialmedia img{
-    width: 80%;
+    width: 600px;
 }
 .sb_footer-links-div h4{
     font: size 14px; 
     line-height: 17px;
     margin-bottom: 0.9rem;
 }
+.sb_footer-links-div input{
+    border: none;
+    width: 160px;
+    height: 30px;
+    display: block;
+    margin: 7px 0;
+}
+.sb_footer-links-div .inputmsg{
+    background-color: rgb(156, 182, 203);
+    height:100px ;
+     
+}
+
+.sb_footer-links-div .submit{
+ background-color: rgb(105, 160, 215);
+ width: 90px;
+}
+
+
+
 .sb_footer-links-div p{
     font-size: 12px;
     line-height: 15px;
-    margin: 0.5rem 0;
     cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin-bottom:15px ;
+    
 }
 .footer-below{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 0.2rem;
+
+    
 }
 .footer-below-links{
     display: flex;
     flex-direction: row;
+    background-color: rgb(40, 41, 49);
 }
 .footer-below-links p{
     font-size: 13px;
-    line-height: 15px;
+    line-height: 40px;
     margin-left: 2rem;
-    color: azure;
+    color: rgb(133, 165, 240);
     font-weight: 600;
+    
+    
 }
+
+
 hr{
-   color: white; 
+   color: rgb(255, 255, 255); 
    width: 100%;
 }
 .footer-copyright p{
     font-size: 13px;
-    line-height: 15px;
-    color: white;
+    line-height: 40px;
+    color: rgb(133, 165, 240);
     font-weight: 600;
+    margin-left: 35rem;
 
 }
+.footer_upper{
+    background-color: rgb(37, 37, 37);
+    line-height: 30px;
+    font-weight: 800;
+    color:rgb(255, 255, 255);
+    
+}
+.footer_upper p{
+    margin-top: 2%;
+}
+.image1{
+    width: 30px;
+    margin-left: 65rem;
+    margin-top: 0.5%;
+   
+}
+.image2{
+    width: 25px;
+    margin-left: 1rem;
+    margin-bottom: 0.22%;
+}
+.image3{
+    width: 25px;
+    margin-left: 1rem;
+    margin-bottom: 0.22%;
+}
+.images{
+    width: 30px;
+}
+
+
 @media screen and (max-width: 550px){
     .sb_footer-heading h1{
         font-size: 34px;
@@ -105,6 +168,5 @@ hr{
             font-size: 27px;
             line-height: 38px;
         }
-        
     }
 }
