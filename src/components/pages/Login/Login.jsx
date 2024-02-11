@@ -1,47 +1,38 @@
 import React, { useState } from 'react';
-// import { useHistory } from 'react-router-dom';
+//import { useHistory } from 'react-router-dom';
 import MainContent from '../../MainContent/MainContent';
 import { Navbar } from '../../NavigationBar/Navbar';
 import './Login.css';
 import { Link } from 'react-router-dom';
-
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '../../../firebase-config';
 const Login = () => {
-  // const history = useHistory();  // Add this line to get the history object
-
-
+  
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  const handleFormSubmit = (event) => {
+  const handleFormSubmit = async (event) => {
     event.preventDefault();
   
     // Perform form validation
     if (!email || !password) {
       setError('Please fill in all the fields.');
       return;
-    }
-  
-    // Additional validation or actions can be added here
-  
-    // If everything is valid, navigate to the home page
-    // Replace '/' with the actual path to your home page
-    history.push('/');
-  };
-
-/*
-  const loginAuthentication = async () => {
-    // Implement your login authentication logic here
+    } else {
+      // Implement your login authentication logic here
     try {
-      const user = await signInWithEmailAndPassword(auth, email, password); // Call the function with email and password
-      // Registration successful, you may want to perform additional actions
+        const user = await signInWithEmailAndPassword(auth, email, password); // Call the function with email and password
+        // Registration successful, you may want to perform additional actions
+        window.location.href = '/'
     } catch (error) {
-      console.log(error.message);
-      setError('Registration failed. Please try again.'); // Set an error message for the user
+        console.log(error.message);
+        setError('Registration failed. Please try again.'); // Set an error message for the user
+      }
     }
-  }; */
+    
+  };
   
-
   return (
     <div className="login-container">
       <Navbar />
