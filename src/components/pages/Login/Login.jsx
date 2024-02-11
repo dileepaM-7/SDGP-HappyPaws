@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 import MainContent from '../../MainContent/MainContent';
 import { Navbar } from '../../NavigationBar/Navbar';
 import './Login.css';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
-  const history = useHistory();
+  // const history = useHistory();  // Add this line to get the history object
+
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -27,6 +28,18 @@ const Login = () => {
     // Replace '/' with the actual path to your home page
     history.push('/');
   };
+
+/*
+  const loginAuthentication = async () => {
+    // Implement your login authentication logic here
+    try {
+      const user = await signInWithEmailAndPassword(auth, email, password); // Call the function with email and password
+      // Registration successful, you may want to perform additional actions
+    } catch (error) {
+      console.log(error.message);
+      setError('Registration failed. Please try again.'); // Set an error message for the user
+    }
+  }; */
   
 
   return (
@@ -65,7 +78,7 @@ const Login = () => {
           </Link>
           {error && <p className="error-message">{error}</p>}
           <br />
-          <button type="submit" className='login-btn'>Log In</button>
+          <button type="submit" className='login-btn' >Log In</button>
         </form>
         <Link to="/Register">
           <h6 className='create-account-link'>- Create an account -</h6>

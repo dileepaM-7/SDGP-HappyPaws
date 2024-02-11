@@ -68,3 +68,10 @@
     border-radius: 70px;
     width: 30%;
 }
+.error-message{
+    position: absolute;
+    top: 73%;
+    left: 63%;
+    font-size: x-small;
+    color: #ff0000;
+}
