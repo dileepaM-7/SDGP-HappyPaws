@@ -1,27 +1,33 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import MainContent from '../../MainContent/MainContent';
 import { Navbar } from '../../NavigationBar/Navbar';
 import './Login.css';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
+  const history = useHistory();
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-
+  
     // Perform form validation
     if (!email || !password) {
       setError('Please fill in all the fields.');
       return;
     }
-
-    // If form is valid, navigate to the home page
+  
+    // Additional validation or actions can be added here
+  
+    // If everything is valid, navigate to the home page
     // Replace '/' with the actual path to your home page
-    window.location.href = '/';
+    history.push('/');
   };
+  
 
   return (
     <div className="login-container">
@@ -59,8 +65,7 @@ const Login = () => {
           </Link>
           {error && <p className="error-message">{error}</p>}
           <br />
-          <Link to="/"><button type="submit" className='login-btn'>Log In</button></Link>
-          
+          <button type="submit" className='login-btn'>Log In</button>
         </form>
         <Link to="/Register">
           <h6 className='create-account-link'>- Create an account -</h6>
