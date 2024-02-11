@@ -1,48 +1,49 @@
 import React, { useState } from 'react';
 import MainContent from '../../MainContent/MainContent';
 import { Navbar } from '../../NavigationBar/Navbar';
-import './Login.css'; // Import a separate CSS file for styling
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import './Login.css';
+import { Link } from 'react-router-dom';
 
-const Register = () => {
-  // State variables to store the input values
-  const [username, setUsername] = useState('');
+const Login = () => {
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
 
-  // Function to handle form submission
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    // Perform authentication or any other logic here with the username and password
-    console.log('Username:', username);
-    console.log('Password:', password);
+    // Perform form validation
+    if (!email || !password) {
+      setError('Please fill in all the fields.');
+      return;
+    }
 
-    // Reset the form fields
-    setUsername('');
-    setPassword('');
+    // If form is valid, navigate to the home page
+    // Replace '/' with the actual path to your home page
+    window.location.href = '/';
   };
 
   return (
-    <div className="register-container">
+    <div className="login-container">
       <Navbar />
       <MainContent className="main-content" />
-      
-      <div className="log-form-content">
-      <h3>Enter your Credentials</h3>
+
+      <div className="login-form-content">
+        <h3>Enter your Credentials</h3>
         <form onSubmit={handleFormSubmit}>
-          <label className='log-userName-lbl'>
-            Username :
+          <label className='login-email-lbl'>
+            Email :
             <br />
             <input
               type="text"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               required
               className='input-field'
             />
           </label>
           <br />
-          <label className='log-password-lbl'>
+          <label className='login-password-lbl'>
             Password :
             <br />
             <input
@@ -54,18 +55,19 @@ const Register = () => {
             />
           </label>
           <Link to="/ForgotPassword">
-          <a href="" className='forgetPw-lbl'>Forgot Password?</a>
+            <span className='forgot-password-link'>Forgot Password?</span>
           </Link>
-          
+          {error && <p className="error-message">{error}</p>}
           <br />
-          <button type="submit" className='login-btn'>Log In</button>
+          <Link to="/"><button type="submit" className='login-btn'>Log In</button></Link>
+          
         </form>
         <Link to="/Register">
-        <h6 className='reg'>- Create an account -</h6>
-        </Link>    
+          <h6 className='create-account-link'>- Create an account -</h6>
+        </Link>
       </div>
     </div>
   );
 };
 
-export default Register;
+export default Login;

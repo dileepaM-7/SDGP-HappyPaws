@@ -10,7 +10,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <Link to="/Login" className="title">
+      <Link to="/About" className="title">
       <img className='logoImg' src={logoImage} alt="" />
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
@@ -32,7 +32,8 @@ export const Navbar = () => {
           <NavLink to="/contact">Contact Us</NavLink>
         </li>
       </ul>
-      <img className='profileImg' src={profileImage} alt="" />
+      <Link to="/Login"> <button className='login'> Log In </button></Link>
+      {/* <img className='profileImg' src={profileImage} alt="" /> */}
     </nav>
   );
 };

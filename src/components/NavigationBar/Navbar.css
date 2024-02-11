@@ -107,3 +107,9 @@ nav .menu span {
     cursor: pointer;
     margin-right: 100px;
 }
+.login{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    border-radius: 70px;
+}
