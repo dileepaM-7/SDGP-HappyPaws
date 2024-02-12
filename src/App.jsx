@@ -4,7 +4,8 @@ import "./App.css";
 import { About, Contact, Home, Services } from "./components/pages";
 import Login from "./components/pages/Login/Login";
 import Register from "./components/pages/Register/Register";
-import ForgotPassword from "./Components/pages/ForgotPassword/ForgotPassword";
+import ForgotPassword from "./components/pages/ForgotPassword/ForgotPassword";
+import Profile from "./components/pages/profile/Profile";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Login" element={<Login/>} />
         <Route path="/Register" element={<Register/>} />
         <Route path="/ForgotPassword" element={<ForgotPassword/>}/>
+        <Route path="/profile" element={<Profile/>}/>
       </Routes>
     </div>
   );
