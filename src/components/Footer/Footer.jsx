@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Footer.css";
 import fb from "../../assets/fb.jpg";
-import twitter from "../../assets/twitter.jpg";
 import instagram from "../../assets/insta.jpg"; // Fix the file extension
 import linkedIn from "../../assets/LinkedIn.jpg";
 import github from "../../assets/git.jpg";
