@@ -91,11 +91,7 @@ a{
     margin-left: 2rem;
     color: rgb(133, 165, 240);
     font-weight: 600;
-    
-    
 }
-
-
 hr{
    color: rgb(255, 255, 255); 
    width: 100%;
@@ -105,7 +101,7 @@ hr{
     line-height: 40px;
     color: rgb(133, 165, 240);
     font-weight: 600;
-    margin-left: 35rem;
+    margin-left: 30rem;
 
 }
 .footer_upper{
@@ -117,10 +113,11 @@ hr{
 }
 .footer_upper p{
     margin-top: 2%;
+    margin-left: 2%;
 }
 .image1{
     width: 30px;
-    margin-left: 65rem;
+    margin-left: 55rem;
     margin-top: 0.5%;
    
 }

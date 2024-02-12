@@ -2,15 +2,15 @@
   max-width: 1000px;
   height: 650px;
   margin: auto;
-  
   padding: 20px;
   text-align: center;
-  background-color: #ffffff91;
+  background-color: #2b3440;
   border-radius: 100px;
+  color: #fff;
 }
 
 .contact-us-container h2 {
-  color: #333;
+  color: #ffffff;
 }
 
 .contact-form {
@@ -22,7 +22,7 @@
 
 label {
   margin-bottom: 5px;
-  color: #333;
+  color: #ffffff;
 }
 
 input {

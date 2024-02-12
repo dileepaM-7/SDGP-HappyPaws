@@ -4,9 +4,6 @@ import { Link, NavLink } from "react-router-dom";
 import logoImage from "../../assets/logo.png";
 import profileImage from "../../assets/profile.png";
 import { auth } from "../../firebase-config"; // Import your authentication module
-import {
-  signOut
-} from "firebase/auth";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,11 +18,6 @@ export const Navbar = () => {
     // Cleanup the subscription when the component unmounts
     return () => unsubscribe();
   }, []);
-
-  const logout = async () => {
-    // Implement your logout logic here
-    await signOut(auth);
-  };
 
   return (
     <nav>
@@ -53,14 +45,14 @@ export const Navbar = () => {
       </ul>
       {user ? (
         /* User is logged in, show profile image */
-        <img className="profileImg" src={profileImage} alt="" />
+        <Link to="/profile"><img className="profileImg" src={profileImage} alt="" /></Link>
+        
       ) : (
         /* User is not logged in, show login button */
         <Link to="/Login">
           <button className="login">Log In</button>
         </Link>
       )}
-      <Link to="/"><button onClick={logout}>signout</button></Link>
       
     </nav>
   );

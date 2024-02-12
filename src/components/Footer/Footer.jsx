@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className='footer_upper'>
-        <p>connect with us on social networks
+        <p>Connect with us on social networks
         <img src={instagram} alt="" className='image1' />
         <img src={fb} alt="" className='image2' />
         <img src={github} alt="" className='image3' />
