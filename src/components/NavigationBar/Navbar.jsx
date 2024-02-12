@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import logoImage from "../../assets/logo.png";
 import profileImage from "../../assets/profile.png";
 import { auth } from "../../firebase-config"; // Import your authentication module
+// testing
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
