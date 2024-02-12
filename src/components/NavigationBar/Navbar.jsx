@@ -60,7 +60,8 @@ export const Navbar = () => {
           <button className="login">Log In</button>
         </Link>
       )}
-      <button onClick={logout}>signout</button>
+      <Link to="/"><button onClick={logout}>signout</button></Link>
+      
     </nav>
   );
 };
