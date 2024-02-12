@@ -1,0 +1,67 @@
+
+.text1 {
+    text-align: left;
+  }
+
+.welcome{
+    font-size:xxx-large; ;
+    color: #0915f7;
+    font-weight: 1000;
+    position: absolute;
+    left: 50px;
+    font-family:serif;
+}
+
+.wake{
+    position: absolute;
+    font-family:serif;
+    font-weight: 1000;
+    font-size:xx-large;
+    top: 30%;
+    left:50px ;
+    
+}
+.work{
+    position: absolute;
+    font-family:serif;
+    font-weight: 1000;
+    font-style:initial;
+    font-size:xxx-large;
+    top: 35%;
+    left:50px ;
+}  
+.para{
+    position: relative;
+    top: 150px;
+    
+    left: 2%;
+    text-align:left;
+
+}
+
+.image{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+
+}
+
+.get-started {
+    position: absolute;
+    margin-top: 20px; /* Adjust as needed */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Example color, you can change it */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    top:65%;
+    left: 2%;
+  }
+  
+  .get-started:hover {
+    background-color: #0056b3; /* Example color, you can change it */
+  }
+  
+  
