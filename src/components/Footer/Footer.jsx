@@ -28,13 +28,16 @@ const Footer = () => {
           </div>
           <div className="sb_footer-links-div">
           <h4>Services</h4>
-            <Link to="/services">
+            
               <p>Food Recommendations</p>
               <p>Vaccination reminder</p>
+              <Link to="/exceisePlanner">
               <p>Exercise planner</p>
+              </Link>
+              
               <p>medical records</p>
               <p>Search for consultants</p>
-            </Link>
+            
             
           </div>
           <div className="sb_footer-links-div">
