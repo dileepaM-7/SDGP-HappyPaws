@@ -53,9 +53,9 @@ export const Home = () => {
           </ScrollLink>
         </Title>
       </div>
-      <Services/>
+      <Services />
       <About/>
-      <Contact/>
+      <Contact id="contact"/>
       <Footer />
     </div>
   );

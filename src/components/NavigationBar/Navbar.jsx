@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { Link as ScrollLink, Element, scroller } from 'react-scroll';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { auth } from "../../firebase-config";
 import logoImage from "../../assets/logo.png";
 import profileImage from "../../assets/profile.png";
@@ -10,6 +10,7 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [user, setUser] = useState(null);
   const [activeSection, setActiveSection] = useState('home');
+  const location = useLocation();
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
@@ -21,11 +22,19 @@ export const Navbar = () => {
 
   const scrollToSection = (section) => {
     setMenuOpen(false);
-    scroller.scrollTo(section, {
-      duration: 800,
-      delay: 0,
-      smooth: 'easeInOutQuart',
-    });
+
+    // Check if the current page is the home page
+    if (location.pathname === '/') {
+      // If it is, scroll to the section using react-scroll
+      scroller.scrollTo(section, {
+        duration: 800,
+        delay: 0,
+        smooth: 'easeInOutQuart',
+      });
+    } else {
+      // If it's not, navigate to the home page and append the section as a hash
+      window.location.href = '/';
+    }
   };
 
   const handleSetActive = (to) => {
@@ -51,7 +60,7 @@ export const Navbar = () => {
           onSetActive={handleSetActive}
         >
           <li className={activeSection === 'home' ? 'active' : ''}>
-            <span>Home</span>
+            <span onClick={() => scrollToSection('home')}>Home</span>
           </li>
         </ScrollLink>
         <ScrollLink
@@ -59,11 +68,11 @@ export const Navbar = () => {
           spy={true}
           smooth="easeInOutQuart"
           duration={800}
-          offset={-50}
+          offset={-150}
           onSetActive={handleSetActive}
         >
           <li className={activeSection === 'services' ? 'active' : ''}>
-            <span>Services</span>
+            <span onClick={() => scrollToSection('services')}>Services</span>
           </li>
         </ScrollLink>
         <ScrollLink
@@ -71,11 +80,11 @@ export const Navbar = () => {
           spy={true}
           smooth="easeInOutQuart"
           duration={800}
-          offset={-50}
+          offset={-150}
           onSetActive={handleSetActive}
         >
           <li className={activeSection === 'about' ? 'active' : ''}>
-            <span>About</span>
+            <span onClick={() => scrollToSection('about')}>About</span>
           </li>
         </ScrollLink>
         <ScrollLink
@@ -83,11 +92,11 @@ export const Navbar = () => {
           spy={true}
           smooth="easeInOutQuart"
           duration={800}
-          offset={-50}
+          offset={-150}
           onSetActive={handleSetActive}
         >
           <li className={activeSection === 'contact' ? 'active' : ''}>
-            <span>Contact</span>
+            <span onClick={() => scrollToSection('contact')}>Contact</span>
           </li>
         </ScrollLink>
       </ul>

@@ -1,59 +1,149 @@
-
-.meal-suggestion {
+/* Base styles for feature sections */
+.meal-suggestion,
+.excerise-suggestion,
+.consultant-search,
+.vaccine-date,
+.medical-data {
   position: relative;
-background-color: white;
-padding: 20px;
-border-radius: 8px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-margin: 10% 10% 5% auto; /* Top: 10%, Bottom: 5%, Center horizontally */
-max-width: 900px;
-height: 250px;
-left: -300px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden; /* Ensure content doesn't overflow */
 }
-  .excerise-suggestion{
-    position: relative;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 30px auto;
-    max-width: 900px;
-    height: 250px;
-    right: -200px;
-  }
-  .consultant-search{
-    position: relative;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 30px auto;
-    max-width: 900px;
-    height: 250px;
-    left: -200px;
 
-  }
-  .vaccine-date{
-    position: relative;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 30px auto;
-    max-width: 900px;
-    height: 250px;
-    right: -200px;
+/* Hover effects for feature sections */
+.meal-suggestion:hover,
+.excerise-suggestion:hover,
+.consultant-search:hover,
+.vaccine-date:hover,
+.medical-data:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
 
-  }
-  .medical-data{
-    position: relative;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 30px auto;
-    max-width: 900px;
-    height: 250px;
-    left: -200px;
+/* Individual positioning for each feature section */
+.meal-suggestion {
+  margin: 10% 10% 5% auto;
+  left: -300px;
+  background-color: #f0de7c; /* Gold background color */
+}
 
-  }
+.excerise-suggestion {
+  margin: 100px auto;
+  right: -200px;
+  background: linear-gradient(to right, #66d56a, #43dc83); /* Green gradient background */
+}
+
+.consultant-search {
+  margin: 100px auto;
+  left: -200px;
+  background-color: #5ea6d6; /* Blue background color */
+}
+
+.vaccine-date {
+  margin: 100px auto;
+  right: -200px;
+  background: linear-gradient(to right, #d97e76, #d97945); /* Red gradient background */
+}
+
+.medical-data {
+  margin: 100px auto;
+  left: -200px;
+  background-color: #d07fa5; /* Purple background color */
+}
+
+/* Styling for food image */
+.food-image {
+  position: absolute;
+  width: 350px;
+  top: -51px;
+  left: -20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for food image */
+.food-image:hover {
+  transform: rotate(10deg);
+}
+
+/* Styling for the paragraph inside meal-suggestion */
+.meal-suggestion p {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  color: #333; /* Dark gray text color */
+}
+
+
+/* Styling for the Get Started button */
+.food-btn {
+  position: absolute;
+  left: 35%;
+  top: 65%;
+  background-color: #3498DB; /* Blue background color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.food-btn:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+}
+
+/* Styling for the HiArrowCircleRight icon */
+.food-btn > svg {
+  margin-left: 5px;
+  font-size: 24px; /* Increase the size as needed */
+  vertical-align: middle; /* Align the icon vertically in the middle of the button */
+}
+/* Additional styles for hover effects and animations can be added as needed */
+.ex-image {
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  left: 75%;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for food image */
+.ex-image:hover {
+  transform: rotate(10deg);
+}
+.excerise-suggestion p {
+  position: absolute;
+  left: 05%;
+  top: 28%;
+  color: #333; /* Dark gray text color */
+}
+.ex-btn{
+  position: absolute;
+  left: 55%;
+  top: 58%;
+  background-color: #3498DB; /* Blue background color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+.ex-btn:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+}
+
+/* Styling for the HiArrowCircleRight icon */
+.ex-btn > svg {
+  margin-left: 5px;
+  font-size: 24px; /* Increase the size as needed */
+  vertical-align: middle; /* Align the icon vertically in the middle of the button */
+}
