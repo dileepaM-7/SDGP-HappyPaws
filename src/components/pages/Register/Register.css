@@ -1,4 +1,12 @@
+.regform-content{
+    position:absolute;
+    top: 0;
+    background-color: #C6DEF1;
+    height: 100%;
+    width: 100%;
+}
 .main-content {
+    top: 0;
     margin-bottom: 20px; /* Add margin-bottom to create space between MainContent and the form */
 }
 .form-content {
@@ -16,22 +24,26 @@
     position: absolute;
     top: 15%;
     left: 10%;
+    color: black;
 }
 
 .email-lbl{
     position:absolute;
     top: 30%;
     left: 10%;
+    color: black;
 }
 .password-lbl{
     position: absolute;
     top: 45%;
     left: 10%;
+    color: black;
 }
 .confirmPassword-lbl{
     position:absolute;
     top: 60%;
     left: 10%;
+    color: black;
 }
 .input-field{
     width: 400px;

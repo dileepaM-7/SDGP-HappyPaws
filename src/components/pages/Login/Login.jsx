@@ -35,7 +35,7 @@ const Login = () => {
   
   return (
     <div className="login-container">
-      <Navbar />
+      
       <MainContent className="main-content" />
 
       <div className="login-form-content">

@@ -1,6 +1,13 @@
- .main-content {
-    margin-bottom: 20px; /* Add margin-bottom to create space between MainContent and the form */
+
+.login-container{
+    position: absolute;
+  top: 0; /* Adjust this value to move the container down */
+  background-color: #C6DEF1;
+  height: 100%;
+  width: 100%;
+    
 }
+
   
 .login-form-content {
     background-color: rgba(186, 213, 228, 0.603);
@@ -16,12 +23,14 @@
     position: absolute;
     top: 20%;
     left: 10%;
+    color: #000;
     
 }
 .login-password-lbl{
     position: absolute;
     top: 38%;
     left: 10%;
+    color: #000;
 }
 .forgot-password-link{
     position: absolute;

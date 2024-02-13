@@ -1,0 +1,59 @@
+
+.meal-suggestion {
+  position: relative;
+background-color: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin: 10% 10% 5% auto; /* Top: 10%, Bottom: 5%, Center horizontally */
+max-width: 900px;
+height: 250px;
+left: -300px;
+}
+  .excerise-suggestion{
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 900px;
+    height: 250px;
+    right: -200px;
+  }
+  .consultant-search{
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 900px;
+    height: 250px;
+    left: -200px;
+
+  }
+  .vaccine-date{
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 900px;
+    height: 250px;
+    right: -200px;
+
+  }
+  .medical-data{
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 900px;
+    height: 250px;
+    left: -200px;
+
+  }

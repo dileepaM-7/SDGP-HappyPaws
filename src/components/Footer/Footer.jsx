@@ -42,10 +42,10 @@ const Footer = () => {
           </div>
           <div className="sb_footer-links-div">
           <h4>Contact Us</h4>
-            <Link to="/contact">
-            <p>email</p>
-              <p>number</p>
-            </Link>
+            
+            <p>+94 773613102</p>
+              <p>happypaws@gmail.com</p>
+            
           </div>
           <div className="sb_footer-links-div">
             <h4>message </h4>

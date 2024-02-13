@@ -6,8 +6,8 @@ import Footer from "../../Footer/Footer";
 
 export const Contact = () => {
   return (
-    <div>
-      <Navbar/>
+    <div id="contact">
+      
       <div className="contact-us-container">
       
       <h2>Contact Us</h2>
@@ -34,7 +34,7 @@ export const Contact = () => {
         </div>
       </form>
     </div>
-    <Footer/>
+    
     </div>
     
   );

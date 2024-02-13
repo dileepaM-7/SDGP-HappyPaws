@@ -4,12 +4,11 @@ import Footer from "../../Footer/Footer";
 
 export const About = () => {
   return (
-    <div>
-      <Navbar/>
+    <div id="about">
+      
       <h1>About</h1>
-      <Footer/>
+      
     </div>
 
     );
 };
-//This is a test comment
