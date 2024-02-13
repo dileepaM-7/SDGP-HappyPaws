@@ -1,7 +1,23 @@
 
-.text1 {
+
+
+  .welcome {
     text-align: left;
+    animation: slideIn 1s ease-in-out;
   }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
 
 .welcome{
     font-size:xxx-large; ;
@@ -12,28 +28,55 @@
     font-family:serif;
 }
 
-.wake{
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+ 
+  @keyframes slideIn {
+    from {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .wake {
     position: absolute;
-    font-family:serif;
+    font-family: serif;
     font-weight: 1000;
-    font-size:xx-large;
-    top: 30%;
-    left:50px ;
+    font-size: xx-large;
+    top: 32%;
+    left: 50px;
+    animation: slideIn 1s ease-in-out;
     
-}
-.work{
+  }
+  
+  .work {
     position: absolute;
-    font-family:serif;
+    font-family: serif;
     font-weight: 1000;
-    font-style:initial;
-    font-size:xxx-large;
-    top: 35%;
-    left:50px ;
-}  
+    font-style: initial;
+    font-size: xxx-large;
+    top: 38%;
+    left: 50px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+
+   
 .para{
     position: relative;
-    top: 150px;
-    
+    top: 200px;
     left: 2%;
     text-align:left;
 
@@ -46,22 +89,37 @@
 
 }
 
-.get-started {
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+ 
+  .get-started {
     position: absolute;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff; /* Example color, you can change it */
+    background-color: #0109f4;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    top:65%;
+    top: 60%;
     left: 2%;
+    animation: pulse 1.5s infinite alternate;
   }
   
   .get-started:hover {
-    background-color: #0056b3; /* Example color, you can change it */
+    background-color: #7a3cc7;
   }
   
   
