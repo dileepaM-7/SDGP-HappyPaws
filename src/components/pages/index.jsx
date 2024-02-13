@@ -7,3 +7,4 @@ export * from "./Register/Register";
 export * from "./ForgotPassword/ForgotPassword";
 export * from "./profile/Profile";
 export * from "./excerise planner/ExcerisePlanner";
+export * from "./excerise planner/inputData/InputData";
