@@ -7,8 +7,8 @@ import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const ForgotPassword = () => {
   return (
-    <div className=''>
-      <Navbar/>
+    <div className='forgotPwform-content'>
+      
       <MainContent/>
       <div className="forgotPw-content">
         <h3>Reset Password</h3>

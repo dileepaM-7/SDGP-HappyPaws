@@ -63,3 +63,12 @@
     transform: translateX(0%); /* Stay in the middle */
   }
 }
+#main-part{
+  position: relative;
+  top: 8%;
+}
+#doggy{
+  position: absolute;
+  top: 21%;
+  left: 52%;
+}

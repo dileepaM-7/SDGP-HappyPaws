@@ -6,6 +6,10 @@ import MainContent from "../../MainContent/MainContent";
 import { Navbar } from "../../NavigationBar/Navbar";
 import Footer from "../../Footer/Footer";
 import styled, { keyframes } from "styled-components";
+import { Services } from "../Services/Services";
+import { About } from "../About/About";
+import { Contact } from "../Contact/Contact";
+import { Link as ScrollLink, scroller } from 'react-scroll';
 
 const textFade = keyframes`
   from {
@@ -24,8 +28,16 @@ const Title = styled.div`
 `;
 
 export const Home = () => {
+  const scrollToSection = (section) => {
+    scroller.scrollTo(section, {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart',
+    });
+  };
+
   return (
-    <div>
+    <div className="all-content" id="home">
       <Navbar />
       <MainContent />
       <div className='text'>
@@ -36,11 +48,14 @@ export const Home = () => {
           <span className='second_content'>your <br />beloved pets <br /></span>
           <span className='last_txt'>Discover expert pet care tips and advice to ensure your furry <br />
             friend's well-being and happiness at every stage of their life.</span>
-          <Link to="/services" className='features-button'>
+          <ScrollLink to="services" className='features-button' onClick={() => scrollToSection('services')}>
             Our Services <img src={play_Image} alt="" className="playImage" />
-          </Link>
+          </ScrollLink>
         </Title>
       </div>
+      <Services/>
+      <About/>
+      <Contact/>
       <Footer />
     </div>
   );

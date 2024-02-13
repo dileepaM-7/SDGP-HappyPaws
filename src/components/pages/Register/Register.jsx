@@ -76,8 +76,7 @@ const Register = () => {
   };
 */
   return (
-    <div>
-      <Navbar />
+    <div className='regform-content'>
       <MainContent className="main-content" />
       <div className="form-content">
         <h3>Please enter your details</h3>
