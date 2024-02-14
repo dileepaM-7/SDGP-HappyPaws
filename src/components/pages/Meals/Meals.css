@@ -1,0 +1,139 @@
+.container {
+    position: relative;
+  margin: 0 auto; /* Center the container horizontally */
+  width: 100%; /* Set the width of the container to 90% of the viewport width */
+  max-width: 2000px; /* Set a maximum width for the container */
+  height: 40vh; /* Set the height of the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .video {
+    position: absolute;
+    width: 100%; /* Adjust the width as needed */
+    height: 50vh; /* Adjust the height as needed */
+}
+  
+  .video:hover {
+    cursor: pointer;
+  }
+  
+  .video::-webkit-media-controls {
+    display: none !important;
+  }
+
+.searchbox{
+    text-align: center;
+    margin: 3rem;
+
+}
+.search-bar{
+    width: 400px;
+    height: 40px;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+
+}
+
+.mealitems{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    margin: 1rem;
+    background: linear-gradient(to left,rgba(92, 164, 227, 0.692),rgba(92, 164, 227, 0.692));
+    box-shadow: 0 7px 12px rgba(60, 80, 255, 0.4);
+    overflow: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+.card img{
+    width: 100%;
+}
+.card .info{
+    color: white;
+    text-align: center;
+
+}
+.card .info h2{
+    margin: 0;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.card .info p{
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+
+}
+.card:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width:100%;
+    transition: 0.2 all;
+}
+
+.card.card:hover::before{
+    height: 100%;
+}
+
+.card:hover{
+    background: linear-gradient(to left,rgba(92, 164, 227, 0.692),rgba(92, 164, 227, 0.692));
+
+}
+.card .recipe{
+    position: absolute;
+    top:0;
+    left: 0;
+    text-align: justify;
+    padding: 0.5rem 1rem;
+    display:none;
+    transition: 0.2s all;
+    background: linear-gradient(to left,rgba(2, 2, 2, 0.692),rgba(0, 0, 0, 0.692));
+
+}
+.card:hover .recipe{
+    display: block;
+}
+.recipe h2{
+    margin-bottom: 10px;
+
+}
+.recipe img{
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+.recipe p{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.recipe a{
+    display: block;
+    text-align: center;
+    
+
+}
+  
