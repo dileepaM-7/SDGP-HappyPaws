@@ -1,5 +1,10 @@
 
+.all{
+  background-color: #C6DEF1;
+  width: 100%;
+  height: 100%;
 
+}
 
   .welcome {
     text-align: left;
@@ -55,9 +60,10 @@
     font-family: serif;
     font-weight: 1000;
     font-size: xx-large;
-    top: 32%;
+    top: 35%;
     left: 50px;
     animation: slideIn 1s ease-in-out;
+    
     
   }
   
@@ -67,18 +73,20 @@
     font-weight: 1000;
     font-style: initial;
     font-size: xxx-large;
-    top: 38%;
+    top: 40%;
     left: 50px;
     animation: slideIn 1s ease-in-out;
+    background-color: #C6DEF1;
   }
   
 
    
 .para{
     position: relative;
-    top: 200px;
+    top: 160px;
     left: 2%;
     text-align:left;
+    background-color: #C6DEF1;
 
 }
 
@@ -86,6 +94,7 @@
     position: absolute;
     top: 20%;
     left: 55%;
+    background-color: #C6DEF1;
 
 }
 
@@ -113,13 +122,80 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    top: 60%;
+    top: 66%;
     left: 2%;
     animation: pulse 1.5s infinite alternate;
+    
   }
-  
+
+  .submit{
+    position: absolute;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 900;
+    background-color: #3d83b6;
+    font-family:Helvetica;
+    top:75%;
+    left: 195px;
+  }
+  .submit:hover{
+    background-color: #8c56ce;
+  }
   .get-started:hover {
     background-color: #7a3cc7;
   }
+  .bottom {
+    background-color: #C6DEF1; /* Set background color to match the top */
+    width: 100%;
+    height: 150%;
+  }
+  
+  .form1{
+    background-color: rgb(115, 182, 221);
+    position: absolute;  
+    top: 800px ;
+    left:150px;
+    width:500px;
+    height: 350px;
+    text-align: center;
+    border-radius: 20px;
+
+  }
+  .form1 h1{
+    font-size:xx-large;
+    font-weight: 1000;
+    font-family:cursive; 
+    color: #7a6ded; 
+  }
+  .form1 h5{
+    font-family: serif;
+    color: #680777;
+  }
+  .image2{
+    top:108%;
+    right: 300px;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+
+
+  }
+  .topic{
+    top:32%;
+    position: relative;
+
+    font-size:xxx-large; ;
+    color: #060e97;
+    font-weight: 1000;
+    right: 13%;
+    font-family:serif;
+    
+  }
+ 
+  
+  
+
   
   
