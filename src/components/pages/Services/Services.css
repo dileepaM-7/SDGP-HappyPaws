@@ -105,7 +105,8 @@
   vertical-align: middle; /* Align the icon vertically in the middle of the button */
 }
 /* Additional styles for hover effects and animations can be added as needed */
-.ex-image {
+.ex-image 
+ {
   position: absolute;
   width: 200px;
   top: 50px;
@@ -114,7 +115,7 @@
 }
 
 /* Hover effect for food image */
-.ex-image:hover {
+.ex-image:hover{
   transform: rotate(10deg);
 }
 .excerise-suggestion p {
@@ -143,6 +144,125 @@
 
 /* Styling for the HiArrowCircleRight icon */
 .ex-btn > svg {
+  margin-left: 5px;
+  font-size: 24px; /* Increase the size as needed */
+  vertical-align: middle; /* Align the icon vertically in the middle of the button */
+}
+.consultant-image{
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  left: 5%;
+  transition: transform 0.3s ease-in-out;
+}
+.consultant-image:hover{
+  transform: rotate(10deg);
+}
+.find-consultants-para{
+  position: relative;
+  left: 30%;
+  top: 23%;
+}
+.consultant-btn{
+  position: absolute;
+  left: 32%;
+  top: 65%;
+  background-color: #3498DB; /* Blue background color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+.consultant-btn:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+}
+
+/* Styling for the HiArrowCircleRight icon */
+.consultant-btn > svg {
+  margin-left: 5px;
+  font-size: 24px; /* Increase the size as needed */
+  vertical-align: middle; /* Align the icon vertically in the middle of the button */
+}
+.vaccine-image{
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  left: 70%;
+  transition: transform 0.3s ease-in-out;
+}
+/* Hover effect for food image */
+.vaccine-image:hover{
+  transform: rotate(10deg);
+}
+.vaccine-date p{
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  color: #333; /* Dark gray text color */
+}
+.vaccine-btn{
+  position: absolute;
+  left: 55%;
+  top: 63%;
+  background-color: #3498DB; /* Blue background color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+.vaccine-btn:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+}
+
+/* Styling for the HiArrowCircleRight icon */
+.vaccine-btn > svg {
+  margin-left: 5px;
+  font-size: 24px; /* Increase the size as needed */
+  vertical-align: middle; /* Align the icon vertically in the middle of the button */
+}
+.medical-image{
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  left: 5%;
+  transition: transform 0.3s ease-in-out;
+}
+.medical-image:hover{
+  transform: rotate(10deg);
+}
+.medical-data p{
+  position: relative;
+  left: 30%;
+  top: 23%;
+}
+.medical-btn{
+  position: absolute;
+  left: 32%;
+  top: 65%;
+  background-color: #3498DB; /* Blue background color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+.medical-btn:hover {
+  background-color: #2980B9; /* Darker blue on hover */
+}
+
+/* Styling for the HiArrowCircleRight icon */
+.medical-btn > svg {
   margin-left: 5px;
   font-size: 24px; /* Increase the size as needed */
   vertical-align: middle; /* Align the icon vertically in the middle of the button */

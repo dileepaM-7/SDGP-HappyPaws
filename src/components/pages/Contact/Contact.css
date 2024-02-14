@@ -1,7 +1,7 @@
 .contact-us-container {
   max-width: 1000px;
   height: 650px;
-  margin: auto;
+  margin: 100px auto; /* Set margin-top to 100px and use 'auto' for left and right margins */
   padding: 20px;
   text-align: center;
   background-color: #2b3440;
