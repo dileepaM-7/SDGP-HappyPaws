@@ -130,7 +130,7 @@ h2{
   border-radius: 10px; 
   width: 70%; 
   margin: -15% auto 20% auto;  /* Updated margin values */
-  text-align: center;
+  justify-content: center;
 }
 .container .info {
   display: flex;
