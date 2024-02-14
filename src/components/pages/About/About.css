@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
 
 h1{
@@ -24,26 +23,21 @@ h1{
   text-align: center;
   transition: color 0.3s ease, text-shadow 0.3s ease; 
 }
-
-
-
-
-
-
 .container{
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top:-120px; /* Adjust the top margin as needed */
 }
-
 .container img {
   width: 50%;
   height: 70%;
 }
-.Name{
-  width:280px;
-  height: 360px;
-  padding: 2rem 1rem;
+.Name {
+  width: 250px;
+  height: 500px;
+  margin: 2rem 2rem; /* Add space between items */
   background: #fff;
   position: relative;
   display: flex;
@@ -51,7 +45,16 @@ h1{
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
   transition: 0.5s ease-in-out;
 }
+/* Styles for the first line (name1, name2, name3) */
+.name1, .name2, .name3 {
+  width: calc(30% - 4rem); /* Adjust the width to fit three items in a row with margin */
 
+}
+
+/* Styles for the second line (name4, name5) */
+.name4, .name5 {
+  width: calc(30% - 4rem); /* Adjust the width to fit two items in a row with margin */
+}
 .Name:hover{
   transform: translateY(20px);
 }
@@ -119,16 +122,14 @@ h2{
   margin-bottom: 20px; /* Add space below the heading */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
-
-.para{
-  font-family: 'Arial', sans-serif; 
+.para {
   font-size: 18px;
   line-height: 1.6; 
-  color: #333;  
+  color: #000000;  
   padding: 20px; 
   border-radius: 10px; 
   width: 70%; 
-  margin: 0 auto; 
+  margin: -15% auto 20% auto;  /* Updated margin values */
   text-align: center;
 }
 .container .info {
@@ -138,4 +139,32 @@ h2{
 
 .container .info .linkedin-link {
   display: block; /* Set display to block to make the anchor appear on a new line */
+}
+.linkedin_link{
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+.user-name{
+  position: absolute;
+  top: -101%;
+  left: 22%;
+  text-decoration: none;
+  color: #fff;
+}
+.user-name a{
+  text-decoration: none;
+  color: #fff;
+}
+.discription{
+  position: relative;
+  top: -20px;
+  left: -2%;
+  text-align: center;
+}
+.discription1{
+  position: relative;
+  top: -20px;
+  left: -1%;
+  text-align: center;
 }

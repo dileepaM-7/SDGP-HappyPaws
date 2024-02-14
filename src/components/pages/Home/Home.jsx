@@ -37,8 +37,9 @@ export const Home = () => {
   };
 
   return (
-    <div className="all-content" id="home">
+    <div className="all-content" >
       <Navbar />
+      <div id="home">
       <MainContent />
       <div className='text'>
         {/* Applying the Title styled component to the entire content */}
@@ -52,6 +53,7 @@ export const Home = () => {
             Our Services <img src={play_Image} alt="" className="playImage" />
           </ScrollLink>
         </Title>
+      </div>
       </div>
       <Services />
       <About/>
