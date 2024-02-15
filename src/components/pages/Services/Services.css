@@ -3,7 +3,8 @@
 .excerise-suggestion,
 .consultant-search,
 .vaccine-date,
-.medical-data {
+.medical-data,
+.consultant-profile {
   position: relative;
   padding: 20px;
   border-radius: 20px;
@@ -19,7 +20,8 @@
 .excerise-suggestion:hover,
 .consultant-search:hover,
 .vaccine-date:hover,
-.medical-data:hover {
+.medical-data:hover,
+.consultant-profile:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
@@ -54,6 +56,11 @@
   left: -200px;
   background-color: #d07fa5; /* Purple background color */
 }
+.consultant-profile{
+  margin: 100px auto;
+  right: -200px;
+  background-color: #a17fd0; /* Purple background color */
+}
 
 /* Styling for food image */
 .food-image {
@@ -81,8 +88,8 @@
 /* Styling for the Get Started button */
 .food-btn {
   position: absolute;
-  left: 35%;
-  top: 65%;
+  left: 34.5%;
+  top: 55%;
   background-color: #3498DB; /* Blue background color */
   color: white;
   padding: 10px 15px;
@@ -150,9 +157,9 @@
 }
 .consultant-image{
   position: absolute;
-  width: 200px;
+  width: 220px;
   top: 50px;
-  left: 5%;
+  left: 2%;
   transition: transform 0.3s ease-in-out;
 }
 .consultant-image:hover{
@@ -165,8 +172,8 @@
 }
 .consultant-btn{
   position: absolute;
-  left: 32%;
-  top: 65%;
+  left: 30.5%;
+  top: 67%;
   background-color: #3498DB; /* Blue background color */
   color: white;
   padding: 10px 15px;
@@ -207,7 +214,7 @@
 .vaccine-btn{
   position: absolute;
   left: 55%;
-  top: 63%;
+  top: 65%;
   background-color: #3498DB; /* Blue background color */
   color: white;
   padding: 10px 15px;
@@ -245,8 +252,8 @@
 }
 .medical-btn{
   position: absolute;
-  left: 32%;
-  top: 65%;
+  left: 30.5%;
+  top: 67%;
   background-color: #3498DB; /* Blue background color */
   color: white;
   padding: 10px 15px;
@@ -266,4 +273,27 @@
   margin-left: 5px;
   font-size: 24px; /* Increase the size as needed */
   vertical-align: middle; /* Align the icon vertically in the middle of the button */
+}
+
+.consultant-profile-img{
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  left: 72%;
+  transition: transform 0.3s ease-in-out;
+}
+.consultant-profile-img:hover{
+  transform: rotate(10deg);
+}
+.consultant-profile p{
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  color: #000000; /* Dark gray text color */
+}
+.consultant-profile h3{
+  position: absolute;
+  left: 5%;
+  top: 60%;
+  color: #fbff00; /* Dark gray text color */
 }
