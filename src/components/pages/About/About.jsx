@@ -8,11 +8,11 @@ import { FaLinkedin } from "react-icons/fa6";
 
 export const About = () => {
   return (
-    <div id="about">
+    <div id="about" className="aboutus-container-all">
       <h1>ABOUT US</h1>
       <h2>From pet lovers,To pet lovers</h2>
       
-      <p className="para">Welcome to our magical haven for pet care, where love for our feathery,
+      <p className="para-about">Welcome to our magical haven for pet care, where love for our feathery,
        scaly, and furry companions is unwavering. We are tucked away in the digital world. Being passionate 
        pet enthusiasts ourselves, we have created a safe haven in the virtual world with the goal of offering 
        other pet owners support and a wealth of resources. Our website is a complex web of love and commitment, 
@@ -22,7 +22,7 @@ export const About = () => {
        care come true.</p>
 
     <br></br>
-      <div className="container">
+      <div className="container-all-data">
       <div className="Name name1"  style={{'--img': `url(${Ishini})`}}>
         <a href=""><FaLinkedin /></a>
           <img src={Ishini} alt="Ishini Ranasinghe" />
