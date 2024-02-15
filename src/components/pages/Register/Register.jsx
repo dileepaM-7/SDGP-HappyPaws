@@ -1,29 +1,28 @@
 import React, { useState } from 'react';
 import './Register.css';
-import { Navbar } from '../../NavigationBar/Navbar';
 import MainContent from '../../MainContent/MainContent';
 import { Link } from 'react-router-dom';
 import googleImg from '../../../assets/google.png';
 import {
   createUserWithEmailAndPassword,
   onAuthStateChanged,
-  signInWithEmailAndPassword,
-  signOut
 } from "firebase/auth";
-import {auth} from '../../../firebase-config'
+import { auth } from '../../../firebase-config';
+import { useCallback } from 'react'; // Import useCallback
 
 const Register = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
+  const [userType, setUserType] = useState('petOwner'); // Default to pet owner
   const [error, setError] = useState('');
 
-  const [user, setUser] = useState ({});
+  const [user, setUser] = useState({});
 
-  onAuthStateChanged (auth, (currentuser) => {
+  onAuthStateChanged(auth, (currentuser) => {
     setUser(currentuser);
-  })
+  });
 
   const register = async (event) => {
     event.preventDefault();
@@ -52,7 +51,7 @@ const Register = () => {
       await registerAuthentication();
 
       // Navigate to the home page if registration is successful
-      window.location.href = '/';  // You may use React Router's history.push('/') here for a better approach
+      window.location.href = '/'; // You may use React Router's history.push('/') here for a better approach
     } catch (error) {
       // Handle registration error
       setError('Registration failed. Please try again.');
@@ -69,12 +68,20 @@ const Register = () => {
       setError('Registration failed. Please try again.'); // Set an error message for the user
     }
   };
-   /*
-  const logout = async () => {
-    // Implement your logout logic here
-    await signOut(auth);
-  };
-*/
+
+  const handleConsultantCheckboxChange = useCallback(() => {
+    setUserType('consultant');
+  }, []);
+
+  const handlePetOwnerCheckboxChange = useCallback(() => {
+    setUserType('petOwner');
+  }, []); // Empty dependency array means the function will not change unless the dependencies change
+  const handleConsultantCheckboxChange1 = useCallback(() => {
+    setUserType((prevUserType) => (prevUserType === 'consultant' ? 'petOwner' : 'consultant'));
+  }, []);
+  const print = () =>{
+    console.log("hellow")
+  }
   return (
     <div className='regform-content'>
       <MainContent className="main-content" />
@@ -126,8 +133,14 @@ const Register = () => {
               placeholder='password'
             />
           </label>
+          <div className='user-type'>
+            <label> Are You a consultant?</label>
+            <input type="checkbox"
+            onChange={handleConsultantCheckboxChange}
+            />
+          </div>
           {error && <p className="error-message">{error}</p>}
-          <button type="submit" className="reg-btn" onClick={registerAuthentication}>
+          <button type="submit" className="reg-btn">
             Register
           </button>
         </form>

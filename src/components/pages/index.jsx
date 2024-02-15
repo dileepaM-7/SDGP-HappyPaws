@@ -8,3 +8,7 @@ export * from "./ForgotPassword/ForgotPassword";
 export * from "./profile/Profile";
 export * from "./excerise planner/ExcerisePlanner";
 export * from "./excerise planner/inputData/InputData";
+export * from "./Meals/Meals";
+export * from "./consultant search/Consultant";
+export * from "./vaccine/Vaccine";
+export * from "./Medical Data/Medical";

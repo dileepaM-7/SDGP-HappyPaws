@@ -5,6 +5,7 @@ import ex from "../../../assets/ex.png";
 import consultant from "../../../assets/consultant.png";
 import vaccine from "../../../assets/vaccine.png";
 import medical from "../../../assets/medical.png";
+import petconsultant from '../../../assets/petconsultant.png';
 
 
 import './Services.css'
@@ -15,42 +16,56 @@ export const Services = () => {
     <div id="services">
       <div className="meal-suggestion">
         <img src={food} alt="" className="food-image"/>
-        <p>"Tailored Temptations: Satisfy Your Pet's Palate with <br></br>
-         Personalized Food Suggestions Catered to Their Unique Tastes and Preferences!"</p>
-         <button className="food-btn">Get Started <HiArrowCircleRight/></button>
+        <p><b>Meal Suggestion</b><br/>"Tailored Temptations: Satisfy Your Pet's Palate with 
+         Personalized <br></br>Food Suggestions Catered to Their Unique Tastes and Preferences!"</p>
+         <Link to="/meals"><button className="food-btn">Get Started <HiArrowCircleRight/></button></Link>
+         
       </div>
       <div className="excerise-suggestion">
       <img src={ex} alt="" className="ex-image"/>
-      <p>"Keep your pet active and joyful with our Exercise Planner! Personalized <br />workout routines designed 
+      <p><b>Exercise Plans</b><br/>"Keep your pet active and joyful with our Exercise Planner! Personalized <br />workout routines designed 
       for your furry friend's happiness and well-being. <br /> From playful games to easy walks, make every moment 
       together healthy and fun!"</p>
-      <button className="ex-btn">Get Started <HiArrowCircleRight/></button>
+      <Link to="./exceisePlanner"><button className="ex-btn">Get Started <HiArrowCircleRight/></button></Link>
+      
       </div>
       <div className="consultant-search">
-      <img src={consultant} alt="" className="consultant-image"/>
-        <p className="find-consultants-para">"Discover our new "Pet Consultant Search" feature! 
+      <img src={petconsultant} alt="" className="consultant-image"/>
+        <p className="find-consultants-para"><b>Search for Consultants</b><br/>"Discover our new "Pet Consultant Search" feature! 
         Easily find and connect <br />with experienced pet consultants who can provide personalized care 
         tips <br />and guidance. Simply search, explore profiles, and book appointments for <br />tailored advice.
         Your pet's well-being is just a click away!"</p>
-      <button className="consultant-btn">Get Started <HiArrowCircleRight/></button>
+        <Link to="./consultant"><button className="consultant-btn">Get Started <HiArrowCircleRight/></button></Link>
+      
       </div>
       <div className="vaccine-date">
       <img src={vaccine} alt="" className="vaccine-image"/>
-      <p>"Keep your pet's health in check effortlessly! Set personalized vaccination <br />
+      <p><b>Vaccination reminder</b><br/>"Keep your pet's health in check effortlessly! Set personalized vaccination <br />
        reminders, and we'll notify you on the exact date. Stay on top of your <br />furry 
        friend's well-being with automatic alerts and a handy vaccine <br /> history tracker. 
        Easy, convenient, and worry-free pet care at your fingertips!"</p>
-      <button className="vaccine-btn">Get Started <HiArrowCircleRight/></button>
+       <Link to="./vaccine"><button className="vaccine-btn">Get Started <HiArrowCircleRight/></button></Link>
+      
       </div>
       <div className="medical-data">
       <img src={medical} alt="" className="medical-image"/>
-      <p>
+      <p><b>Medical Data Store</b><br/>
       "Safeguard your pet's health history with our "Pet Medical Records" feature. <br />
       Easily store and access vaccination details, treatments, and appointments <br />
       in one place. Keep track of your pet's well-being with this simple <br />
       and organized medical record feature!"
       </p>
-      <button className="medical-btn">Get Started <HiArrowCircleRight/></button>
+      <Link to="./medical"><button className="medical-btn">Get Started <HiArrowCircleRight/></button></Link>
+      </div>
+
+      <div className="consultant-profile">
+      <img src={consultant} alt="" className="consultant-profile-img"/>
+      <p><b>Bussiness Profiles for Consultants</b><br/>
+      "Pet Consultants can create profile for them by inputing their<br /> Bussiness details,
+       Then then the system save them and the Consultant <br />publishes the account then the pet oweners 
+       can search for them!"
+      </p>
+      <h3>To get this feature - Sign in as a Consutant</h3>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react'
-import DogFood from '../../../assets/DogFood.jpg';
+// import DogFood from '../../../assets/DogFood.jpg';
 
 const MealItems=(getMeal)=> {
     console.log(getMeal.data)
