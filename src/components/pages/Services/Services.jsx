@@ -18,7 +18,7 @@ export const Services = () => {
         <img src={food} alt="" className="food-image"/>
         <p><b>Meal Suggestion</b><br/>"Tailored Temptations: Satisfy Your Pet's Palate with 
          Personalized <br></br>Food Suggestions Catered to Their Unique Tastes and Preferences!"</p>
-         <Link to="/meals"><button className="food-btn">Get Started <HiArrowCircleRight/></button></Link>
+         <Link to="./Mealsuggestion"><button className="food-btn">Get Started <HiArrowCircleRight/></button></Link>
          
       </div>
       <div className="excerise-suggestion">

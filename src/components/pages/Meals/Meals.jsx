@@ -30,9 +30,6 @@ function Meals() {
       video.removeEventListener("mouseout", handleMouseOut);
     };
   }, []);
- 
-  
- 
   
   return (
     <div className='main'>
@@ -49,7 +46,6 @@ function Meals() {
         <input type="search" className='search-bar' placeholder='Enter the foods'/>
       </div>
       <div className='mealitems'> 
-       
                     <MealItems/>
                     <MealItems/>
                     <MealItems/>
@@ -57,12 +53,6 @@ function Meals() {
                     <MealItems/>
                     <MealItems/>
                     <MealItems/>
-                    
-              
-          
-        
-        
-        
       </div>
     </div>
   );

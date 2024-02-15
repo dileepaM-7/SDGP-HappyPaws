@@ -8,10 +8,10 @@ import ForgotPassword from "./components/pages/ForgotPassword/ForgotPassword";
 import Profile from "./components/pages/profile/Profile";
 import ExcerisePlanner from "./components/pages/excerise planner/ExcerisePlanner";
 import InputData from "./components/pages/excerise planner/inputData/InputData";
-import Meals from "./components/pages/Meals/Meals";
 import Consultant from "./components/pages/consultant search/Consultant";
 import Vaccine from "./components/pages/vaccine/Vaccine";
 import Medical from "./components/pages/Medical Data/Medical";
+import Mealsuggestion from "./components/pages/Meal-suggestion/Mealsuggestion";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/exceisePlanner" element={<ExcerisePlanner/>}/>
         <Route path="/excerseInput" element={<InputData/>}/>
-        <Route path="/meals" element={<Meals/>}/>
+        <Route path="/Mealsuggestion" element={<Mealsuggestion/>}/> 
         <Route path="/consultant" element={<Consultant/>}/>
         <Route path="/vaccine" element={<Vaccine/>}/>
         <Route path="/medical" element={<Medical/>}/>
