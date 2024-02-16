@@ -27,7 +27,7 @@ const Login = () => {
         window.location.href = '/'
     } catch (error) {
         console.log(error.message);
-        setError('Registration failed. Please try again.'); // Set an error message for the user
+        setError('Login failed. Please try again.'); // Set an error message for the user
       }
     }
     

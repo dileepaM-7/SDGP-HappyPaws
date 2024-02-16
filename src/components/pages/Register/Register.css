@@ -17,7 +17,6 @@
     width: 500px;
     height: 530px;
     border-radius: 20px;
-    
 }
 
 .userName-lbl{
@@ -88,9 +87,9 @@
     color: #ff0000;
 }
 .checkbox-title {
-    color: #000000; /* Replace with your desired color code or name */
-    /* Add any other styling properties as needed */
+    color: #000000;
   }
+  
 .user-type{
     position:absolute;
     top: 385px;

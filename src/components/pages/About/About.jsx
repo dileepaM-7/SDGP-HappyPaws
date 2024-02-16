@@ -26,35 +26,35 @@ export const About = () => {
       <div className="Name name1"  style={{'--img': `url(${Ishini})`}}>
         <a href=""><FaLinkedin /></a>
           <img src={Ishini} alt="Ishini Ranasinghe" />
-          <div class="info">
+          <div className="info">
           <h4 className="user-name"><a href="https://www.linkedin.com/in/ishini-ranasinghe-76589a257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin />&nbsp;Ishini S. Ranasinghe</a> </h4>
             <p className="discription"> Software Engineering  Undergraduate From University of westminster.</p>
           </div> 
         </div>
         <div className="Name name2"  style={{'--img': `url(${Dileepa})`}}>
           <img src={Dileepa} alt="Dileepa Malshan" />
-          <div class="info">
+          <div className="info">
           <h4 className="user-name"><a href="https://www.linkedin.com/in/dileepa-malshan-998908292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><FaLinkedin />&nbsp;Dileepa Malshan</a> </h4>
             <p className="discription1"> Software Engineering  Undergraduate From University of westminster.</p>
           </div>
         </div>
         <div className="Name name3" style={{'--img': `url(${Shashini})`}}>
           <img src={Shashini} alt="Shashini Nilukshi" />
-          <div class="info">
+          <div className="info">
           <h4 className="user-name"> <a href="https://www.linkedin.com/in/shashini-nilukshi-717750256"><FaLinkedin />&nbsp;Shashini Nilukshi</a> </h4>
             <p className="discription1"> Software Engineering  Undergraduate From University of westminster.</p>
           </div>
         </div>
         <div className="Name name4"  style={{'--img': `url(${Imasha})`}}>
           <img src={Imasha} alt="Imasha Udayangi" />
-          <div class="info">
+          <div className="info">
           <h4 className="user-name"> <a href="https://www.linkedin.com/in/imasha-udayangi/"><FaLinkedin />&nbsp;Imashan Udayangi</a> </h4>
             <p className="discription1"> Software Engineering  Undergraduate From University of westminster.</p>  
           </div>
         </div>
         <div className="Name name5"  style={{'--img': `url(${Ishini})`}}>
           <img src={Ishini} alt="Sasindu Wickramasinghe" />
-          <div class="info">
+          <div className="info">
           <h4 className="user-name"> <a href="https://www.linkedin.com/in/imasha-udayangi/"><FaLinkedin />&nbsp;Sasindu Wickramasinghe</a> </h4>
           <p className="discription1"> Software Engineering  Undergraduate From University of westminster.</p>  
           </div>

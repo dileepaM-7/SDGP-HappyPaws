@@ -3,8 +3,6 @@ import './ExcerisePlanner.css'
 import { Navbar } from '../../NavigationBar/Navbar'
 import image1 from "../../../assets/exercise1.png";
 import { Link } from 'react-router-dom';
-import petExercise from '../../../assets/exercisepage1.jpg'
-
 
 const ExcerisePlanner = () => {
   return (

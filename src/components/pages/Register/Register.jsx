@@ -8,7 +8,6 @@ import {
   onAuthStateChanged,
 } from "firebase/auth";
 import { auth } from '../../../firebase-config';
-import { useCallback } from 'react'; // Import useCallback
 
 const Register = () => {
   const [username, setUsername] = useState('');
@@ -64,24 +63,10 @@ const Register = () => {
       const user = await createUserWithEmailAndPassword(auth, email, password); // Call the function with email and password
       // Registration successful, you may want to perform additional actions
     } catch (error) {
-      console.log(error.message);
       setError('Registration failed. Please try again.'); // Set an error message for the user
     }
   };
 
-  const handleConsultantCheckboxChange = useCallback(() => {
-    setUserType('consultant');
-  }, []);
-
-  const handlePetOwnerCheckboxChange = useCallback(() => {
-    setUserType('petOwner');
-  }, []); // Empty dependency array means the function will not change unless the dependencies change
-  const handleConsultantCheckboxChange1 = useCallback(() => {
-    setUserType((prevUserType) => (prevUserType === 'consultant' ? 'petOwner' : 'consultant'));
-  }, []);
-  const print = () =>{
-    console.log("hellow")
-  }
   return (
     <div className='regform-content'>
       <MainContent className="main-content" />
@@ -133,12 +118,6 @@ const Register = () => {
               placeholder='password'
             />
           </label>
-          <div className='user-type'>
-            <label> Are You a consultant?</label>
-            <input type="checkbox"
-            onChange={handleConsultantCheckboxChange}
-            />
-          </div>
           {error && <p className="error-message">{error}</p>}
           <button type="submit" className="reg-btn">
             Register
