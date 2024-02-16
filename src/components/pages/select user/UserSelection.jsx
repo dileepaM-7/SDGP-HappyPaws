@@ -4,8 +4,11 @@ import MainContent from '../../MainContent/MainContent';
 
 const UserSelection = () => {
   return (
-    <div>
+    <div className='user-selection'>
       <MainContent/>
+      <div className='selection'>
+
+      </div>
     </div>
   )
 }

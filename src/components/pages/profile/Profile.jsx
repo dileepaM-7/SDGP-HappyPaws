@@ -1,17 +1,16 @@
 import React from 'react';
 import './Profile.css';
 import { Link } from 'react-router-dom';
-import {auth} from "../../../firebase-config";
-import {
-    signOut
-  } from "firebase/auth";
+import { auth } from "../../../firebase-config";
+import { signOut } from "firebase/auth";
 
 const Profile = () => {
 
-    const logout = async () => {
-        // Implement your logout logic here
-        await signOut(auth);
-      };
+  //Log out function
+  const logout = async () => {
+      await signOut(auth);
+    };
+
   return (
     <div>
       <Link to="/"><button onClick={logout}>signout</button></Link>
@@ -19,4 +18,4 @@ const Profile = () => {
   )
 }
 
-export default Profile
+export default Profile;

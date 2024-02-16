@@ -12,9 +12,10 @@ import Consultant from "./components/pages/consultant search/Consultant";
 import Vaccine from "./components/pages/vaccine/Vaccine";
 import Medical from "./components/pages/Medical Data/Medical";
 import Mealsuggestion from "./components/pages/Meal-suggestion/Mealsuggestion";
+import UserSelection from "./components/pages/select user/UserSelection";
 
 function App() {
-  return (
+  return (  
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
@@ -31,6 +32,7 @@ function App() {
         <Route path="/consultant" element={<Consultant/>}/>
         <Route path="/vaccine" element={<Vaccine/>}/>
         <Route path="/medical" element={<Medical/>}/>
+        <Route path="/selectUser" element={<UserSelection/>}/>
       </Routes>
     </div>
   );

@@ -50,7 +50,7 @@ const Register = () => {
       await registerAuthentication();
 
       // Navigate to the home page if registration is successful
-      window.location.href = '/'; // You may use React Router's history.push('/') here for a better approach
+      window.location.href = '/selectUser'; // You may use React Router's history.push('/') here for a better approach
     } catch (error) {
       // Handle registration error
       setError('Registration failed. Please try again.');
