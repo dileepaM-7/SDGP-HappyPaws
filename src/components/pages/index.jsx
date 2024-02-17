@@ -12,3 +12,4 @@ export * from "./consultant search/Consultant";
 export * from "./vaccine/Vaccine";
 export * from "./Medical Data/Medical";
 export * from "./select user/UserSelection";
+export * from "./BussinessProfile/BussinessProfile";

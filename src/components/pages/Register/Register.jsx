@@ -14,9 +14,8 @@ const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-  const [userType, setUserType] = useState('petOwner'); // Default to pet owner
+  const [userType, setUserType] = useState(''); // Default to pet owner
   const [error, setError] = useState('');
-
   const [user, setUser] = useState({});
 
   onAuthStateChanged(auth, (currentuser) => {
