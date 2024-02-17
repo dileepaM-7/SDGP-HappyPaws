@@ -13,6 +13,7 @@ import Vaccine from "./components/pages/vaccine/Vaccine";
 import Medical from "./components/pages/Medical Data/Medical";
 import Mealsuggestion from "./components/pages/Meal-suggestion/Mealsuggestion";
 import UserSelection from "./components/pages/select user/UserSelection";
+import BussinessProfile from "./components/pages/BussinessProfile/BussinessProfile";
 
 function App() {
   return (  
@@ -33,6 +34,7 @@ function App() {
         <Route path="/vaccine" element={<Vaccine/>}/>
         <Route path="/medical" element={<Medical/>}/>
         <Route path="/selectUser" element={<UserSelection/>}/>
+        <Route path="/bussinessProfile" element={<BussinessProfile/>}/>
       </Routes>
     </div>
   );
