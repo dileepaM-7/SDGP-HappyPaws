@@ -1,9 +1,8 @@
 import React from 'react'
 import './ExcerisePlanner.css'
 import { Navbar } from '../../NavigationBar/Navbar'
-
 import { Link } from 'react-router-dom';
-import ExerciseDogImage from '../../../assets/exerciseDog1.jpg'
+import ExerciseDogImage from '../../../assets/exerciseDog1 .jpg'
 import ExerciseDogImage2 from '../../../assets/exerciseDogForm1.jpg'
 import exerciseDogImage3 from '../../../assets/exerciseDogForm2.jpg'
 
