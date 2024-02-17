@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { auth } from "./firebase-config";
 import "./App.css";
-import { Navbar } from "./components/NavigationBar/Navbar";
 import { About, Contact, Home, Services } from "./components/pages";
 import Login from "./components/pages/Login/Login";
 import Register from "./components/pages/Register/Register";
@@ -16,6 +17,16 @@ import UserSelection from "./components/pages/select user/UserSelection";
 import BussinessProfile from "./components/pages/BussinessProfile/BussinessProfile";
 
 function App() {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      setUser(user);
+    });
+
+    return () => unsubscribe();
+  }, []);
+  
   return (  
     <div className="App">
       <Routes>
