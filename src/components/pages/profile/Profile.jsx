@@ -36,14 +36,11 @@ const Profile = () => {
 
   return (
     <div>
-      {userData ? (
+      
         <div>
-          <p>User Name: {userData.Name}</p>
-          {/* Display other user data as needed */}
+          <p>User Name: </p>
+          <p>User Email: {}</p>
         </div>
-      ) : (
-        <p>Loading user data...</p>
-      )}
       <Link to="/">
         <button onClick={logout}>Sign Out</button>
       </Link>
