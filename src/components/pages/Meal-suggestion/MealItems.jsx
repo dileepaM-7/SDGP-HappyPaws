@@ -5,7 +5,7 @@ import Salmon from'../../../assets/Salmon.jpg';
 
 const MealItems=(getMeal)=> {
     console.log(getMeal.data)
-    
+
   return (
     <>
     <div className='card'>

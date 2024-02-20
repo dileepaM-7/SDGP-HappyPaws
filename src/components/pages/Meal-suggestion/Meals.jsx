@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Navbar } from "../../NavigationBar/Navbar";
 import DogFood from '../../../assets/Meals.mp4';
 import './Meals.css';
 import MealItems from './MealItems';
+import { Navbar } from '../../NavigationBar/Navbar';
 
 function Meals() {
   const videoRef = useRef(null);
@@ -30,12 +30,10 @@ function Meals() {
       video.removeEventListener("mouseout", handleMouseOut);
     };
   }, []);
- 
-  
- 
-  
+
   return (
     <div className='main'>
+      <Navbar/>
       <div className='heading'>
         <h1>Meal Options</h1>
         <div className='container1'>
@@ -52,18 +50,10 @@ function Meals() {
       </div>
       
       <div className='mealitems'> 
-       
-                    <MealItems/>
-                    <MealItems/>
-                    <MealItems/>
-                    <MealItems/>
-                    
-                    
-              
-          
-        
-        
-        
+          <MealItems/>
+          <MealItems/>
+          <MealItems/>
+          <MealItems/>
       </div>
     </div>
   );

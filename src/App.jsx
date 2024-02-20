@@ -12,9 +12,9 @@ import InputData from "./components/pages/excerise planner/inputData/InputData";
 import Consultant from "./components/pages/consultant search/Consultant";
 import Vaccine from "./components/pages/vaccine/Vaccine";
 import Medical from "./components/pages/Medical Data/Medical";
-import Mealsuggestion from "./components/pages/Meal-suggestion/Mealsuggestion";
 import UserSelection from "./components/pages/select user/UserSelection";
 import BussinessProfile from "./components/pages/BussinessProfile/BussinessProfile";
+import Meals from "./components/pages/Meal-suggestion/Meals";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -39,13 +39,13 @@ function App() {
         <Route path="/ForgotPassword" element={<ForgotPassword/>}/>
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/exceisePlanner" element={<ExcerisePlanner/>}/>
-        <Route path="/excerseInput" element={<InputData/>}/>
-        <Route path="/Mealsuggestion" element={<Mealsuggestion/>}/> 
+        <Route path="/excerseInput" element={<InputData/>}/>      
         <Route path="/consultant" element={<Consultant/>}/>
         <Route path="/vaccine" element={<Vaccine/>}/>
         <Route path="/medical" element={<Medical/>}/>
         <Route path="/selectUser" element={<UserSelection/>}/>
         <Route path="/bussinessProfile" element={<BussinessProfile/>}/>
+        <Route path="/meals" element={<Meals/>}/>
       </Routes>
     </div>
   );
