@@ -244,15 +244,15 @@ width: 300px;
   height: 200px;
   position: relative;
   right: 57%;
-  bottom: 35%;
+  bottom: 150px;
   animation: step-start;
 }
 .ExerciseDogImage3{
   height: 400px;
   width: 300px;
-  bottom: 31%;
+  bottom: 143px;
   position: relative;
-  left:59.9%;
+  left:50%;
 }
 
 .exercise-card-container{
