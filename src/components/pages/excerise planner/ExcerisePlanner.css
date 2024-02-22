@@ -333,7 +333,7 @@ grid-gap:1.5em ;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 0 5px 15px var(--shadow-color-);
-  height: 470px;
+  height: 510px;
   width:  400px;
   transition: background-color 0.3s ease, transform 0.3s ease;
   animation: fadeInRight 1s ease-in-out; 
@@ -354,7 +354,7 @@ grid-gap:1.5em ;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 0 5px 15px var(--shadow-color-);
-  height: 471px;
+  height: 510px;
   width:  400px;
   transition: background-color 0.3s ease, transform 0.3s ease;
   animation: fadeInRight 1s ease-in-out; 
@@ -375,10 +375,11 @@ grid-gap:1.5em ;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 0 5px 15px var(--shadow-color-);
-  height: 490px;
+  height: 530px;
   width:  400px;
   animation: fadeInRight 1s ease-in-out; 
   transition: background-color 0.3s ease, transform 0.3s ease;
+  
   .ExerciseCard-info{
     padding: 15px; 
   }

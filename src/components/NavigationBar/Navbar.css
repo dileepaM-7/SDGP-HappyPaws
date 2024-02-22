@@ -76,17 +76,45 @@ nav .menu {
     justify-content: space-between;
     width: 2.25rem;
     height: 2rem;
+    margin-right: 50px;
+    margin-top: 10px;
 }
 
 nav .menu span {
     height: 0.4rem;
     width: 100%;
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 0.2rem;
 }
+/* Existing styles */
 
+@media (max-width: 1300px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        position: absolute;
+        top: 80px; /* Adjust this value to align with your header */
+        background-color: #C6DEF1;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+        align-items:center;
+    }
 
-@media (max-width: 480px) {
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 50%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin: 0.2rem 0.5rem;
+    }
+
     nav .menu {
         display: flex;
     }
@@ -96,32 +124,38 @@ nav .menu span {
         align-items: flex-start;
     }
 
-    nav ul {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 0.25rem;
+    .logoImg {
+        margin: 1; /* Reset margin for logo and profile */
+        margin-top: 10px;
+        
+    }
+    .logoImg {
+        margin-left: 0;
+        margin-bottom: 10px; /* Add some space below the logo */
     }
 
-    nav ul.open {
-        display: flex;
+    .login {
+        margin-right: 100px;
+        margin-top: 22px;
     }
-
-    nav ul li {
-        width: 100%;
-        text-align: center;
-    }
-
-    nav ul li a {
-        margin: 0.2rem 0.5rem;
+    .login button {
+        width: 80px; /* Adjust button width */
+        border-radius: 2rem;
+        padding: 0.5rem;
+        font-size: 14px;
+        cursor: pointer;
     }
 }
+
 .logoImg{
     width: 80px;
     cursor: pointer;
     margin-left: 100px; /* Adjust this value as needed */
 }
 .profileImg{
+    position: absolute;
+    right: 5%;
+    top: 12%;
     width: 50px;
     cursor: pointer;
     margin-right: 100px;
