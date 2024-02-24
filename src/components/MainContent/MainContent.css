@@ -72,3 +72,35 @@
   top: 21%;
   left: 52%;
 }
+@media only screen and (max-width: 1300px) {
+  .dog_Image1,
+  .dog_Image2,
+  .dog_Image3 {
+    display: none; /* Hide the elements */
+  }
+
+  .main_content {
+    width: 90%; /* Set the width of the box */
+    height: 550px; /* Set the height of the box */
+    background-color: #ffffff91;  /* Set the background color */
+    border-radius: 100px; /* Set the border-radius for rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Center the box horizontally */
+    margin-top: 15px; /* Adjust the top margin as needed */
+    
+  }
+
+  .dogImage {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .dogImage {
+    display: none;
+  }
+}
