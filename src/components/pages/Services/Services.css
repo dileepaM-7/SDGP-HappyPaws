@@ -28,8 +28,8 @@
 
 /* Individual positioning for each feature section */
 .meal-suggestion {
-  margin: 10% 10% 5% auto;
-  left: -300px;
+  margin: 100px auto;
+  left: -200px;
   background-color: #f0de7c; /* Gold background color */
 }
 
@@ -173,7 +173,7 @@
 .consultant-btn{
   position: absolute;
   left: 30.5%;
-  top: 67%;
+  top: 73%;
   background-color: #3498DB; /* Blue background color */
   color: white;
   padding: 10px 15px;
@@ -253,7 +253,7 @@
 .medical-btn{
   position: absolute;
   left: 30.5%;
-  top: 67%;
+  top: 73%;
   background-color: #3498DB; /* Blue background color */
   color: white;
   padding: 10px 15px;
@@ -296,4 +296,159 @@
   left: 5%;
   top: 60%;
   color: #fbff00; /* Dark gray text color */
+}
+@media only screen and (max-width: 1300px){
+.meal-suggestion,
+.excerise-suggestion,
+.consultant-search,
+.vaccine-date,
+.medical-data,
+.consultant-profile {
+  position: relative;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  .meal-suggestion p,
+  .excerise-suggestion p,
+  .consultant-search p,
+  .vaccine-date p,
+  .medical-data p,
+  .consultant-profile p{
+    display:none;
+  }
+  .consultant-profile h3{
+    font-size: small;
+    top: 85%;
+    left: 40px;
+  }
+  .food-btn {
+    top: 70%;
+    
+  }
+  .meal-suggestion b,
+  .excerise-suggestion b,
+  .vaccine-date b,
+  .medical-data b{
+    position: absolute;
+    left: 30%;
+  }
+  .consultant-search b{
+    position: absolute;
+    left: 25%;
+  }
+  .food-image {
+    left: 5%;
+  }
+  .ex-btn{
+    top: 76%;
+    left: 33%;
+  }
+  .ex-image{
+    left: 25%;
+  }
+  .consultant-btn{
+    height: 40px;
+    top: 78%;
+    left: 33%;
+  }
+  .consultant-image{
+    left: 17%;
+  }
+  .vaccine-image{
+    width: 40%;
+    left: 30%;
+  }
+  .vaccine-btn{
+    top: 75%;
+    left: 40%;
+  }
+  .medical-btn{
+    top: 75%;
+  }
+  .medical-image{
+    left: 20%;
+  }
+  .consultant-profile-img{
+    width: 170px;
+    left: 30%;
+  }
+}
+@media only screen and (max-width: 1000px){
+
+  .meal-suggestion,
+  .excerise-suggestion,
+  .consultant-search,
+  .vaccine-date,
+  .medical-data,
+  .consultant-profile {
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 200px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    }
+    .consultant-profile h3{
+      font-size: xx-small;
+      top: 65%;
+      left: 40px;
+    }
+    .food-btn {
+      top: 50%;
+      left: 15%;
+      
+    }
+    .meal-suggestion b,
+    .excerise-suggestion b,
+    .vaccine-date b,
+    .medical-data b{
+      position: absolute;
+      left: 30%;
+    }
+    .consultant-search b{
+      position: absolute;
+      left: 25%;
+    }
+    .food-image {
+      display: none;
+    }
+    .ex-btn{
+      top: 50%;
+      left: 15%;
+    }
+    .ex-image{
+      display: none;
+    }
+    .consultant-btn{
+      top: 50%;
+      left: 15%;
+    }
+    .consultant-image{
+      display: none;
+    }
+    .vaccine-image{
+      display: none;
+    }
+    .vaccine-btn{
+      top: 50%;
+      left: 15%;
+    }
+    .medical-btn{
+      top: 50%;
+      left: 15%;
+    }
+    .medical-image{
+      display: none;
+    }
+    .consultant-profile-img{
+      display: none;
+    }
+
 }

@@ -72,4 +72,26 @@ h6{
     text-decoration: none;
     color: #000;
 }
+@media only screen and (max-width: 2000px){
+    .login-form-content{
+        left: 20%;
+    }
+  }
   
+  @media only screen and (max-width: 1700px){
+    .login-form-content{
+        left: 15%;
+    }
+  }
+  @media only screen and (max-width: 1600px){
+    .login-form-content{
+        left: 10%;
+    }
+  }
+  @media only screen and (max-width: 1300px){
+    .login-form-content{
+        left: 8%;
+        width: 35%;
+        height: 35%;
+    }
+  }
