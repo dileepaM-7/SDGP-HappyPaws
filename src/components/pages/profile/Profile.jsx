@@ -4,10 +4,16 @@ import { Link } from 'react-router-dom';
 import { auth } from "../../../firebase-config";
 import { signOut } from "firebase/auth";
 import { getDatabase, ref, child, get } from "firebase/database";
+import UserSidebar from '../../UserProfile/UserSidebar';
+import AccountSettings from '../../UserProfile/AccountSettings';
+import PetProfiles from '../../UserProfile/PetProfiles';
+import { useParams } from 'react-router-dom'; // Import useParams hook
 
 const Profile = () => {
   const [userData, setUserData] = useState(null);
   const [emailLogged, setEmailLogged] = useState('');
+
+  const { activepage } = useParams();
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
@@ -61,6 +67,8 @@ const Profile = () => {
 
   return (
     <div>
+
+      <h2>My Profile</h2>
       <div>
         {/* Update property name from 'username' to 'Name' */}
         <p>User Name: {userData?.Name}</p>
@@ -68,6 +76,17 @@ const Profile = () => {
         <p>User Age: {userData?.Age}</p>
         <p>User ID: {auth.currentUser?.uid}</p>
       </div>
+
+      <div className='userprofilein'>
+        <div className='left'>
+          <UserSidebar activepage={activepage}/>
+        </div>
+        <div className='right'>
+          {activepage === 'petprofiles' && <PetProfiles/>}
+          {activepage === 'accountsettings' && <AccountSettings/>}
+        </div>
+      </div>
+      
       <Link to="/">
         <button onClick={logout}>Sign Out</button>
       </Link>
