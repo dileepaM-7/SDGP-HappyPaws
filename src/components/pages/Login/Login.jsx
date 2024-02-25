@@ -6,6 +6,7 @@ import './Login.css';
 import { Link } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../../firebase-config';
+import { getDatabase, ref, child, get, set } from 'firebase/database';
 const Login = () => {
   
   const [email, setEmail] = useState('');
@@ -20,18 +21,37 @@ const Login = () => {
       setError('Please fill in all the fields.');
       return;
     } else {
-      // Implement your login authentication logic here
-    try {
-        const user = await signInWithEmailAndPassword(auth, email, password); // Call the function with email and password
-        // Registration successful, you may want to perform additional actions
-        window.location.href = '/'
-    } catch (error) {
+      try {
+        const user = await signInWithEmailAndPassword(auth, email, password);
+  
+        // Check if the user has business details
+        const dbRef = ref(getDatabase());
+        const userRef = child(dbRef, 'UserData');
+  
+        const snapshot = await get(userRef);
+        if (snapshot.exists()) {
+          const users = Object.entries(snapshot.val());
+          const currentUserEntry = users.find(([key, user]) => user.Email === email);
+  
+          if (currentUserEntry) {
+            const [, currentUser] = currentUserEntry;
+  
+            if (currentUser.bussinessDetails) {
+              // If business details exist, navigate to the business profile page
+              window.location.href = '/bussinessProfile';
+            } else {
+              // If no business details, navigate to the home page
+              window.location.href = '/';
+            }
+          }
+        }
+      } catch (error) {
         console.log(error.message);
         setError('Login failed. Please try again.'); // Set an error message for the user
       }
     }
-    
   };
+  
   
   return (
     <div className="login-container">

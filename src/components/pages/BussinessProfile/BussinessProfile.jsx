@@ -9,6 +9,8 @@ const BussinessProfile = () => {
   const [emailLogged, setEmailLogged] = useState('');
   const [userData, setUserData] = useState(null);
   const [userDetails, setUserDetails] = useState(null);
+  const [email, setEmail] = useState('');
+  const [userId, setUserId] = useState(null);
 
   const [formData, setFormData] = useState({
     bussinessName: '',
@@ -19,24 +21,52 @@ const BussinessProfile = () => {
     address: '',
   });
 
+  const [isPublished, setIsPublished] = useState(false);
+
   useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      if (user) {
+        setEmailLogged(auth.currentUser?.email);
+        fetchUserDetails();
+      } else {
+        console.log("User is signed out");
+      }
+    });
+  
+    return () => unsubscribe();
+  }, []);
+
+  const fetchUserDetails = async () => {
     const dbRef = ref(getDatabase());
     const userRef = child(dbRef, 'UserData');
-    
-    get(userRef)
-      .then((snapshot) => {
-        if (snapshot.exists()) {
-          const users = Object.values(snapshot.val());
-          const currentUser = users.find(user => user.Email === auth.currentUser?.email);
+  
+    try {
+      const snapshot = await get(userRef);
+  
+      if (snapshot.exists()) {
+        const users = Object.entries(snapshot.val());
+        const currentUserEntry = users.find(([key, user]) => user.Email === auth.currentUser?.email);
+  
+        if (currentUserEntry) {
+          const [userId, currentUser] = currentUserEntry;
           setUserData(currentUser);
+          setUserId(userId);
+
+          if (currentUser.bussinessDetails) {
+            setFormData(currentUser.bussinessDetails);
+          }
+          console.log("userData:", currentUser);
+          console.log("User ID:", userId);
         } else {
-          console.log("No data available");
+          console.log("User not found");
         }
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  }, []);
+      } else {
+        console.log("No data available");
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -59,17 +89,22 @@ const BussinessProfile = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    const dbRef = ref(getDatabase());
-    const userRef = child(dbRef, 'UserData', userDetails?.Email);
+  
+    if (!userId) {
+      console.error("User ID not available.");
+      return;
+    }
+    
+    const userRef = ref(getDatabase(), `UserData/${userId}`);
     const updatedData = {
       ...userData,
       bussinessDetails: formData,
     };
-
+  
     set(userRef, updatedData)
       .then(() => {
         console.log('Data saved successfully');
+        setIsPublished(true); // Set isPublished to true on successful publish
       })
       .catch((error) => {
         console.error('Error saving data:', error);
@@ -153,9 +188,9 @@ const BussinessProfile = () => {
           <div className='button-set'>
             <button type="reset" className='bussiness-resetbtn'>Reset</button>
             <button type="submit" className='bussiness-savebtn'>Save</button>
-            <button type="submit" className='bussiness-publishbtn'>Publish</button>
+            <button type="submit" className={`bussiness-publishbtn ${isPublished ? 'published' : ''}`}>Publish</button>
           </div>
-          <p className='account-status'>Account status: Not Active</p>
+          <p className={`account-status ${isPublished ? 'published' : ''}`}>Account status: {isPublished ? 'Published' : 'Not Active'}</p>
         </form>
       </div>
     </div>

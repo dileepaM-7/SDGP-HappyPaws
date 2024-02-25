@@ -41,6 +41,10 @@
 .account-status{
     position: absolute;
     top: 65%;
-    left: 38%;
+    left: 33%;
     color: red;
 }
+.account-status.published {
+    color: rgb(127, 226, 127);
+    /* add any other styles you want for the "published" state */
+  }
