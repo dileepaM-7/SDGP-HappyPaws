@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import { auth } from "../../../firebase-config";
 import { signOut } from "firebase/auth";
 import { getDatabase, ref, child, get } from "firebase/database";
-import UserSidebar from '../../UserProfile/UserSidebar';
-import AccountSettings from '../../UserProfile/AccountSettings';
-import PetProfiles from '../../UserProfile/PetProfiles';
+import UserSidebar from '../UserProfile/UserSidebar';
+import AccountSettings from '../UserProfile/AccountSettings';
+import PetProfiles from '../UserProfile/PetProfiles';
 import { useParams } from 'react-router-dom'; // Import useParams hook
 
 const Profile = () => {
@@ -86,7 +86,6 @@ const Profile = () => {
           {activepage === 'accountsettings' && <AccountSettings/>}
         </div>
       </div>
-      
       <Link to="/">
         <button onClick={logout}>Sign Out</button>
       </Link>

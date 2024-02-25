@@ -91,7 +91,23 @@ h6{
   @media only screen and (max-width: 1300px){
     .login-form-content{
         left: 8%;
-        width: 35%;
-        height: 35%;
+        width: 37%;
+        height: 45%;
     }
+    .input-field{
+        width: 100%;
   }
+  .create-account-link{
+    top: 80%;
+  }
+}
+@media only screen and (max-width: 1000px){
+    .login-form-content{
+        left: 18%;
+        width: 67%;
+        height: 45%;
+    }
+    .input-field{
+        width: auto;
+  }
+}

@@ -25,7 +25,7 @@
 .consultant-choose-txt{
         position: absolute;
         top: 85%;
-        left: 13%;
+        left: 16%;
         text-decoration: none;
         transition: all 0.3s ease-in-out; /* Add transition for smooth animation */
   }
@@ -42,7 +42,11 @@
     transform: scale(1.1); /* Enlarge on hover, adjust the scale as needed */
   }
   
-  .petConsultant-choose,
+  .petConsultant-choose {
+    position: absolute;
+    width: 200px;
+    transition: all 0.3s ease-in-out; /* Add transition for smooth animation */
+  }
   .petowner-choose {
     position: absolute;
     width: 170px;
@@ -55,13 +59,47 @@
   }
   
   .petConsultant-choose {
-    left: 10%;
-    top: 18%;
+    left: 6%;
+    top: 28%;
   }
   
   .petowner-choose {
-    left: 55%;
-    top: 18%;
+    left: 58%;
+    top: 28%;
   }
+  .select-user{
+    font-size: x-large;
+  }
+  @media only screen and (max-width: 2000px){
+    .selection{
+        left: 20%;
+    }
+  }
+  
+  @media only screen and (max-width: 1700px){
+    .selection{
+        left: 15%;
+    }
+  }
+  @media only screen and (max-width: 1600px){
+    .selection{
+        left: 14%;
+    }
+  }
+  @media only screen and (max-width: 1300px){
+    .selection{
+        left: 10%;
+        width: 37%;
+        height: 65%;
+        top: 14%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .selection{
+        left: 15%;
+        width: 70%;
+        height: 65%;
+    }
+}
   
   

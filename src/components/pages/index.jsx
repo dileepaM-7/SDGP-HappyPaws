@@ -13,3 +13,6 @@ export * from "./Medical Data/Medical";
 export * from "./select user/UserSelection";
 export * from "./BussinessProfile/BussinessProfile";
 export * from "./Meal-suggestion/Meals";
+export * from "./UserProfile/AccountSettings";
+export * from "./UserProfile/PetProfiles";
+export * from "./UserProfile/UserSidebar";

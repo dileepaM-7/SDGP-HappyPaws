@@ -20,7 +20,7 @@ const UserSelection = () => {
     <div className='user-selection'>
       <MainContent />
       <div className='selection'>
-        <h2>Select the User Type</h2>
+        <h2 className='select-user'>Select the User Type</h2>
         <div onClick={() => handleUserTypeSelection('consultant')}>
           <Link to="/bussinessProfile">
             <img src={petconsultantchoose} alt="" className='petConsultant-choose' />
