@@ -5,7 +5,7 @@
   height: 350px; /* Set the height of the container */
   display: flex;
   align-items: center;
-  }
+}
   
   .video {
     width: 1200px;
@@ -398,4 +398,18 @@
     color: azure;
     
 
+}
+.meal-genarate-btn{
+    position: absolute;
+    left: 65%;
+    top: 87.5%;
+    border-radius: 20px;
+}
+.main{
+    width: auto;
+    height: 100%;
+}
+.heading h2{
+    font-size: 50px;
+    color: aquamarine;
 }

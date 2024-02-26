@@ -35,7 +35,7 @@ function Meals() {
     <div className='main'>
       <Navbar/>
       <div className='heading'>
-        <h1>Meal Options</h1>
+        <h2 className='meal-suggestion-head'>Meal Options</h2>
         <div className='container1'>
         <video className="video" autoPlay loop muted ref={videoRef}>
           <source src={DogFood} type="video/mp4" />
@@ -47,13 +47,11 @@ function Meals() {
   
       <div className='searchbox'>
         <input type="search" className='search-bar' placeholder='Enter the foods'/>
+        <button className='meal-genarate-btn'>Genarate</button>
       </div>
       
       <div className='mealitems'> 
-          <MealItems/>
-          <MealItems/>
-          <MealItems/>
-          <MealItems/>
+          
       </div>
     </div>
   );
