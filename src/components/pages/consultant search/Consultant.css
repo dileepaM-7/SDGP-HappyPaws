@@ -1,0 +1,49 @@
+.consultants{
+    background-color: #C6DEF1;
+    width: 100%;
+    height: auto;
+}
+.consultant-container {
+  position: relative;
+  top: -70px;
+    margin-top: 550px; 
+    max-width: 650px;
+  height: 650px;
+  margin: 100px auto; /* Set margin-top to 100px and use 'auto' for left and right margins */
+  padding: 20px;
+  text-align: center;
+  background-color: #2b3440;
+  border-radius: 100px;
+  color: #fff;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .search-bar {
+    margin: 0 auto;
+  }
+  
+  
+  .search-btn{
+    position: absolute;
+    top: 0%;
+    left: 83%;
+    border-radius: 100px;
+  }
+  
+  .consultant-details {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
