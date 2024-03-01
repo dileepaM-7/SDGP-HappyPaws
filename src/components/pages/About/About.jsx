@@ -4,6 +4,7 @@ import Ishini from '../../../assets/Ishini.jpg';
 import Imasha from '../../../assets/Imasha.jpg';
 import Dileepa from '../../../assets/Dileepa.jpg';
 import Shashini from '../../../assets/Shashini.jpg';
+import Sasindu from '../../../assets/Sasindu.jpg';
 import { FaLinkedin } from "react-icons/fa6";
 
 export const About = () => {
@@ -53,7 +54,7 @@ export const About = () => {
           </div>
         </div>
         <div className="Name name5"  style={{'--img': `url(${Ishini})`}}>
-          <img src={Ishini} alt="Sasindu Wickramasinghe" />
+          <img src={Sasindu} alt="Sasindu Wickramasinghe" />
           <div className="info">
           <h4 className="user-name"> <a href="https://www.linkedin.com/in/imasha-udayangi/"><FaLinkedin />&nbsp;Sasindu Wickramasinghe</a> </h4>
           <p className="discription1"> Software Engineering  Undergraduate From University of westminster.</p>  
