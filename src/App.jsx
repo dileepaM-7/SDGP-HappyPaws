@@ -15,6 +15,8 @@ import Medical from "./components/pages/Medical Data/Medical";
 import UserSelection from "./components/pages/select user/UserSelection";
 import BussinessProfile from "./components/pages/BussinessProfile/BussinessProfile";
 import Meals from "./components/pages/Meal-suggestion/Meals";
+import PetProfiles from "./components/pages/UserProfile/PetProfiles";
+import AccountSettings from "./components/pages/UserProfile/AccountSettings";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -46,6 +48,8 @@ function App() {
         <Route path="/selectUser" element={<UserSelection/>}/>
         <Route path="/bussinessProfile" element={<BussinessProfile/>}/>
         <Route path="/meals" element={<Meals/>}/>
+        <Route path="/petProfiles" element={<PetProfiles/>}/>
+        <Route path="/accounntSettings" element={<AccountSettings/>}/>
       </Routes>
     </div>
   );
