@@ -90,13 +90,15 @@ const Medical = () => {
       </div>
       <div className="pdf-upload">
         <h2>Upload PDF</h2>
-        <input type="file" onChange={handlePdfUpload} />
-        {pdfs.map((pdf) => (
-          <div key={pdf.id}>
-            <embed src={pdf.url} type="application/pdf" width="100%" height="600px" />
-            <button onClick={() => handlePdfDelete(pdf.id)}>Delete</button>
-          </div>
-        ))}
+        <div className='pdf-content'>
+          <input type="file" onChange={handlePdfUpload} />
+          {pdfs.map((pdf) => (
+            <div key={pdf.id}>
+              <embed src={pdf.url} type="application/pdf" width="100%" height="400px" />
+              <button onClick={() => handlePdfDelete(pdf.id)}>Delete</button>
+            </div>
+          ))}
+        </div>  
       </div>
     </div>
     <Footer />
