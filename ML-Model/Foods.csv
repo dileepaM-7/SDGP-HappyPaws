@@ -1,193 +1,1242 @@
-Timestamp,Breed,Age,"How often does Your pet get exercise during the 
-week? ( days )",How many hours do your pet gets exercise? ,What challenges do you currently face when taking care of your pets? ,What specific features would you find most valuable in a pet care app?,Preferred Foods,UnPreferred Foods,Weight
-12/19/2023 10:08:33,Stray Dog,5,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Meat with sausages,Cupcake And sugerly foods,25
-12/19/2023 10:18:53,Rhodesian Ridgeback,3,1 Days,0-1 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations","Fish, meat(chicken only) rice and dhal","Banana,choclate",30
-12/19/2023 10:20:31,Labrador ,2,0 Days,0 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Meat and rice with dhal and yogurt,Snacks ,40
-12/19/2023 10:25:44,Husky ,3,3 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken with vegetables. and rice,Banana,35
-12/19/2023 10:29:55,Rotweiler,5,0 Days,0 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations","Fish, Carrot, Potetoes",,37
-12/19/2023 10:31:24,Rotweiler,3,3 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Rice with fried fish,Potato chips,43
-12/19/2023 10:46:10,Rotweiler,2,0 Days,0 hours,"Finding consultants, providing meals to the pet","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Fish and carrot,,30
-12/19/2023 10:49:05,Bullmastif,3,2 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Only Fish and meat,bread,55
-12/19/2023 10:51:07,German Shepard ,1.5,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken and rice formula,,30
-12/19/2023 10:52:11,Stray Dog,7,0 Days,0 hours,forgetting vaccination dates and medical details,vaccination date reminders,Meat Sausages Fish Egg ,Cheese and butter,15
-12/19/2023 10:53:42,Pomeranian Dog,2,2 Days,0-1 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion","Meat, Fish, Yoghurt ",Chocolates ,10
-12/19/2023 12:02:17,Stray dog,2,7 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Fish and vegetables,banana and biscuits,7
-12/19/2023 12:03:31,Stray Dog,3,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion","Fish, meat, curd, yogurt","Hoppers, coconut",15
-12/19/2023 12:04:47,Stray dogs,10,0 Days,0 hours,forgetting vaccination dates and medical details,"vaccination date reminders, meal suggestion",Fish meat,Buiscuits,15
-12/19/2023 12:06:08,Labrador,5,5 Days,0-1 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations","Yoghurt,banana, curd , milk rice",,48
-12/19/2023 12:08:14,Pomaneriyan,1,7 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations, I need a good pet care center when I'm busy","Fish, meat, eggs, rice, bread, milk,... etc. ",Dates,15
-12/19/2023 12:10:06,Stray dog,10,0 Days,0 hours,forgetting vaccination dates and medical details,vaccination date reminders,Anything,"Ice cream, cake, sweets",20
-12/19/2023 12:11:32,Labrador ,2,2 Days,1-3 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations","Chicken,Fish,Cheese",Banana,35
-12/19/2023 12:12:52,Shih Tzu,1,1 Days,0-1 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, work Out plan recommendations","Fish, Meat , Eggs",Banana,2
-12/19/2023 12:14:27,German Sherphered,2,7 Days,3+ hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Meat based food,"Mango, Papaya",25
-12/19/2023 12:24:47,Husky ,1,0 Days,0 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations","Fish, biscuits ",Banana,25
-12/19/2023 12:27:39,Stray dogs,12,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Meat,Chocolate,12
-12/19/2023 12:43:47,Labrador,1,0 Days,0 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations","Meat based foods,vegetables ",Chocolate ,50
-12/19/2023 12:44:46,German shepherd ,2,0 Days,0 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations","Fish,egg,biscuits ",,37
-12/19/2023 12:51:52,Lion shepherd ,1,0 Days,0 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Only meat and fish with rice,Chocolate ,20
-12/19/2023 12:53:26,Stray Dog,7,7 Days,3+ hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Chicken cheese fish ,Coconut,20
-12/19/2023 12:54:44,Cocker spiniel,2,7 Days,0-1 hours,providing meals to the pet,meal suggestion,"Fish,eggs","Mangoes,duriyan",17
-12/19/2023 12:55:40,Golden retriever ,3,3 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Any meat,Rotti,20
-12/19/2023 12:56:38,Doberman,5,2 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Scraped coconut and dry fish,Beans,35
-12/19/2023 12:57:57,Labrador,1,1 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations","Chicken,pork fish with rice",Papaya,55
-12/19/2023 12:59:05,German shepherd ,10,0 Days,0 hours,"maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Salmon and potato,Pumpkin,30
-12/19/2023 13:00:51,Dachhund,4,3 Days,0-1 hours,"providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Meat,,45
-12/19/2023 13:01:38,Dachhund,3,7 Days,1-3 hours,"Finding consultants, providing meals to the pet","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Fish mix with rice,Mangoes,20
-12/19/2023 13:02:24,Mongrel,9,7 Days,1-3 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Chicken and fish,Pizza,20
-12/19/2023 13:03:28,Labrador,3,7 Days,0-1 hours,maintaining physical health,"vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken fish and cheese,Guava,60
-12/19/2023 13:04:18,Shitzu,1,7 Days,0-1 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion",Meat dog food and rice,,5
-12/19/2023 13:05:16,Stray dog,4,1 Days,0-1 hours,forgetting vaccination dates and medical details,vaccination date reminders,Fish with rice and like to have cheese,Hoppers,13
-12/19/2023 13:06:16,German shepherd ,1.5,4 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Fish and chicken with rice,Banana,35
-12/19/2023 13:07:11,Stray dog,10,0 Days,0 hours,forgetting vaccination dates and medical details,vaccination date reminders,Chicken ane sosages,Banana,12
-12/19/2023 13:07:57,Stray dog ,11,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Fish and rice,Banana,35
-12/19/2023 13:08:54,Stray dog,11,7 Days,3+ hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken ,Papaya,14
-12/19/2023 13:10:10,Husky,30,1 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Fish snacks cheese,Pumpkin,6
-12/19/2023 13:11:06,German shepherd ,2,1 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken curd,Sweets,37
-12/19/2023 13:12:22,Boberman,3,7 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Pumpkin Chicken ,Olive,35
-12/19/2023 13:13:26,German shepherd ,4,7 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Meat and fish,Banana,25
-12/19/2023 13:14:21,Rotweiler,3,7 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken,Vegetables ,40
-12/19/2023 13:16:43,Labrador,4,0 Days,0 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Fish and chicken,,18
-12/19/2023 13:20:02,Labradour Retriever ,6,7 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Anythings,Vegetables ,30
-12/19/2023 13:20:55,German Shepard,1.5,0 Days,0 hours,Finding consultants,"vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Dog food with yougourt,Mango and banana,25
-12/19/2023 13:26:56,German shepherd ,2.5,5 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Fish and chicken,,25
-12/19/2023 13:28:10,German shepherd ,3,2 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Chicken liver and butter,,41
-12/19/2023 13:29:21,Rotweiler ,4,3 Days,0-1 hours,maintaining physical health,"vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Fish rice mango potato meat cheese,,40
-12/19/2023 13:31:04,Stray dog,5,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports",Chicken only,,15
-12/19/2023 13:32:13,Stray Dog,8,0 Days,0 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Milk rice vegetables,,15
-12/19/2023 13:33:07,Stray dogs,15,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion",Chicken and fish,Banana,4
-12/19/2023 13:34:08,Boxer,2.5,0 Days,0 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken with egg buscuits,Banana,30
-12/19/2023 13:34:48,Stray dogs,3,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion, work Out plan recommendations",Fish dhal carrot,,20
-12/19/2023 13:36:54,Labrador ,2.5,1 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken ,"Peanuts,banana",40
-12/19/2023 13:37:37,German shepherd ,5,2 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Boiled egg and fish,Corn,37
-12/19/2023 13:38:30,Husky,5,2 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations, ",Fish,Milk rice,6
-12/19/2023 13:39:07,German shepherd ,3,7 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Buscuits,Banana,30
-12/19/2023 13:40:01,Stray dogs,8,7 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Chxiken fish,Milk rice,20
-12/19/2023 13:59:33,Pomenarian,2.5,0 Days,0 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Meat yougourt,Chocolate ,3
-12/19/2023 14:02:57,Cocker spaniel,2,3 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Meat,Fruits,50
-12/19/2023 14:03:52,Labrador ,1,0 Days,0 hours,providing meals to the pet,meal suggestion,Rice meat fish vegetables ,Pet food fruits,20
-12/19/2023 14:05:05,Rhodesian ridgeback,5,0 Days,0 hours,"Finding consultants, forgetting vaccination dates and medical details",vaccination date reminders,Meat,Mangoes,60
-12/19/2023 14:05:47,Labrador ,1,2 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken,Bread,20
-12/19/2023 14:06:50,Stray dog,15,7 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Fish chicken yougourt curd,Coconut,3
-12/19/2023 14:07:59,Terrier,1,1 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken ,Mango banana,40
-12/19/2023 14:12:49,Stray dog,2,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",fruits and vegetables mostly,,12
-12/19/2023 17:20:06,Stray dogs ,7,0 Days,0 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, work Out plan recommendations","meat, fish, dry fish","some vegetables(carrot, onion)",10
-12/19/2023 17:22:56,Stray dogs,11,2 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion","meat, cheese, fish",,15
-12/19/2023 19:32:57,German Shepherd ,4,5 Days,1-3 hours,"Finding consultants, finding trainers","work Out plan recommendations, Training tips","Chicken, rice, vegetables ","Chocolate, nuts ",45
-12/19/2023 19:43:04,Local Mixed Breed,2,4 Days,0-1 hours,"maintaining physical health, ticks,skin isuues","vaccination date reminders, meal suggestion, Skin remedies","Rice, fish, vegetables","Chocolate, grapes",18
-12/19/2023 19:49:00,Stray Dogs,1,2 Days,0-1 hours,"Finding consultants, worms","medical reports, work Out plan recommendations","Boiled fish, rice","Milk, fatty meats",15
-12/19/2023 19:56:27,Local Mixed Breed,5,5 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details, Skin allergies, worms","vaccination date reminders, medical reports,  Allergy remedies, dewormers","Boiled rice, fish, pumpkin","Chocolate, salty snacks",20
-12/19/2023 19:58:46,Labrador,4,4 Days,0-1 hours,"Finding consultants, maintaining physical health, Overheating, diarrhea","medical reports, work Out plan recommendations, Cooling tips, diarrhea treatment","Fish, pumpkin, rice","Chocolate, spicy foods",48
-12/19/2023 20:01:59,Local Mixed Breed,2,1 Days,0-1 hours,"providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","medical reports, meal suggestion, work Out plan recommendations","Rice, vegetables, eggs","Sugary food, fatty scraps",25
-12/19/2023 20:03:20,German Shepherd,1,0 Days,0 hours,"maintaining physical health, Worms, digestive issues","meal suggestion, work Out plan recommendations, Dewormers, probiotics","Rice, boiled chicken, yogurt","Fatty meat, milk	",9
-12/19/2023 20:04:25,Local Mixed Breed,8,3 Days,0-1 hours,"Finding consultants, maintaining physical health, Arthritis, vision issues","vaccination date reminders, medical reports, Joint supplements, blind dog tips","Rice, sardines, sweet potato","Dry food, milk products",25
-12/19/2023 20:07:13,Local Mixed Breed,3,2 Days,0-1 hours,"providing meals to the pet, maintaining physical health, Obesity, parasites","work Out plan recommendations, Weight loss plans, parasite prevention","Chicken, carrot, brown rice","Fatty meat, cheese",33
-12/19/2023 20:08:00, Labrador ,3,3 Days,1-3 hours,"providing meals to the pet, maintaining physical health, Grooming schedule ","medical reports, meal suggestion, work Out plan recommendations",Chicken with rice,Spicy foods,30
-12/19/2023 20:09:09,Beagle,6,5 Days,0-1 hours,"providing meals to the pet, Skin allergies, arthritis","meal suggestion, Allergy remedies, joint supplements","Boiled rice, fish, carrots","Salty treats, cheese",24
-12/19/2023 20:10:54,Dachshund,2,2 Days,0-1 hours,"Finding consultants, maintaining physical health, IVDD, bad breath","work Out plan recommendations, Back health tips, dental care","Rice, sardines, pumpkin","Fatty meat, cheese",20
-12/19/2023 20:11:29,Pomeranian,2,5 Days,0-1 hours,"Finding consultants, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations, socialization events", Fish with vegetables,Dairy products,5
-12/19/2023 20:11:58,Local Mixed Breed,10,1 Days,0-1 hours,"Finding consultants, providing meals to the pet, Cancer, vision loss","medical reports, meal suggestion, work Out plan recommendations, Vet oncology tips, blind dog tips","Soft food, rice, fish","Dry food, fatty scraps",25
-12/19/2023 20:13:07, Dachshund,4,4 Days,0-1 hours,"maintaining physical health, forgetting vaccination dates and medical details, Weight management, dental care","medical reports, meal suggestion, Weight tracking, dental care tips",Beef with carrots, Citrus fruits,8
-12/19/2023 20:21:07,Local Mixed Breed,3,5 Days,1-3 hours,"Finding consultants, forgetting vaccination dates and medical details, Skin allergies, worms","meal suggestion, work Out plan recommendations, Allergy remedies, dewormers","Boiled rice, fish, pumpkin","Chocolate, salty snacks",8
-12/19/2023 20:32:42,Stray Dogs ,5,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details, medical details","vaccination date reminders, meal suggestion",Meat with sausages,Cupcakes and sugary foods,25
-12/19/2023 20:59:42,Labrador,2,0 Days,0 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports",Rice with fried fish,Potato chips,40
-12/19/2023 21:01:42, Rottweiler,5,0 Days,0 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations"," Fish, Carrot, Potatoes",,37
-12/19/2023 21:08:42,Husky,3,3 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Chicken with vegetables and rice,Banana,35
-12/20/2023 19:05:54,Rottweiler,5,4 Days,1-3 hours,forgetting vaccination dates and medical details,vaccination date reminders,"chicken, rice, carrots",beef,44
-12/20/2023 19:07:22,Boxer,2,7 Days,3+ hours,providing meals to the pet,meal suggestion,"lamb, brown rice, peas",pork,24
-12/20/2023 19:08:35,Golden Retriever,8,3 Days,1-3 hours,maintaining physical health,work Out plan recommendations,"chicken, oats, carrots",fish,34
-12/20/2023 19:12:51,Beagle,1,5 Days,0-1 hours,"Finding consultants, providing meals to the pet","vaccination date reminders, medical reports, meal suggestion","beef, brown rice, green beans",eggs,11
-12/20/2023 19:13:53,German Shepherd,4,6 Days,1-3 hours,forgetting vaccination dates and medical details,vaccination date reminders,"chicken, oats, broccoli",lamb,38
-12/20/2023 19:15:07,stray dog,7,2 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion","rice, potatoes, carrots,fish,chicken parts",beef,27
-12/20/2023 19:17:32,stray dog,3,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion","rice, chicken, greengram,fish",dried fish,28
-12/27/2023 17:13:50,Dalmation ,2,3 Days,0-1 hours,providing meals to the pet,meal suggestion,Meat,Milk,12
-12/27/2023 17:14:36,Stray dog,4,1 Days,3+ hours,providing meals to the pet,meal suggestion,Meat,Dog food,15
-12/27/2023 17:36:59,golden retriever,6,3 Days,1-3 hours,"maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports","Rice, dog food (pedigree, Purina),fruits ","Eggs, some vegies ",28
-12/27/2023 17:43:16,Shiba inu,4,3 Days,1-3 hours,"Finding consultants, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion",Dry foods/kibble,Fruits,14
-12/28/2023 8:43:58,Golden retriever ,4,4 Days,1-3 hours,"maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",,,30
-12/28/2023 8:58:11,Poodle,5,3 Days,1-3 hours,"Finding consultants, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports",Dog food ,Most carbs and fruits ,25
-12/28/2023 9:01:32,Welsh Corgi,2,2 Days,0-1 hours,"providing meals to the pet, maintaining physical health","medical reports, meal suggestion, work Out plan recommendations","Dog food ( pedigree, Purina)",Vegetables and rice(carbs),13
-12/28/2023 9:30:02,Doberman ,3,2 Days,0-1 hours,forgetting vaccination dates and medical details,work Out plan recommendations,Dog food,Rice,15
-12/28/2023 9:44:25,Bulldog,1.5,3 Days,0-1 hours,maintaining physical health,medical reports,Meat with rice,"Chillie peppers, vegetables",10
-12/28/2023 9:45:52,German shepard,3,0 Days,0 hours,providing meals to the pet,meal suggestion,Meat and dog food,"Rice,Vegetables,Onions",15
-12/28/2023 17:46:19,Labrador ,5,2 Days,0-1 hours,"providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","meal suggestion, work Out plan recommendations",Dog Food meat and fish,Rice and vegies,20
-12/28/2023 17:48:03,French bull dog,1,1 Days,0-1 hours,"Finding consultants, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, work Out plan recommendations",Meat,All green vegetables ,10
-12/28/2023 17:49:19,Golden Retriever,3,3 Days,0-1 hours,"providing meals to the pet, maintaining physical health","medical reports, meal suggestion, work Out plan recommendations",dog food and meat,Cooked bones,19
-12/28/2023 17:51:34,Siberian Husky,1,1 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken salmon boiled eggs ,"Fried eggs, cheese, nuts",10
-12/28/2023 17:55:54,Beagle,1,1 Days,0-1 hours,"providing meals to the pet, maintaining physical health","vaccination date reminders, meal suggestion","Chicken, Salmon, dog food",Eggs,9
-12/28/2023 18:01:13,Poddle,4,7 Days,0-1 hours,"providing meals to the pet, maintaining physical health","vaccination date reminders, medical reports, meal suggestion","Mix of rice with boiled chicken,Salmon with rice,Dog food ",Eggs,12
-12/28/2023 18:04:14,Chihuahua,5,3 Days,1-3 hours,"Finding consultants, providing meals to the pet","vaccination date reminders, medical reports, meal suggestion",Fish and rice or chicken with rice,Onions and fruits,4
-12/28/2023 18:05:25,Dachshund ,3,5 Days,0-1 hours,providing meals to the pet,"medical reports, meal suggestion","White Fish with rice, Boiled chicken with rice",Onions and peppers,4
-12/28/2023 18:06:45,Pomernarion ,4,4 Days,0-1 hours,"Finding consultants, maintaining physical health","meal suggestion, work Out plan recommendations","Boiled meat with rice, Grapes ","Garlic or ginger mixed food,Raisins",4
-12/28/2023 18:08:10,Samoyed ,3,3 Days,1-3 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion","Dog Food, Apple,Meat and rice","Green and yellow vegetables, Banana, Onions,Chilly peppers",10
-12/28/2023 18:09:33,Dalmatian ,4,2 Days,1-3 hours,"Finding consultants, providing meals to the pet","vaccination date reminders, meal suggestion","Boiled with rice, Dog food, Biscuits ","Fruits, Green vegetables",15
-12/28/2023 18:11:04,Stray dog,6,2 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion","Fish and meat with rice, Dog food",Fruits,14
-12/28/2023 18:12:41,Chow chow,5,0 Days,0 hours,"Finding consultants, maintaining physical health","vaccination date reminders, medical reports, meal suggestion","Dog food, Boiled meat","Onions,Food mixed with condiments ",1.8
-2/25/2024 11:48:09,Labrador Retriever,3,5 Days,1-3 hours,forgetting vaccination dates and medical details,"vaccination date reminders, meal suggestion, work Out plan recommendations","Chicken, rice, and vegetables ",None,30
-2/25/2024 11:49:19,German Shepherd,2,4 Days,1-3 hours,"Finding consultants, providing meals to the pet","medical reports, meal suggestion, work Out plan recommendations","Beef, potatoes, and carrots ",None,25
-2/25/2024 11:50:23,Golden Retriever,4,7 Days,3+ hours,,work Out plan recommendations,"Turkey, quinoa, and broccoli ",,28
-2/25/2024 11:51:16,Bulldog,5,3 Days,0-1 hours,maintaining physical health,work Out plan recommendations,"brown rice, and peas ",,20
-2/25/2024 11:52:14,boxer,4,7 Days,1-3 hours,forgetting vaccination dates and medical details,"vaccination date reminders, meal suggestion","Beef, and carrots ",,27
-2/25/2024 11:52:59, Dachshund,3,4 Days,0-1 hours,maintaining physical health,"meal suggestion, work Out plan recommendations","Turkey, sweet potatoes, and peas",,10
-2/25/2024 11:53:39,Rottweiler,5,5 Days,3+ hours,"Finding consultants, maintaining physical health","meal suggestion, work Out plan recommendations","Duck, rice, and carrots ",,35
-2/25/2024 11:55:12,street dog,2,4 Days,1-3 hours,"Finding consultants, providing meals to the pet","vaccination date reminders, medical reports, meal suggestion",Rice and chicken ,,15
-2/25/2024 12:39:38,Beagle,1,6 Days,1-3 hours,forgetting vaccination dates and medical details,medical reports,"Fish, sweet potatoes, and spinach ",,12
-2/25/2024 17:15:07,Dachshund,3,4 Days,0-1 hours,maintaining physical health,"medical reports, meal suggestion","Turkey,chicken,sweets",,10
-2/25/2024 17:31:38,Cocker Spaniel ,2,4 Days,1-3 hours,forgetting vaccination dates and medical details,"vaccination date reminders, meal suggestion, work Out plan recommendations","Chicken, rice, and carrots ",,14
-2/26/2024 11:40:36,Stray Dog,5,2 Days,0-1 hours,"Finding consultants, forgetting vaccination dates and medical details",meal suggestion,"Meat,Fish,Cheese",Vegitables,20
-2/26/2024 13:41:12,Golden retriver,3,6 Days,0-1 hours,"Finding consultants, providing meals to the pet","vaccination date reminders, meal suggestion",Pedigree,Vegetables,20
-2/26/2024 15:13:48,Stray dog ,2,0 Days,0 hours,"Finding consultants, maintaining physical health","medical reports, meal suggestion","Flesh, Fish & Rice","Vegetables, Sweets ",7
-2/27/2024 20:09:48,Stray Dog ,5,0 Days,0 hours,providing meals to the pet,"vaccination date reminders, meal suggestion",Meat with sausages ,Cupcake and sugary foods,25
-2/27/2024 20:11:38,German Shepherd,4,4 Days,0-1 hours,"Finding consultants, Finding time for exercise, providing meals, grooming","meal suggestion, work Out plan recommendations","Beef, rice, carrots",Citrus fruits,35
-2/27/2024 20:13:21,Golden Retriever,1,0 Days,0 hours,"maintaining physical health, Separation anxiety, teething, training challenges","vaccination date reminders, medical reports, work Out plan recommendations","Chicken, sweet potatoes",Spicy foods,30
-2/27/2024 20:15:54,Rhodesian Ridgeback,3,1 Days,1-3 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion",Meat and rice with dhal and yogurt,Snacks,40
-2/27/2024 20:17:59,Labrador,2,4 Days,1-3 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Meat and rice with dhal and yogurt ,vegetables,25
-2/27/2024 20:19:07,Beagle,6,3 Days,0-1 hours,providing meals to the pet,"meal suggestion, work Out plan recommendations","Turkey, potatoes, peas",Spicy foods,18
-2/27/2024 20:19:18,Husky,3,3 Days,0-1 hours,"Finding consultants, maintaining physical health","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations",Chicken with vegetables. and rice ,Banana  ,35
-2/27/2024 20:20:55,Rottweiler ,5,0 Days,0 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion"," Fish, Carrot, Potatoes  ",,37
-2/27/2024 20:22:18,Rottweiler,3,4 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion",Rice with fried fish  ,Potato chips,43
-2/27/2024 20:23:26,Rottweiler,2,1 Days,0-1 hours,"Finding consultants, providing meals to the pet","vaccination date reminders, medical reports",Fish and carrot ,,30
-2/27/2024 20:25:12,Bullmastiff ,3,2 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health","vaccination date reminders, medical reports, meal suggestion",Only Fish and meat , Bread,55
-2/27/2024 20:26:41,German Shepard ,1.5,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion, work Out plan recommendations",Chicken and rice formula ,,30
-2/27/2024 20:28:29,Stray dog,7,0 Days,,"maintaining physical health, forgetting vaccination dates and medical details",vaccination date reminders,Meat Sausages Fish Egg ,Cheese and butter ,15
-2/27/2024 20:29:39,Pomeranian Dog ,2,2 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion"," Meat, Fish, Yoghurt  ",Chocolates,10
-2/27/2024 20:31:11,Stray dog,2,5 Days,0-1 hours,providing meals to the pet,"vaccination date reminders, medical reports",Fish and vegetables,Banana and biscuits ,7
-2/27/2024 20:32:28,Stray dog,3,0 Days,0 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion","Fish, meat, curd, yogurt  ","Hoppers, coconut ",15
-2/27/2024 20:33:35,Labrador,5,5 Days,0-1 hours,"Finding consultants, providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations","Yoghurt, banana, curd, milk rice ",,48
-2/27/2024 20:34:02,Poodle,2,4 Days,0-1 hours,"providing meals to the pet, Coat maintenance, dental care, socialization","vaccination date reminders, Grooming reminders, dental care tips, socialization guides","Chicken, rice, broccoli",Citrus fruits,10
-2/27/2024 20:34:46,Stray Dogs,10,0 Days,0 hours,forgetting vaccination dates and medical details,vaccination date reminders,Fish meat ,fruits,20
-2/27/2024 20:35:37,Boxer,5,5 Days,0-1 hours,"maintaining physical health, weight management","meal suggestion, work Out plan recommendations, Joint supplements recommendations, weight loss plans","Turkey, quinoa, spinach",Fatty meats,25
-2/27/2024 20:36:29,Pomeranian,1,7 Days,0-1 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations, I need a good pet care center when I'm busy","Fish, meat, eggs, rice, bread, milk,... etc.",dates,15
-2/27/2024 20:36:48,Shih Tzu,4,1 Days,0-1 hours,"providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion","Beef, sweet potatoes, green beans",Dairy products,7
-2/27/2024 20:37:57,Stray dog,9,0 Days,0 hours,forgetting vaccination dates and medical details,vaccination date reminders,anything,"banana,sweets ",20
-2/27/2024 20:39:03,Dachshund,3,2 Days,0-1 hours,"providing meals to the pet, maintaining physical health, ","medical reports, work Out plan recommendations, Back health exercises, dental care tips, training techniques","Salmon, potatoes, carrots",Spicy foods,8
-2/27/2024 20:41:05,Bulldog,2,2 Days,0-1 hours,"providing meals to the pet, Breathing difficulties, overheating, skin folds","meal suggestion, work Out plan recommendations","Lamb, brown rice, peas",Rich gravies,20
-2/27/2024 20:41:40,Labrador,2,2 Days,1-3 hours,"providing meals to the pet, maintaining physical health","vaccination date reminders, medical reports, meal suggestion","cheese,sweets,fruits",,22
-2/27/2024 20:46:19,Doberman Pinscher,2,5 Days,0-1 hours,"providing meals to the pet, High energy levels, obedience training difficulties, separation anxiety","meal suggestion, work Out plan recommendations, energy-burning activities","Chicken, brown rice, peas",Citrus fruits,32
-2/27/2024 22:13:06,Golden Retriever,3,5 Days,1-3 hours,"Finding consultants, providing meals to the pet","vaccination date reminders, meal suggestion","Rice with chicken curry, boiled vegetables","Spicy curries, fried items",30
-2/27/2024 22:16:55,Rottweiler,2.5,4 Days,1-3 hours,"maintaining physical health, forgetting vaccination dates and medical details","medical reports, work Out plan recommendations", Beef with rice and mixed vegetables,"sugary treats, processed meats",35
-2/27/2024 22:17:48,Cocker Spaniel,4,3 Days,0-1 hours,providing meals to the pet,"vaccination date reminders, meal suggestion"," Fish curry with rice, boiled eggs","Dairy products, overly spicy foods",12
-2/27/2024 22:19:06,German Shepherd,5,6 Days,3+ hours,"Finding consultants, maintaining physical health","medical reports, work Out plan recommendations","Lamb stew with rice, cooked pumpkin","Citrus fruits, raw meats",40
-2/27/2024 22:20:13,Labrador,4,7 Days,1-3 hours,forgetting vaccination dates and medical details,"vaccination date reminders, meal suggestion","Chicken biryani, boiled sweet potatoes","Onions, chocolate",32
-2/27/2024 22:21:44,Labrador Retriever,6,5 Days,1-3 hours,"Finding consultants, providing meals to the pet","medical reports, work Out plan recommendations","Fish curry with rice, cooked carrots,mango","Processed meats, high-sugar treats",35
-2/27/2024 22:22:35,Shih Tzu,3.5,3 Days,0-1 hours,Finding consultants,"vaccination date reminders, meal suggestion","Chicken stew with rice, steamed broccoli"," Spicy foods, raw vegetables",8
-2/27/2024 22:25:37, Stray Dog,2,0 Days,0 hours,"Finding consultants, maintaining physical health","medical reports, work Out plan recommendations","Leftover rice and meat scraps, boiled lentils","heavily seasoned dishes, papaya",20
-2/27/2024 22:26:27,Bulldog,4.5,4 Days,0-1 hours,forgetting vaccination dates and medical details,"vaccination date reminders, meal suggestion","Beef stew with rice, mashed potatoes","Dairy products, overly fatty foods",25
-2/27/2024 22:27:37,Dachshund,3,3 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion","Pork curry with rice, cooked green beans","fried foods, spicy sauces, mango",10
-2/27/2024 22:46:14,Corgi,2.5,5 Days,1-3 hours,"Finding consultants, maintaining physical health","medical reports, work Out plan recommendations","Lamb curry with rice, boiled carrots and potatoes","orange,avocado",12
-2/27/2024 22:49:18,Boxer,3.5,6 Days,1-3 hours,"Finding consultants, providing meals to the pet, maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, medical reports, meal suggestion, work Out plan recommendations","Chicken curry with rice, cooked spinach, mango , papaya, ","Spicy foods, raw meats",30
-2/27/2024 22:50:32,Husky,4,7 Days,3+ hours,"Finding consultants, maintaining physical health","medical reports, work Out plan recommendations","Fish stew with rice, boiled peas","Dairy products, overly fatty foods, milk rice",28
-2/27/2024 22:52:20,Doberman,3.5,5 Days,1-3 hours,"Finding consultants, providing meals to the pet","vaccination date reminders, medical reports, meal suggestion","Beef curry with rice, cooked squash, apple"," Spicy foods, raw vegetables, onion",35
-2/27/2024 22:53:38,Rhodesian Ridgeback,4,6 Days,1-3 hours,"maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, work Out plan recommendations","chicken, fish, beef, chicken parts, papaya, banana","Citrus fruits, chocolate, spicy foods",38
-2/27/2024 23:00:39,Beagle,3,4 Days,0-1 hours,"Finding consultants, ","vaccination date reminders, medical reports","cooked carrots, fish, chicken","Dairy products, overly spicy foods",14
-2/27/2024 23:02:22,Golden Retriever,2.5,5 Days,1-3 hours,"Finding consultants, maintaining physical health","meal suggestion, work Out plan recommendations","Fish and potato curry with rice, boiled broccoli, chicken parts"," Spicy curries, fried items",28
-2/27/2024 23:03:44,Rottweiler,3,4 Days,1-3 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion","Chicken and lentil stew with rice, mango, banana","Sugary treats, processed meats, nuts",36
-2/27/2024 23:05:10, Cocker Spaniel,4.5,3 Days,0-1 hours,"Finding consultants, providing meals to the pet","vaccination date reminders, meal suggestion","Beef and pumpkin curry with rice, boiled cauliflower"," Dairy products, overly spicy foods, mango",10
-2/27/2024 23:07:50,German Shepherd,5.5,6 Days,3+ hours,"maintaining physical health, forgetting vaccination dates and medical details","medical reports, work Out plan recommendations","Lamb and carrot stew with rice, cooked green beans, milk rice,","Chocolate, Avocados, Citrus fruits",42
-2/27/2024 23:09:45, Labrador,3.5,7 Days,1-3 hours,"Finding consultants, maintaining physical health","medical reports, meal suggestion","Chicken and sweet potato curry with rice, steamed spinach","Onions, chocolate",34
-2/27/2024 23:11:14,Labrador Retriever,4,5 Days,1-3 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion","Fish, chicken, mixed vegetable stew with rice, boiled carrots","Processed meats, high-sugar treats, oranges",37
-2/27/2024 23:12:22,Shih Tzu,2,3 Days,0-1 hours,"Finding consultants, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion","chicken and green bean curry with rice, boiled peas, boiled carrots"," Spicy foods, raw vegetables",7
-2/27/2024 23:13:55,Stray Dog,4,1 Days,0-1 hours,"Finding consultants, maintaining physical health","medical reports, work Out plan recommendations","Leftover fish and rice, boiled lentils with carrots, chicken parts"," heavily seasoned dishes, chocolates, oranges, onion",30
-2/27/2024 23:15:40,Bulldog,4,4 Days,0-1 hours,"maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, work Out plan recommendations","beef, chicken, rice, mashed potatoes","dairy products, garlic, onion",27
-2/27/2024 23:17:47, Dachshund,3.5,3 Days,0-1 hours,"providing meals to the pet, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion","boiled potatoes, banana, papaya, chicken,fish","Fried foods, overly spicy sauces",9
-2/27/2024 23:53:55, Corgi,2,4 Days,1-3 hours,"Finding consultants, maintaining physical health","vaccination date reminders, medical reports, work Out plan recommendations","fish, meat, boiled eggs, banana","chocolates, cheese, mango",11
-2/27/2024 23:55:09,Boxer,4,5 Days,0-1 hours,"maintaining physical health, forgetting vaccination dates and medical details","vaccination date reminders, meal suggestion","chicken, cooked pumpkin, carrot","Spicy foods, raw meats, onions",32
+Breed,Age,Preferred Foods,Weight
+Stray Dog,5,"Meat, sausages with rice ",25
+Rhodesian Ridgeback,3,"Fish, chicken, rice and dhal",30
+Labrador ,2,Meat and rice with dhal and yoghurt,40
+Husky ,3,Chicken with vegetables. and rice,35
+Rotweiler,5,"Fish, Carrot, Potetoes",37
+Rotweiler,3,Rice with fried fish,43
+Rotweiler,2,Fish and carrot,30
+Bullmastif,3,"Fish, meat and Eggs",55
+German Shepard ,1.5,Chicken and rice formula,30
+Stray Dog,7,Meat Sausages Fish Egg ,15
+Pomeranian Dog,2,"Meat, Fish, Yoghurt ",10
+Stray dog,2,Fish and vegetables,7
+Stray Dog,3,"Fish, meat, curd, yogurt",15
+Stray dogs,10,Fish meat and carrots,15
+Labrador,5,"Yoghurt,banana, curd , milk rice",48
+Pomaneriyan,1,"Fish, meat, eggs, rice, bread, milk,... etc. ",15
+Stray dog,10,"rice, potatoes, carrots,fish,chicken parts",20
+Labrador ,2,"Chicken,Fish,Cheese",35
+Shih Tzu,1,"Fish, Meat , Eggs",2
+German Sherphered,2,Meat based food,25
+Husky ,1,"Fish, biscuits and cheese",25
+Stray dogs,12,"Meat, Rice, potatoes, carrots,fish,chicken parts",12
+Labrador,1,"Meat based foods,vegetables ",50
+German shepherd ,2,"Fish,egg,biscuits ",37
+Lion shepherd ,1,Only meat and fish with rice,20
+Stray Dog,7,Chicken cheese fish ,20
+Cocker spiniel,2,"Fish,eggs, milk",17
+Golden retriever ,3,"Chicken, pork, beef with rice",20
+Doberman,5,Scraped coconut and dry fish,35
+Labrador,1,"Chicken, pork fish with rice",55
+German shepherd ,10,Salmon and potato with rice,30
+Dachhund,4,"Meat, salmon, dhal",45
+Dachhund,3,Fish mix with rice,20
+Mongrel,9,Chicken and fish,20
+Labrador,3,Chicken fish and cheese,60
+Shitzu,1,Meat dog food and rice,5
+Stray dog,4,Fish with rice and cheese,13
+German shepherd ,1.5,Fish and chicken with rice,35
+Stray dog,10,Chicken ane sosages,12
+Stray dog ,11,Fish and Rice,35
+Stray dog,11,"Chicken, fish and salmon",14
+Husky,30,Fish snacks cheese,6
+German shepherd ,2,"Chicken curd, leeks and carrot",37
+Boberman,3,Pumpkin Chicken ,35
+German shepherd ,4,Meat and fish,25
+Rotweiler,3,"Chicken, Yourgurt and milky items",40
+Labrador,4,Fish and chicken,18
+Labradour Retriever ,6,Fish with rice and cheese,30
+German Shepard,1.5,Dog food with yougourt,25
+German shepherd ,2.5,Fish and chicken,25
+German shepherd ,3,Chicken liver and butter,41
+Rotweiler ,4,"Fish, rice, mango, potato, meat, cheese",40
+Stray dog,5," cooked ground beef, brown rice, carrots, broccoli.",15
+Stray Dog,8,Milk rice vegetables,15
+Stray dogs,15,Chicken and fish,4
+Boxer,2.5,Chicken with egg buscuits,30
+Stray dogs,3,Fish dhal carrot,20
+Labrador ,2.5," cooked ground beef, brown rice, carrots, broccoli.",40
+German shepherd ,5,Boiled egg and fish,37
+Husky,5," cooked ground beef, brown rice, carrots, broccoli.",6
+German shepherd ,3,"Chicken, Yourgurt and milky items",30
+Stray dogs,8,"Chicken, fish and dhal",20
+Pomenarian,2.5,Meat with rice and yougourt,3
+Cocker spaniel,2,"chicken, fish, beef, chicken parts, papaya, banana",50
+Labrador ,1,Rice meat fish vegetables ,20
+Rhodesian ridgeback,5,"chicken, fish, beef, chicken parts, papaya, banana",60
+Labrador ,1,"cooked ground beef, brown rice, carrots, broccoli.",20
+Stray dog,15,Fish chicken yougourt curd,3
+Terrier,1,"cooked ground beef, brown rice, carrots, broccoli.",40
+Stray dog,2,fruits and vegetables mostly,12
+Stray dogs ,7,"meat, fish, dry fish",10
+Stray dogs,11,"meat, cheese, fish",15
+German Shepherd ,4,"Chicken, rice, vegetables ",45
+Local Mixed Breed,2,"Rice, fish, vegetables",18
+Stray Dogs,1,"Boiled fish, rice",15
+Local Mixed Breed,5,"Boiled rice, fish, pumpkin",20
+Labrador,4,"Fish, pumpkin, rice",48
+Local Mixed Breed,2,"Rice, vegetables, eggs",25
+German Shepherd,1,"Rice, boiled chicken, yogurt",9
+Local Mixed Breed,8,"Rice, sardines, sweet potato",25
+Local Mixed Breed,3,"Chicken, carrot, brown rice",33
+ Labrador ,3,Chicken with rice,30
+Beagle,6,"Boiled rice, fish, carrots",24
+Dachshund,2,"Rice, sardines, pumpkin",20
+Pomeranian,2, Fish with vegetables,5
+Local Mixed Breed,10,"Soft food, rice, fish",25
+ Dachshund,4,Beef with carrots,8
+Local Mixed Breed,3,"Boiled rice, fish, pumpkin",8
+Stray Dogs ,5,Meat with sausages,25
+Labrador,2,Rice with fried fish,40
+ Rottweiler,5," Fish, Carrot, Potatoes",37
+Husky,3,Chicken with vegetables and rice,35
+Rottweiler,5,"chicken, rice, carrots",44
+Boxer,2,"lamb, brown rice, peas",24
+Golden Retriever,8,"chicken, oats, carrots",34
+Beagle,1,"beef, brown rice, green beans",11
+German Shepherd,4,"chicken, oats, broccoli",38
+stray dog,7,"rice, potatoes, carrots,fish,chicken parts",27
+stray dog,3,"rice, chicken, greengram,fish",28
+Dalmation ,2,"Meat, Boiled fish, rice",12
+Stray dog,4,"Meat, Boiled fish, rice",15
+golden retriever,6,"Rice, dog food (pedigree, Purina),fruits ",28
+Shiba inu,4,Dry foods/kibble,14
+Golden retriever ,4,"Rice, sardines, pumpkin",30
+Poodle,5,"cooked chicken breast, sweet potatoes, green beans, apples.",25
+Welsh Corgi,2,"Fish and rice or chicken with rice, Dog food ( pedigree, Purina)",13
+Doberman ,3,"Cooked chicken breast, sweet potatoes, green beans, apples.",15
+Bulldog,1.5,Meat with rice,10
+German shepard,3,Meat and dog food,15
+Labrador ,5,Dog Food meat and fish,20
+French bull dog,1,"chicken, fish, beef, chicken parts, papaya, banana",10
+Golden Retriever,3,dog food and meat,19
+Siberian Husky,1,Chicken salmon boiled eggs ,10
+Beagle,1,"Chicken, Salmon, dog food",9
+Poddle,4,"Mix of rice with boiled chicken,Salmon with rice,Dog food ",12
+Chihuahua,5,Fish and rice or chicken with rice,4
+Dachshund ,3,"White Fish with rice, Boiled chicken with rice",4
+Pomernarion ,4,"Boiled meat with rice, Grapes ",4
+Samoyed ,3,"Dog Food, Apple,Meat and rice",10
+Dalmatian ,4,"Boiled with rice, Dog food, Biscuits ",15
+Stray dog,6,"Fish and meat with rice, Dog food",14
+Chow chow,5,"Dog food, Boiled meat",1.8
+Labrador Retriever,3,"Chicken, rice, and vegetables ",30
+German Shepherd,2,"Beef, potatoes, and carrots ",25
+Golden Retriever,4,"Turkey, quinoa, and broccoli ",28
+Bulldog,5,"brown rice, and peas ",20
+boxer,4,"Beef, and carrots ",27
+ Dachshund,3,"Turkey, sweet potatoes, and peas",10
+Rottweiler,5,"Duck, rice, and carrots ",35
+street dog,2,Rice and chicken ,15
+Beagle,1,"Fish, sweet potatoes, and spinach ",12
+Dachshund,3,"Turkey,chicken,sweets",10
+Cocker Spaniel ,2,"Chicken, rice, and carrots ",14
+Stray Dog,5,"Meat,Fish,Cheese",20
+Golden retriver,3,Pedigree food beef and rice,20
+Stray dog ,2,"Flesh, Fish & Rice",7
+Stray Dog ,5,Meat with sausages ,25
+German Shepherd,4,"Beef, rice, carrots",35
+Golden Retriever,1,"Chicken, sweet potatoes",30
+Rhodesian Ridgeback,3,Meat and rice with dhal and yogurt,40
+Labrador,2,Meat and rice with dhal and yogurt ,25
+Beagle,6,"Turkey, potatoes, peas",18
+Husky,3,Chicken with vegetables. and rice ,35
+Rottweiler ,5," Fish, Carrot, Potatoes  ",37
+Rottweiler,3,Rice with fried fish  ,43
+Rottweiler,2,Fish and carrot ,30
+Bullmastiff ,3,Only Fish and meat ,55
+German Shepard ,1.5,Chicken and rice formula ,30
+Stray dog,7,Meat Sausages Fish Egg ,15
+Pomeranian Dog ,2," Meat, Fish, Yoghurt  ",10
+Stray dog,2,Fish and vegetables,7
+Stray dog,3,"Fish, meat, curd, yogurt  ",15
+Labrador,5,"Yoghurt, banana, curd, milk rice ",48
+Poodle,2,"Chicken, rice, broccoli",10
+Stray Dogs,10,"Fish, meat , mango , papaya,",20
+Boxer,5,"Turkey, quinoa, spinach",25
+Pomeranian,1,"Fish, meat, eggs, rice, bread, milk",15
+Shih Tzu,4,"Beef, sweet potatoes, green beans",7
+Stray dog,9,"Chicken, brown rice, peas,, boiled vegetables",20
+Dachshund,3,"Salmon, potatoes, carrots",8
+Bulldog,2,"Lamb, brown rice, peas",20
+Labrador,2,"cheese,sweets,fruits",22
+Doberman Pinscher,2,"Chicken, brown rice, peas",32
+Golden Retriever,3,"Rice with chicken curry, boiled vegetables",30
+Rottweiler,2.5, Beef with rice and mixed vegetables,35
+Cocker Spaniel,4," Fish curry with rice, boiled eggs",12
+German Shepherd,5,"Lamb stew with rice, cooked pumpkin",40
+Labrador,4,"Chicken biryani, boiled sweet potatoes",32
+Labrador Retriever,6,"Fish curry with rice, cooked carrots,mango",35
+Shih Tzu,3.5,"Chicken stew with rice, steamed broccoli",8
+ Stray Dog,2,"Leftover rice and meat scraps, boiled lentils",20
+Bulldog,4.5,"Beef stew with rice, mashed potatoes",25
+Dachshund,3,"Pork curry with rice, cooked green beans",10
+Corgi,2.5,"Lamb curry with rice, boiled carrots and potatoes",12
+Boxer,3.5,"Chicken curry with rice, cooked spinach, mango , papaya, ",30
+Husky,4,"Fish stew with rice, boiled peas",28
+Doberman,3.5,"Beef curry with rice, cooked squash, apple",35
+Rhodesian Ridgeback,4,"chicken, fish, beef, chicken parts, papaya, banana",38
+Beagle,3,"cooked carrots, fish, chicken",14
+Golden Retriever,2.5,"Fish and potato curry with rice, boiled broccoli, chicken parts",28
+Rottweiler,3,"Chicken and lentil stew with rice, mango, banana",36
+ Cocker Spaniel,4.5,"Beef and pumpkin curry with rice, boiled cauliflower",10
+German Shepherd,5.5,"Lamb and carrot stew with rice, cooked green beans, milk rice,",42
+ Labrador,3.5,"Chicken and sweet potato curry with rice, steamed spinach",34
+Labrador Retriever,4,"Fish, chicken, mixed vegetable stew with rice, boiled carrots",37
+Shih Tzu,2,"chicken and green bean curry with rice, boiled peas, boiled carrots",7
+Stray Dog,4,"Leftover fish and rice, boiled lentils with carrots, chicken parts",30
+Bulldog,4,"beef, chicken, rice, mashed potatoes",27
+ Dachshund,3.5,"boiled potatoes, banana, papaya, chicken,fish",9
+ Corgi,2,"fish, meat, boiled eggs, banana",11
+Boxer,4,"chicken, cooked pumpkin, carrot",32
+Rottweiler,2.5,"Lamb stew with rice, cooked pumpkin",28
+German Shepherd ,7,"Chicken stew with rice, steamed broccoli",21
+Labrador,5," Lamb and carrot stew with rice, cooked green beans, milk rice",36
+Rottweiler,3,"Chicken stew with rice, steamed broccoli",31
+Bulldog,2.5," Lamb and carrot stew with rice, cooked green beans, milk rice",40
+Stray dog,8,"fish curry with rice, cooked carrots, mango",12
+Rottweiler,3.2,"Rice and meat scraps, boiled lentils",27
+Labrador,3.2,"Salmon, sweet potatoes, blueberries",42
+ Dachshund,1,"Lamb stew with rice, cooked pumpkin",9
+German Shepherd ,4,"cooked green beans,cooked chicken breast, green beans, apples.",17
+Labrador,4,"Chicken stew with rice, steamed broccoli",40
+Stray dog,10,"Rice and meat scraps, boiled lentils",14
+Bulldog,3.5,"Turkey, carrots, mangoes",38
+German Shepherd ,5,"fish curry with rice, cooked carrots, mango",32
+French Bulldog,3,"Lamb stew with rice, cooked pumpkin",40
+Husky,1.5,"Lamb and carrot stew with rice, cooked green beans, milk rice",27
+Poodle,3,"Salmon, sweet potatoes, blueberries",7
+Pug,1,"Turkey, carrots, mangoes",6
+Shih Tzu,3.5,"cooked green beans, carrots, boiled potatoes with rice",3
+Labrador Retriever,2,"Chicken, rice, carrots, peas",25
+Poodle,8,"Lamb, brown rice, sweet potatoes, green beans",10
+German Shepherd,1,"Beef, brown rice, carrots, broccoli",35
+Terrier,3,"Chicken, oats, green beans, apples",3
+Bulldog,3,"Salmon, sweet potatoes, blueberries",25
+Beagle,7,"Chicken, brown rice, carrots",15
+Husky,4,"Fish, sweet potatoes",20
+Pug,2,"Duck, brown rice, carrots",8
+Dachshund,8,"Turkey, green beans",5
+Golden Retriever,0.5,"Chicken, oats, sweet potatoes",10
+Shih Tzu,1,"Lamb, brown rice, spinach, blueberries",5
+Great Dane,3,"Chicken, oats, broccoli, apples",50
+Corgi,2,"Turkey, carrots, mangoes",15
+French Bulldog,4,"brown rice, spinach",12
+Pomeranian,7,chicken with rice,3
+Rottweiler,2,"Lamb,mangoes",40
+Boxer,2,"ground turkey, brown rice, mangoes, carrots.",17
+Rottweiler,5,"chicken, beef, and fish, brown rice, mixed vegetables ",45
+German Shepherd,8,"chicken breast, sweet potatoes, green beans, apples.",37
+Labrador,2,"duck breast, brown rice, carrots, green beans.",42
+Rottweiler,6,"fish, sweet potatoes, blueberries, carrots.",32
+Bulldog,5.5,"oats, boiled chicken, steamed broccoli, diced apples.",38
+Stray dog,2,"fish, sweet potatoes, blueberries, carrots.",19
+Rottweiler,5,"ground turkey, brown rice, mangoes, carrots.",43
+Labrador,4.5,"chicken breast, sweet potatoes, green beans, apples.",36
+Dachshund,1.5,"lamb, brown rice, spinach, blueberries.",27
+Dachshund,2.5,"fish, sweet potatoes, blueberries, carrots.",32
+German Shepherd,1.5,"ground turkey, brown rice, mangoes, carrots.",21
+Labrador,3,"chicken thigh, pumpkin, grated carrots, chopped green beans.",35
+Stray dog,13,"chicken breast, sweet potatoes, green beans, apples.",18
+Bulldog,2.5,"ground turkey, brown rice, mangoes, carrots.",23
+Shih Tzu,2,"chicken, beef, and fish, brown rice, mixed vegetables ",3
+Husky,6,"lamb, brown rice, spinach, blueberries.",20
+Bulldog,2,"fish, sweet potatoes, blueberries, carrots.",20
+German Shepherd,7.5,"oats, boiled chicken, steamed broccoli, diced apples.",26
+Golden Retriever,5,"ground turkey, brown rice, mangoes, carrots.",16
+Shih Tzu,3,"duck breast, brown rice, carrots, green beans.",2
+Husky,1,"lamb, brown rice, spinach, blueberries.",21
+German Shepherd,3," fish, sweet potatoes, blueberries, carrots.",23
+Dachshund,5,"ground beef, sweet potatoes, green beans, blueberries.",29
+Bulldog,5,"lamb, brown rice, spinach, blueberries.",22
+Husky,1,"ground turkey, brown rice, mangoes, carrots.",21.5
+German Shepherd,2.5,"chicken breast, brown rice, carrots, peas.",29
+Great Dane,3,"fish (salmon or tilapia), pumpkin, carrots, broccoli.",34
+Golden Retrieve,5,"chicken thigh, pumpkin, grated carrots, chopped green beans.",23
+Shih Tzu,3.5,"lamb, brown rice, spinach, blueberries.",2.5
+Dachshund,4,"ground turkey, spinach, brown rice, carrots.",34
+Shih Tzu,3,"oats, boiled chicken, steamed broccoli, diced apples.",4
+Golden Retriever,3,"chicken thigh, pumpkin, grated carrots, chopped green beans.",16
+German Shepherd,5,"ground turkey, spinach, brown rice, carrots.",26
+Great Dane,6,"chicken thigh, pumpkin, grated carrots, chopped green beans.",27
+Poodle,2.5,"chicken breast, brown rice, carrots, peas.",5
+Dachshund,1,"duck breast, brown rice, carrots, green beans.",29
+German Shepherd,5,"ground beef, sweet potatoes, green beans, blueberries.",32
+Great Dane,1.5,"oats, boiled chicken, steamed broccoli, diced apples.",31
+Bulldog,2.5,"ground turkey, spinach, brown rice, carrots.",40
+Golden Retriever,6,"oats, boiled chicken, steamed broccoli, diced apples.",29
+Great Dane,4,"fish (salmon or tilapia), pumpkin, carrots, broccoli.",30
+German Shepherd,1,"duck breast, brown rice, carrots, green beans.",40
+Bulldog,4,"chicken breast, brown rice, carrots, peas.",25
+Shih Tzu,2,"chicken thigh, pumpkin, grated carrots, chopped green beans.",4
+Golden Retriever,3.5,"fish (salmon or tilapia), pumpkin, carrots, broccoli.",24
+Husky,1,"chicken, beef, and fish, brown rice, mixed vegetables ",28
+Dachshund,4,"ground beef, sweet potatoes, green beans, blueberries.",29
+Bulldog,6,"chicken, beef, and fish, brown rice, mixed vegetables ",21
+German Shepherd,5.5,"ground turkey, spinach, brown rice, carrots.",30
+Poodle,3.5,"oats, boiled chicken, steamed broccoli, diced apples.",7
+Golden Retriever,1.5,"ground beef, sweet potatoes, green beans, blueberries.",31
+Husky,4,"chicken, beef, and fish, brown rice, mixed vegetables ",34
+Golden Retriever,1,"chicken, beef, and fish, brown rice, mixed vegetables ",12
+German Shepherd,6,"fish (salmon or tilapia), pumpkin, carrots, broccoli.",42
+Poodle,4,"chicken thigh, pumpkin, grated carrots, chopped green beans.",6
+Dachshund,3.5,"ground beef, sweet potatoes, green beans, blueberries.",27
+Bulldog,1,"chicken, beef, and fish, brown rice, mixed vegetables",24
+German Shepherd,4.5,"chicken breast, brown rice, carrots, peas.",34
+Bulldog,4,"oats, boiled chicken, steamed broccoli, diced apples.",28
+Golden Retriever,3.5,"chicken, beef, and fish, brown rice, mixed vegetables ",21
+Great Dane,4,"ground beef, sweet potatoes, green beans, blueberries.",35
+Husky,2.5,"ground turkey, spinach, brown rice, carrots.",18
+Bulldog,4,"ground turkey, spinach, brown rice, carrots.",22.5
+Shih Tzu,3.5,"thigh, pumpkin, grated carrots, chopped green beans.",4
+German Shepherd,6,"breast, brown rice, carrots, peas.",34
+Golden Retriever,6,"chicken, beef, and fish, brown rice, mixed vegetables ",31
+Bulldog,3.5,"ground turkey, spinach, brown rice, carrots.",26
+Poodle,1.5,"ground beef, sweet potatoes, green beans, blueberries.",9
+Dachshund,4,"chicken thigh, pumpkin, grated carrots, chopped green beans.",37
+Shih Tzu,2,"chicken breast, brown rice, carrots, peas.",6
+Bulldog,3.5,"chicken, beef, and fish, brown rice, mixed vegetables ",26
+German Shepherd,2.5,"oats, boiled chicken, steamed broccoli, diced apples.",32
+Siberian Husky,2,"Salmon,Rice,Carrot",20
+Maltese,7,"Fish,Rice,Pumpkin",5
+Shiba inu,4,"Chicken,Sweet Potatoes,Green beans",10
+Labrador,5,"Chicken Rice,carrots",30
+Golden Retriever,3,"Turkey,Sweet potatoes,peas",28
+German Shepard,4,"Beef, Potato,Brocolli",35
+Pomenarian,2,"Fish,Rice,Green peas",4
+Beagle,6,"Lamb,Potatoes,carrots",12
+Pug,3,"Chicken,Rice,Green Peas",8
+Chihuahua,2,"Beef,Potato,peas",2
+Poddle,8,"brown rice, sweet potatoes, green beans",
+Golden Retriever,3,"Tuna , potato with rice, boiled eggs",29
+Rottweiler,2.5,"Lamb, pumpkin curry with rice, cooked peas, fish",34
+German Shepherd,1,"Beef, brown rice, carrots",35
+Cocker Spaniel,4,"Chicken, sweet potatoes, steamed carrots",11
+German Shepherd,6,"beef, chicken soup, boiled eggs",41
+ Labrador,4,"Salmon and brown rice with boiled eggs, banana, mango",33
+Labrador Retriever,6,"Tuna, chicken, potatoes, boiled eggs",36
+Shih Tzu,3,"Chicken, rice porridge, boiled carrots, cooked green beans, banana",7.5
+Stray Dog,8,"dried fish with rice, chicken parts, papaw",15
+Bulldog,4,"Beef and barley soup with carrots, mashed pumpkin",26
+Bulldog,3,"Salmon, sweet potatoes",25
+Beagle              ,3.5,"Chicken, brown rice, carrots",15
+Husky,4,"Fish, sweet potatoes",20
+Pug,2,"Duck, brown rice, carrots",8
+Dachshund,8,"Turkey,chicken with rice,sweets,milk",15
+Golden Retriever,0.5,"Chicken, oats, sweet potatoes",10
+Shih Tzu,1,"brown rice, spinach, blueberries",5
+Corgi,2,"Turkey, carrots, mangoes",15
+Pomeranian,7,chicken with rice and salmon and carrot,12
+Rottweiler,2,"chicken, beef, and fish, brown rice, mixed vegetables ",40
+Labrador,2,"Chicken, Rice, Carrots",25
+Labrador,2,"Beef, Potatoes, Broccoli",30
+Labrador,2,"Fish, Pasta, Peas",35
+Labrador,2,"Turkey, Barley, Spinach",40
+Labrador,2,"Duck, Sweet Potato, Green Beans",45
+Golden Retriever,3,"Chicken, Rice, Carrots",25
+Golden Retriever,3,"Beef, Potatoes, Broccoli",30
+Golden Retriever,3,"Fish, Pasta, Peas",35
+Golden Retriever,3,"Turkey, Barley, Spinach",40
+Golden Retriever,3,"Duck, Sweet Potato, Green Beans",45
+German Shepherd,1,"Chicken, Rice, Carrots",25
+German Shepherd,1,"Beef, Potatoes, Broccoli",30
+German Shepherd,1,"Fish, Pasta, Peas",35
+German Shepherd,1,"Turkey, Barley, Spinach",40
+German Shepherd,1,"Duck, Sweet Potato, Green Beans",45
+Rottweiler,4,"Chicken, Rice, Carrots",25
+Rottweiler,4,"Beef, Potatoes, Broccoli",30
+Rottweiler,4,"Fish, Pasta, Peas",35
+Rottweiler,4,"Turkey, Barley, Spinach",40
+Rottweiler,4,"Duck, Sweet Potato, Green Beans",45
+Labrador,2,"Chicken, Rice, Carrots",25
+Labrador,3,"Salmon, Sweet Potato, Green Beans",35
+Golden Retriever,4,"Beef, Brown Rice, Broccoli",30
+German Shepherd,1,"Turkey, Quinoa, Spinach",40
+German Shepherd,5,"Tuna, Barley, Bok Choy",50
+Rottweiler,2,"Pork, Oats, Asparagus",45
+Siberian Husky,3,"Venison, Couscous, Carrots",35
+Boxer,4,"Bison, Millet, Green Beans",40
+Doberman,1,"Duck, Bulgur, Peas",55
+Great Dane,2,"Lamb, Potatoes, Beets",75
+Bullmastiff,5,"Goat, Sweet Potato, Bell Peppers",65
+French Bulldog,3,"Chicken, Rice, Zucchini",22
+Pug,6,"Salmon, Oats, Squash",18
+Poodle,4,"Beef, Quinoa, Spinach",12
+Chihuahua,2,"Turkey, Couscous, Broccoli",5
+Dachshund,5,"Pollock, Brown Rice, Carrots",10
+Cocker Spaniel,3,"Pork, Barley, Bell Peppers",14
+Beagle,1,"Bison, Millet, Green Beans",20
+Shih Tzu,6,"Venison, Bulgur, Bok Choy",8
+Pomeranian,5,"Goat, Potatoes, Cauliflower",7
+Dalmatian,2,"Duck, Sweet Potato, Asparagus",40
+Chow Chow,3,"Lamb, Kamut, Brussels Sprouts",35
+Akita,4,"Pork, Freekeh, Beets",55
+Basenji,1,"Chicken, Rice, Zucchini",22
+Samoyed,5,"Salmon, Barley, Eggplant",40
+Schnauzer,2,"Beef, Farro, Celery",15
+Pit Bull,3,"Turkey, Buckwheat, Carrots",45
+Border Collie,4,"Pollock, Quinoa, Bell Peppers",32
+Australian Shepherd,5,"Bison, Wheat Berries, Green Beans",40
+Boston Terrier,6,"Venison, Millet, Broccoli",25
+Greyhound,1,"Goat, Spelt, Cabbage",60
+Maltese,3,"Duck, Amaranth, Peas",10
+Shar Pei,4,"Lamb, Teff, Brussels Sprouts",55
+St. Bernard,5,"Pork, Kamut, Beets",90
+Labrador,2,"Chicken, Rice, Carrots",25
+Labrador,2,"Chicken, Rice, Carrots",25
+Labrador,3,"Salmon, Sweet Potato, Green Beans",35
+Golden Retriever,4,"Beef, Brown Rice, Broccoli",30
+German Shepherd,1,"Turkey, Quinoa, Spinach",40
+German Shepherd,5,"Tuna, Barley, Bok Choy",50
+Rottweiler,2,"Pork, Oats, Asparagus",45
+Siberian Husky,3,"Venison, Couscous, Carrots",35
+Boxer,4,"Bison, Millet, Green Beans",40
+Doberman,1,"Duck, Bulgur, Peas",55
+Great Dane,2,"Lamb, Potatoes, Beets",75
+Bullmastiff,5,"Goat, Sweet Potato, Bell Peppers",65
+French Bulldog,3,"Chicken, Rice, Zucchini",22
+Pug,6,"Salmon, Oats, Squash",18
+Poodle,4,"Beef, Quinoa, Spinach",12
+Chihuahua,2,"Turkey, Couscous, Broccoli",5
+Dachshund,5,"Pollock, Brown Rice, Carrots",10
+Cocker Spaniel,3,"Pork, Barley, Bell Peppers",14
+Beagle,1,"Bison, Millet, Green Beans",20
+Shih Tzu,6,"Venison, Bulgur, Bok Choy",8
+Pomeranian,5,"Goat, Potatoes, Cauliflower",7
+Dalmatian,2,"Duck, Sweet Potato, Asparagus",40
+Chow Chow,3,"Lamb, Kamut, Brussels Sprouts",35
+Akita,4,"Pork, Freekeh, Beets",55
+Basenji,1,"Chicken, Rice, Zucchini",22
+Samoyed,5,"Salmon, Barley, Eggplant",40
+Schnauzer,2,"Beef, Farro, Celery",15
+Pit Bull,3,"Turkey, Buckwheat, Carrots",45
+Border Collie,4,"Pollock, Quinoa, Bell Peppers",32
+Australian Shepherd,5,"Bison, Wheat Berries, Green Beans",40
+Boston Terrier,6,"Venison, Millet, Broccoli",25
+Greyhound,1,"Goat, Spelt, Cabbage",60
+Maltese,3,"Duck, Amaranth, Peas",10
+Shar Pei,4,"Lamb, Teff, Brussels Sprouts",55
+St. Bernard,5,"Pork, Kamut, Beets",90
+Pembroke Welsh Corgi,4,"Chicken, Brown Rice, Spinach",30
+Siberian Husky,5,"Haddock, Sweet Potato, Green Beans",40
+Great Dane,2,"Pork, Couscous, Zucchini",80
+Yorkshire Terrier,6,"Rabbit, Bulgur, Bell Peppers",7
+English Bulldog,3,"Lamb, Buckwheat, Cabbage",40
+Miniature Schnauzer,4,"Turkey, Teff, Carrots",18
+Australian Cattle Dog,5,"Duck, Farro, Bok Choy",35
+Cane Corso,1,"Salmon, Freekeh, Peas",70
+Cavalier King Charles Spaniel,3,"Bison, Amaranth, Beets",25
+Basset Hound  ,4,"Goat, Kamut, Broccoli",55
+English Cocker Spaniel,5,"Beef, Millet, Celery",28
+Belgian Malinois,6,"Chicken, Quinoa, Brussels Sprouts",40
+Collie,1,"Pollock, Spelt, Asparagus",42
+English Springer Spaniel,2,"Venison, Wheat Berries, Eggplant",45
+Catahoula Leopard Dog,3,"Pork, Barley, Green Beans",55
+Bernese Mountain Dog,4,"Turkey, Potatoes, Bell Peppers",90
+Bloodhound,5,"Salmon, Oats, Carrots",80
+Jack Russell Terrier,6,"Goat, Bulgur, Cauliflower",15
+American Bulldog,1,"Lamb, Couscous, Beets ",60
+Treeing Walker Coonhound,3,"Duck, Brown Rice, Zucchini",50
+Carolina Dog,4,"Bison, Rice, Squash",30
+Whippet,5,"Chicken, Farro, Spinach",35
+Staffordshire Bull Terrier,2,"Pollock, Wheat Berries, Broccoli",40
+Rhodesian Ridgeback,3,"Beef, Barley, Celery",50
+Labradoodle,4,"Turkey, Kamut, Brussels Sprouts",45
+Rottweiler,5,"Pork, Teff, Asparagus",55
+Anatolian Shepherd Dog,6,"Venison, Buckwheat, Eggplant ",75
+Airedale Terrier,1,"Salmon, Amaranth, Green Beans",50
+Irish Wolfhound,2,"Goat, Quinoa, Cabbage",110
+Saint Bernard,3,"Lamb, Bulgur, Carrots",120
+Standard Schnauzer,4,"Duck, Millet, Bell Peppers",35
+Labrador Retriever,2,"Chicken, Brown Rice, Carrots",25
+German Shepherd,5,"Salmon, Quinoa, Spinach  ",42
+Siberian Husky,3,"Lamb, Sweet Potatoes, Peas",32
+Golden Retriever,4,"Turkey, Barley, Broccoli",29
+Rottweiler,1,"Tuna, Bulgur, Bok Choy",39
+Doberman,6,"Beef, Millet, Asparagus",48
+Pit Bull,2,"Pork, Kamut, Bell Peppers",40
+Boxer,5,"Duck, Oats, Green Beans",35
+Great Dane,3,"Chicken, Couscous, Beets",63
+Pug,4,"Pollock, Amaranth, Cabbage",16
+Shih Tzu,1,"Bison, Teff, Celery",7
+Poodle,5,"Goat, Buckwheat, Carrots  ",11
+Boston Terrier,6,"Venison, Potatoes, Eggplant",21
+French Bulldog,2,"Turkey, Wheat Berries, Peas",18
+Pembroke Welsh Corgi,3,"Beef, Spelt, Zucchini",27
+Cavalier King Charles Spaniel,4,"Pork, Farro, Squash",19
+Yorkshire Terrier,5,"Salmon, Freekeh, Spinach",5
+Maltese,1,"Lamb, Brown Rice, Broccoli",8
+English Bulldog,6,"Chicken, Barley, Brussels Sprouts",36
+Dachshund,2,"Duck, Quinoa, Asparagus",12
+Cocker Spaniel,3,"Pollock, Bulgur, Green Beans",18
+Beagle,4,"Bison, Millet, Bell Peppers",22
+Basset Hound,5,"Venison, Kamut, Cauliflower",48
+Miniature Schnauzer,1,"Goat, Couscous, Celery",15
+Australian Shepherd,6,"Turkey, Teff, Beets",38
+Border Collie,2,"Beef, Buckwheat, Carrots",29
+Greyhound,3,"Chicken, Amaranth, Eggplant",54
+Dalmatian,4,"Salmon, Rice, Peas",37
+Chow Chow,5,"Lamb, Oats, Zucchini",32
+Samoyed,1,"Pork, Wheat Berries, Squash",35
+American Staffordshire Terrier,6,"Duck, Barley, Spinach",36
+Catahoula Leopard Dog,2,"Pollock, Quinoa, Broccoli  ",48
+Treeing Walker Coonhound,3,"Bison, Spelt, Brussels Sprouts",45
+Carolina Dog,4,"Venison, Freekeh, Asparagus",25
+Whippet,5,"Goat, Bulgur, Green Beans",30
+Staffordshire Bull Terrier,1,"Turkey, Potatoes, Bell Peppers",35
+Rhodesian Ridgeback,6,"Salmon, Millet, Cauliflower",44
+Anatolian Shepherd Dog,2,"Lamb, Kamut, Celery",68
+Bull Terrier,3,"Pork, Couscous, Beets",40
+Standard Schnauzer,4,"Duck, Brown Rice, Eggplant",30
+Shiba Inu,5,"Chicken, Farro, Peas",20
+Chow Chow,1,"Pollock, Wheat Berries, Zucchini",29
+Basenji,6,"Bison, Teff, Squash  ",18
+Akita,2,"Beef, Buckwheat, Spinach",48
+Schnauzer,3,"Turkey, Amaranth, Broccoli",14
+Rottweiler,4,"Salmon, Oats, Brussels Sprouts ",41
+Airedale Terrier,5,"Lamb, Quinoa, Asparagus",44
+Brussels Griffon,1,"Pork, Barley, Green Beans",8
+Saint Bernard,6,"Duck, Millet, Bell Peppers",95
+Giant Schnauzer,2,"Chicken, Kamut, Cauliflower",55
+Affenpinscher,1,"Lamb, Amaranth, Carrots",7
+Afghan Hound,2,"Pork, Teff, Peas",50
+Airedale Terrier,3,"Chicken, Quinoa, Eggplant  ",40
+Akita,4,"Duck, Kamut, Zucchini",65
+Alaskan Malamute,5,"Bison, Buckwheat, Broccoli",75
+American Bulldog,6,"Salmon, Barley, Cauliflower",55
+American Bulldog,1,"Beef, Rice, Celery",60
+American Eskimo Dog,2,"Turkey, Oats, Beets",35
+American Eskimo Dog,3,"Pollock, Rye, Bell Peppers",30
+American Foxhound,4,"Venison, Millet, Green Beans",32
+American Pit Bull Terrier,5,"Lamb, Freekeh, Cabbage",42
+American Pit Bull Terrier,6,"Pork, Bulgur, Carrots",39
+American Staffordshire Terrier,1,"Chicken, Wheat Berries, Eggplant",36
+American Water Spaniel,2,"Duck, Spelt, Peas",30
+Anatolian Shepherd Dog,3,"Bison, Couscous, Zucchini",68
+Appenzell Mountain Dog,4,"Salmon, Potatoes, Squash",55
+Australian Cattle Dog,5,"Turkey, Sweet Potato, Spinach",35
+Australian Kelpie,6,"Beef, Brown Rice, Broccoli  ",25
+Australian Shepherd,1,"Lamb, Quinoa, Brussels Sprouts",40
+Australian Terrier,2,"Pork, Farro, Asparagus",15
+Azawakh,3,"Chicken, Bulgur, Green Beans",25
+Basenji,4,"Duck, Buckwheat, Bell Peppers",22
+Basset Hound,5,"Bison, Teff, Cauliflower",55
+Beagle,6,"Salmon, Wheat Berries, Celery",25
+Bearded Collie,1,"Turkey, Kamut, Beets",45
+Beauceron,2,"Beef, Amaranth, Carrots",70
+Bedlington Terrier,3,"Pollock, Rice, Eggplant",17
+Belgian Malinois,4,"Venison, Barley, Peas",40
+Belgian Sheepdog,5,"Lamb, Oats, Zucchini",65
+Belgian Tervuren,6,"Pork, Freekeh, Squash",45
+Berger Picard,1,"Chicken, Rye, Spinach ",55
+Bernese Mountain Dog,2,"Duck, Millet, Broccoli",85
+Bichon Frise,3,"Bison, Buckwheat, Brussels Sprouts",15
+Black and Tan Coonhound,4,"Salmon, Potatoes, Asparagus  ",34
+Bloodhound,5,"Turkey, Bulgur, Green Beans",90
+Bluetick Coonhound,6,"Beef, Couscous, Bell Peppers  ",80
+Boerboel,1,"Pollock, Quinoa, Cauliflower",110
+Border Collie,2,"Venison, Spelt, Celery",35
+Border Terrier,3,"Lamb, Barley, Beets",15
+Borzoi,4,"Pork, Kamut, Carrots",70
+Boston Terrier,5,"Chicken, Teff, Eggplant",22
+Bouvier des Flandres,6,"Duck, Wheat Berries, Peas",70
+Boxer,1,"Bison, Brown Rice, Zucchini",38
+Boykin Spaniel,2,"Salmon, Farro, Squash ",35
+Briard,3,"Turkey, Rye, Spinach",55
+Brittany,4,"Beef, Freekeh, Broccoli",40
+Brussels Griffon,5,"Pollock, Bulgur, Brussels Sprouts",10
+Bull Terrier,6,"Venison, Couscous, Asparagus",45
+Bullmastiff,1,"Lamb, Amaranth, Green Beans",100
+Cairn Terrier,2,"Pork, Teff, Bell Peppers",15
+Canaan Dog,3,"Chicken, Quinoa, Cauliflower",35
+Cane Corso,4,"Duck, Kamut, Celery",90
+Cardigan Welsh Corgi,5,"Bison, Buckwheat, Beets",30
+Cavalier King Charles Spaniel,6,"Salmon, Barley, Carrots",25
+Cesky Terrier,1,"Turkey, Rice, Eggplant",15
+Chesapeake Bay Retriever,2,"Beef, Oats, Peas",55
+Chihuahua,3,"Pollock, Rye, Zucchini",5
+Chinese Crested,4,"Venison, Millet, Squash",10
+Chinook,5,"Lamb, Freekeh, Spinach",55
+Chow Chow,6,"Pork, Bulgur, Broccoli",45
+Clumber Spaniel,1,"Chicken, Wheat Berries, Brussels Sprouts",55
+Cockapoo,2,"Duck, Spelt, Asparagus ",20
+Cocker Spaniel,3,"Bison, Couscous, Green Beans",25
+Collie,4,"Salmon, Potatoes, Bell Peppers",55
+Coton de Tulear,5,"Turkey, Sweet Potato, Cauliflower",15
+Curly-Coated Retriever,6,"Beef, Brown Rice, Celery",60
+Dachshund,1,"Pollock, Quinoa, Beets",20
+Dalmatian,2,"Venison, Spelt, Carrots",48
+Dandie Dinmont Terrier,3,"Lamb, Barley, Eggplant",24
+Doberman Pinscher,4,"Pork, Kamut, Peas",65
+Dogo Argentino,5,"Chicken, Teff, Zucchini",80
+Dogue de Bordeaux,6,"Duck, Wheat Berries, Squash",120
+Dutch Shepherd,1,"Bison, Farro, Spinach",55
+English Cocker Spaniel,2,"Salmon, Rye, Broccoli",30
+English Setter,3,"Turkey, Freekeh, Brussels Sprouts",45
+English Springer Spaniel,4,"Beef, Bulgur, Asparagus",50
+English Toy Spaniel,5,"Pollock, Couscous, Green Beans",8
+Entlebucher Mountain Dog,6,"Venison, Amaranth, Bell Peppers",55
+Field Spaniel,1,"Lamb, Teff, Cauliflower ",35
+Finnish Lapphund,2,"Pork, Buckwheat, Celery",35
+Finnish Spitz,3,"Chicken, Quinoa, Beets",31
+Flat-Coated Retriever,4,"Duck, Kamut, Carrots  ",60
+Fox Terrier,5,"Bison, Barley, Eggplant",18
+French Bulldog,6,"Salmon, Oats, Peas",22
+German Pinscher,1,"Turkey, Freekeh, Zucchini",25
+German Shepherd Dog,2,"Beef, Bulgur, Squash",66
+German Shorthaired Pointer,3,"Pollock, Couscous, Spinach",55
+German Wirehaired Pointer,4,"Venison, Amaranth, Broccoli",60
+Giant Schnauzer,5,"Lamb, Teff, Brussels Sprouts",65
+Glen of Imaal Terrier,6,"Pork, Buckwheat, Asparagus",32
+Golden Retriever,1,"Chicken, Quinoa, Green Beans",65
+Gordon Setter,2,"Duck, Kamut, Bell Peppers",45
+Great Dane,3,"Bison, Barley, Cauliflower",120
+Great Pyrenees,4,"Salmon, Rice, Celery ",100
+Greater Swiss Mountain Dog,5,"Turkey, Oats, Beets",85
+Greyhound,6,"Beef, Rye, Carrots",65
+Harrier,1,"Pollock, Millet, Eggplant",50
+Havanese,2,"Venison, Freekeh, Peas",12
+Ibizan Hound,3,"Lamb, Bulgur, Zucchini",50
+Icelandic Sheepdog,4,"Pork, Wheat Berries, Squash  ",30
+Irish Setter,5,"Chicken, Spelt, Spinach",60
+Irish Terrier,6,"Duck, Farro, Broccoli",25
+Irish Water Spaniel,1,"Bison, Rye, Brussels Sprouts",45
+Irish Wolfhound,2,"Salmon, Bulgur, Asparagus",105
+Italian Greyhound,3,"Turkey, Couscous, Green Beans",15
+Jack Russell Terrier,4,"Beef, Amaranth, Bell Peppers",14
+Japanese Chin,5,"Pollock, Teff, Cauliflower",7
+Kai Ken,6,"Venison, Buckwheat, Celery",25
+Karelian Bear Dog,1,"Lamb, Quinoa, Beets",44
+Keeshond,2,"Pork, Kamut, Carrots",35
+Kerry Blue Terrier,3,"Chicken, Barley, Eggplant",33
+Komondor,4,"Duck, Rice, Peas",80
+Kuvasz,5,"Bison, Oats, Zucchini",70
+Labrador Retriever,6,"Salmon, Freekeh, Squash",71
+Lagotto Romagnolo,1,"Turkey, Bulgur, Spinach",24
+Lakeland Terrier,2,"Beef, Wheat Berries, Broccoli",17
+Leonberger,3,"Pollock, Spelt, Brussels Sprouts",120
+Lhasa Apso,4,"Venison, Farro, Asparagus",15
+Maltese,5,"Lamb, Rye, Green Beans",7
+Manchester Terrier,6,"Pork, Bulgur, Bell Peppers",25
+Mastiff,1,"Chicken, Couscous, Cauliflower ",200
+Miniature American Shepherd,2,"Duck, Amaranth, Celery",20
+Miniature Bull Terrier,3,"Bison, Teff, Beets",25
+Miniature Pinscher,4,"Salmon, Buckwheat, Carrots",10
+Miniature Schnauzer,5,"Turkey, Quinoa, Eggplant",15
+Mixed Breed,6,"Beef, Kamut, Peas",20
+Mountain Cur,1,"Pollock, Barley, Zucchini",25
+Mudi,2,"Venison, Rice, Squash",30
+Neapolitan Mastiff,3,"Lamb, Oats, Spinach",150
+Newfoundland,4,"Pork, Freekeh, Broccoli",150
+Norfolk Terrier,5,"Chicken, Bulgur, Brussels Sprouts",12
+Norwegian Buhund,6,"Duck, Wheat Berries, Asparagus",30
+Norwegian Elkhound,1,"Bison, Spelt, Green Beans",55
+Norwegian Lundehund,2,"Salmon, Farro, Bell Peppers",15
+Norwich Terrier,3,"Turkey, Rye, Cauliflower",12
+Nova Scotia Duck Tolling Retriever,4,"Beef, Bulgur, Celery",45
+Old English Sheepdog,5,"Pollock, Couscous, Beets",60
+Otterhound,6,"Venison, Amaranth, Carrots",80
+Papillon,1,"Lamb, Teff, Eggplant",8
+Parson Russell Terrier,2,"Pork, Buckwheat, Peas",14
+Pekingese,3,"Chicken, Quinoa, Zucchini",12
+Pembroke Welsh Corgi,4,"Duck, Kamut, Squash",30
+Perro de Presa Canario,5,"Bison, Barley, Spinach",110
+Petit Basset Griffon Vendeen,6,"Salmon, Rice, Broccoli",34
+Pharaoh Hound,1,"Turkey, Oats, Brussels Sprouts",45
+Plott,2,"Beef, Rye, Asparagus",50
+Pomeranian,3,"Pollock, Millet, Green Beans",7
+Poodle,4,"Venison, Freekeh, Bell Peppers",10
+Portuguese Podengo Pequeno,5,"Lamb, Bulgur, Cauliflower",11
+Portuguese Water Dog,6,"Pork, Wheat Berries, Celery",42
+Pug,1,"Chicken, Spelt, Beets ",18
+Puli,2,"Duck, Farro, Carrots",25
+Pyrenean Mastiff,3,"Bison, Rye, Eggplant",120
+Pyrenean Shepherd,4,"Salmon, Bulgur, Peas",27
+Rat Terrier,5,"Turkey, Couscous, Zucchini",18
+Redbone Coonhound,6,"Beef, Amaranth, Squash",25
+Rhodesian Ridgeback,1,"Pollock, Teff, Spinach",70
+Rottweiler,2,"Venison, Buckwheat, Broccoli",105
+Russell Terrier,3,"Lamb, Quinoa, Brussels Sprouts ",14
+Saint Bernard,4,"Pork, Kamut, Asparagus",140
+Saluki,5,"Chicken, Barley, Green Beans",60
+Samoyed,6,"Duck, Rice, Bell Peppers",50
+Schipperke,1,"Bison, Oats, Cauliflower",12
+Scottish Deerhound,2,"Salmon, Freekeh, Celery  ",85
+Scottish Terrier,3,"Turkey, Bulgur, Beets",19
+Sealyham Terrier,4,"Beef, Wheat Berries, Carrots",24
+Shetland Sheepdog,5,"Pollock, Spelt, Eggplant",27
+Shiba Inu,6,"Venison, Farro, Peas",23
+Shih Tzu,1,"Lamb, Rye, Zucchini",9
+Siberian Husky,2,"Pork, Bulgur, Squash",45
+Silky Terrier,3,"Chicken, Couscous, Spinach",10
+Skye Terrier,4,"Duck, Amaranth, Broccoli",25
+Sloughi,5,"Bison, Teff, Brussels Sprouts",60
+Small Munsterlander Pointer,6,"Salmon, Buckwheat, Asparagus",43
+Soft Coated Wheaten Terrier,1,"Turkey, Quinoa, Green Beans",35
+Spanish Water Dog,2,"Beef, Kamut, Bell Peppers",42
+Spinone Italiano,3,"Pollock, Barley, Cauliflower",61
+Staffordshire Bull Terrier,4,"Venison, Rice, Celery",28
+Standard Schnauzer,5,"Lamb, Oats, Beets",44
+Sussex Spaniel,6,"Pork, Freekeh, Carrots",45
+Swedish Vallhund,1,"Chicken, Bulgur, Eggplant",33
+Thai Ridgeback,2,"Duck, Wheat Berries, Peas",50
+Tibetan Mastiff,3,"Bison, Spelt, Zucchini",100
+Tibetan Spaniel,4,"Salmon, Farro, Squash  ",11
+Tibetan Terrier,5,"Turkey, Rye, Spinach  ",20
+Toy Fox Terrier,6,"Beef, Bulgur, Broccoli",4
+Treeing Tennessee Brindle,1,"Pollock, Couscous, Brussels Sprouts",21
+Vizsla,2,"Venison, Amaranth, Asparagus ",50
+Weimaraner,3,"Lamb, Teff, Green Beans",70
+Welsh Springer Spaniel,4,"Pork, Buckwheat, Bell Peppers",50
+Welsh Terrier,5,"Chicken, Quinoa, Cauliflower",20
+West Highland White Terrier,6,"Duck, Kamut, Celery",16
+Whippet,1,"Bison, Barley, Beets",25
+Wire Fox Terrier,2,"Salmon, Rice, Carrots",16
+Wirehaired Pointing Griffon,3,"Turkey, Oats, Eggplant",55
+Wirehaired Vizsla,4,"Beef, Rye, Peas ",50
+Xoloitzcuintli,5,"Pollock, Millet, Zucchini",25
+Yorkshire Terrier,6,"Venison, Freekeh, Squash",7
+Stray Dog,5,"Meat, sausages with rice ",25
+Rhodesian Ridgeback,3,"Fish, chicken, rice and dhal",30
+Labrador ,2,Meat and rice with dhal and yoghurt,40
+Husky ,3,Chicken with vegetables. and rice,35
+Rotweiler,5,"Fish, Carrot, Potetoes",37
+Rotweiler,3,Rice with fried fish,43
+Rotweiler,2,Fish and carrot,30
+Bullmastif,3,"Fish, meat and Eggs",55
+German Shepard ,1.5,Chicken and rice formula,30
+Stray dog,7,Meat Sausages Fish Egg ,15
+Pomeranian Dog ,2," Meat, Fish, Yoghurt  ",10
+Stray dog,2,Fish and vegetables,7
+Stray dog,3,"Fish, meat, curd, yogurt  ",15
+Stray dogs,10,Fish meat and carrots,15
+Labrador,5,"Yoghurt,banana, curd , milk rice",48
+Pomeranian,1,"Fish, meat, eggs, rice, bread, milk,... etc. ",15
+Stray dog,10,"rice, potatoes, carrots,fish,chicken parts",20
+Labrador ,2,"Chicken,Fish,Cheese",35
+Shih Tzu,1,"Fish, Meat , Eggs",2
+German Sherphered,2,Meat based food,25
+Husky ,1,"Fish, biscuits and cheese",25
+Stray dogs,12,"Meat, Rice, potatoes, carrots,fish,chicken parts",12
+Labrador,1,"Meat based foods,vegetables ",50
+German shepherd ,2,"Fish,egg,biscuits ",37
+Lion shepherd ,1,Only meat and fish with rice,20
+Stray Dog,7,Chicken cheese fish ,20
+Cocker spiniel,2,"Fish,eggs, milk",17
+Golden retriever ,3,"Chicken, pork, beef with rice",20
+Doberman,5,Scraped coconut and dry fish,35
+Labrador,1,"Chicken, pork fish with rice",55
+German shepherd ,10,Salmon and potato with rice,30
+Dachhund,4,"Meat, salmon, dhal",45
+Dachhund,3,Fish mix with rice,20
+Mongrel,9,Chicken and fish,20
+Labrador,3,Chicken fish and cheese,60
+Shitzu,1,Meat dog food and rice,5
+Stray dog,4,Fish with rice and cheese,13
+German shepherd ,1.5,Fish and chicken with rice,35
+Stray dog,10,Chicken ane sosages,12
+Stray dog ,11,Fish and Rice,35
+Stray dog,11,"Chicken, fish and salmon",14
+Husky,30,Fish snacks cheese,6
+German shepherd ,2,"Chicken curd, leeks and carrot",37
+Boberman,3,Pumpkin Chicken ,35
+German shepherd ,4,Meat and fish,25
+Rotweiler,3,"Chicken, Yourgurt and milky items",40
+Labrador,4,Fish and chicken,18
+Labradour Retriever ,6,Fish with rice and cheese,30
+German Shepard,1.5,Dog food with yougourt,25
+Cocker spaniel,2,"chicken, fish, beef, chicken parts, papaya, banana",50
+Labrador ,1,Rice meat fish vegetables ,20
+Rhodesian ridgeback,5,"chicken, fish, beef, chicken parts, papaya, banana",60
+Labrador ,1,"cooked ground beef, brown rice, carrots, broccoli.",20
+Stray dog,15,Fish chicken yougourt curd,3
+Terrier,1,"cooked ground beef, brown rice, carrots, broccoli.",40
+Stray dog,2,fruits and vegetables mostly,12
+Stray dogs ,7,"meat, fish, dry fish",10
+Stray dogs,11,"meat, cheese, fish",15
+German Shepherd ,4,"Chicken, rice, vegetables ",45
+Local Mixed Breed,2,"Rice, fish, vegetables",18
+Stray Dogs,1,"Boiled fish, rice",15
+Local Mixed Breed,5,"Boiled rice, fish, pumpkin",20
+Labrador,4,"Fish, pumpkin, rice",48
+Local Mixed Breed,2,"Rice, vegetables, eggs",25
+German Shepherd,1,"Rice, boiled chicken, yogurt",9
+Local Mixed Breed,8,"Rice, sardines, sweet potato",25
+Local Mixed Breed,3,"Chicken, carrot, brown rice",33
+Labrador ,3,Chicken with rice,30
+Beagle,6,"Boiled rice, fish, carrots",24
+Dachshund,2,"Rice, sardines, pumpkin",20
+Pomeranian,2, Fish with vegetables,5
+Local Mixed Breed,10,"Soft food, rice, fish",25
+Dachshund,4,Beef with carrots,8
+Local Mixed Breed,3,"Boiled rice, fish, pumpkin",8
+Stray Dogs ,5,Meat with sausages,25
+Labrador,2,Rice with fried fish,40
+Rottweiler,5," Fish, Carrot, Potatoes",37
+Husky,3,Chicken with vegetables and rice,35
+Rottweiler,5,"chicken, rice, carrots",44
+Boxer,2,"lamb, brown rice, peas",24
+Golden Retriever,8,"chicken, oats, carrots",34
+Beagle,1,"beef, brown rice, green beans",11
+German Shepherd,4,"chicken, oats, broccoli",38
+stray dog,7,"rice, potatoes, carrots,fish,chicken parts",27
+stray dog,3,"rice, chicken, greengram,fish",28
+Dalmation ,2,"Meat, Boiled fish, rice",12
+Stray dog,4,"Meat, Boiled fish, rice",15
+golden retriever,6,"Rice, dog food (pedigree, Purina),fruits ",28
+Shiba inu,4,Dry foods/kibble,14
+Golden retriever ,4,"Rice, sardines, pumpkin",30
+Poodle,5,"cooked chicken breast, sweet potatoes, green beans, apples.",25
+Welsh Corgi,2,"Fish and rice or chicken with rice, Dog food ( pedigree, Purina)",13
+Doberman ,3,"Cooked chicken breast, sweet potatoes, green beans, apples.",15
+Bulldog,1.5,Meat with rice,10
+German shepard,3,Meat and dog food,15
+Labrador ,5,Dog Food meat and fish,20
+French bull dog,1,"chicken, fish, beef, chicken parts, papaya, banana",10
+Golden Retriever,3,dog food and meat,19
+Siberian Husky,1,Chicken salmon boiled eggs ,10
+Beagle,1,"Chicken, Salmon, dog food",9
+Poddle,4,"Mix of rice with boiled chicken,Salmon with rice,Dog food ",12
+Chihuahua,5,Fish and rice or chicken with rice,4
+Dachshund ,3,"White Fish with rice, Boiled chicken with rice",4
+Pomernarion ,4,"Boiled meat with rice, Grapes ",4
+Samoyed ,3,"Dog Food, Apple,Meat and rice",10
+Dalmatian ,4,"Boiled with rice, Dog food, Biscuits ",15
+Stray dog,6,"Fish and meat with rice, Dog food",14
+Chow chow,5,"Dog food, Boiled meat",1.8
+German shepherd ,3,Chicken liver and butter,41
+Rotweiler ,4,"Fish, rice, mango, potato, meat, cheese",40
+Stray dog,5," cooked ground beef, brown rice, carrots, broccoli.",15
+Stray Dog,8,Milk rice vegetables,15
+Stray dogs,15,Chicken and fish,4
+Boxer,2.5,Chicken with egg buscuits,30
+Stray dogs,3,Fish dhal carrot,20
+Labrador ,2.5," cooked ground beef, brown rice, carrots, broccoli.",40
+German shepherd ,5,Boiled egg and fish,37
+Husky,5," cooked ground beef, brown rice, carrots, broccoli.",6
+German shepherd ,3,"Chicken, Yourgurt and milky items",30
+Stray dogs,8,"Chicken, fish and dhal",20
+Pomenarian,2.5,Meat with rice and yougourt,3
+German Shepherd,2,"Beef, potatoes, and carrots ",25
+Golden Retriever,4,"Turkey, quinoa, and broccoli ",28
+Bulldog,5,"brown rice, and peas ",20
+boxer,4,"Beef, and carrots ",27
+Dachshund,3,"Turkey, sweet potatoes, and peas",10
+Rottweiler,5,"Duck, rice, and carrots ",35
+street dog,2,Rice and chicken ,15
+Beagle,1,"Fish, sweet potatoes, and spinach ",12
+Dachshund,3,"Turkey,chicken,sweets",10
+Cocker Spaniel ,2,"Chicken, rice, and carrots ",14
+Stray Dog,5,"Meat,Fish,Cheese",20
+Golden retriver,3,Pedigree food beef and rice,20
+Stray dog ,2,"Flesh, Fish & Rice",7
+Stray Dog ,5,Meat with sausages ,25
+German Shepherd,4,"Beef, rice, carrots",35
+Golden Retriever,1,"Chicken, sweet potatoes",30
+Rhodesian Ridgeback,3,Meat and rice with dhal and yogurt,40
+Labrador,2,Meat and rice with dhal and yogurt ,25
+Beagle,6,"Turkey, potatoes, peas",18
+Husky,3,Chicken with vegetables. and rice ,35
+Rottweiler ,5," Fish, Carrot, Potatoes  ",37
+Rottweiler,3,Rice with fried fish  ,43
+Rottweiler,2,Fish and carrot ,30
+Bullmastiff ,3,Only Fish and meat ,55
+German Shepard ,1.5,Chicken and rice formula ,30
+Stray dog,7,Meat Sausages Fish Egg ,15
+Pomeranian Dog ,2," Meat, Fish, Yoghurt  ",10
+Stray dog,2,Fish and vegetables,7
+Stray dog,3,"Fish, meat, curd, yogurt  ",15
+Stray dogs,10,Fish meat and carrots,15
+Labrador,5,"Yoghurt, banana, curd, milk rice ",48
+Poodle,2,"Chicken, rice, broccoli",10
+Stray Dogs,10,"Fish, meat , mango , papaya,",20
+Boxer,5,"Turkey, quinoa, spinach",25
+Pomeranian,1,"Fish, meat, eggs, rice, bread, milk",15
+Shih Tzu,4,"Beef, sweet potatoes, green beans",7
+Stray dog,9,"Chicken, brown rice, peas,, boiled vegetables",20
+Dachshund,3,"Salmon, potatoes, carrots",8
+Bulldog,2,"Lamb, brown rice, peas",20
+Labrador,2,"cheese,sweets,fruits",22
+Doberman Pinscher,2,"Chicken, brown rice, peas",32
+Golden Retriever,3,"Rice with chicken curry, boiled vegetables",30
+Rottweiler,2.5, Beef with rice and mixed vegetables,35
+Cocker Spaniel,4," Fish curry with rice, boiled eggs",12
+German Shepherd,5,"Lamb stew with rice, cooked pumpkin",40
+Labrador,4,"Chicken biryani, boiled sweet potatoes",32
+Labrador Retriever,6,"Fish curry with rice, cooked carrots,mango",35
+Shih Tzu,3.5,"Chicken stew with rice, steamed broccoli",8
+Stray Dog,2,"Leftover rice and meat scraps, boiled lentils",20
+Bulldog,4.5,"Beef stew with rice, mashed potatoes",25
+Dachshund,3,"Pork curry with rice, cooked green beans",10
+Corgi,2.5,"Lamb curry with rice, boiled carrots and potatoes",12
+Boxer,3.5,"Chicken curry with rice, cooked spinach, mango , papaya, ",30
+Husky,4,"Fish stew with rice, boiled peas",28
+Doberman,3.5,"Beef curry with rice, cooked squash, apple",35
+Rhodesian Ridgeback,4,"chicken, fish, beef, chicken parts, papaya, banana",38
+Beagle,3,"cooked carrots, fish, chicken",14
+Golden Retriever,2.5,"Fish and potato curry with rice, boiled broccoli, chicken parts",28
+Rottweiler,3,"Chicken and lentil stew with rice, mango, banana",36
+Cocker Spaniel,4.5,"Beef and pumpkin curry with rice, boiled cauliflower",10
+German Shepherd,5.5,"Lamb and carrot stew with rice, cooked green beans, milk rice,",42
+Labrador,3.5,"Chicken and sweet potato curry with rice, steamed spinach",34
+Labrador Retriever,4,"Fish, chicken, mixed vegetable stew with rice, boiled carrots",37
+Shih Tzu,2,"chicken and green bean curry with rice, boiled peas, boiled carrots",7
+Stray Dog,4,"Leftover fish and rice, boiled lentils with carrots, chicken parts",30
+Bulldog,4,"beef, chicken, rice, mashed potatoes",27
+Dachshund,3.5,"boiled potatoes, banana, papaya, chicken,fish",9
+Corgi,2,"fish, meat, boiled eggs, banana",11
+Boxer,4,"chicken, cooked pumpkin, carrot",32
+Rottweiler,2.5,"Lamb stew with rice, cooked pumpkin",28
+German Shepherd ,7,"Chicken stew with rice, steamed broccoli",21
+Labrador,5," Lamb and carrot stew with rice, cooked green beans, milk rice",36
+Rottweiler,3,"Chicken stew with rice, steamed broccoli",31
+Bulldog,2.5," Lamb and carrot stew with rice, cooked green beans, milk rice",40
+Stray dog,8,"fish curry with rice, cooked carrots, mango",12
+Rottweiler,3.2,"Rice and meat scraps, boiled lentils",27
+Labrador,3.2,"Salmon, sweet potatoes, blueberries",42
+Dachshund,1,"Lamb stew with rice, cooked pumpkin",9
+German Shepherd ,4,"cooked green beans,cooked chicken breast, green beans, apples.",17
+Labrador,4,"Chicken stew with rice, steamed broccoli",40
+Stray dog,10,"Rice and meat scraps, boiled lentils",14
+Bulldog,3.5,"Turkey, carrots, mangoes",38
+German Shepherd ,5,"fish curry with rice, cooked carrots, mango",32
+French Bulldog,3,"Lamb stew with rice, cooked pumpkin",40
+Husky,1.5,"Lamb and carrot stew with rice, cooked green beans, milk rice",27
+Poodle,3,"Salmon, sweet potatoes, blueberries",7
+Pug,1,"Turkey, carrots, mangoes",6
+Shih Tzu,3.5,"cooked green beans, carrots, boiled potatoes with rice",3
+Labrador Retriever,2,"Chicken, rice, carrots, peas",25
+Poodle,8,"Lamb, brown rice, sweet potatoes, green beans",10
+German Shepherd,1,"Beef, brown rice, carrots, broccoli",35
+Terrier,3,"Chicken, oats, green beans, apples",3
+Bulldog,3,"Salmon, sweet potatoes, blueberries",25
+Beagle,7,"Chicken, brown rice, carrots",15
+Husky,4,"Fish, sweet potatoes",20
+Pug,2,"Duck, brown rice, carrots",8
+Dachshund,8,"Turkey, green beans",5
+Golden Retriever,0.5,"Chicken, oats, sweet potatoes",10
+Shih Tzu,1,"Lamb, brown rice, spinach, blueberries",5
+Great Dane,3,"Chicken, oats, broccoli, apples",50
+Corgi,2,"Turkey, carrots, mangoes",15
+French Bulldog,4,"brown rice, spinach",12
+Pomeranian,7,chicken with rice,3
+Rottweiler,2,"Lamb,mangoes",40
+Boxer,2,"ground turkey, brown rice, mangoes, carrots.",17
+Rottweiler,5,"chicken, beef, and fish, brown rice, mixed vegetables ",45
+German Shepherd,8,"chicken breast, sweet potatoes, green beans, apples.",37
+Labrador,2,"duck breast, brown rice, carrots, green beans.",42
+Rottweiler,6,"fish, sweet potatoes, blueberries, carrots.",32
+Bulldog,5.5,"oats, boiled chicken, steamed broccoli, diced apples.",38
+Stray dog,2,"fish, sweet potatoes, blueberries, carrots.",19
+Rottweiler,5,"ground turkey, brown rice, mangoes, carrots.",43
+Siberian Husky,2,"Salmon,Rice,Carrot",20
+Maltese,7,"Fish,Rice,Pumpkin",5
+Shiba Inu,4,"Chicken,Sweet Potatoes,Green Beans",10
+Labrador,5,"Chicken Rice,Carrots",30
+Golden Retriever,3,"Turkey,Sweet Potatoes,Peas",28
+German Shepherd,4,"Beef, Potato,Brocoli",35
+Pomeranian,2,"Fish,Rice,Green Peas",4
+Beagle,6,"Lamb,Potatoes,Carrots",12
+Pug,3,"Chicken,Rice,Green Peas",8
+Chihuahua,2,"Beef,Potato,Peas",2
+Poodle,8,"Brown Rice, Sweet Potatoes, Green Beans",6
+Golden Retriever,3,"Tuna,Potato with rice,Boiled Eggs",29
+Rottweiler,2.5,"Lamb,Pumpkin Curry with Rice,Cooked Peas,Fish",34
+German Shepherd,1,"Beef, Brown Rice,Carrots",35
+Cocker Spaniel,4,"Chicken,Sweet Potatoes,Steamed Carrots",11
+German Shepherd,6,"Beef, Chicken Soup,Boiled Eggs",41
+Labrador,4,"Salmon and Brown Rice with Boiled Eggs,Banana,Mango",33
+Labrador Retriever,6,"Tuna,Chicken,Potatoes,Boiled Eggs",36
+Shih Tzu,3,"Chicken, Rice Porridge,Boiled Carrots,Cooked Green Beans,Banana",7.5
+Stray Dog,8,"Dried Fish with Rice,Chicken Parts,Papaw",15
+Bulldog,4,"Beef and Barley Soup with Carrots,Mashed Pumpkin",26
+Bulldog,3,"Salmon,Sweet Potatoes",25
+Beagle,3.5,"Chicken, Brown Rice,Carrots",15
+Husky,4,"Fish,Sweet Potatoes",20
+Pug,2,"Duck,Brown Rice,Carrots",8
+Dachshund,8,"Turkey,Chicken with Rice,Sweets,Milk",15
+Golden Retriever,0.5,"Chicken, Oats,Sweet Potatoes",10
+Shih Tzu,1,"Brown Rice, Spinach,Blueberries",5
+Corgi,2,"Turkey,Carrots,Mangoes",15
+Pomeranian,7,Chicken with Rice and Salmon and Carrot,12
+Australian Cattle Dog,4,"Beef, brown rice, carrots",32
+Bichon Frise,5,"Salmon, potatoes, spinach",12
+Bulldog,2,"Turkey, barley, peas",38
+Cairn Terrier,8,"Chicken, sweet potatoes, green beans",10
+Chihuahua,3,"Lamb, oats, broccoli",3
+Chow Chow,2,"Brown rice, tofu, bok choy",25
+Corgi,5,"Beef, quinoa, squash",18
+Dalmation,4,"Salmon, couscous, beets",48
+Doberman,1.5,"Turkey, buckwheat, brussels sprouts",63
+English Setter,6,"Chicken, millet, asparagus",50
+Great Pyrenees,3,"Pork, wheat berries, carrots",95
+Greyhound,7,"Tuna, lentils, peas",60
+Havanese,4,"Venison, barley, zucchini",8
+Irish Wolfhound,2,"Lamb, oats, spinach",115
+Kuvasz,5,"Chicken, brown rice, brussels sprouts",63
+Maltese,6,"Salmon, quinoa, carrots",6
+Newfoundland,1,"Beef, potatoes, cabbage",120
+Pug,3,"Turkey, bulgur, bell peppers",12
+Samoyed,4,"Pork, couscous, cauliflower",37
+Schnauzer,2,"Brown rice, tofu, string beans",18
+Shiba Inu,8,"Venison, teff, beets",17
+Shih Tzu,1,"Lamb, millet, broccoli",7
+Siberian Husky,5,"Chicken, buckwheat, asparagus",41
+St. Bernard,3,"Salmon, lentils, celery",100
+Weimaraner,6,"Tuna, barley, brussels sprouts",63
+Whippet,2,"Beef, sweet potatoes, peas",22
+Australian Cattle Dog,4,"Beef, brown rice, carrots",32
+Australian Shepherd,3,"Lamb, barley, spinach",38
+Basset Hound,5,"Chicken, sweet potatoes, string beans",40
+Beagle,2,"Pork, buckwheat, broccoli",18
+Belgian Malinois,1,"Tuna, couscous, beets",30
+Bernese Mountain Dog,6,"Venison, teff, brussels sprouts",85
+Bichon Frise,8,"Beef, lentils, celery",12
+Bloodhound,3,"Chicken, millet, asparagus",70
+Border Collie,4,"Salmon, wheat berries, carrots",32
+Borzoi,7,"Lamb, oats, peas",60
+Boston Terrier,5,"Turkey, quinoa, zucchini",16
+Boxer,2,"Pork, bulgur, spinach",35
+Brittany,1,"Tofu, brown rice, brussels sprouts",34
+Brussels Griffon,6,"Beef, potatoes, cabbage",18
+Bulldog,3,"Chicken, barley, bell peppers",40
+Bull Terrier,4,"Salmon, sweet potatoes, string beans",35
+Cairn Terrier,5,"Lamb, teff, broccoli",12
+Canaan Dog,2,"Turkey, buckwheat, squash",30
+Cardigan Welsh Corgi,1,"Pork, couscous, cauliflower",28
+Cavalier King Charles Spaniel,6,"Tuna, millet, celery",20
+Chesapeake Bay Retriever,3,"Chicken, lentils, beets",45
+Chinese Crested,4,"Beef, barley, carrots",8
+Chow Chow,5,"Salmon, wheat berries, eggplant",35
+Cocker Spaniel,2,"Turkey, oats, peas",20
+Collie,1,"Pork, bulgur, zucchini",48
+Corgi,6,"Tofu, quinoa, spinach",22
+Dachshund,3,"Chicken, potatoes, brussels sprouts",12
+Dalmatian,4,"Beef, couscous, asparagus",50
+Doberman Pinscher,5,"Lamb, teff, green beans",62
+English Setter,2,"Salmon, millet, bell peppers",52
+English Springer Spaniel,1,"Pork, buckwheat, cauliflower",44
+French Bulldog,6,"Turkey, lentils, celery",20
+German Shepherd,3,"Tuna, barley, beets",65
+German Shorthaired Pointer,4,"Chicken, wheat berries, carrots",50
+Golden Retriever,5,"Beef, oats, eggplant",62
+Gordon Setter,2,"Lamb, bulgur, peas",45
+Great Dane,1,"Pork, couscous, zucchini",100
+Great Pyrenees,6,"Tofu, quinoa, spinach",110
+Greyhound,3,"Chicken, potatoes, brussels sprouts",68
+Havanese,4,"Salmon, couscous, asparagus",10
+Irish Setter,5,"Beef, teff, green beans",48
+Irish Wolfhound,2,"Lamb, buckwheat, bell peppers",120
+Labrador Retriever,1,"Turkey, lentils, cauliflower",65
+Maltese,6,"Pork, barley, celery",8
+Mastiff,3,"Chicken, millet, beets",230
+Miniature Pinscher,4,"Tuna, wheat berries, carrots",12
+Neapolitan Mastiff,5,"Lamb, oats, eggplant",130
+Newfoundland,2,"Venison, bulgur, peas",135
+Norwich Terrier,1,"Pork, quinoa, zucchini",15
+Papillon,6,"Chicken, potatoes, spinach",10
+Pembroke Welsh Corgi,3,"Tofu, couscous, brussels sprouts",28
+Pomeranian,4,"Salmon, teff, asparagus",8
+Poodle,5,"Beef, buckwheat, green beans",12
+Pug,2,"Lamb, lentils, bell peppers",16
+Rat Terrier,1,"Turkey, barley, cauliflower",15
+Rhodesian Ridgeback,6,"Pork, millet, celery",65
+Rottweiler,3,"Tuna, wheat berries, beets",98
+Saint Bernard,4,"Chicken, oats, carrots",135
+Saluki,5,"Beef, bulgur, eggplant",50
+Samoyed,2,"Venison, couscous, peas",45
+Schnauzer,1,"Lamb, quinoa, zucchini",17
+Shiba Inu,6,"Pork, potatoes, spinach",18
+Shih Tzu,3,"Tofu, lentils, brussels sprouts",8
+Siberian Husky,4,"Chicken, teff, asparagus",40
+Silky Terrier,5,"Beef, buckwheat, green beans",12
+Skye Terrier,2,"Salmon, barley, bell peppers",23
+Sloughi,1,"Lamb, millet, cauliflower",55
+Spanish Water Dog,6,"Turkey, wheat berries, celery",40
+Spinone Italiano,3,"Pork, oats, beets",58
+Staffordshire Bull Terrier,4,"Tuna, bulgur, carrots",32
+St. Bernard,5,"Chicken, couscous, eggplant",145
+Treeing Walker Coonhound,2,"Beef, quinoa, peas",45
+Vizsla,1,"Venison, potatoes, zucchini",50
+Weimaraner,6,"Lamb, lentils, spinach",65
+Whippet,3,"Pork, barley, brussels sprouts",24
+Wirehaired Pointing Griffon,4,"Tofu, wheat berries, asparagus",50
+Yorkshire Terrier,5,"Chicken, oats, green beans",6
+Xoloitzcuintli,2,"Salmon, bulgur, bell peppers ",28
+Afghan Hound,1,"Beef, couscous, cauliflower",55
+Airedale Terrier,6,"Lamb, teff, celery",44
+Akita,3,"Turkey, buckwheat, beets",70
+Alaskan Malamute,4,"Pork, quinoa, carrots",85
+American Bulldog,5,"Tuna, kamut, eggplant",65
+American Eskimo Dog,2,"Chicken, barley, peas",35
+American Foxhound,1,"Venison, rice, zucchini",40
+American Pit Bull Terrier,6,"Lamb, oats, squash  ",40
+American Staffordshire Terrier,3,"Pork, freekeh, spinach",36
+American Water Spaniel,4,"Tofu, bulgur, brussels sprouts",25
+Anatolian Shepherd Dog,5,"Beef, wheat berries, asparagus",75
+Appenzell Mountain Dog,2,"Chicken, spelt, green beans",50
+Australian Kelpie,1,"Salmon, farro, bell peppers",30
+Australian Shepherd,6,"Lamb, rye, cauliflower",38
+Australian Terrier,3,"Turkey, bulgur, celery",15
+Azawakh,4,"Pork, couscous, beets",25
+Basenji,5,"Tuna, amaranth, carrots",22
+Basset Hound,2,"Beef, teff, eggplant",48
+Bearded Collie,1,"Chicken, buckwheat, peas",45
+Beauceron,6,"Venison, quinoa, zucchini",68
+Bedlington Terrier,3,"Lamb, kamut, squash",17
+Belgian Malinois,4,"Pork, barley, spinach",35
+Belgian Sheepdog,5,"Tofu, rice, brussels sprouts",60
+Belgian Tervuren,2,"Chicken, oats, asparagus",40
+Berger Picard,1,"Salmon, rye, green beans",50
+Bernese Mountain Dog,6,"Turkey, freekeh, bell peppers",80
+Bichon Frise,3,"Lamb, bulgur, cauliflower",12
+Black and Tan Coonhound,4,"Pork, wheat berries, celery",32
+Bloodhound,5,"Tuna, spelt, beets",85
+Bluetick Coonhound,2,"Beef, farro, carrots",73
+Boerboel,1,"Chicken, rye, eggplant",100
+Border Collie,6,"Venison, bulgur, peas",32
+Border Terrier,3,"Salmon, couscous, zucchini",15
+Borzoi,4,"Lamb, amaranth, squash",65
+Boston Terrier,5,"Turkey, teff, spinach",20
+Bouvier des Flandres,2,"Pork, buckwheat, brussels sprouts",65
+Boykin Spaniel,1,"Tofu, quinoa, asparagus",30
+Briard,6,"Chicken, kamut, green beans",58
+Brittany,3,"Beef, barley, bell peppers ",38
+Brussels Griffon,4,"Venison, rice, cauliflower",12
+Bull Terrier,5,"Lamb, oats, celery",40
+Bullmastiff,2,"Pork, rye, beets",98
+Cairn Terrier,1,"Tuna, millet, carrots",12
+Canaan Dog,6,"Chicken, freekeh, eggplant",30
+Cardigan Welsh Corgi,3,"Beef, bulgur, peas",26
+Cavalier King Charles Spaniel,4,"Venison, wheat berries, zucchini",22
+Cesky Terrier,5,"Salmon, spelt, squash",16
+Chesapeake Bay Retriever,2,"Lamb, farro, spinach",50
+Chihuahua,1,"Turkey, rye, brussels sprouts",6
+Chinese Crested,6,"Pork, bulgur, asparagus ",12
+Chinook,3,"Tofu, couscous, green beans",55
+Chow Chow,4,"Chicken, amaranth, bell peppers",42
+Clumber Spaniel,5,"Beef, teff, cauliflower",50
+Cockapoo,2,"Venison, buckwheat, celery",22
+Cocker Spaniel,1,"Lamb, quinoa, beets",24
+Collie,6,"Salmon, kamut, carrots",48
+Coton de Tulear,3,"Turkey, barley, eggplant",18
+Curly-Coated Retriever,4,"Pork, rice, peas ",58
+Dachshund,5,"Tuna, oats, zucchini",16
+Dalmatian,2,"Tofu, rye, spinach",44
+Dandie Dinmont Terrier,1,"Chicken, millet, brussels sprouts",22
+Doberman Pinscher,6,"Beef, freekeh, asparagus",60
+Dogo Argentino,3,"Venison, bulgur, green beans",75
+Dogue de Bordeaux,4,"Lamb, wheat berries, bell peppers",110
+Dutch Shepherd,5,"Salmon, spelt, cauliflower",50
+English Cocker Spaniel,2,"Turkey, farro, celery",26
+English Setter,1,"Pork, rye, beets",42
+English Springer Spaniel,6,"Tofu, bulgur, carrots",44
+English Toy Spaniel,3,"Chicken, couscous, eggplant",10
+Entlebucher Mountain Dog,4,"Beef, amaranth, peas",48
+Field Spaniel,5,"Venison, teff, zucchini",32
+Finnish Lapphund,2,"Lamb, buckwheat, squash",30
+Finnish Spitz,1,"Salmon, quinoa, spinach",29
+Flat-Coated Retriever,6,"Turkey, kamut, brussels sprouts",55
+Fox Terrier,3,"Pork, barley, asparagus",18
+French Bulldog,4,"Tuna, rice, green beans",20
+German Pinscher,5,"Tofu, oats, bell peppers",22
+German Shepherd Dog,2,"Chicken, rye, cauliflower",62
+German Shorthaired Pointer,1,"Beef, millet, celery",50
+German Wirehaired Pointer,6,"Venison, freekeh, beets",54
+Giant Schnauzer,3,"Lamb, bulgur, carrots",60
+Glen of Imaal Terrier,4,"Salmon, wheat berries, eggplant",30
+Golden Retriever,5,"Turkey, spelt, peas",62
+Gordon Setter,2,"Pork, farro, zucchini",42
+Great Dane,1,"Tofu, rye, spinach",118
+Great Pyrenees,6,"Chicken, bulgur, brussels sprouts",105
+Greater Swiss Mountain Dog,3,"Tuna, couscous, asparagus",80
+Greyhound,4,"Lamb, amaranth, green beans",60
+Harrier,5,"Pork, teff, bell peppers",45
+Havanese,2,"Venison, buckwheat, cauliflower",10
+Ibizan Hound,1,"Chicken, quinoa, celery",42
+Icelandic Sheepdog,6,"Tofu, kamut, beets",25
+Irish Setter,3,"Beef, barley, carrots",50
+Irish Terrier,4,"Salmon, rice, eggplant",23
+Irish Water Spaniel,5,"Lamb, oats, peas",48
+Irish Wolfhound,2,"Turkey, rye, zucchini",115
+Italian Greyhound,1,"Pork, millet, squash",12
+Jack Russell Terrier,6,"Tuna, freekeh, spinach ",16
+Japanese Chin,3,"Chicken, bulgur, brussels sprouts",8
+Kai Ken,4,"Venison, wheat berries, asparagus",23
+Karelian Bear Dog,5,"Lamb, spelt, green beans",40
+Keeshond,2,"Salmon, farro, bell peppers",30
+Kerry Blue Terrier,1,"Turkey, rye, cauliflower",29
+Komondor,6,"Pork, bulgur, celery",75
+Kuvasz,3,"Tofu, couscous, beets",65
+Labrador Retriever,4,"Chicken, amaranth, carrots",65
+Lagotto Romagnolo,5,"Beef, teff, eggplant",22
+Lakeland Terrier,2,"Venison, buckwheat, peas ",16
+Leonberger,1,"Lamb, quinoa, zucchini",110
+Lhasa Apso,6,"Salmon, kamut, squash",15
+Maltese,3,"Turkey, barley, spinach",8
+Manchester Terrier,4,"Pork, rice, brussels sprouts",18
+Mastiff,5,"Tuna, oats, asparagus",198
+Miniature American Shepherd,2,"Tofu, rye, green beans",17
+Miniature Bull Terrier,1,"Chicken, millet, bell peppers",22
+Miniature Pinscher,6,"Beef, freekeh, cauliflower",12
+Miniature Schnauzer,3,"Venison, bulgur, celery",14
+Mixed Breed,4,"Lamb, wheat berries, beets",22
+Mountain Cur,5,"Salmon, spelt, carrots",24
+Mudi,2,"Turkey, farro, eggplant",28
+Neapolitan Mastiff,1,"Pork, rye, peas",145
+Newfoundland,6,"Tofu, bulgur, zucchini",135
+Norfolk Terrier,3,"Chicken, couscous, squash",13
+Norwegian Buhund,4,"Beef, amaranth, spinach",26
+Norwegian Elkhound,5,"Venison, teff, brussels sprouts",48
+Norwegian Lundehund,2,"Lamb, buckwheat, asparagus ",15
+Norwich Terrier,1,"Salmon, quinoa, green beans",14
+Nova Scotia Duck Tolling Retriever,6,"Turkey, kamut, bell peppers",40
+Old English Sheepdog,3,"Pork, barley, cauliflower",55
+Otterhound,4,"Tuna, rice, celery",70
+Papillon,5,"Tofu, oats, beets",10
+Parson Russell Terrier,2,"Chicken, rye, carrots",16
+Pekingese,1,"Beef, millet, eggplant",14
+Pembroke Welsh Corgi,6,"Venison, freekeh, peas",28
+Perro de Presa Canario,3,"Lamb, bulgur, zucchini ",100
+Petit Basset Griffon Vendeen,4,"Salmon, wheat berries, squash",32
+Pharaoh Hound,5,"Turkey, spelt, spinach",40
+Plott,2,"Pork, farro, brussels sprouts",45
+Pomeranian,1,"Tuna, rye, asparagus",7
+Poodle,6,"Tofu, bulgur, green beans",15
+Labrador Retriever,2,"Beef, brown rice, sweet potatoes",35
+Labrador Retriever,5,"Chicken, quinoa, green beans",45
+Labrador Retriever,3,"Salmon, barley, carrots",40
+Golden Retriever,1,"Turkey, oats, peas",35
+Golden Retriever,4,"Pork, bulgur, brussels sprouts",42
+Golden Retriever,2,"Tofu, potatoes, spinach",40
+German Shepherd,3,"Beef, lentils, zucchini",48
+German Shepherd,5,"Chicken, couscous, cabbage",55
+German Shepherd,2,"Salmon, millet, celery",60
+Beagle,4,"Lamb, barley, bell peppers",18
+Beagle,1,"Turkey, buckwheat, carrots",15
+Beagle,3,"Tuna, quinoa, eggplant",20
+Rottweiler,2,"Pork, wheat berries, squash",85
+Rottweiler,5,"Chicken, spelt, broccoli",95
+Rottweiler,3,"Venison, couscous, string beans",90
+Poodle,6,"Beef, bulgur, asparagus ",15
+Poodle,2,"Salmon, teff, peas",12
+Poodle,4,"Lamb, lentils, zucchini",10
+Siberian Husky,3,"Turkey, oats, cabbage",38
+Siberian Husky,1,"Chicken, amaranth, carrots",35
+Siberian Husky,5,"Tofu, buckwheat, bell peppers",40
+Pug,4,"Pork, barley, cauliflower",14
+Pug,2,"Beef, quinoa, celery",12
+Pug,1,"Venison, millet, beets",10
+Yorkshire Terrier,6,"Salmon, wheat berries, eggplant",5
+Yorkshire Terrier,3,"Lamb, potatoes, peas",4
+Yorkshire Terrier,5,"Turkey, couscous, zucchini ",6
+Dachshund,2,"Chicken, rye, squash",14
+Dachshund,4,"Pork, bulgur, spinach",16
+Dachshund,1,"Tuna, lentils, brussels sprouts",12
+Shih Tzu,5,"Beef, oats, asparagus",6
+Shih Tzu,3,"Salmon, freekeh, green beans",5
+Shih Tzu,1,"Venison, teff, bell peppers",4
+Chihuahua,4,"Lamb, buckwheat, cauliflower",3
+Chihuahua,2,"Turkey, quinoa, celery",2
+Chihuahua,1,"Tofu, barley, beets",1
