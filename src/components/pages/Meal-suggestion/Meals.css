@@ -7,19 +7,21 @@
   align-items: center;
 }
   
-  .video {
-    width: 1200px;
-    height: 350px;
+.video {
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    left: 8%;
     object-fit: cover; /* Adjust the height as needed */
 }
   
-  .video:hover {
+.video:hover {
     cursor: pointer;
-  }
+}
   
-  .video::-webkit-media-controls {
+.video::-webkit-media-controls {
     display: none !important;
-  }
+}
 
 .searchbox{
     text-align: center;
@@ -36,118 +38,6 @@
     font-family:'Arial', 'Helvetica', sans-serif ;
 
 }
-
-.mealitems{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-}
-
-.card{
-    width: 300px;
-    height: 400px;
-    margin: 1rem;
-    background: linear-gradient(to left,rgba(92, 164, 227, 0.692),rgba(92, 164, 227, 0.692));
-    box-shadow: 0 7px 12px rgba(60, 80, 255, 0.4);
-    overflow: auto;
-    box-sizing: border-box;
-    position: relative;
-    
-}
-.card img{
-    width: 100%;
-}
-.card .info{
-    color: white;
-    text-align: center;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-
-}
-.card .info h2{
-    margin: 0;
-    font-weight: 900;
-    margin-top: 15px;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-}
-
-.card .info p{
-    margin: 0;
-    font-size: 17px;
-    letter-spacing: 2px;
-    margin-top: 10px;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-
-}
-.card:before{
-    content:"";
-    position: absolute;
-    top: 0;
-    left:0;
-    height: 100%;
-    width:100%;
-    transition: 0.2 all;
-}
-
-.card.card:hover::before{
-    height: 100%;
-}
-
-.card:hover{
-    background: linear-gradient(to left,rgba(92, 164, 227, 0.692),rgba(92, 164, 227, 0.692));
-
-}
-.card .recipe{
-    position: absolute;
-    top:0;
-    left: 0;
-    text-align: justify;
-    padding: 0.5rem 1rem;
-    display:none;
-    transition: 0.2s all;
-    background: linear-gradient(to left,rgba(2, 2, 2, 0.692),rgba(0, 0, 0, 0.692));
-
-}
-.card:hover .recipe{
-    display: block;
-}
-.recipe h2{
-    margin-bottom: 10px;
-    color: #80a5d6;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-    text-align: center;
-  
-
-}
-.recipe img{
-    width: 100px;
-    height: 100px;
-    border-radius: 60%;
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-
-}
-
-.recipe p{
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-    text-align: center;
-    
-}
-.recipe a{
-    display: block;
-    text-align: center;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-    color: azure;
-    
-
-}
-  
 .heading p{
     font-family: 'Arial', 'Helvetica', sans-serif;
     max-width: 65rem;
@@ -158,8 +48,6 @@
     line-height: 1.7;
     font-size: 20px;
     margin-top: 3rem;
-
-
 }
 .heading h1{
     color: #fff;
@@ -172,237 +60,22 @@
         1px -1px 0 #000,
         -1px 1px 0 #000,
         1px 1px 0 #000;
-   
-    
-
-
 }
 .heading{
     text-align: center;
 }
- .main{
+.main{
     background-color: #C6DEF1;
- }
- .highlight1{
+}
+.highlight1{
     background-color: white;
     font-family:'Arial', 'Helvetica', sans-serif ;
     color: #80a5d6;
-
-
- }
- .underline1{
-    text-decoration: underline; 
-    font-family:'Arial', 'Helvetica', sans-serif ;
-    text-decoration-style: wavy;
-    color: #e17218;
-
- }
- .card2{
-    width: 300px;
-    height: 400px;
-    margin: 1rem;
-    background: linear-gradient(to left,rgba(227, 177, 92, 0.692),rgba(219, 116, 7, 0.692));
-    box-shadow: 0 7px 12px rgba(255, 154, 60, 0.4);
-    overflow: auto;
-    box-sizing: border-box;
-    position: relative;
-    
-}
-.card2 img{
-    width: 100%;
-}
-.card2 .info{
-    color: white;
-    text-align: center;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-
-}
-.card2 .info h2{
-    margin: 0;
-    font-weight: 900;
-    margin-top: 15px;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-}
-
-.card2 .info p{
-    margin: 0;
-    font-size: 17px;
-    letter-spacing: 2px;
-    margin-top: 10px;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-
-}
-.card2:before{
-    content:"";
-    position: absolute;
-    top: 0;
-    left:0;
-    height: 100%;
-    width:100%;
-    transition: 0.2 all;
-}
-
-.card2.card2:hover::before{
-    height: 100%;
-}
-
-.card2:hover{
-    background: linear-gradient(to left,rgba(227, 177, 92, 0.692),rgba(219, 116, 7, 0.692));
-
-}
-.card2 .recipe2{
-    position: absolute;
-    top:0;
-    left: 0;
-    text-align: justify;
-    padding: 0.5rem 1rem;
-    display:none;
-    transition: 0.2s all;
-    background: linear-gradient(to left,rgba(2, 2, 2, 0.692),rgba(0, 0, 0, 0.692));
-
-}
-.card2:hover .recipe2{
-    display: block;
-}
-.recipe2 h2{
-    margin-bottom: 10px;
-    color: #d2a869;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-    text-align: center;
-  
-
-}
-.recipe2 img{
-    width: 100px;
-    height: 100px;
-    border-radius: 60%;
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-
-}
-
-.recipe2 p{
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-    text-align: center;
-    
-}
-.recipe2 a{
-    display: block;
-    text-align: center;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-    color: azure;
-    
-
-}
-.card3{
-    width: 300px;
-    height: 400px;
-    margin: 1rem;
-    background: linear-gradient(to left,rgba(91, 221, 84, 0.692),rgba(73, 216, 2, 0.692));
-    box-shadow: 0 7px 12px rgba(73, 216, 2, 0.692);
-    overflow: auto;
-    box-sizing: border-box;
-    position: relative;
-    
-}
-.card3 img{
-    width: 100%;
-}
-.card3 .info{
-    color: white;
-    text-align: center;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-
-}
-.card3 .info h2{
-    margin: 0;
-    font-weight: 900;
-    margin-top: 15px;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-}
-
-.card3 .info p{
-    margin: 0;
-    font-size: 17px;
-    letter-spacing: 2px;
-    margin-top: 10px;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-
-}
-.card3:before{
-    content:"";
-    position: absolute;
-    top: 0;
-    left:0;
-    height: 100%;
-    width:100%;
-    transition: 0.2 all;
-}
-
-.card3.card2:hover::before{
-    height: 100%;
-}
-
-.card3:hover{
-    background: linear-gradient(to left,rgba(91, 221, 84, 0.692),rgba(73, 216, 2, 0.692));
-
-}
-.card3 .recipe3{
-    position: absolute;
-    top:0;
-    left: 0;
-    text-align: justify;
-    padding: 0.5rem 1rem;
-    display:none;
-    transition: 0.2s all;
-    background: linear-gradient(to left,rgba(2, 2, 2, 0.692),rgba(0, 0, 0, 0.692));
-
-}
-.card3:hover .recipe3{
-    display: block;
-}
-.recipe3 h2{
-    margin-bottom: 10px;
-    color: rgba(91, 221, 84, 0.692);
-    font-family:'Arial', 'Helvetica', sans-serif ;
-    text-align: center;
-  
-
-}
-.recipe3 img{
-    width: 100px;
-    height: 100px;
-    border-radius: 60%;
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-
-}
-
-.recipe3 p{
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-    text-align: center;
-    
-}
-.recipe3 a{
-    display: block;
-    text-align: center;
-    font-family:'Arial', 'Helvetica', sans-serif ;
-    color: azure;
-    
-
 }
 .meal-genarate-btn{
     position: absolute;
-    left: 65%;
-    top: 87.5%;
+    left: 47%;
+    top: 43%;
     border-radius: 20px;
 }
 .main{
@@ -411,5 +84,39 @@
 }
 .heading h2{
     font-size: 50px;
-    color: aquamarine;
+    color: rgb(55, 60, 58);
+    text-align: center;
+}
+.meal-description{
+    text-align: center;
+    position: relative;
+    top: -350px;
+}
+.meal-data-input{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    display: grid;
+}
+.meal-data-input input{
+    margin: 10px;
+
+}
+.mealitems{
+    position: absolute;
+    top: 53%;
+    left: 32%;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background-color: #2b3440;
+    border-radius: 50px;
+    color: #fff;
+}
+.mealitems p{
+    margin-top: 10px;
+}
+.mealitems ul{
+    margin-top: 30px;
+    text-decoration: dotted;
 }

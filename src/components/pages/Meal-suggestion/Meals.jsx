@@ -1,61 +1,92 @@
-import React, { useEffect, useRef, useState } from 'react';
-import DogFood from '../../../assets/Meals.mp4';
+import React, { useEffect, useState } from 'react';
 import './Meals.css';
-import MealItems from './MealItems';
 import { Navbar } from '../../NavigationBar/Navbar';
 
 function Meals() {
-  const videoRef = useRef(null);
+  const [breed, setBreed] = useState('');
+  const [age, setAge] = useState('');
+  const [weight, setWeight] = useState('');
 
   useEffect(() => {
-    const video = videoRef.current;
-
-    const handleMouseOver = () => {
-      if (video.paused) {
-        video.play();
-      }
-    };
-
-    const handleMouseOut = () => {
-      if (!video.paused) {
-        video.pause();
-      }
-    };
-
-    video.addEventListener("mouseover", handleMouseOver);
-    video.addEventListener("mouseout", handleMouseOut);
-
-    return () => {
-      video.removeEventListener("mouseover", handleMouseOver);
-      video.removeEventListener("mouseout", handleMouseOut);
-    };
+    // Your useEffect logic here
   }, []);
+
+  const handleGenerateClick = () => {
+    // Validate age and weight
+    if (isNaN(age) || age <= 0) {
+      alert('Please enter a valid age.');
+      return;
+    }
+
+    if (isNaN(weight) || weight <= 0) {
+      alert('Please enter a valid weight.');
+      return;
+    }
+
+    // Continue with the logic for generating recommendations
+    console.log('Generating recommendations for:', breed, age, weight);
+  };
 
   return (
     <div className='main'>
-      <Navbar/>
+      <Navbar />
       <div className='heading'>
-        <h2 className='meal-suggestion-head'>Meal Options</h2>
+        <h2 className='meal-suggestion-head'>Meal Suggestion</h2>
         <div className='container1'>
-        <video className="video" autoPlay loop muted ref={videoRef}>
-          <source src={DogFood} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+          {/* Your video element */}
+        </div>
+        <div className='meal-description'>
+          <h4>Enter Your Pet details to get unique Food recommendations!</h4>
+        </div>
       </div>
-        <p>Welcome to our meal options page, <span class="highlight1">where every diet shines!</span> Whether you're <span className='underline1'>vegetarian, vegan, pescatarian, or gluten-free</span>, we've curated a selection of delicious recipes to tantalize your taste buds. Explore our diverse range of meals tailored to your preferences and savor the flavors of healthy, satisfying eating. Happy browsing and bon appétit! 🍽️🐶</p>
+
+      <div className='meal-data-input'>
+        <input
+          type="text"
+          className='search-bar'
+          placeholder='Breed'
+          value={breed}
+          onChange={(e) => setBreed(e.target.value)}
+        />
+        <input
+          type="number"
+          className='search-bar'
+          placeholder='Age (Y)'
+          value={age}
+          onChange={(e) => setAge(e.target.value)}
+        />
+        <input
+          type="number"
+          className='search-bar'
+          placeholder='Weight (KG)'
+          step="0.1" // Allows decimal numbers
+          value={weight}
+          onChange={(e) => setWeight(e.target.value)}
+        />
       </div>
-  
-      <div className='searchbox'>
-        <input type="search" className='search-bar' placeholder='Enter the foods'/>
-        <button className='meal-genarate-btn'>Genarate</button>
-      </div>
+      <button className='meal-genarate-btn' onClick={handleGenerateClick}>
+        Generate
+      </button>
       
       <div className='mealitems'> 
-          
+        <p >Suggestions</p>
+        <ul>
+          <li>
+            item 1
+          </li>
+          <li>
+            item 2
+          </li>
+          <li>
+            item 3
+          </li>
+          <li>
+            item 4
+          </li>
+        </ul>
       </div>
     </div>
   );
 }
-
 
 export default Meals;
