@@ -11,6 +11,7 @@ const BussinessProfile = () => {
   const [userDetails, setUserDetails] = useState(null);
   const [email, setEmail] = useState('');
   const [userId, setUserId] = useState(null);
+  const [publish, setPublish] = useState(false);
 
   const [formData, setFormData] = useState({
     bussinessName: '',
@@ -22,7 +23,6 @@ const BussinessProfile = () => {
   });
 
   const [isPublished, setIsPublished] = useState(false);
-
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user) {
@@ -53,6 +53,7 @@ const BussinessProfile = () => {
           setUserId(userId);
 
           if (currentUser.bussinessDetails) {
+            setIsPublished(true);
             setFormData(currentUser.bussinessDetails);
           }
           console.log("userData:", currentUser);
@@ -100,7 +101,6 @@ const BussinessProfile = () => {
       ...userData,
       bussinessDetails: formData,
     };
-  
     set(userRef, updatedData)
       .then(() => {
         console.log('Data saved successfully');

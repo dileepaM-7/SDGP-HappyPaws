@@ -17,6 +17,7 @@ import BussinessProfile from "./components/pages/BussinessProfile/BussinessProfi
 import Meals from "./components/pages/Meal-suggestion/Meals";
 import PetProfiles from "./components/pages/UserProfile/PetProfiles";
 import AccountSettings from "./components/pages/UserProfile/AccountSettings";
+import { useLocation } from 'react-router-dom';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -28,9 +29,20 @@ function App() {
 
     return () => unsubscribe();
   }, []);
+
+  const ScrollToTop = () => {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  };
   
   return (  
     <div className="App">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
