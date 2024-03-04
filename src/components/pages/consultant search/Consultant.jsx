@@ -3,11 +3,12 @@ import './Consultant.css';
 import { Navbar } from '../../NavigationBar/Navbar';
 import { FiSearch } from 'react-icons/fi';
 import { getDatabase, ref, child, get } from 'firebase/database';
-import Footer from "../../Footer/Footer";
+import Footer from '../../Footer/Footer';
 
 const Consultant = () => {
   const [searchText, setSearchText] = useState('');
   const [consultants, setConsultants] = useState([]);
+  const [noData, setNoData] = useState(false);
 
   const handleSearch = async () => {
     // Initialize Firebase database reference
@@ -25,23 +26,23 @@ const Consultant = () => {
         // Filter users with business details based on searchText
         const filteredConsultants = users.filter((user) =>
           user.bussinessDetails &&
-          (user.bussinessDetails.bussinessName.toLowerCase().includes(searchText.toLowerCase()) ||
-            user.bussinessDetails.shopName.toLowerCase().includes(searchText.toLowerCase()) ||
-            user.bussinessDetails.specialty.toLowerCase().includes(searchText.toLowerCase()) ||
-            user.bussinessDetails.contactNo.toLowerCase().includes(searchText.toLowerCase()) ||
-            user.bussinessDetails.address.toLowerCase().includes(searchText.toLowerCase()) ||
-            user.bussinessDetails.emailAddress.toLowerCase().includes(searchText.toLowerCase()))
+          Object.values(user.bussinessDetails).some((detail) =>
+            String(detail).toLowerCase().includes(searchText.toLowerCase())
+          )
         );
 
         // Set the filtered consultants in the state
         setConsultants(filteredConsultants);
+        setNoData(filteredConsultants.length === 0);
       } else {
         // No data available
         setConsultants([]);
+        setNoData(true);
       }
     } catch (error) {
       console.error(error);
       setConsultants([]);
+      setNoData(true);
     }
   };
 
@@ -62,21 +63,45 @@ const Consultant = () => {
           </button>
         </div>
 
-        {consultants.length > 0 && (
-          <div className='consultant-details'>
-            <ul>
-              {consultants.map((consultant) => (
-                <li key={consultant.userId}>
-                  <p>Business Name: {consultant.bussinessDetails?.bussinessName || 'N/A'}</p>
-                  <p>Shop Name: {consultant.bussinessDetails?.shopName || 'N/A'}</p>
-                  <p>Specialty: {consultant.bussinessDetails?.specialty || 'N/A'}</p>
-                  <p>Contact No: {consultant.bussinessDetails?.contactNo || 'N/A'}</p>
-                  <p>Address: {consultant.bussinessDetails?.address || 'N/A'}</p>
-                  <p>Email: {consultant.bussinessDetails?.emailAddress || 'N/A'}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
+        {noData ? (
+          <p className='nodata-msg'>No data found</p>
+        ) : (
+          consultants.length > 0 && (
+            <div className='consultant-details'>
+              <ul>
+                {consultants.map((consultant) => (
+                  <li key={consultant.userId}>
+                    <div className='details'>
+                      <p>
+                        <strong>Business Name : </strong>{' '}
+                        {consultant.bussinessDetails?.bussinessName || 'N/A'}
+                      </p>
+                      <p>
+                        <strong>Shop Name : </strong>{' '}
+                        {consultant.bussinessDetails?.shopName || 'N/A'}
+                      </p>
+                      <p>
+                        <strong>Specialty : </strong>{' '}
+                        {consultant.bussinessDetails?.specialty || 'N/A'}
+                      </p>
+                      <p>
+                        <strong>Contact No : </strong>{' '}
+                        {consultant.bussinessDetails?.contactNo || 'N/A'}
+                      </p>
+                      <p>
+                        <strong>Address : </strong>{' '}
+                        {consultant.bussinessDetails?.address || 'N/A'}
+                      </p>
+                      <p>
+                        <strong>Email : </strong>{' '}
+                        {consultant.bussinessDetails?.emailAddress || 'N/A'}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
         )}
       </div>
       <Footer />
