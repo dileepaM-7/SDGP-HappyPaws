@@ -1239,4 +1239,148 @@ Shih Tzu,3,"Salmon, freekeh, green beans",5
 Shih Tzu,1,"Venison, teff, bell peppers",4
 Chihuahua,4,"Lamb, buckwheat, cauliflower",3
 Chihuahua,2,"Turkey, quinoa, celery",2
-Chihuahua,1,"Tofu, barley, beets",1
+Labrador Retriever,2,"Beef, brown rice, sweet potatoes",35
+Labrador Retriever,5,"Chicken, quinoa, green beans",45
+Labrador Retriever,3,"Salmon, barley, carrots",40
+Labrador Retriever,1,"Lamb, oats, brussels sprouts",30
+Labrador Retriever,6,"Turkey, teff, asparagus",48
+Golden Retriever,2,"Pork, buckwheat, string beans",40
+Golden Retriever,4,"Tofu, potatoes, spinach",42
+Golden Retriever,3,"Beef, lentils, zucchini",38
+Golden Retriever,5,"Chicken, couscous, cabbage",41
+Golden Retriever,1,"Duck, millet, celery",35
+German Shepherd,3,"Salmon, bulgur, bell peppers",48
+German Shepherd,5,"Lamb, barley, carrots",55
+German Shepherd,2,"Turkey, wheat berries, eggplant",60
+German Shepherd,4,"Pork, spelt, peas",52
+German Shepherd,1,"Tuna, quinoa, zucchini",45
+Rottweiler,5,"Chicken, amaranth, string beans",95
+Rottweiler,3,"Beef, teff, broccoli",90
+Rottweiler,2,"Salmon, couscous, squash",85
+Rottweiler,4,"Lamb, buckwheat, celery",93
+Rottweiler,1,"Turkey, quinoa lentils",80
+Poodle,4,"Pork, oats, asparagus",10
+Poodle,2,"Tofu, freekeh, peas",12
+Poodle,6,"Chicken, bulgur, zucchini",15
+Poodle,5,"Beef, lentils, cabbage",13
+Poodle,3,"Duck, barley, carrots",11
+Siberian Husky,5,"Salmon, millet, bell peppers",40
+Siberian Husky,3,"Lamb, wheat berries, cauliflower",38
+Siberian Husky,1,"Turkey, spelt, celery",35
+Siberian Husky,2,"Pork, potatoes, beets ",37
+Siberian Husky,4,"Tuna, couscous, eggplant",39
+Pug,2,"Chicken, rye, squash",12
+Pug,4,"Tofu, bulgar, spinach",14
+Pug,1,"Salmon, teff, brussels sprouts ",10
+Pug,3,"Beef, oats, green beans",13
+Pug,5,"Venison, freekeh, zucchini",16
+Yorkshire Terrier,5,"Pork, buckwheat, string beans",6
+Yorkshire Terrier,3,"Chicken, quinoa, cabbage",4
+Yorkshire Terrier,6,"Duck, lentils, carrots",5
+Yorkshire Terrier,2,"Tofu, barley, celery",3
+Yorkshire Terrier,4,"Beef, millet beets",5
+Dachshund,4,"Salmon, wheat berries, eggplant",16
+Dachshund,1,"Lamb, potatoes, peas",12
+Dachshund,3,"Turkey, couscous, squash ",15
+Dachshund,5,"Pork, rye, spinach",18
+Dachshund,2,"Tuna, bulgur, brussels sprouts",14
+Shih Tzu,5,"Chicken, oats, bell peppers",6
+Shih Tzu,1,"Tofu, freekeh, cauliflower",4
+Shih Tzu,3,"Beef, teff, carrots",5
+Shih Tzu,2,"Venison, buckwheat, celery",3
+Shih Tzu,4,"Duck, quinoa beets",2
+Chihuahua,2,"Salmon, barley, eggplant",2
+Chihuahua,4,"Lamb, wheat berries, peas",3
+Chihuahua,1,"Turkey, spelt zucchini",1
+Chihuahua,3,"Pork, potatoes spinach ",2
+Chihuahua,5,"Tuna, couscous, cabbage",4
+Beagle,1,"Chicken, rye, string beans",15
+Beagle,4,"Tofu, bulgar, broccoli",18
+Beagle,3,"Beef, oats, squash",20
+Beagle,2,"Duck, teff, celery",16
+Beagle,5,"Venison, buckwheat, beets",22
+Pug,4,"pork, barley, eggplant",15
+Pug,1,"chicken, wheat berries, peas",12
+Pug,5,"tuna, spelt, squash",18
+Pug,2,"beef, couscous, carrots",14
+Pug,3,"tofu, lentils, cabbage",16
+Yorkshire Terrier,6,"lamb, buckwheat, apples",7
+Yorkshire Terrier,4,"turkey, quinoa, bell peppers",5
+Yorkshire Terrier,2,"salmon, kamut, zucchini",6
+Yorkshire Terrier,3,"chicken, oats, broccoli",5
+Yorkshire Terrier,5,"venison, brown rice, cauliflower",4
+Dachshund,5,"pork, teff, blueberries",14
+Dachshund,2,"beef, potatoes, celery",12
+Dachshund,3,"duck, lentils, squash",10
+Dachshund,1,"lamb, barley, spinach",15
+Dachshund,4,"turkey, freekeh, carrots",13
+Shih Tzu,3,"chicken, bulgur, asparagus",7
+Shih Tzu,5,"salmon, potatoes, string beans",6
+Shih Tzu,1,"lamb, wheat berries, peas",5
+Shih Tzu,4,"turkey, farro, zucchini",3
+Shih Tzu,2,"pork, rye, brussels sprouts",8
+Chihuahua,2,"beef, spelt, cabbage",3
+Chihuahua,4,"chicken, oats, bell peppers",5
+Chihuahua,1,"duck, quinoa, carrots",2
+Chihuahua,3,"lamb, amaranth, celery",4
+Chihuahua,5,"venison, teff, beets",1
+Labrador Retriever,3,"ground turkey, spinach, brown rice",35
+Labrador Retriever,2,"salmon, sweet potatoes, carrots",30
+Labrador Retriever,1,"beef, brown rice, string beans",40
+Labrador Retriever,5,"chicken breast, oats, broccoli",45
+Labrador Retriever,4,"duck breast, quinoa, green beans",42
+Golden Retriever,2,"pork, barley, bell peppers",38
+Golden Retriever,3,"lamb, potatoes, cauliflower ",40
+Golden Retriever,6,"chicken thigh, bulgur, spinach",35
+Golden Retriever,1,"fish, brown rice, peas",30
+Golden Retriever,5,"beef, lentils, squash",45
+German Shepherd,4,"salmon, couscous, zucchini",52
+German Shepherd,3,"turkey, teff, cabbage",48
+German Shepherd,2,"chicken, oats, celery",60
+German Shepherd,5,"pork, wheat berries, carrots",55
+German Shepherd,1,"duck breast, quinoa, string beans",30
+Rottweiler,3,"ground beef, barley, broccoli",90
+Rottweiler,2,"lamb stew, potatoes, cauliflower",85
+Rottweiler,5,"chicken, amaranth, carrots",95
+Rottweiler,4,"salmon, lentils, bell peppers",93
+Rottweiler,1,"turkey, buckwheat, green beans",80
+Poodle,2,"beef, brown rice, cabbage",12
+Poodle,4,"pork, oats, celery",10
+Poodle,1,"duck, potatoes, spinach",8
+Poodle,3,"chicken, bulgur, carrots",15
+Poodle,5,"fish, quinoa, squash",13
+Siberian Husky,1,"lamb, barley, string beans",35
+Siberian Husky,5,"ground turkey, teff, broccoli",40
+Siberian Husky,3,"beef stew, lentils, zucchini",38
+Siberian Husky,2,"salmon, wheat berries, bell peppers",37
+Siberian Husky,4,"chicken, couscous, peas",39
+Pug,5,"pork, buckwheat, blueberries",16
+Pug,1,"duck, amaranth, celery",10
+Pug,4,"beef, oats, beets",14
+Pug,2,"chicken broth, potatoes, carrots",12
+Pug,3,"lamb, quinoa, spinach",13
+Yorkshire Terrier,6,"fish, brown rice, string beans",5
+Yorkshire Terrier,2,"ground beef, barley, bell peppers",3
+Yorkshire Terrier,4,"chicken thigh, bulgur, cabbage",5
+Yorkshire Terrier,1,"lamb stew, lentils, carrots",4
+Yorkshire Terrier,5,"turkey, wheat berries, squash",6
+Dachshund,3,"pork, couscous, broccoli ",15
+Dachshund,1,"salmon, amaranth, zucchini",12
+Dachshund,5,"chicken broth, teff, peas",18
+Dachshund,2,"ground lamb, potatoes, celery",14
+Dachshund,4,"beef stew, freekeh, bell peppers",16
+Shih Tzu,1,"duck breast, buckwheat, string beans",4
+Shih Tzu,3,"pork, quinoa, cabbage  ",5
+Shih Tzu,5,"chicken, oats, carrots",6
+Shih Tzu,4,"fish stew, lentils, spinach",3
+Shih Tzu,2,"beef, barley, cauliflower",8
+Chihuahua,4,"turkey, spelt, peas",3
+Chihuahua,2,"salmon, wheat berries, zucchini",2
+Chihuahua,5,"pork stew, potatoes, broccoli",4
+Chihuahua,1,"chicken soup, bulgur, celery",1
+Chihuahua,3,"lamb, couscous, beets",2
+Beagle,3,"salmon, oats, spinach",20
+Beagle,5,"pork, potatoes, brussels sprouts",22
+Beagle,1,"chicken thigh, teff, peas",15
+Beagle,4,"ground beef, buckwheat, bell peppers",18
+Beagle,2,"lamb soup, quinoa, zucchini",16
