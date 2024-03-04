@@ -69,36 +69,36 @@ const Consultant = () => {
           consultants.length > 0 && (
             <div className='consultant-details'>
               <ul>
-                {consultants.map((consultant) => (
-                  <li key={consultant.userId}>
-                    <div className='details'>
-                      <p>
-                        <strong>Business Name : </strong>{' '}
-                        {consultant.bussinessDetails?.bussinessName || 'N/A'}
-                      </p>
-                      <p>
-                        <strong>Shop Name : </strong>{' '}
-                        {consultant.bussinessDetails?.shopName || 'N/A'}
-                      </p>
-                      <p>
-                        <strong>Specialty : </strong>{' '}
-                        {consultant.bussinessDetails?.specialty || 'N/A'}
-                      </p>
-                      <p>
-                        <strong>Contact No : </strong>{' '}
-                        {consultant.bussinessDetails?.contactNo || 'N/A'}
-                      </p>
-                      <p>
-                        <strong>Address : </strong>{' '}
-                        {consultant.bussinessDetails?.address || 'N/A'}
-                      </p>
-                      <p>
-                        <strong>Email : </strong>{' '}
-                        {consultant.bussinessDetails?.emailAddress || 'N/A'}
-                      </p>
-                    </div>
-                  </li>
-                ))}
+              {consultants.map((consultant, index) => (
+  <li key={consultant.userId || `consultant-${index}`}>
+    <div className='details'>
+      <p>
+        <strong>Business Name : </strong>{' '}
+        {consultant.bussinessDetails?.bussinessName || 'N/A'}
+      </p>
+      <p>
+        <strong>Shop Name : </strong>{' '}
+        {consultant.bussinessDetails?.shopName || 'N/A'}
+      </p>
+      <p>
+        <strong>Specialty : </strong>{' '}
+        {consultant.bussinessDetails?.specialty || 'N/A'}
+      </p>
+      <p>
+        <strong>Contact No : </strong>{' '}
+        {consultant.bussinessDetails?.contactNo || 'N/A'}
+      </p>
+      <p>
+        <strong>Address : </strong>{' '}
+        {consultant.bussinessDetails?.address || 'N/A'}
+      </p>
+      <p>
+        <strong>Email : </strong>{' '}
+        {consultant.bussinessDetails?.emailAddress || 'N/A'}
+      </p>
+    </div>
+  </li>
+))}
               </ul>
             </div>
           )
