@@ -10,6 +10,7 @@ import { Services } from "../Services/Services";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Link as ScrollLink, scroller } from 'react-scroll';
+import { Element } from 'react-scroll';
 
 const textFade = keyframes`
   from {
@@ -39,10 +40,10 @@ export const Home = () => {
   return (
     <div className="all-content" >
       <Navbar />
-      <div id="home">
+      <Element>
+      <div name="home" id="home">
       <MainContent />
       <div className='text'>
-        {/* Applying the Title styled component to the entire content */}
         <Title>
           <span className='welcome_txt'>Welcome... <br /><br /></span>
           <span className='first_content' >Welcome to a <br /> world of care for </span>
@@ -55,9 +56,16 @@ export const Home = () => {
         </Title>
       </div>
       </div>
-      <Services />
-      <About/>
-      <Contact id="contact"/>
+      </Element>
+      <Element>
+        <Services name="services" id="services"/>
+      </Element>
+      <Element>
+        <About name="about"id="about"/>
+      </Element>
+      <Element>
+        <Contact name="contact"id="contact"/>
+      </Element>
       <Footer />
     </div>
   );

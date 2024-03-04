@@ -22,7 +22,7 @@ export const Navbar = () => {
 
   const scrollToSection = (section) => {
     setMenuOpen(false);
-
+  
     // Check if the current page is the home page
     if (location.pathname === '/') {
       // If it is, scroll to the section using react-scroll
@@ -31,11 +31,16 @@ export const Navbar = () => {
         delay: 0,
         smooth: 'easeInOutQuart',
       });
+  
+      // Print the current path to the console
+      console.log(`Navigating to section '${section}' on the home page`);
     } else {
       // If it's not, navigate to the home page and append the section as a hash
-      window.location.href = '/';
+      window.location.href = `/#${section}`;
+      console.log(`Navigating to home page and appending section '${section}' as a hash`);
     }
   };
+  
 
   const handleSetActive = (to) => {
     setActiveSection(to);
