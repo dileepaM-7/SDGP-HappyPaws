@@ -4,6 +4,12 @@
   height: 100%;
 
 }
+.Exercise-allPage{
+  background-color: #C6DEF1;
+  width: 100%;
+  height: 100%;
+
+}
 
 .exercise-container {
   position: relative;
@@ -49,7 +55,7 @@ animation: slideInLeft 1s ease-in-out;
   position: relative;
   font-weight: 800;
   top: 140px;
-  left: 40%;
+  left: 30%;
   color: rgb(78, 71, 149);
   animation: fadeInRight 1s ease-in-out;
   
@@ -69,7 +75,7 @@ animation: slideInLeft 1s ease-in-out;
   position: relative;
   font-weight: 800;
   top: 75px;
-  left: 63%;
+  left: 20%;
   animation: fadeInRight 1s ease-in-out;
 }
 .Exercise-text5{
@@ -401,3 +407,4 @@ grid-gap:1.5em ;
     transform: translateY(0);
   }
 }
+

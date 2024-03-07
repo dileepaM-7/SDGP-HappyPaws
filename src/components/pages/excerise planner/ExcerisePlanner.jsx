@@ -10,13 +10,15 @@ import WeightSymbolGreen from '../../../assets/WeightSymbol.png'
 import WeightSymbolRed from '../../../assets/WeightOver.png'
 import WeightSymbolOrange from '../../../assets/WeightLower.png'
 import WoofImage from '../../../assets/Woof.png'
+import InputData from './inputData/inputData';
 
 
 const ExcerisePlanner = () => {
   return (
     <div className='excerise-all'>
       <Navbar/>
-      <div>
+      
+      <div className='Exercise-allPage'>
        <span className='Exercise-text1'>Get Your Exercise Planner</span> 
       <span className='Exercise-text2'>Let's Make Your Furry Friends</span><br/>
       <span className='Exercise-text3'>Healthy</span><br/>
@@ -54,11 +56,10 @@ const ExcerisePlanner = () => {
         <img src={ExerciseDogImage2} alt="" className='ExerciseDogImage2' />
         <img src= {exerciseDogImage3} alt="" className='ExerciseDogImage3'/>
         <img src={WoofImage} alt="" className='WoofImage' />
-      </div>
-      </div>
-
-
-    <div className='Exercise-card-Adult'>
+     
+      
+      {/*
+      <div className='Exercise-card-Adult'>
       <div className='Exercise-card1'>
         <img src={exerciseCardImage1} alt="" className='ExerciseCardDogImage2' />
         <div className='ExerciseCard-info'>
@@ -92,10 +93,10 @@ const ExcerisePlanner = () => {
         <button className='Exercise-ViewmoreButton'>View More</button>
           </div>
       </div>
-    </div>
+      </div>
 
 
-    <div className='Exercise-card-Adult'>
+      <div className='Exercise-card-Adult'>
       <div className='Exercise-card1'>
         <img src={exerciseCardImage1} alt="" className='ExerciseCardDogImage2' />
         <div className='ExerciseCard-info'>
@@ -129,10 +130,12 @@ const ExcerisePlanner = () => {
         <button className='Exercise-ViewmoreButton'>View More</button>
           </div>
       </div>
-    </div>
+      </div>*/}
+    <InputData/>
+    
+      </div>
 
-
-
+</div>
     </div>   
   )
 }
