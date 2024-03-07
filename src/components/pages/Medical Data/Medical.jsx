@@ -52,22 +52,22 @@ const Medical = () => {
 
 
   return (
-    <div className="App">
+    <div className="App-mdeical">
     <Navbar />
     <div className="pet-background">
       <div className="medical-details">
-        <h2>Medical Details</h2>
+        <h2 className='medical-h2' >Medical Details</h2>
         <div className="note-container">
           {notes.map((note) => (
             <div key={note.id} className="note">
               {editingNote.id === note.id ? (
                 <>
-                  <textarea
+                  <textarea className='input-medical-details'
                     value={editingNote.content}
                     onChange={(e) => setEditingNote({ ...editingNote, content: e.target.value })}
                   />
-                  <button onClick={handleCancelEdit}>Cancel</button>
-                  <button onClick={() => {
+                  <button className='cancel-btn-edit' onClick={handleCancelEdit}>Cancel</button>
+                  <button className='cancel-btn-edit' onClick={() => {
                     setNotes(notes.map((n) => (n.id === editingNote.id ? { ...n, content: editingNote.content } : n)));
                     setEditingNote({ id: null, content: '' });
                   }}>Save</button>
@@ -76,26 +76,26 @@ const Medical = () => {
                 <>
                   <div className="note-content">{note.content}</div>
                   <div className="note-actions">
-                    <button onClick={() => handleNoteEdit(note.id, note.content)}>Edit</button>
-                    <button onClick={() => handleNoteDelete(note.id)}>Delete</button>
+                    <button className='cancel-btn-edit' onClick={() => handleNoteEdit(note.id, note.content)}>Edit</button>
+                    <button className='cancel-btn-edit' onClick={() => handleNoteDelete(note.id)}>Delete</button>
                   </div>
                 </>
               )}
             </div>
           ))}
           <div className="note">
-            <textarea onBlur={(e) => handleNoteSave(e.target.value, Date.now())} />
+            <textarea className='input-medical-details' onBlur={(e) => handleNoteSave(e.target.value, Date.now())} />
           </div>
         </div>
       </div>
       <div className="pdf-upload">
-        <h2>Upload PDF</h2>
+        <h2 className='medical-h2' >Upload PDF</h2>
         <div className='pdf-content'>
-          <input type="file" onChange={handlePdfUpload} />
-          {pdfs.map((pdf) => (
+          <input className='input-medical-details' type="file" onChange={handlePdfUpload} />
+          { pdfs.map((pdf) => (
             <div key={pdf.id}>
               <embed src={pdf.url} type="application/pdf" width="100%" height="400px" />
-              <button onClick={() => handlePdfDelete(pdf.id)}>Delete</button>
+              <button className='cancel-btn-edit' onClick={() => handlePdfDelete(pdf.id)}>Delete</button>
             </div>
           ))}
         </div>  

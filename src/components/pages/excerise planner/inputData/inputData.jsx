@@ -2,11 +2,13 @@ import React from 'react'
 import './inputData.css'
 import { Navbar } from '../../../NavigationBar/Navbar'
 import arrow from '../../../../assets/arrow.png'
-import ExerciseCardImage1 from '../../../../assets/ExerciseCard1.png'
+// import ExerciseCardImage1 from '../../../../assets/ExerciseCard1.png'
 import TinyDog1 from '../../../../assets/tinyDog1.jpg'
 import ActiveDogBreed1 from '../../../../assets/ActiveDogBreed1.gif'
 import backgroundex from '../../../../assets/BackgroundTiny.avif'
+
 const InputData = () => {
+
   return (
     <div className='InputData-Cardall'id='InputData'>
       <div className='Input-header'>
@@ -46,7 +48,6 @@ const InputData = () => {
           <div className='Exe-Join-Now2'>
             <span>Join Now</span>
             <img src={arrow}alt="" className='arrow-input' />
-
           </div>
         </div>
         <div className='breed-card3'> 
@@ -79,8 +80,6 @@ const InputData = () => {
             <img src={arrow}alt="" className='arrow-input5' />
           </div>
         </div>
-        
-     
       </div>
       
       <br/> <br/> <br/> 
@@ -102,9 +101,7 @@ const InputData = () => {
           7+ years: Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p>
       </div>
       </div> 
-
     </div>
-
   )
 }
 export default InputData;

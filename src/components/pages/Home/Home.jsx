@@ -43,7 +43,7 @@ export const Home = () => {
       <Element>
       <div name="home" id="home">
       <MainContent />
-      <div className='text'>
+      <div className='text-main'>
         <Title>
           <span className='welcome_txt'>Welcome... <br /><br /></span>
           <span className='first_content' >Welcome to a <br /> world of care for </span>
