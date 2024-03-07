@@ -74,8 +74,8 @@
 }
 .meal-genarate-btn{
     position: absolute;
-    left: 47%;
-    top: 43%;
+    left: 46%;
+    top: 48%;
     border-radius: 20px;
 }
 .main{
@@ -94,7 +94,7 @@
 }
 .meal-data-input{
     position: absolute;
-    top: 25%;
+    top: 28%;
     left: 35%;
     display: grid;
 }
@@ -104,7 +104,7 @@
 }
 .mealitems{
     position: absolute;
-    top: 53%;
+    top: 58%;
     left: 32%;
     width: 500px;
     height: 300px;

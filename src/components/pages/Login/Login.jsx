@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-//import { useHistory } from 'react-router-dom';
 import MainContent from '../../MainContent/MainContent';
-import { Navbar } from '../../NavigationBar/Navbar';
+import googleImg from '../../../assets/google.png';
 import './Login.css';
 import { Link } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../../../firebase-config';
-import { getDatabase, ref, child, get, set } from 'firebase/database';
+import { auth, provider } from '../../../firebase-config';
+import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
+
 const Login = () => {
   
   const [email, setEmail] = useState('');
@@ -51,13 +51,32 @@ const Login = () => {
       }
     }
   };
-  
-  
+
+  const handleGoogleSignIn = async () => {
+    const provider = new GoogleAuthProvider();
+
+    try {
+      const result = await signInWithPopup(auth, provider);
+      const googleUser = result.user;
+
+      // Check if the Google email is registered
+      const existingUser = await getUserByEmail(googleUser.email);
+
+      if (existingUser) {
+        // If registered, log in user
+        // Perform the necessary actions to handle the login, e.g., redirect to home page
+        console.log('User logged in:', existingUser);
+      } else {
+        // If not registered, handle as needed (show error, redirect, etc.)
+        setError('This email is not registered. Please sign up first.');
+      }
+    } catch (error) {
+      setError('Google Sign-In failed. Please try again.');
+    }
+  };
   return (
     <div className="login-container">
-      
       <MainContent className="main-content" />
-
       <div className="login-form-content">
         <h3>Enter your Credentials</h3>
         <form onSubmit={handleFormSubmit}>
@@ -94,6 +113,9 @@ const Login = () => {
         <Link to="/Register">
           <h6 className='create-account-link'>- Create an account -</h6>
         </Link>
+        <button className='google-btn' onClick={handleGoogleSignIn}>
+          <img src={googleImg} alt='' className='google-image' />Sign in with Google
+        </button>
       </div>
     </div>
   );
