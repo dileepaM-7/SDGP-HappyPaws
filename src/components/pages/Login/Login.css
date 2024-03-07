@@ -43,7 +43,7 @@ position: absolute;
 .login-btn{
     position: absolute;
     top: 260px;
-    left: 36%;
+    left: 55%;
     background-color: #3431c7;
     border-radius: 70px;
     width: 25%;
@@ -63,6 +63,14 @@ position: absolute;
     position: absolute;
     left: 27%;
     top: 8%;
+}
+.google-btn{
+    position: absolute;
+    top: 260px;
+    left: 18%;
+    background-color: #3431c7;
+    border-radius: 70px;
+    width: 30%;
 }
 h6{
     position: absolute;

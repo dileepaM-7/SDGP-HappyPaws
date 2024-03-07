@@ -49,8 +49,8 @@
 }
 .reg-btn{
     position: absolute;
-    top: 80%;
-    left: 60%;
+    top: 75%;
+    left: 55%;
     background-color: #3431c7;
     border-radius: 70px;
     width: 25%;
@@ -71,20 +71,20 @@
     top:30%;
     left: 9%;
 }
-.google-btn{
-    position: absolute;
-    top: 80%;
-    left: 20%;
-    background-color: #3431c7;
-    border-radius: 70px;
-    width: 30%;
-}
 .error-message{
     position: absolute;
     top: 73%;
     left: 63%;
     font-size: x-small;
     color: #ff0000;
+}
+.google-btn-reg{
+    position: absolute;
+    top: 75%;
+    left: 18%;
+    background-color: #3431c7;
+    border-radius: 70px;
+    width: 30%;
 }
 @media only screen and (max-width: 2000px){
     .form-content{

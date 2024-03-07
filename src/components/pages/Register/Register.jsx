@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import './Register.css';
 import MainContent from '../../MainContent/MainContent';
 import { Link } from 'react-router-dom';
-import googleImg from '../../../assets/google.png';
-import { createUserWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
+import { createUserWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth';
+import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 import { auth } from '../../../firebase-config';
 import { useNavigate } from 'react-router-dom';
+import googleImg from '../../../assets/google.png';
 
 const Register = () => {
   const [user, setUser] = useState({
@@ -30,8 +31,7 @@ const Register = () => {
     setUser((prevUser) => ({ ...prevUser, [e.target.name]: e.target.value }));
   };
 
-  const saveData = async (e) => {
-    e.preventDefault();
+  const saveData = async () => {
     const { Name, Email } = user;
 
     try {
@@ -67,6 +67,55 @@ const Register = () => {
     }
   };
 
+  const handleGoogleSignIn = async () => {
+    const provider = new GoogleAuthProvider();
+  
+    try {
+      const result = await signInWithPopup(auth, provider);
+      const googleUser = result.user;
+  
+      // Check if the Google email is already registered
+      const existingUser = await getUserByEmail(googleUser.email);
+  
+      if (!existingUser) {
+        // If not registered, proceed with Google Sign-In, user authentication, and data saving
+        await registerAuthentication(googleUser.email, ''); // No password for Google Sign-In
+        await saveData();
+        navigate('/selectUser');
+      } else {
+        // If already registered, handle as needed (show error, redirect, etc.)
+        setError('This email is already registered. Please use a different email or log in.');
+      }
+    } catch (error) {
+      setError('Google Sign-In failed. Please try again.');
+    }
+  };
+  
+  const getUserByEmail = async (email) => {
+    try {
+      const response = await fetch(
+        `https://happypaws-authentication-default-rtdb.asia-southeast1.firebasedatabase.app/UserData.json?orderBy="Email"&equalTo="${email}"`
+      );
+  
+      if (!response.ok) {
+        throw new Error('Failed to fetch user data.');
+      }
+  
+      const data = await response.json();
+  
+      if (data) {
+        // Convert object to array and return the first entry
+        const users = Object.entries(data);
+        return users.length > 0 ? users[0][1] : null;
+      }
+  
+      return null;
+    } catch (error) {
+      console.error('Error fetching user data:', error);
+      return null;
+    }
+  };
+  
   const register = async (event) => {
     event.preventDefault();
 
@@ -84,10 +133,8 @@ const Register = () => {
     try {
       // Call registerAuthentication and wait for it to complete
       await registerAuthentication(user.Email, password);
-
       // If registration is successful, save user data
       await saveData(event);
-
       // Navigate only after both registration and data saving are successful
       navigate('/selectUser');
     } catch (error) {
@@ -155,8 +202,8 @@ const Register = () => {
         </form>
         <Link to='/Login'>
           <h6 className='log-label'>- Already have an account -</h6>
-        </Link>
-        <button className='google-btn'>
+        </Link> 
+        <button className='google-btn-reg' onClick={handleGoogleSignIn}>
           <img src={googleImg} alt='' className='google-image' /> Sign with google
         </button>
       </div>
