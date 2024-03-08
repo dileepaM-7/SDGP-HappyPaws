@@ -85,7 +85,7 @@
         font-weight: 300;
         word-wrap: break-word;
     }
-    .text{
+    .text-main{
         position: absolute;
         left: 150px;
         top: 230px;
@@ -120,14 +120,14 @@
     }
 }
 @media only screen and (max-width: 1000px){
-    .text{
+    .text-main{
         font-size: 40%;
         left: 15%;
     }
   }
 
   @media only screen and (max-width: 2000px){
-    .text{
+    .text-main{
         position: absolute;
         font-size: 100%;
         left: 19%;

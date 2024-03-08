@@ -67,7 +67,6 @@ const Profile = () => {
 
   return (
     <div>
-
       <h2>My Profile</h2>
       <div>
         {/* Update property name from 'username' to 'Name' */}
@@ -76,7 +75,6 @@ const Profile = () => {
         <p>User Age: {userData?.Age}</p>
         <p>User ID: {auth.currentUser?.uid}</p>
       </div>
-
       <div className='userprofilein'>
         <div className='left'>
           <UserSidebar activepage={activepage}/>
