@@ -1,8 +1,6 @@
 import React , {useState, useMemo, useCallback, useContext} from "react";
 import './PetProfiles.css'
 
-
-
 const PetProfiles = () => {
     return(
         <div className="accountsettings">

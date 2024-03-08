@@ -1,20 +1,13 @@
-.InputData-Cardall{
-    background-color: #C6DEF1;
-    width: 1400px;
-    height: 100%;
-    position: relative;
-    left: -399px;
-    z-index: 0;    
-}
 .Input-header{
     display: flex;
     gap: 5rem;
     font-weight: bold;
     font-size: 2rem;
     justify-content: center;
-    color: aliceblue;
+    color: rgb(53, 54, 55);
     text-transform: uppercase;
     font-style: italic;
+    margin-bottom: 1rem;
     
     
 }
@@ -30,8 +23,10 @@
      1px 1px 0 #000;
 }
 .breed-card{
-display: flex;
-gap: 2rem;
+    position: absolute;
+    left: -40%;
+    display: flex;
+    gap: 3rem;
 }
 
 .ExerciseCardImage1{
@@ -43,6 +38,7 @@ gap: 2rem;
 .breed-card1 {
     position: relative;
     padding-left:  100% ;
+    height: 320px;
     display: flex;
     flex-direction: column;
     padding: 0.1rem;
@@ -55,7 +51,10 @@ gap: 2rem;
     transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
     
 }
-
+.card-header1{
+    margin-top: 0.5rem;
+    text-align: center;
+}
 .Exe-Join-Now {
     position: relative;
     top: 0;
@@ -89,7 +88,7 @@ gap: 2rem;
     font-family:Arial, Helvetica, sans-serif;
 }
 .dogsBreedsText{
-    text-align: left;
+    text-align: center;
     color: rgb(73, 80, 81);
     
 }
@@ -348,4 +347,11 @@ line-height: 1.5; /* Increase line height for better readability */
 .TinybreedExercises-header{
 font-weight: bold; /* Make topic spans bold */
 color: #07226b; /* Dark blue color for topic spans */
+}
+.inputBottom{
+    position: absolute;
+    left: -35%;
+    top: 250%;
+    width: 1300px;
+    height: 400px;
 }

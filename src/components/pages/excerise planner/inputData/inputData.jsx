@@ -12,35 +12,27 @@ const InputData = () => {
   return (
     <div className='InputData-Cardall'id='InputData'>
       <div className='Input-header'>
-        <span className='stroke-text'>Find </span>
-        <span>best match</span>
-        <span className='stroke-text'>Exercise Plan</span>
+        Choose Your Pet Category <br />
       </div>
-
       <div className='breed-card'>
         <div className='breed-card1'> 
-          
-          <span className='card-header1'>Tiny Dog Breeds:</span>
+          <span className='card-header1'>Tiny Dog Breeds</span>
           <span className='dogsBreedsText'>Chihuahua<br/>
                                           Pomeranian<br/>
                                           Yorkshire Terrier<br/>
                                           Shih Tzu<br/>
-                                          Maltese</span>
-                                
-          <span></span>
+          </span>
           <div className='Exe-Join-Now'>
-          
             <div className='ExerciseMoreInfo'>  
-            <span className='JoinNowText'>Join Now
+            <span className='JoinNowText'>Get Now
             <img src={arrow}alt="" className='arrow-input' />
             </span>
-            
             </div>
           </div>
         </div>
 
         <div className='breed-card2'> 
-          <span className='card-header1'>Active Dog Breeds:</span>
+          <span className='card-header1'>Active Dog Breeds</span>
           <span className='dogsBreedsText'>Labrador Retriever<br/>
           Terrier<br/>
           Golden Retriever</span>
@@ -51,7 +43,7 @@ const InputData = () => {
           </div>
         </div>
         <div className='breed-card3'> 
-          <span className='card-header1'>Low-Shedding Dog Breeds:</span>
+          <span className='card-header1'>Low-Shedding Dog Breeds</span>
           <span className='dogsBreedsText1'>Shih Tzu<br/>
             Poddle</span>
           <span></span>
@@ -61,7 +53,7 @@ const InputData = () => {
           </div>
         </div>
         <div className='breed-card4'> 
-          <span className='card-header1'>Large Dog Breeds:
+          <span className='card-header1'>Large Dog Breeds
           </span>
           <span className='dogsBreedsText1'>details</span>
           <span></span>
@@ -71,7 +63,7 @@ const InputData = () => {
           </div>
         </div>
         <div className='breed-card5'> 
-          <span className='card-header1'>Apartment-Friendly <br/>Dog Breeds:
+          <span className='card-header1'>Apartment-Friendly <br/>Dog Breeds
           </span>
           <span className='dogsBreedsText1'>details</span>
           <span></span>
@@ -85,7 +77,7 @@ const InputData = () => {
       <br/> <br/> <br/> 
       <div className='inputBottom'>
         <div className='TinybreedExercises'>
-        <span className='TinybreedExercises-header'>1. Exercise for Tiny Dog Breeds: </span><br/>
+        <span className='TinybreedExercises-header'>Exercise for Tiny Dog Breeds</span><br/>
         <span className='TinybreedExercises-topic1'>Lower Weight:</span>
         <p className='ExercisePara'>
           <span className='extopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
@@ -100,7 +92,7 @@ const InputData = () => {
           1-7 years: Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled indoor activities.<br/>
           7+ years: Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p>
       </div>
-      </div> 
+      </div>
     </div>
   )
 }
