@@ -6,26 +6,43 @@ function Meals() {
   const [breed, setBreed] = useState('');
   const [age, setAge] = useState('');
   const [weight, setWeight] = useState('');
+  const [data, setData] = useState([{}]);
+  const [prediction, setPrediction] = useState(null);
 
   useEffect(() => {
-    // Your useEffect logic here
+    
   }, []);
 
-  const handleGenerateClick = () => {
+  const handleGenerateClick = async () => {
     // Validate age and weight
-    if (isNaN(age) || age <= 0) {
-      alert('Please enter a valid age.');
-      return;
+    if (isNaN(age) || age <= 0 || isNaN(weight) || weight <= 0) {
+        alert('Please enter valid age and weight.');
+        return;
     }
 
-    if (isNaN(weight) || weight <= 0) {
-      alert('Please enter a valid weight.');
-      return;
-    }
+    try {
+      const response = await fetch('http://127.0.0.1:5000/predict', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ breed, age, weight }),
+        });
 
-    // Continue with the logic for generating recommendations
-    console.log('Generating recommendations for:', breed, age, weight);
-  };
+        if (!response.ok) {
+            throw new Error('Failed to fetch prediction');
+        }
+
+        const result = await response.json();
+        console.log('Prediction:', result.prediction);
+
+        // Set the prediction in the state
+        setPrediction(result.prediction);
+
+    } catch (error) {
+        console.error('Error:', error.message);
+    }
+};
 
   return (
     <div className='main'>
@@ -33,7 +50,6 @@ function Meals() {
       <div className='heading'>
         <h2 className='meal-suggestion-head'>Meal Suggestion</h2>
         <div className='container1'>
-          {/* Your video element */}
         </div>
         <div className='meal-description'>
           <h4>Enter Your Pet details to get unique Food recommendations!</h4>
@@ -67,26 +83,17 @@ function Meals() {
       <button className='meal-genarate-btn' onClick={handleGenerateClick}>
         Generate
       </button>
-      
-      <div className='mealitems'> 
-        <p >Suggestions</p>
-        <ul>
-          <li>
-            item 1
-          </li>
-          <li>
-            item 2
-          </li>
-          <li>
-            item 3
-          </li>
-          <li>
-            item 4
-          </li>
-        </ul>
-      </div>
+      {prediction && (
+  <div className='mealitems'> 
+    <p>Predicted Preferred Foods</p>
+    <ul className='predicted-food-list'>
+      {prediction.split(', ').map((food, index) => (
+        <li key={index}>{food}</li>
+      ))}
+    </ul>
+  </div>
+)}
     </div>
   );
 }
-
 export default Meals;

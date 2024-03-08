@@ -102,17 +102,6 @@
     margin: 10px;
 
 }
-.mealitems{
-    position: absolute;
-    top: 58%;
-    left: 32%;
-    width: 500px;
-    height: 300px;
-    text-align: center;
-    background-color: #2b3440;
-    border-radius: 50px;
-    color: #fff;
-}
 .mealitems p{
     margin-top: 10px;
 }
@@ -120,3 +109,35 @@
     margin-top: 30px;
     text-decoration: dotted;
 }
+.mealitems{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 58%;
+    left: 32%;
+    width: 500px;
+    height: 300px;
+    
+    background-color: #2b3440;
+    border-radius: 50px;
+    color: #fff;
+    justify-content: center;
+}
+.predicted-food-list {
+    list-style: inside;
+    list-style-type: square;
+    text-align: left;
+  }
+  .predicted-food-list li {
+    color: #000;
+    background-color: #ffffffd4;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(60, 165, 231, 0.737);
+    transition: background-color 0.3s ease;
+  }
