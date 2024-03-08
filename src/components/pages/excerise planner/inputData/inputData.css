@@ -6,9 +6,16 @@
     justify-content: center;
     color: rgb(53, 54, 55);
     text-transform: uppercase;
-    font-style: italic;
-    margin-bottom: 1rem;
+    font-style:italic;
+    margin-bottom: 1rem; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.inputBottom{
+    width: 100%;
+    height: 100%;
     
+   
+    background-color: #C6DEF1;
     
 }
 .stroke-text{
@@ -24,7 +31,7 @@
 }
 .breed-card{
     position: absolute;
-    left: -40%;
+    left: 2%;
     display: flex;
     gap: 3rem;
 }
@@ -38,7 +45,7 @@
 .breed-card1 {
     position: relative;
     padding-left:  100% ;
-    height: 320px;
+    height: 287px;
     display: flex;
     flex-direction: column;
     padding: 0.1rem;
@@ -57,10 +64,10 @@
 }
 .Exe-Join-Now {
     position: relative;
-    top: 0;
+    top: 10px;
     left: 0;
     width: 200px;
-    height: 110px;
+    height: 120px;
     z-index: 0;
     background-image: url('../../../../assets/TinyDoganimation.gif');
     background-size: cover;
@@ -216,7 +223,7 @@
 }
 .Exe-Join-Now4 {
     position: relative;
-    top: 20%;
+    top: 22%;
     left: 0;
     width: 200px;
     height: 125px;
@@ -262,7 +269,7 @@
     }
     .Exe-Join-Now5 {
         position: relative;
-        top: 11%;
+        top: 15%;
         left: 0px;
         width: 200px;
         height: 130px;
@@ -308,15 +315,28 @@
 
 
 .TinybreedExercises {
+
 background-image: url('../../../../assets/BackgroundTiny.avif');
 width: 88%; 
-height: 122%;  /* Add background image */
+height: 500px;  /* Add background image */
 background-size: cover; /* Cover the entire element with the background image */
 background-position: center; /* Center the background image */
 padding: 0px; /* Add padding for spacing */
 border-radius: 20px; /* Add rounded corners */
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 color: #fff; /* Set text color to white for better contrast */
+margin-bottom: 30px;
+
+}
+.CardOfTiny{
+    position:relative;
+    left: 600px;
+}
+.CardOfLeftSide{
+    position: relative;
+    left: 700px;
+    margin-left: 0px;
+    
 }
 
 .TinybreedExercises-header {
@@ -328,25 +348,34 @@ padding-left: 9%;
 }
 .ExercisePara{
 text-align:left;
-padding-left: 40%;
+padding-left: 35%;
 }
 .TinybreedExercises-topic1 {
 font-weight: bold;
 color: #ff2e2e; /* Red color for topic */
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+padding-right:210px ;
+position: relative;
 }
 .extopic2{
+margin-bottom: 10px;
 font-weight: bold;
 color: #000000;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .TinybreedExercises p {
 color: #333; /* Dark text color */
 line-height: 1.5; /* Increase line height for better readability */
+font-family: 'Times New Roman', Times, serif;
 }
+
 
 .TinybreedExercises-header{
 font-weight: bold; /* Make topic spans bold */
-color: #07226b; /* Dark blue color for topic spans */
+color: #07226b;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Dark blue color for topic spans */
 }
 .inputBottom{
     position: absolute;
@@ -355,3 +384,164 @@ color: #07226b; /* Dark blue color for topic spans */
     width: 1300px;
     height: 400px;
 }
+.linkToIndoorGames{
+    font-weight: bold;
+}
+
+/*Active Dog Exercises*/
+.ActivebreedExercises {
+    background-image: url('../../../../assets/ActiveDogBackground.avif');
+    width: 80%; 
+    height: 500px;  /* Add background image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+    padding: 0px; /* Add padding for spacing */
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    color: #fff; /* Set text color to white for better contrast */
+    margin-bottom: 20px;
+}
+    .ActivebreedExercises-header {
+        font-size: 1.5rem; /* Increase header font size */
+        font-weight: bolder;
+        color: #07226b; /* Dark blue color for header */
+        text-transform: uppercase;
+        padding-right: 500px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+   
+        .ActiveExercisePara{
+            text-align:left;
+            padding-left: 1%;
+            color: #000;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 10px;
+        }
+        .Activeextopic2{
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #000000;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .ActiveExercisePara span{
+            margin-left:20px ;
+        }
+        .ActivebreedExercises-topic1 {
+            font-weight: bold;
+            color: #ff2e2e; /* Red color for topic */
+            font-family:sans-serif;
+            font-size: large;
+            padding-right:850px ;
+            position: relative;
+
+            }
+
+
+/*ShaddeingDogs CSS*/
+.ShadingbreedExercises {
+background-image: url('../../../../assets/SheddingDogBackground.jpeg');
+width: 89%; 
+height: 600px;  /* Add background image */
+background-size: cover; /* Cover the entire element with the background image */
+background-position: center; /* Center the background image */
+padding: 0px; /* Add padding for spacing */
+border-radius: 20px; /* Add rounded corners */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+color: #fff; /* Set text color to white for better contrast */
+margin-bottom: 30px;
+}
+
+.SheddingbreedExercises-header {
+font-size: 1.5rem; /* Increase header font size */
+font-weight: bold;
+color: #07226b; /* Dark blue color for header */
+text-transform: uppercase;
+padding-left: 4%;
+font-weight: bold; /* Make topic spans bold */
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Dark blue color for topic spans */
+
+}
+.SheddingExercisePara{
+    text-align:left;
+    padding-left: 11%;
+    color: #333; /* Dark text color */
+line-height: 1.5; /* Increase line height for better readability */
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+color: #09022b;
+margin-bottom: 10px; 
+}
+.SheddingbreedExercises-topic1{
+font-weight: bold;
+color: #ff2e2e; /* Red color for topic */
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+padding-right:800px ;
+position: relative;
+}
+.Sheddingextopic2{
+font-weight: bold;
+color: #012e83;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/*LargeDog Breeds css*/
+.LargebreedExercises {
+    background-image: url('../../../../assets/HuskyBackground.jpg');
+    width: 80%; 
+    height: 600px;  /* Add background image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+    padding: 0px; /* Add padding for spacing */
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    color: #fff; /* Set text color to white for better contrast */
+    margin-bottom: 30px;
+    }
+    
+    
+    .TinybreedExercises-header {
+    font-size: 1.5rem; /* Increase header font size */
+    font-weight: bold;
+    color: #07226b; /* Dark blue color for header */
+    text-transform: uppercase;
+    padding-left: 9%;
+    }
+
+    /*colorcode-*/
+
+    .ApartmentbreedExercises {
+        background-image: url('../../../../assets/ApartmentDogBackground.avif');
+        width: 85%; 
+        height: 600px;  /* Add background image */
+        background-size: cover; /* Cover the entire element with the background image */
+        background-position: center; /* Center the background image */
+        padding: 0px; /* Add padding for spacing */
+        border-radius: 20px; /* Add rounded corners */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+        color: #fff; /* Set text color to white for better contrast */
+        margin-bottom: 30px;
+        }
+        
+        .TinybreedExercises-header {
+        font-size: 1.5rem; /* Increase header font size */
+        font-weight: bold;
+        color: #07226b; /* Dark blue color for header */
+        text-transform: uppercase;
+        padding-left: 9%;
+        }
+        .Apartmentextopic2{
+            font-weight: bold;
+            color: #000000;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .ApartmentExercisePara{
+            text-align:left;
+            padding-left: 35%;
+            color: #0b0101; /* Dark text color */
+            line-height: 1.5; /* Increase line height for better readability */
+            font-family: 'Times New Roman', Times, serif;
+
+        }

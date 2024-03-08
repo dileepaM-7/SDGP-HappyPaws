@@ -74,26 +74,116 @@ const InputData = () => {
         </div>
       </div>
       
-      <br/> <br/> <br/> 
+      <br/> 
       <div className='inputBottom'>
+        <div className='CardOfTiny'>
         <div className='TinybreedExercises'>
-        <span className='TinybreedExercises-header'>Exercise for Tiny Dog Breeds</span><br/>
-        <span className='TinybreedExercises-topic1'>Lower Weight:</span>
-        <p className='ExercisePara'>
-          <span className='extopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
+          <span className='TinybreedExercises-header'>Exercise for Tiny Dog Breeds</span><br/><br/>
+          <span className='TinybreedExercises-topic1'>Lower-Weight:</span>
+          <p className='ExercisePara'>
+          <span className='extopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, <a href='' className='linkToIndoorGames'>indoor play sessions</a> with toys.<br/>
           <span className='extopic2'>1-7 years:</span> Moderate walks (15-20 minutes) 2-3 times a day, interactive indoor games.<br/>
-         <span className='extopic2'> 7+ years:</span> Short walks (10-15 minutes) 1-2 times a day, gentle indoor exercises like stretching and light play.</p>
-          <span className='TinybreedExercises-topic1'>Normal Weight: </span><br/>
-          <p className='ExercisePara'>Up to 1 year: Moderate walks (15-20 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
-          1-7 years: Regular walks (20-30 minutes) 2-3 times a day, interactive indoor games.<br/>
-          7+ years: Moderate walks (15-20 minutes) 1-2 times a day, light indoor exercises like gentle fetch.</p>
-          <span className='TinybreedExercises-topic1'>Overweight: </span><br/>
-          <p className='ExercisePara'>Up to 1 year: Controlled walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
-          1-7 years: Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled indoor activities.<br/>
-          7+ years: Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p>
+          <span className='extopic2'> 7+ years:</span> Short walks (10-15 minutes) 1-2 times a day, gentle indoor exercises like stretching and light play.</p><br/>
+          <span className='TinybreedExercises-topic1'>Normal-Weight: </span><br/>
+          <p className='ExercisePara'><span className='extopic2'>Up to 1 year:</span> Moderate walks (15-20 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
+          <span className='extopic2'>1-7 years:</span> Regular walks (20-30 minutes) 2-3 times a day, interactive indoor games.<br/>
+          <span className='extopic2'>7+ years: </span>Moderate walks (15-20 minutes) 1-2 times a day, light indoor exercises like gentle fetch.</p><br/>
+          <span className='TinybreedExercises-topic1'>Over-Weight: </span><br/>
+          <p className='ExercisePara'><span className='extopic2'>Up to 1 year:</span> Controlled walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
+          <span className='extopic2'>1-7 years:</span> Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled indoor activities.<br/>
+          <span className='extopic2'>7+ years:</span> Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p>
+          </div>
+        </div>
+        
+        <div className='CardOfLeftSide'>
+        <div className='ActivebreedExercises'><br/>
+          <span className='ActivebreedExercises-header'>Exercise for Active Dog Breeds</span><br/><br/><br/>
+          <span className='ActivebreedExercises-topic1'>Lower Weight:</span>
+          <p className='ActiveExercisePara'>
+          <span className='Activeextopic2'>Up to 1 year: </span> Supervised play in a safe environment, short walks (15-20 minutes) 3-4 times a day.<br/>
+          <span className='extopic2'>1-7 years:</span> Regular walks (30-45 minutes) 2-3 times a day, agility training,fun activities.<br/>
+          <span className='extopic2'> 7+ years:</span> Moderate walks (20-30 minutes) 1-2 times a day, mentally stimulating activities, low-impact exercises.</p><br/>
+          <span className='ActivebreedExercises-topic1'>Normal Weight: </span><br/>
+          <p className='ActiveExercisePara'>
+          <span className='extopic2'>Up to 1 year:</span> Structured play sessions, longer walks (20-30 minutes) 3-4 times a day.<br/>
+          <span className='extopic2'>1-7 years:</span> Brisk walks (45-60 minutes) 2-3 times a day, obedience training, fetch, agility.<br/>
+          <span className='extopic2'>7+ years:</span> Longer walks (30-45 minutes) 1-2 times a day, swimming, brain games, moderate agility.</p><br/>
+          <span className='ActivebreedExercises-topic1'>Over Weight: </span><br/>
+          <p className='ActiveExercisePara'>
+          <span className='extopic2'>Up to 1 year:</span> Structured play sessions, controlled walks (15-20 minutes) 3-4 times a day.<br/>
+          <span className='extopic2'>1-7 years:</span> Progressive increase in walk time (20-30 minutes) Weight management exercises are performed 2-3 times a day, as is controlled agility.<br/>
+          <span className='extopic2'>7+ years:</span> Low-impact walks (20-30 minutes) 1-2 times a day, swimming, joint-friendly exercises, portion-controlled diet.</p>
+          </div>
+        </div>
+
+
+        <div className='CardOfTiny'>
+        <div className='ShadingbreedExercises'>
+        <span className='SheddingbreedExercises-header'>Exercise for Tiny Dog Breeds</span><br/><br/><br/>
+          <span className='SheddingbreedExercises-topic1'>Lower-Weight:</span>
+          <p className='SheddingExercisePara'>
+          <span className='Sheddingextopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, <a href='' className='linkToIndoorGames'>indoor play sessions</a> with toys.<br/>
+          <span className='Sheddingextopic2'>1-7 years:</span> Moderate walks (15-20 minutes) 2-3 times a day, interactive indoor games.<br/>
+          <span className='Sheddingextopic2'> 7+ years:</span> Short walks (10-15 minutes) 1-2 times a day, gentle indoor exercises like stretching and light play.</p><br/><br/>
+          <span className='SheddingbreedExercises-topic1'>Normal-Weight: </span><br/>
+          <p className='SheddingExercisePara'>
+          <span className='Sheddingextopic2'>Up to 1 year:</span> Moderate walks (15-20 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
+          <span className='Sheddingextopic2'>1-7 years:</span> Regular walks (20-30 minutes) 2-3 times a day, interactive indoor games.<br/>
+          <span className='Sheddingextopic2'>7+ years: </span>Moderate walks (15-20 minutes) 1-2 times a day, light indoor exercises like gentle fetch.</p><br/><br/>
+          <span className='SheddingbreedExercises-topic1'>Over-Weight: </span><br/>
+          <p className='SheddingExercisePara'>
+          <span className='Sheddingextopic2'>Up to 1 year:</span> Controlled walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
+          <span className='Sheddingextopic2'>1-7 years:</span> Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled indoor activities.<br/>
+          <span className='Sheddingextopic2'>7+ years:</span> Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p><br/>
+          </div>
+          </div>
+
+
+        <div className='CardOfLeftSide'>
+          <div className='LargebreedExercises'><br/>
+          <span className='ActivebreedExercises-header'>Exercise for Active Dog Breeds</span><br/><br/><br/>
+            <span className='ActivebreedExercises-topic1'>Lower Weight:</span>
+            <p className='ActiveExercisePara'>
+            <span className='Activeextopic2'>Up to 1 year: </span> Supervised play in a safe environment, short walks (15-20 minutes) 3-4 times a day.<br/>
+            <span className='Activeextopic2'>1-7 years:</span> Regular walks (30-45 minutes) 2-3 times a day, obedience training, fetch, hiking.<br/>
+            <span className='Activeextopic2'> 7+ years:</span>  Moderate walks (20-30 minutes) 1-2 times a day, swimming, mentally stimulating games.</p><br/><br/>
+            <span className='ActivebreedExercises-topic1'>Normal Weight: </span><br/>
+            <p className='ActiveExercisePara'>
+            <span className='extopic2'>Up to 1 year:</span> Structured play sessions, longer walks (20-30 minutes) 3-4 times a day.<br/>
+            <span className='extopic2'>1-7 years:</span> Brisk walks (45-60 minutes) 2-3 times a day, jogging, agility training, swimming.<br/>
+            <span className='extopic2'>7+ years:</span>  Longer walks (30-45 minutes) 1-2 times a day, hiking on easy terrain, brain games, swimming.</p><br/><br/>
+            <span className='ActivebreedExercises-topic1'>Over Weight: </span><br/>
+            <p className='ActiveExercisePara'>
+            <span className='extopic2'>Up to 1 year:</span> Structured play sessions, controlled walks (15-20 minutes) 3-4 times a day.<br/>
+            <span className='extopic2'>1-7 years:</span> Gradual increase in walks (20-30 minutes) 2-3 times a day, weight management exercises, controlled agility.<br/>
+            <span className='extopic2'>7+ years:</span> Low-impact walks (20-30 minutes) 1-2 times a day, swimming, joint-friendly exercises, portion-controlled diet.</p>
+          </div>
+        </div>  
+
+        <div className='CardOfTiny'>
+          <div className='ApartmentbreedExercises'> <br/>
+          <span className='TinybreedExercises-header'>Exercise for Tiny Dog Breeds</span><br/><br/><br/>
+            <span className='TinybreedExercises-topic1'>Lower-Weight:</span>
+            <p className='ApartmentExercisePara'>
+            <span className='Apartmentextopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
+            <span className='Apartmentextopic2'>1-7 years:</span> Moderate walks (15-20 minutes) 2-3 times a day, interactive indoor games.<br/>
+            <span className='Apartmentextopic2'> 7+ years:</span> Short walks (10-15 minutes) 1-2 times a day, gentle indoor exercises like stretching and light play.</p><br/><br/>
+            <span className='TinybreedExercises-topic1'>Normal-Weight: </span><br/>
+            <p className='ApartmentExercisePara'><span className='extopic2'>Up to 1 year:</span> Moderate walks (15-20 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
+            <span className='Apartmentextopic2'>1-7 years:</span> Regular walks (20-30 minutes) 2-3 times a day, interactive indoor games.<br/>
+            <span className='Apartmentextopic2'>7+ years: </span>Moderate walks (15-20 minutes) 1-2 times a day, light indoor exercises like gentle fetch.</p><br/><br/>
+            <span className='TinybreedExercises-topic1'>Over-Weight: </span><br/>
+            <p className='ApartmentExercisePara'><span className='extopic2'>Up to 1 year:</span> Controlled walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
+            <span className='Apartmentextopic2'>1-7 years:</span> Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled indoor activities.<br/>
+            <span className='Apartmentextopic2'>7+ years:</span> Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p>
+            </div>
+        </div>    
       </div>
-      </div>
+       
     </div>
+    
   )
 }
 export default InputData;
+
+

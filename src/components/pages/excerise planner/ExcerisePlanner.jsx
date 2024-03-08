@@ -34,28 +34,20 @@ const ExcerisePlanner = () => {
       </div>
       <div className='Exercise-bottom'>
       <div className='Exercise-Form'>
-        <span className='ExerciseForm-text1'>Add Pet details here</span>
+        <span className='ExerciseForm-text1'>Add Pet breed here and get your pet Category</span>
         <form action="" >
         <br/><br/>
-          <input type="text" name="breed" id="" placeholder='Pet Breed'
+          <input type="text" name="breed" id="" placeholder='add  Pet Breed'
           className='ExerciseInput1' />
           <br/>
-          <input type="text"
-          name='Weight'
-          placeholder='Pet Weight'
-          className='ExerciseInput2' />
-          <br/>
-          <input type="text"
-          name='Age' 
-          placeholder='Age'
-          className='ExerciseInput3'/>
+          
         <Link to="">
         <button className='Exercise-submit'>Get plan</button>
         </Link> 
         </form>
         <img src={ExerciseDogImage2} alt="" className='ExerciseDogImage2' />
-        <img src= {exerciseDogImage3} alt="" className='ExerciseDogImage3'/>
-        <img src={WoofImage} alt="" className='WoofImage' />
+        {/*<img src= {exerciseDogImage3} alt="" className='ExerciseDogImage3'/>
+        <img src={WoofImage} alt="" className='WoofImage' />*/}
 
       {/*
       <div className='Exercise-card-Adult'>
@@ -129,12 +121,17 @@ const ExcerisePlanner = () => {
         <button className='Exercise-ViewmoreButton'>View More</button>
           </div>
       </div>
-      </div>*/}
+      </div>*/}<br/><br/><br/>
     <InputData/>
+    
         </div>
+        
       </div>
+       
     </div>
+    
     </section>
+    
   )
 }
 export default ExcerisePlanner 

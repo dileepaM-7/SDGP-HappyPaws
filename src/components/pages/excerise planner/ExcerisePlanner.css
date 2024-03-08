@@ -1,4 +1,4 @@
- .excersie-section{
+.excersie-section{
   background-color: #C6DEF1;
   height: 300%;
   width: 100%;
@@ -166,15 +166,14 @@ animation: fadeInUp 1s ease-in-out; /* Apply animation */
   background-position: center;
 }
 .Exercise-Form{
-  background-color: rgb(227, 230, 232);
-  background-image: url(../../../assets/exerciseBackgroundjpg.jpg);
-    position: absolute;  
+  background-color: rgb(5, 3, 74);
+    z-index: 2;
+    position: relative;  
     top: 70px ;
-    left:400px;
-    width:700px;
-    height: 400px;
+    width:100%;
+    height: 250px;
     text-align: center;
-    border-radius: 20px;
+    
 }
 .Exercise-Form h1{
   color: #9c38c7;
@@ -182,41 +181,22 @@ animation: fadeInUp 1s ease-in-out; /* Apply animation */
 
 .ExerciseInput1{
   position: relative;
-  top:60px;
+  top:25px;
   width: 300px;
   height: 30px;
-  padding: 10px 100px;
+  padding: 8px 100px;
   background-color: #ffffff;
   font-weight: 600;
   color: #0e0e0e;
 }
-.ExerciseInput2{
-position: relative;
-top: 110px;
-width: 300px;
-  height: 30px;
-  padding: 10px 100px;
-  background-color: #ffffff;
-  font-weight: 600;
-  color: #0e0e0e;
-}
-.ExerciseInput3{
-  position: relative;
-  top: 150px;
-  width: 300px;
-  height: 30px;
-  padding: 10px 120px;
-  background-color: #ffffff;
-  font-weight: 600;
-  color: #0e0e0e;
-  
-}
+
+
 .Exercise-submit{
   position: absolute;
-  top:80%;
-  right: 43%;
-  font-size: 1rem;
-  font-weight: 700;
+  top:40%;
+  right: 48%;
+  font-size: 0.7rem;
+  font-weight: 900;
   color: #e6e6e6;
   background-color: #2b3899;
   border: none;
@@ -229,25 +209,25 @@ width: 300px;
 }
 .ExerciseForm-text1{
   position: absolute;
-  font-size: 300%;
+  font-size: 200%;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 700;
-  color: #3a2471;
-  left:18%;
+  color: #907bc5;
+  left:25%;
 }
 .ExerciseDogImage2{
   width: 400px;
   height: 200px;
   position: relative;
-  right: 57%;
-  bottom: 150px;
+  right: 38%;
+  bottom: 40px;
   animation: step-start;
 }
 .ExerciseDogImage3{
   height: 400px;
   width: 300px;
   bottom: 143px;
-  position: relative;
+  position: fixed;
   left:50%;
 }
 
