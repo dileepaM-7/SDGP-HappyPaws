@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth, provider } from '../../../firebase-config';
 import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
+import { getDatabase, ref, child, get } from 'firebase/database';
 
 const Login = () => {
   
@@ -46,8 +47,8 @@ const Login = () => {
           }
         }
       } catch (error) {
-        console.log(error.message);
-        setError('Login failed. Please try again.'); // Set an error message for the user
+        console.error("Error during login:", error);
+        setError('Login failed. Please try again.');
       }
     }
   };
@@ -74,6 +75,7 @@ const Login = () => {
       setError('Google Sign-In failed. Please try again.');
     }
   };
+  
   return (
     <div className="login-container">
       <MainContent className="main-content" />
@@ -106,7 +108,10 @@ const Login = () => {
           <Link to="/ForgotPassword">
             <span className='forgot-password-link'>Forgot Password?</span>
           </Link>
+          <div className='err-msg' >
           {error && <p className="error-message">{error}</p>}
+          </div>
+          
           <br />
           <button type="submit" className='login-btn' >Log In</button>
         </form>

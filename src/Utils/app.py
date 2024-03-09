@@ -20,7 +20,6 @@ feature_columns = ['Weight', 'Age'] + df.columns[df.columns.str.startswith('Bree
 def predict():
     try:
         data = request.get_json()
-
         # Extract the features from the request
         user_age = float(data.get('age', 0))
         user_weight = float(data.get('weight', 0.0))
