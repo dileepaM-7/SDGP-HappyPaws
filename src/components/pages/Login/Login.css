@@ -119,3 +119,9 @@ h6{
         width: auto;
   }
 }
+.err-msg{
+    position: absolute;
+    top: 64%;
+    left: 0%;
+    width: 500px;
+}

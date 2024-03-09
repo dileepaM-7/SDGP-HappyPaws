@@ -1,7 +1,7 @@
 .all-content{
     background-color: #C6DEF1;
-    
 }
+
 .dogImage{
     width: 550px;
     align-items: right;
@@ -9,6 +9,7 @@
     right: 130px; /* Align to the right */
     top: 250px;
 }
+
 .first_content{
     color: #040006;
     font-size: 50px;
@@ -119,6 +120,7 @@
         font-size: smaller;
     }
 }
+
 @media only screen and (max-width: 1000px){
     .text-main{
         font-size: 40%;
@@ -130,6 +132,6 @@
     .text-main{
         position: absolute;
         font-size: 100%;
-        left: 19%;
+        left: 10%;
     }
   }
