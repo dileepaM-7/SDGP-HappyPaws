@@ -1,10 +1,12 @@
 {
   "name": "happypaws",
   "private": true,
+  "homepage": "http://dileepaM-7.github.io/happypaws",
   "version": "0.0.0",
   "proxy": "http://localhost:5000",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
