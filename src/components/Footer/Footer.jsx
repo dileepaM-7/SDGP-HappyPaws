@@ -2,7 +2,7 @@ import React from 'react';
 import "./Footer.css";
 import fb from "../../assets/fb.jpg";
 import instagram from "../../assets/insta.jpg"; // Fix the file extension
-import linkedIn from "../../assets/LinkedIn.jpg";
+import linkedIn from "../../assets/linkedIn.jpg";
 import github from "../../assets/git.jpg";
 import { Link } from "react-router-dom";
 
