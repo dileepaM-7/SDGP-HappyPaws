@@ -6,7 +6,7 @@ import pandas as pd
 
 app = Flask(__name__)
 CORS(app)
-
+#added comment
 # Load the trained ML model
 model = joblib.load('./model.joblib')
 
