@@ -16,7 +16,7 @@ import InputData from './inputData/inputData';
 
 const ExcerisePlanner = () => {
   return (
-    <section className='excersie-section'>
+    <div className='excersie-section'>
       <div>
       <Navbar/>
       <div className='Exercise-allPage'>
@@ -32,105 +32,15 @@ const ExcerisePlanner = () => {
           <img src={ExerciseDogImage}alt="" className='ExerciseDogImage1'/>
             <button className='ExerciseButton1'>Get Started</button>
       </div>
-      <div className='Exercise-bottom'>
-      <div className='Exercise-Form'>
-        <span className='ExerciseForm-text1'>Add Pet breed here and get your pet Category</span>
-        <form action="" >
-        <br/><br/>
-          <input type="text" name="breed" id="" placeholder='add  Pet Breed'
-          className='ExerciseInput1' />
-          <br/>
-          
-        <Link to="">
-        <button className='Exercise-submit'>Get plan</button>
-        </Link> 
-        </form>
-        <img src={ExerciseDogImage2} alt="" className='ExerciseDogImage2' />
-        {/*<img src= {exerciseDogImage3} alt="" className='ExerciseDogImage3'/>
-        <img src={WoofImage} alt="" className='WoofImage' />*/}
-
-      {/*
-      <div className='Exercise-card-Adult'>
-      <div className='Exercise-card1'>
-        <img src={exerciseCardImage1} alt="" className='ExerciseCardDogImage2' />
-        <div className='ExerciseCard-info'>
-        <img src={WeightSymbolOrange} alt="" className='ExerciseCardDogImage2i' />
-        <span className='WeightText'>Adult Dogs </span>
-        <p>Longer walks and more engaged playtime can help boost activity slightly.
-        30-45 minutes of activity, such as walks or games, divided into 2-3 sessions each day.
-        </p>
-        <div className='Exercise-ViewmoreButton'>
-        <button  >
-          <a ><span>View More</span></a></button> </div>
-        </div>
-      </div>
-      <div className='Exercise-card2'>
-        <img src={exerciseCardImage1} alt="" className='ExerciseCardDogImage2' />
-        <div className='ExerciseCard-info'>
-        <img src={WeightSymbolGreen} alt="" className='ExerciseCardDogImage2i' />
-        <span className='WeightText'>Adult Dogs </span>
-        <p>This can be as simple as taking a couple of slow walks and playing indoors. Make sure to listen to your dog, since these breeds might be tired very quickly.</p>
-        <button className='Exercise-ViewmoreButton'>View More</button>
-          </div>
-      </div>
-      <div className='Exercise-card3'>
-        <img src={exerciseCardImage1} alt="" className='ExerciseCardDogImage2' />
-        <div className='ExerciseCard-info'>
-        <img src={WeightSymbolRed} alt="" className='ExerciseCardDogImage2i' />
-        <span className='WeightText'>Adult Dogs </span>
-        <p>To manage weight, gradually increase activity with longer walks and a restricted diet.
-          20-30 minutes of low-impact activities, like as walks or indoor play, divided into 2-3 sessions per day.
-        </p>
-        <button className='Exercise-ViewmoreButton'>View More</button>
-          </div>
-      </div>
-      </div>
-
-
-      <div className='Exercise-card-Adult'>
-      <div className='Exercise-card1'>
-        <img src={exerciseCardImage1} alt="" className='ExerciseCardDogImage2' />
-        <div className='ExerciseCard-info'>
-        <img src={WeightSymbolOrange} alt="" className='ExerciseCardDogImage2i' />
-        <span className='WeightText'>Senior Dogs </span>
-        <p>Longer walks and more engaged playtime can help boost activity slightly.
-        30-45 minutes of activity, such as walks or games, divided into 2-3 sessions each day.
-        </p>
-        <div className='Exercise-ViewmoreButton'>
-        <button  >
-          <a ><span>View More</span></a></button> </div>
-        </div>
-      </div>
-      <div className='Exercise-card2'>
-        <img src={exerciseCardImage1} alt="" className='ExerciseCardDogImage2' />
-        <div className='ExerciseCard-info'>
-        <img src={WeightSymbolGreen} alt="" className='ExerciseCardDogImage2i' />
-        <span className='WeightText'>Senior Dogs </span>
-        <p>This can be as simple as taking a couple of slow walks and playing indoors. Make sure to listen to your dog, since these breeds might be tired very quickly.</p>
-        <button className='Exercise-ViewmoreButton'>View More</button>
-          </div>
-      </div>
-      <div className='Exercise-card3'>
-        <img src={exerciseCardImage1} alt="" className='ExerciseCardDogImage2' />
-        <div className='ExerciseCard-info'>
-        <img src={WeightSymbolRed} alt="" className='ExerciseCardDogImage2i' />
-        <span className='WeightText'>Senior Dogs </span>
-        <p>To manage weight, gradually increase activity with longer walks and a restricted diet.
-          20-30 minutes of low-impact activities, like as walks or indoor play, divided into 2-3 sessions per day.
-        </p>
-        <button className='Exercise-ViewmoreButton'>View More</button>
-          </div>
-      </div>
-      </div>*/}<br/><br/><br/>
-    <InputData/>
     
-        </div>
         
       </div>
-       
+      <div className='ExercisePart2'>
+    <InputData/>
+     
+    </div> 
+  
     </div>
-    
-    </section>
     
   )
 }
