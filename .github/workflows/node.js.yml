@@ -39,4 +39,4 @@ jobs:
           npm run deploy -- -d build -u "github-actions-bot <support+actions@github.com>"
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          working-directory: frontend
+      working-directory: frontend
