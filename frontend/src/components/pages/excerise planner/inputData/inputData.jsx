@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './inputData.css'
 import { Navbar } from '../../../NavigationBar/Navbar'
-import arrow from '../../../../assets/arrow.png'
+import arrow from '../../../../assets/Arrow.png'
 // import ExerciseCardImage1 from '../../../../assets/ExerciseCard1.png'
 import TinyDog1 from '../../../../assets/tinyDog1.jpg'
 import ActiveDogBreed1 from '../../../../assets/ActiveDogBreed1.gif'
