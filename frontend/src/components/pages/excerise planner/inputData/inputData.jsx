@@ -1,71 +1,122 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './inputData.css'
 import { Navbar } from '../../../NavigationBar/Navbar'
-import arrow from '../../../../assets/Arrow.png'
+import arrow from '../../../../assets/arrow.png'
 // import ExerciseCardImage1 from '../../../../assets/ExerciseCard1.png'
 import TinyDog1 from '../../../../assets/tinyDog1.jpg'
 import ActiveDogBreed1 from '../../../../assets/ActiveDogBreed1.gif'
 import backgroundex from '../../../../assets/BackgroundTiny.avif'
+import Footer from '../../../Footer/Footer';
+import DogTopicBackgroundimage1 from '../../../../assets/DogTopicBackground1.jpeg'
+import DogTopicBackgroundimage2 from '../../../../assets/DogTopicBackground2.jpeg'
 
 const InputData = () => {
+  const [selectedCard, setSelectedCard] = useState(null);
+
+  function showExercise(cardId, exercisePlan) {
+    setSelectedCard(cardId);
+
+    // Hide all exercise cards
+    var exerciseCards = document.getElementsByClassName('exercise-card');
+    for (var i = 0; i < exerciseCards.length; i++) {
+      exerciseCards[i].style.display = 'none';
+    }
+
+    // Show only the selected exercise card
+    var selectedCardElement = document.getElementById(cardId);
+    selectedCardElement.style.display = 'block';
+
+    // Show the corresponding exercise plan
+    var exercisePlanElement = document.getElementById(exercisePlan);
+    exercisePlanElement.style.display = 'block';
+  }
+
+   
+
+
 
   return (
     <div className='InputData-Cardall'id='InputData'>
+
       <div className='Input-header'>
-        Choose Your Pet Category <br />
+        Choose Your Pet Category <br /><br/>
+        <img src={DogTopicBackgroundimage1} alt="" className='InputDogImageForTopic'/>
+        <img src={DogTopicBackgroundimage2} alt="" className='InputDogImageForTopic2'/>
       </div>
+      
       <div className='breed-card'>
-        <div className='breed-card1'> 
-          <span className='card-header1'>Tiny Dog Breeds</span>
-          <span className='dogsBreedsText'>Chihuahua<br/>
-                                          Pomeranian<br/>
-                                          Yorkshire Terrier<br/>
-                                          Shih Tzu<br/>
-          </span>
-          <div className='Exe-Join-Now'>
-            <div className='ExerciseMoreInfo'>  
-            <span className='JoinNowText'>Get Now
-            <img src={arrow}alt="" className='arrow-input' />
-            </span>
-            </div>
-          </div>
+        <div  class="exercise-card" id="card1">
+            <div className='breed-card1' onClick={() => showExercise('card1', 'exercisePlan1')}> 
+              <span className='card-header1'>Tiny Dog Breeds</span>
+              <span className='dogsBreedsText'>Chihuahua<br/>
+                                              Pomeranian<br/>
+                                              Yorkshire Terrier<br/>
+                                              Pug<br/>
+                                              dachshund<br/>
+                                              Beagle<br/>
+                                              Corgi<br/>
+                                              Shiba In</span>
+              <div className='Exe-Join-Now'>
+                <div className='ExerciseMoreInfo'>  
+                <span className='JoinNowText' >Join Now
+                <img src={arrow}alt="" className='arrow-input' />
+                </span>
+                </div>
+              </div>
+              </div>
         </div>
 
-        <div className='breed-card2'> 
+      
+        <div  class="exercise-card" id="card2">
+        <div className='breed-card2' onClick={() => showExercise('card2', 'exercisePlan2')}> 
           <span className='card-header1'>Active Dog Breeds</span>
           <span className='dogsBreedsText'>Labrador Retriever<br/>
-          Terrier<br/>
-          Golden Retriever</span>
+          Dobermann<br/>
+          Samoyed<br/>Samoyed<br/>
+          Australian Shepherd</span>
           <span></span>
           <div className='Exe-Join-Now2'>
             <span>Join Now</span>
             <img src={arrow}alt="" className='arrow-input' />
           </div>
         </div>
-        <div className='breed-card3'> 
+        </div>
+
+        <div  class="exercise-card" id="card3">
+        <div className='breed-card3' onClick={() => showExercise('card3', 'exercisePlan3')}> 
           <span className='card-header1'>Low-Shedding Dog Breeds</span>
           <span className='dogsBreedsText1'>Shih Tzu<br/>
-            Poddle</span>
+            Poddle<br/>Samoyed</span>
           <span></span>
           <div className='Exe-Join-Now3'>
             <span className='JoinNowText'>Join Now</span>
             <img src={arrow}alt="" className='arrow-input1' />
           </div>
+          </div>
         </div>
-        <div className='breed-card4'> 
+
+        <div  class="exercise-card" id="card4">
+        <div className='breed-card4' onClick={() => showExercise('card4', 'exercisePlan14')}> 
           <span className='card-header1'>Large Dog Breeds
           </span>
-          <span className='dogsBreedsText1'>details</span>
+          <span className='dogsBreedsText1'>Golden Retriever<br/>
+          German Shepherd<br/>
+          Siberian Husky<br/>
+          Boxer<br/>Rottweiler<br/>Bernese Mountain Dog</span>
           <span></span>
           <div className='Exe-Join-Now4'>
             <span className='JoinNowText'>Join Now</span>
             <img src={arrow}alt="" className='arrow-input2' />
           </div>
         </div>
-        <div className='breed-card5'> 
+        </div>
+
+        <div  class="exercise-card" id="card5">
+        <div className='breed-card5' onClick={() => showExercise('card5', 'exercisePlan5')}> 
           <span className='card-header1'>Apartment-Friendly <br/>Dog Breeds
           </span>
-          <span className='dogsBreedsText1'>details</span>
+          <span className='dogsBreedsText1'>Pug<br/>cocker spaniel<br/>Bull Dog<br/>Charles spaniel
+          <br/>terrier<br/>Shih Tzu <br/>Corgi</span>
           <span></span>
           <div className='Exe-Join-Now5'>
             <span className='JoinNowText5'>Join Now</span>
@@ -73,9 +124,11 @@ const InputData = () => {
           </div>
         </div>
       </div>
+      </div>
       
       <br/> 
       <div className='inputBottom'>
+        <div id="exercisePlan1" style={{ display: selectedCard === 'card1' ? 'block' : 'none' }}>
         <div className='CardOfTiny'>
         <div className='TinybreedExercises'>
           <span className='TinybreedExercises-header'>Exercise for Tiny Dog Breeds</span><br/><br/>
@@ -94,7 +147,9 @@ const InputData = () => {
           <span className='extopic2'>7+ years:</span> Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p>
           </div>
         </div>
-        
+        </div>
+
+        <div id="exercisePlan2" style={{ display: selectedCard === 'card2' ? 'block' : 'none' }}>  
         <div className='CardOfLeftSide'>
         <div className='ActivebreedExercises'><br/>
           <span className='ActivebreedExercises-header'>Exercise for Active Dog Breeds</span><br/><br/><br/>
@@ -115,11 +170,12 @@ const InputData = () => {
           <span className='extopic2'>7+ years:</span> Low-impact walks (20-30 minutes) 1-2 times a day, swimming, joint-friendly exercises, portion-controlled diet.</p>
           </div>
         </div>
+        </div>
 
-
+        <div id="exercisePlan3" style={{ display: selectedCard === 'card3' ? 'block' : 'none' }}>
         <div className='CardOfTiny'>
         <div className='ShadingbreedExercises'>
-        <span className='SheddingbreedExercises-header'>Exercise for Tiny Dog Breeds</span><br/><br/><br/>
+        <span className='SheddingbreedExercises-header'>Exercise for Low Shedding Dog Breeds</span><br/><br/><br/>
           <span className='SheddingbreedExercises-topic1'>Lower-Weight:</span>
           <p className='SheddingExercisePara'>
           <span className='Sheddingextopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, <a href='' className='linkToIndoorGames'>indoor play sessions</a> with toys.<br/>
@@ -137,11 +193,13 @@ const InputData = () => {
           <span className='Sheddingextopic2'>7+ years:</span> Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p><br/>
           </div>
           </div>
+          </div>
+          
 
-
+        <div id="exercisePlan4" style={{ display: selectedCard === 'card4' ? 'block' : 'none' }}>
         <div className='CardOfLeftSide'>
           <div className='LargebreedExercises'><br/>
-          <span className='ActivebreedExercises-header'>Exercise for Active Dog Breeds</span><br/><br/><br/>
+          <span className='ActivebreedExercises-header'>Exercise for large Dog Breeds</span><br/><br/><br/>
             <span className='ActivebreedExercises-topic1'>Lower Weight:</span>
             <p className='ActiveExercisePara'>
             <span className='Activeextopic2'>Up to 1 year: </span> Supervised play in a safe environment, short walks (15-20 minutes) 3-4 times a day.<br/>
@@ -159,10 +217,12 @@ const InputData = () => {
             <span className='extopic2'>7+ years:</span> Low-impact walks (20-30 minutes) 1-2 times a day, swimming, joint-friendly exercises, portion-controlled diet.</p>
           </div>
         </div>  
+        </div>
 
+        <div id="exercisePlan5" style={{ display: selectedCard === 'card5' ? 'block' : 'none' }}>
         <div className='CardOfTiny'>
           <div className='ApartmentbreedExercises'> <br/>
-          <span className='TinybreedExercises-header'>Exercise for Tiny Dog Breeds</span><br/><br/><br/>
+          <span className='TinybreedExercises-header'>Exercise for Apartment-Friendly Dog Breeds</span><br/><br/><br/>
             <span className='TinybreedExercises-topic1'>Lower-Weight:</span>
             <p className='ApartmentExercisePara'>
             <span className='Apartmentextopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
@@ -177,10 +237,16 @@ const InputData = () => {
             <span className='Apartmentextopic2'>1-7 years:</span> Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled indoor activities.<br/>
             <span className='Apartmentextopic2'>7+ years:</span> Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p>
             </div>
-        </div>    
+
+        </div> 
+      </div>   
       </div>
-       
-    </div>
+      <div className='Input-Footer'>
+      <Footer/>
+      </div>
+       </div>
+      
+    
     
   )
 }
