@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom';
 import { auth } from "../../../firebase-config";
 import { signOut } from "firebase/auth";
 import { getDatabase, ref, child, get } from "firebase/database";
-import UserSidebar from '../UserProfile/UserSidebar';
-import AccountSettings from '../UserProfile/AccountSettings';
-import PetProfiles from '../UserProfile/PetProfiles';
 import { useParams } from 'react-router-dom'; // Import useParams hook
 
 const Profile = () => {
@@ -66,28 +63,21 @@ const Profile = () => {
   };
 
   return (
-    <div>
-      <h2>My Profile</h2>
+    <section>
       <div>
-        {/* Update property name from 'username' to 'Name' */}
-        <p>User Name: {userData?.Name}</p>
-        <p>User Email: {auth.currentUser?.email}</p>
-        <p>User Age: {userData?.Age}</p>
-        <p>User ID: {auth.currentUser?.uid}</p>
-      </div>
-      <div className='userprofilein'>
-        <div className='left'>
-          <UserSidebar activepage={activepage}/>
+        <h2>My Profile</h2>
+        <div>
+          <p>User Name: {userData?.Name}</p>
+          <p>User Email: {auth.currentUser?.email}</p>
+          <p>User Age: {userData?.Age}</p>
+          <p>User ID: {auth.currentUser?.uid}</p>
         </div>
-        <div className='right'>
-          {activepage === 'petprofiles' && <PetProfiles/>}
-          {activepage === 'accountsettings' && <AccountSettings/>}
-        </div>
+        <Link to="/">
+          <button onClick={logout}>Sign Out</button>
+        </Link>
       </div>
-      <Link to="/">
-        <button onClick={logout}>Sign Out</button>
-      </Link>
-    </div>
+    </section>
+    
   );
 };
 

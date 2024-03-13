@@ -25,21 +25,19 @@ const ExcerisePlanner = () => {
         <span className='Exercise-text3'>Healthy</span><br/>
         <span className='Exercise-text4'>and</span><br/>
         <span className='Exercise-text5'>Happy</span> <br/><br/>
-        <span className='Exercise-para1'>We understand how important it is to keep our pets happy and healthy. <br/>
-          Here, you'll find skillfully designed workout schedules adapted to your pet's requirements. <br/>
-          Our programs, which include enjoyable games and engaging exercises, are intended to enhance <br/> your pet's physical condition, 
-          provide and deepen your relationship with your pet. Let us go on <br/> a path towards a better, happier life together!</span>
+        <span className='Exercise-para1'>We understand how important it is to keep our pets happy and healthy.
+          Here, you'll find skillfully <br/> designed workout schedules adapted to your pet's requirements.
+          Our programs, which include <br/> enjoyable games and engaging exercises, are intended to enhance your pet's physical condition, 
+          provide and deepen your relationship with your pet. Let us go on  a path towards a better, happier <br />life together!</span>
           <img src={ExerciseDogImage}alt="" className='ExerciseDogImage1'/>
             <button className='ExerciseButton1'>Get Started</button>
       </div>
-    
         
       </div>
       <div className='ExercisePart2'>
     <InputData/>
      
     </div> 
-  
     </div>
     
   )

@@ -3,39 +3,30 @@
     gap: 1rem;
     font-weight: bold;
     font-size: 3rem;
-    justify-content-right:100px;
+
     color: rgb(53, 54, 55);
     text-transform: uppercase;
     font-style:italic;
     margin-bottom: 1rem; 
     top: 500px;
-    text-align: center;
-    position: relative;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
-    background-color: #648ad2;
+    left: 350px;
 
-    
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
 }
 
 .InputDogImageForTopic{
     position: relative;
-    left: 230px;
+    right: 600px;
     width: 450px;
     height: 100px;
-    top: 10px;
+    top: 50px;
 }
-.InputDogImageForTopic2{
-    position: relative;
-    right: 1200px;
-    width: 100px;
-    height: 50px;
-    top: 60px;
-}
+
 .inputBottom{
     width: 100%;
     height: 100%;
-    
-   
     background-color: #C6DEF1;
     
 }
@@ -67,7 +58,9 @@
 .breed-card1 {
     position: relative;
     padding-left:  0px ;
-    height: 287px;
+    height: 297px;
+    border-radius: 30px;
+    width: 230px;
     display: flex;
     flex-direction: column;
     padding: 0.1rem;
@@ -88,12 +81,13 @@
 }
 .Exe-Join-Now {
     position: relative;
-    top: 18px;
-    left: 0;
+    top: 0px;
+    left: 6%;
     width: 200px;
     height: 128px;
     z-index: 0;
     background-image: url('../../../../assets/TinyDoganimation.gif');
+    border-radius: 20px;
     background-size: cover;
 }
 
@@ -130,8 +124,12 @@
     color: #07226b;
     text-decoration: #ff2e2e;
     font-family:sans-serif;
-    
-    
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+.arrow-icon{
+    size: 6rem;
 }
 .arrow-input{
     width: 2rem;

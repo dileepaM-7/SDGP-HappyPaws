@@ -9,7 +9,7 @@ import backgroundex from '../../../../assets/BackgroundTiny.avif'
 import Footer from '../../../Footer/Footer';
 import DogTopicBackgroundimage1 from '../../../../assets/DogTopicBackground1.jpeg'
 import DogTopicBackgroundimage2 from '../../../../assets/DogTopicBackground2.jpeg'
-
+import { HiArrowCircleRight } from "react-icons/hi";
 const InputData = () => {
   const [selectedCard, setSelectedCard] = useState(null);
 
@@ -41,7 +41,7 @@ const InputData = () => {
       <div className='Input-header'>
         Choose Your Pet Category <br /><br/>
         <img src={DogTopicBackgroundimage1} alt="" className='InputDogImageForTopic'/>
-        <img src={DogTopicBackgroundimage2} alt="" className='InputDogImageForTopic2'/>
+        
       </div>
       
       <div className='breed-card'>
@@ -58,8 +58,7 @@ const InputData = () => {
                                               Shiba In</span>
               <div className='Exe-Join-Now'>
                 <div className='ExerciseMoreInfo'>  
-                <span className='JoinNowText' >Join Now
-                <img src={arrow}alt="" className='arrow-input' />
+                <span className='JoinNowText' >Join Now <HiArrowCircleRight className='arrow-icon'/>
                 </span>
                 </div>
               </div>
