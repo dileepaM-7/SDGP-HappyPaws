@@ -9,7 +9,11 @@
     "deploy": "gh-pages -d build",
     "test": "vite test",
     "dev": "vite",
+<<<<<<< HEAD
     "build": "vite build",
+=======
+    "build": "npm build",
+>>>>>>> 79d03fd2070b83770366db973711d814cc7a151d
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
