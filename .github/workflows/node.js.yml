@@ -36,7 +36,7 @@ jobs:
     - name: Deploy with gh-pages (Frontend)
       run: |
         git remote set-url origin https://github.com/${GITHUB_REPOSITORY}.git
-        npm run deploy -- -d dist -u "github-actions-bot <support+actions@github.com>"
+        npm run deploy -- -d build -u "github-actions-bot <support+actions@github.com>"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       working-directory: frontend
