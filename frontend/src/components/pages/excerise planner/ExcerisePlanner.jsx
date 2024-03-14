@@ -15,6 +15,16 @@ import InputData from './inputData/inputData';
 
 
 const ExcerisePlanner = () => {
+  
+  
+    const scrollToInput = () => {
+      window.scrollTo({
+        top: 870,
+        behavior: 'smooth'
+      });
+
+      
+    };
   return (
     <div className='excersie-section'>
       <div>
@@ -30,7 +40,7 @@ const ExcerisePlanner = () => {
           Our programs, which include <br/> enjoyable games and engaging exercises, are intended to enhance your pet's physical condition, 
           provide and deepen your relationship with your pet. Let us go on  a path towards a better, happier <br />life together!</span>
           <img src={ExerciseDogImage}alt="" className='ExerciseDogImage1'/>
-            <button className='ExerciseButton1'>Get Started</button>
+          <button className='ExerciseButton1' onClick={scrollToInput}>Get Started</button>
       </div>
         
       </div>

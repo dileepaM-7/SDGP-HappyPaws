@@ -13,40 +13,51 @@ import { HiArrowCircleRight } from "react-icons/hi";
 const InputData = () => {
   const [selectedCard, setSelectedCard] = useState(null);
 
+
+
   function showExercise(cardId, exercisePlan) {
     setSelectedCard(cardId);
-
+  
     // Hide all exercise cards
     var exerciseCards = document.getElementsByClassName('exercise-card');
     for (var i = 0; i < exerciseCards.length; i++) {
-      exerciseCards[i].style.display = 'none';
+      exerciseCards[i].classList.remove('active');
     }
-
+  
     // Show only the selected exercise card
     var selectedCardElement = document.getElementById(cardId);
-    selectedCardElement.style.display = 'block';
-
+    selectedCardElement.classList.add('active');
+  
+    // Hide all exercise plans
+    var exercisePlans = document.getElementsByClassName('exercise-plan');
+    for (var j = 0; j < exercisePlans.length; j++) {
+      exercisePlans[j].classList.remove('active');
+    }
+  
     // Show the corresponding exercise plan
     var exercisePlanElement = document.getElementById(exercisePlan);
-    exercisePlanElement.style.display = 'block';
+    exercisePlanElement.classList.add('active');
+  
+    // Scroll down 400px
+    window.scrollBy({
+      top: 300,
+      behavior: 'smooth'
+    });
   }
-
-   
 
 
 
   return (
     <div className='InputData-Cardall'id='InputData'>
 
-      <div className='Input-header'>
-        Choose Your Pet Category <br /><br/>
-        <img src={DogTopicBackgroundimage1} alt="" className='InputDogImageForTopic'/>
-        
-      </div>
       
+        <span className='Input-header'>Choose Your Pet Category</span>
+
+        <img src={DogTopicBackgroundimage1} alt="" className='InputDogImageForTopic'/>
       <div className='breed-card'>
         <div  class="exercise-card" id="card1">
             <div className='breed-card1' onClick={() => showExercise('card1', 'exercisePlan1')}> 
+            
               <span className='card-header1'>Tiny Dog Breeds</span>
               <span className='dogsBreedsText'>Chihuahua<br/>
                                               Pomeranian<br/>
@@ -58,8 +69,7 @@ const InputData = () => {
                                               Shiba In</span>
               <div className='Exe-Join-Now'>
                 <div className='ExerciseMoreInfo'>  
-                <span className='JoinNowText' >Join Now <HiArrowCircleRight className='arrow-icon'/>
-                </span>
+                <span className='JoinNowText' onClick={() => showBreedCards()}>Join Now <HiArrowCircleRight className='arrow-icon'/></span>
                 </div>
               </div>
               </div>
@@ -75,8 +85,9 @@ const InputData = () => {
           Australian Shepherd</span>
           <span></span>
           <div className='Exe-Join-Now2'>
-            <span>Join Now</span>
-            <img src={arrow}alt="" className='arrow-input' />
+          <div className='ExerciseMoreInfo'>  
+          <span className='JoinNowText1' onClick={() => showBreedCards()}>Join Now <HiArrowCircleRight className='arrow-icon'/></span>
+                </div>
           </div>
         </div>
         </div>
@@ -88,8 +99,9 @@ const InputData = () => {
             Poddle<br/>Samoyed</span>
           <span></span>
           <div className='Exe-Join-Now3'>
-            <span className='JoinNowText'>Join Now</span>
-            <img src={arrow}alt="" className='arrow-input1' />
+          <div className='ExerciseMoreInfo'>  
+          <span className='JoinNowText' onClick={() => showBreedCards()}>Join Now <HiArrowCircleRight className='arrow-icon'/></span>
+                </div>
           </div>
           </div>
         </div>
@@ -104,8 +116,9 @@ const InputData = () => {
           Boxer<br/>Rottweiler<br/>Bernese Mountain Dog</span>
           <span></span>
           <div className='Exe-Join-Now4'>
-            <span className='JoinNowText'>Join Now</span>
-            <img src={arrow}alt="" className='arrow-input2' />
+          <div className='ExerciseMoreInfo'>  
+          <span className='JoinNowText' onClick={() => showBreedCards()}>Join Now <HiArrowCircleRight className='arrow-icon'/></span>
+                </div>
           </div>
         </div>
         </div>
@@ -118,8 +131,9 @@ const InputData = () => {
           <br/>terrier<br/>Shih Tzu <br/>Corgi</span>
           <span></span>
           <div className='Exe-Join-Now5'>
-            <span className='JoinNowText5'>Join Now</span>
-            <img src={arrow}alt="" className='arrow-input5' />
+          <div className='ExerciseMoreInfo'>  
+          <span className='JoinNowText' onClick={() => showBreedCards()}>Join Now <HiArrowCircleRight className='arrow-icon'/></span>
+                </div>
           </div>
         </div>
       </div>
