@@ -35,7 +35,7 @@ jobs:
       
     - name: Deploy with gh-pages (Frontend)
       run: |
-        git remote set-url origin https://github.com/${GITHUB_REPOSITORY}.git
+        git remote set-url origin https://github.com/dileepaM-7/SDGP-HappyPaws.git
         npm run deploy -- -d dist -u "github-actions-bot <support+actions@github.com>"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
