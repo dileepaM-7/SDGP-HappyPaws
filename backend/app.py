@@ -43,7 +43,7 @@ def predict():
         predicted_category = predicted_category.replace('Preferred Foods_', '')
 
         # Return the prediction as JSON
-        return jsonify({"prediction": predicted_category})
+        return jsonify({"predictions": predicted_category})
 
     except Exception as e:
         return {"error": str(e)}
