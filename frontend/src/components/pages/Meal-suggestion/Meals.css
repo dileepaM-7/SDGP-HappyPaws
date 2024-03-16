@@ -141,3 +141,62 @@
     box-shadow: 0 2px 4px rgba(60, 165, 231, 0.737);
     transition: background-color 0.3s ease;
   }
+  @media only screen and (max-width: 1200px) {
+    .container1 {
+      width: 90%; /* Adjust the width to 90% of the viewport */
+      height: auto; /* Set height to auto for dynamic height */
+      display: flex;
+      flex-direction: column; /* Change flex direction to stack vertically */
+      align-items: center; /* Center align items */
+    }
+  
+    .video {
+      width: 90%; /* Adjust video width */
+      height: auto; /* Set height to auto for dynamic height */
+      position: static; /* Change position to static */
+      margin-top: 20px; /* Add margin to separate video from other content */
+    }
+  
+    .searchbox {
+      margin: 2rem auto; /* Center align searchbox */
+    }
+  
+    .heading p {
+      max-width: 90%; /* Adjust max width for better responsiveness */
+      margin: 2rem auto; /* Center align and add margin */
+      text-align: center; /* Center align text */
+      font-size: 18px; /* Adjust font size */
+      line-height: 1.5; /* Adjust line height */
+    }
+  
+    .heading h1 {
+      font-size: 40px; /* Adjust font size */
+      margin-bottom: 2rem; /* Adjust margin */
+    }
+  
+    .meal-genarate-btn {
+      position: static; /* Change position to static */
+      margin-top: 2rem; /* Add margin for spacing */
+      left:50%;
+    }
+  
+    .meal-description {
+      position: static; /* Change position to static */
+      margin-top: 2rem; /* Add margin for spacing */
+    }
+  
+    .meal-data-input {
+      position: static; /* Change position to static */
+      margin-top: 2rem; /* Add margin for spacing */
+      display: flex;
+      flex-direction: column; /* Stack input fields vertically */
+      align-items: center; /* Center align items */
+    }
+  
+    .mealitems {
+      position: static; /* Change position to static */
+      margin-top: 2rem; /* Add margin for spacing */
+      width: 90%; /* Adjust width */
+    }
+  }
+  
