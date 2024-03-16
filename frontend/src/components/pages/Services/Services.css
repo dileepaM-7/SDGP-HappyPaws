@@ -297,7 +297,7 @@
   top: 60%;
   color: #fbff00; /* Dark gray text color */
 }
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1200px){
 .meal-suggestion,
 .excerise-suggestion,
 .consultant-search,
@@ -378,7 +378,7 @@
     left: 30%;
   }
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 992px){
 
   .meal-suggestion,
   .excerise-suggestion,
@@ -452,3 +452,58 @@
     }
 
 }
+@media only screen and (max-width: 768px) {
+  .meal-suggestion,
+  .excerise-suggestion,
+  .consultant-search,
+  .vaccine-date,
+  .medical-data,
+  .consultant-profile {
+    width: 30%; /* Adjust the width to make the containers smaller */
+    height: 150px; /* Adjust the height if necessary */
+    padding: 15px; /* Adjust padding as needed */
+  }
+
+  .consultant-profile h3 {
+    font-size: xx-small; /* Adjust font size */
+    top: 50%; /* Adjust positioning */
+    left: 35px; /* Adjust positioning */
+  }
+
+  .food-btn,
+  .ex-btn,
+  .consultant-btn,
+  .vaccine-btn,
+  .medical-btn {
+    top: 40%; /* Adjust positioning */
+    left: 20%; /* Adjust positioning */
+  }
+
+  .meal-suggestion b,
+  .excerise-suggestion b,
+  .vaccine-date b,
+  .medical-data b {
+    position: absolute; /* Adjust positioning */
+    left: 10%; /* Adjust positioning */
+  }
+
+  .consultant-search b {
+    position: absolute; /* Adjust positioning */
+    left: 20%; /* Adjust positioning */
+  }
+
+  /* Hide images for smaller containers */
+  .food-image,
+  .ex-image,
+  .consultant-image,
+  .vaccine-image,
+  .medical-image,
+  .consultant-profile-img {
+    display: none;
+  }
+}
+
+
+
+
+
