@@ -12,6 +12,7 @@ import { Contact } from "../Contact/Contact";
 import { Link as ScrollLink, scroller } from 'react-scroll';
 import { Element } from 'react-scroll';
 
+// deplyomet work check
 const textFade = keyframes`
   from {
     opacity: 0;
