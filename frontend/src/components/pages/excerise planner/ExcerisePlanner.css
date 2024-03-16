@@ -369,5 +369,82 @@ grid-gap:1.5em ;
     transform: translateY(0);
   }
 }
+@media only screen and (max-width: 1200px) {
+  
+  .Exercise-text1{
+    font-size: 300%;
+  }
+  .Exercise-para1{
+    display: none;
+  }
+  .ExerciseButton1{
+    left:40%;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  
+  .Exercise-text1{
+    font-size: 200%;
+    left:25%;
+  }
+  .Exercise-para1{
+    display: none;
+  }
+  .ExerciseButton1{
+    left:40%;
+  }
+  .ExerciseDogImage1{
+    display: none;
+  }
+  .Exercise-text2{
+    font-size: 200%;
+     right:25%;
+  }
+  .Exercise-text3{
+    left:5%;
+    
+  }
+  .Exercise-text4{
+    left:45%;
+  }
+  .Exercise-text5{
+    left:60%;
+    top:60%;
+  }
+
+}
+@media only screen and (max-width: 480px) {
+  
+  .Exercise-text1{
+    font-size: 200%;
+    left:15%;
+  }
+  .Exercise-para1{
+    display: none;
+  }
+  .ExerciseButton1{
+    left:35%;
+    top:35%;
+  }
+  .ExerciseDogImage1{
+    display: none;
+  }
+  .Exercise-text2{
+   display: none;
+  }
+  .Exercise-text3{
+display: none;
+    
+  }
+  .Exercise-text4{
+    display: none;
+  }
+  .Exercise-text5{
+    display: none;
+  }
+
+}
+
 
 
