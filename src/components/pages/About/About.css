@@ -161,3 +161,22 @@ h2{
   left: -1%;
   text-align: center;
 }
+@media only screen and (max-width: 360px){
+  .aboutus-container-all h1{
+    font-size: 250%;
+  }
+  .aboutus-container-all h2{
+    font-size: 140%;
+  }
+  .para-about{
+    font-size: 70%;
+  }
+  
+   .name1,.name2,.name3,.name4,.name5{
+ height: 100%;
+   }
+   .Name:hover .info{
+   display: none;
+
+   }
+}
