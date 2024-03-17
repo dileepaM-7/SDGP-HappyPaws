@@ -22,6 +22,8 @@
     transform: translateY(0);
   }
 }
+
+
 .Exercise-text1{
   font-size: 400%;
   font-weight: 700;
@@ -51,16 +53,7 @@ animation: slideInLeft 1s ease-in-out;
   animation: fadeInRight 1s ease-in-out;
   
 }
-@keyframes slideInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
+
 .Exercise-text4{
   font-size: 180%;
   position: relative;
@@ -78,6 +71,8 @@ animation: slideInLeft 1s ease-in-out;
   color: #c35abf;
   animation: fadeInRight 1s ease-in-out;
 }
+
+
 @keyframes fadeInRight {
   from {
     opacity: 0;
@@ -88,6 +83,18 @@ animation: slideInLeft 1s ease-in-out;
     transform: translateX(0);
   }
 }
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .Exercise-para1{
   left: 37%;
   position: absolute;
@@ -370,4 +377,123 @@ grid-gap:1.5em ;
   }
 }
 
+
+/*responsive styles*/
+
+@media only screen and (max-width: 360px) {
+  .excersie-section{
+    width: 680px;
+    
+  }
+  .Exercise-text1 {
+    font-size: 10%;
+    left: 360px;
+  }
+
+  .Exercise-text2 {
+    font-size: large;
+    top: 50px;
+    left: 20px;
+  }
+
+  .Exercise-text3 {
+    font-size: 400%;
+    top: 50px;
+    letter-spacing: 10px;
+    left: 50%;
+    
+  }
+
+  .Exercise-text4 {
+    font-size: 150%;
+    top: 40px;
+    left: 65%;
+  }
+
+  .Exercise-text5 {
+    font-size: 400%;
+    top: 300px;
+    left: 90%;
+    letter-spacing: 10px;
+  }
+
+  .Exercise-para1 {
+    left: 45%;
+    top: 64%;
+    font-size:80% ;
+  }
+
+  .ExerciseDogImage1 {
+    width: 300px;
+    height: 450px;
+    top: 15%;
+    left: 2%;
+  }
+
+  .ExerciseButton1 {
+    top: 85%;
+    left: 10%;
+  }
+
+ 
+}
+
+
+@media only screen and (max-width: 360px) {
+  .Exercise-text1 {
+    font-size: 190%;
+    left: 320px;
+  }
+
+  .Exercise-text2 {
+    font-size: large;
+    top: 50px;
+    left: 20px;
+  }
+
+  .Exercise-text3 {
+    font-size: 400%;
+    top: 50px;
+    letter-spacing: 10px;
+    left: 50%;
+  }
+
+  .Exercise-text4 {
+    font-size: 150%;
+    top: 40px;
+    left: 65%;
+  }
+
+  .Exercise-text5 {
+    font-size: 400%;
+    top: 300px;
+    left: 99%;
+    letter-spacing: 10px;
+  }
+
+  .Exercise-para1 {
+    left: 92%;
+    width: 350px;
+    top: 65%;
+    font-size:100% ;
+  }
+
+  .ExerciseDogImage1 {
+    width: 300px;
+    height: 450px;
+    top: 30%;
+    left: 2%;
+  }
+
+  .ExerciseButton1 {
+    top: 102%;
+    left: 20%;
+  }
+
+  .excersie-section{
+    background-color: #C6DEF1;
+    height: 400%;
+    width: 800PX;
+   }
+}
 
