@@ -654,3 +654,41 @@ animation: fadeIn 1s ease-in-out;
     width: 100%;
 
 }
+
+@media only screen and (max-width: 1200px) {
+    .dogsBreedsText,.dogsBreedsText1{
+        display: none;
+    }
+    .breed-card1,.breed-card2,.breed-card2,.breed-card3,.breed-card4,.breed-card5{
+        width: 160px; /* Adjust width as needed */
+        height: 250px;
+
+    }
+    .Exe-Join-Now,.Exe-Join-Now2,.Exe-Join-Now3,.Exe-Join-Now4,.Exe-Join-Now5{
+        width: 140px; /* Adjust width as needed */
+        height: 100px;
+    }
+   .inputBottom{
+    width: 80%; /* Adjust width as needed */
+    
+   }
+}
+@media only screen and (max-width: 768px) {
+    .dogsBreedsText,.dogsBreedsText1{
+        display: none;
+    }
+    .breed-card1,.breed-card2,.breed-card2,.breed-card3,.breed-card4,.breed-card5{
+        width: 105px; /* Adjust width as needed */
+        height: 150px;
+        left:20%
+
+    }
+    .Exe-Join-Now,.Exe-Join-Now2,.Exe-Join-Now3,.Exe-Join-Now4,.Exe-Join-Now5{
+        width: 80px; /* Adjust width as needed */
+        height: 90px;
+    }
+   .inputBottom{
+   display: none;
+    
+   }
+}
