@@ -654,7 +654,6 @@ animation: fadeIn 1s ease-in-out;
     width: 100%;
 
 }
-
 @media only screen and (max-width: 1200px) {
     .dogsBreedsText,.dogsBreedsText1{
         display: none;
