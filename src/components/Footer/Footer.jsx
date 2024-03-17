@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Footer.css";
 import fb from "../../assets/fb.jpg";
-import instagram from "../../assets/insta.jpg"; // Fix the file extension
+import instagram from "../../assets/insta.jpg";
 import linkedIn from "../../assets/linkedIn.jpg";
 import github from "../../assets/git.jpg";
 import { Link } from "react-router-dom";
@@ -10,23 +10,28 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className='footer_upper'>
-        <p>Connect with us on social networks
-        <img src={instagram} alt="" className='image1' />
-        <img src={fb} alt="" className='image2' />
-        <img src={github} alt="" className='image3' />
-        <img src={linkedIn} alt="" className='image2' />
-        
-        </p>
-
+        <div className="footer_social">
+          <h3>Follow us on</h3>
+          <div className="footer_social-icons">
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src={fb} alt="fb" className='image1' />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src={instagram} alt="insta" className='image2'/>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <img src={linkedIn} alt="linkedIn" className='image3' />
+            </a>
+            <a href="https://www.github.com/" target="_blank">
+              <img src={github} alt="linkedIn" className='image3' />
+            </a>
+            </div>
+            </div>
       </div>
       <div className="sb_footer section_padding">
         <div className="sb_footer-links">
-          <div className="sb_footer-links-div">
-            <h4>About Us</h4>
-            <p>Social media links</p>
-            
-          </div>
-          <div className="sb_footer-links-div">
+          
+          <div className="sb_footer-links-div-services">
           <h4>Services</h4>
             
               <p>Food Recommendations</p>
@@ -40,7 +45,7 @@ const Footer = () => {
             
             
           </div>
-          <div className="sb_footer-links-div">
+          <div className="sb_footer-links-div-contact">
           <h4>Contact Us</h4>
             
             <p>+94 773613102</p>
@@ -48,12 +53,6 @@ const Footer = () => {
             
           </div>
           <div className="sb_footer-links-div">
-            <h4>message </h4>
-            <form action="">
-              <input type="text" placeholder='Your name' className='inputName'/> 
-              <input type="text"  placeholder='message' className='inputmsg' />
-              <input type="submit" value="Submit" className='submit' />
-            </form>
           </div>
         </div>
       </div>
@@ -61,13 +60,8 @@ const Footer = () => {
       <div className="footer-below-links">
         <div className="footer-copyright">
           <p>
-            @{new Date().getFullYear()} Kryptonians. All rights reserved.
+            @{new Date().getFullYear()} Kryptonians. All rights reserved. <a href="">Terms & Conditions</a>
           </p>
-        </div>
-        <div className="footer-below-links">
-          <a href="#terms">
-            <div><p>Terms & Conditions</p></div>
-          </a>
         </div>
       </div>
     </div>
