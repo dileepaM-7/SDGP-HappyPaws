@@ -6,27 +6,10 @@
   display: flex;
   align-items: center;
 }
-  
-.video {
-    width: 1000px;
-    height: 300px;
-    position: absolute;
-    left: 8%;
-    object-fit: cover; /* Adjust the height as needed */
-}
-  
-.video:hover {
-    cursor: pointer;
-}
-  
-.video::-webkit-media-controls {
-    display: none !important;
-}
 
 .searchbox{
     text-align: center;
     margin: 3rem;
-
 }
 .search-bar{
     width: 400px;
@@ -140,4 +123,19 @@
     border-radius: 25px;
     box-shadow: 0 2px 4px rgba(60, 165, 231, 0.737);
     transition: background-color 0.3s ease;
+  }
+
+  @media only screen and (max-width: 2000px){
+    .meal-data-input{
+        position: absolute;
+        top: 28%;
+        left: 39%;
+        display: grid;
+    }
+    .meal-genarate-btn{
+        position: absolute;
+        left: 47%;
+        top: 48%;
+        border-radius: 20px;
+    }
   }
