@@ -10,8 +10,6 @@ const Profile = () => {
   const [userData, setUserData] = useState(null);
   const [emailLogged, setEmailLogged] = useState('');
 
-  const { activepage } = useParams();
-
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user) {

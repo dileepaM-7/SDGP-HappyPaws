@@ -19,7 +19,6 @@
 }
 .text-main{
     position: absolute;
-    left: 150px;
     top: 230px;
 }
 .second_content{
@@ -124,7 +123,14 @@
 @media only screen and (max-width: 1200px){
     .text-main{
         font-size: 40%;
-        left: 15%;
+        left: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 100px){
+    .text-main{
+        font-size: 40%;
+        left: 50%;
     }
   }
 
@@ -132,7 +138,7 @@
     .text-main{
         position: absolute;
         font-size: 100%;
-        left: 20%;
+        left: 10%;
     }
   }
 
@@ -210,3 +216,10 @@
         text-align: center; /* Optionally center the text */
     }
 }
+@media only screen and (max-width: 2000px){
+    .text-main {
+        position: absolute;
+        left: 10%;
+    }
+}
+

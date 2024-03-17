@@ -168,12 +168,12 @@
 .find-consultants-para{
   position: relative;
   left: 30%;
-  top: 23%;
+  top: 0%;
 }
 .consultant-btn{
   position: absolute;
   left: 30.5%;
-  top: 73%;
+  top: 53%;
   background-color: #3498DB; /* Blue background color */
   color: white;
   padding: 10px 15px;
@@ -248,12 +248,12 @@
 .medical-data p{
   position: relative;
   left: 30%;
-  top: 23%;
+  top: 3%;
 }
 .medical-btn{
   position: absolute;
   left: 30.5%;
-  top: 73%;
+  top: 57%;
   background-color: #3498DB; /* Blue background color */
   color: white;
   padding: 10px 15px;
