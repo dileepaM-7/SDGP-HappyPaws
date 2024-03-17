@@ -55,7 +55,7 @@ const InputData = () => {
 
         <img src={DogTopicBackgroundimage1} alt="" className='InputDogImageForTopic'/>
       <div className='breed-card'>
-        <div  class="exercise-card" id="card1">
+        <div  className="exercise-card" id="card1">
             <div className='breed-card1' onClick={() => showExercise('card1', 'exercisePlan1')}> 
             
               <span className='card-header1'>Tiny Dog Breeds</span>
@@ -76,7 +76,7 @@ const InputData = () => {
         </div>
 
       
-        <div  class="exercise-card" id="card2">
+        <div  className="exercise-card" id="card2">
         <div className='breed-card2' onClick={() => showExercise('card2', 'exercisePlan2')}> 
           <span className='card-header1'>Active Dog Breeds</span>
           <span className='dogsBreedsText'>Labrador Retriever<br/>
@@ -92,7 +92,7 @@ const InputData = () => {
         </div>
         </div>
 
-        <div  class="exercise-card" id="card3">
+        <div  className="exercise-card" id="card3">
         <div className='breed-card3' onClick={() => showExercise('card3', 'exercisePlan3')}> 
           <span className='card-header1'>Low-Shedding Dog Breeds</span>
           <span className='dogsBreedsText1'>Shih Tzu<br/>
@@ -106,7 +106,7 @@ const InputData = () => {
           </div>
         </div>
 
-        <div  class="exercise-card" id="card4">
+        <div  className="exercise-card" id="card4">
         <div className='breed-card4' onClick={() => showExercise('card4', 'exercisePlan14')}> 
           <span className='card-header1'>Large Dog Breeds
           </span>
@@ -123,7 +123,7 @@ const InputData = () => {
         </div>
         </div>
 
-        <div  class="exercise-card" id="card5">
+        <div  className="exercise-card" id="card5">
         <div className='breed-card5' onClick={() => showExercise('card5', 'exercisePlan5')}> 
           <span className='card-header1'>Apartment-Friendly <br/>Dog Breeds
           </span>
@@ -163,7 +163,7 @@ const InputData = () => {
         </div>
 
         <div id="exercisePlan2" style={{ display: selectedCard === 'card2' ? 'block' : 'none' }}>  
-        <div className='CardOfLeftSide'>
+        <div className='CardOfTiny'>
         <div className='ActivebreedExercises'><br/>
           <span className='ActivebreedExercises-header'>Exercise for Active Dog Breeds</span><br/><br/><br/>
           <span className='ActivebreedExercises-topic1'>Lower Weight:</span>
@@ -210,7 +210,7 @@ const InputData = () => {
           
 
         <div id="exercisePlan4" style={{ display: selectedCard === 'card4' ? 'block' : 'none' }}>
-        <div className='CardOfLeftSide'>
+        <div className='CardOfTiny'>
           <div className='LargebreedExercises'><br/>
           <span className='ActivebreedExercises-header'>Exercise for large Dog Breeds</span><br/><br/><br/>
             <span className='ActivebreedExercises-topic1'>Lower Weight:</span>
@@ -235,32 +235,25 @@ const InputData = () => {
         <div id="exercisePlan5" style={{ display: selectedCard === 'card5' ? 'block' : 'none' }}>
         <div className='CardOfTiny'>
           <div className='ApartmentbreedExercises'> <br/>
-          <span className='TinybreedExercises-header'>Exercise for Apartment-Friendly Dog Breeds</span><br/><br/><br/>
-            <span className='TinybreedExercises-topic1'>Lower-Weight:</span>
+              <span className='TinybreedExercises-header'>Exercise for Apartment-Friendly Dog Breeds</span><br/><br/><br/>
+              <span className='TinybreedExercises-topic1'>Lower-Weight:</span>
             <p className='ApartmentExercisePara'>
-            <span className='Apartmentextopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
-            <span className='Apartmentextopic2'>1-7 years:</span> Moderate walks (15-20 minutes) 2-3 times a day, interactive indoor games.<br/>
-            <span className='Apartmentextopic2'> 7+ years:</span> Short walks (10-15 minutes) 1-2 times a day, gentle indoor exercises like stretching and light play.</p><br/><br/>
-            <span className='TinybreedExercises-topic1'>Normal-Weight: </span><br/>
+              <span className='Apartmentextopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
+              <span className='Apartmentextopic2'>1-7 years:</span> Moderate walks (15-20 minutes) 2-3 times a day, interactive indoor games.<br/>
+              <span className='Apartmentextopic2'> 7+ years:</span> Short walks (10-15 minutes) 1-2 times a day, gentle indoor exercises like stretching and light play.</p><br/><br/>
+              <span className='TinybreedExercises-topic1'>Normal-Weight: </span><br/>
             <p className='ApartmentExercisePara'><span className='extopic2'>Up to 1 year:</span> Moderate walks (15-20 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
-            <span className='Apartmentextopic2'>1-7 years:</span> Regular walks (20-30 minutes) 2-3 times a day, interactive indoor games.<br/>
-            <span className='Apartmentextopic2'>7+ years: </span>Moderate walks (15-20 minutes) 1-2 times a day, light indoor exercises like gentle fetch.</p><br/><br/>
-            <span className='TinybreedExercises-topic1'>Over-Weight: </span><br/>
+              <span className='Apartmentextopic2'>1-7 years:</span> Regular walks (20-30 minutes) 2-3 times a day, interactive indoor games.<br/>
+              <span className='Apartmentextopic2'>7+ years: </span>Moderate walks (15-20 minutes) 1-2 times a day, light indoor exercises like gentle fetch.</p><br/><br/>
+              <span className='TinybreedExercises-topic1'>Over-Weight: </span><br/>
             <p className='ApartmentExercisePara'><span className='extopic2'>Up to 1 year:</span> Controlled walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
-            <span className='Apartmentextopic2'>1-7 years:</span> Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled indoor activities.<br/>
-            <span className='Apartmentextopic2'>7+ years:</span> Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p>
+              <span className='Apartmentextopic2'>1-7 years:</span> Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled indoor activities.<br/>
+              <span className='Apartmentextopic2'>7+ years:</span> Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p>
             </div>
-
         </div> 
       </div>   
-      </div>
-      <div className='Input-Footer'>
-      <Footer/>
-      </div>
-       </div>
-      
-    
-    
+    </div>
+  </div>
   )
 }
 export default InputData;

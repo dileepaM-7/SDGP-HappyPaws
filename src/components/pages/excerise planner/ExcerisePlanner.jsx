@@ -46,8 +46,10 @@ const ExcerisePlanner = () => {
       </div>
       <div className='ExercisePart2'>
     <InputData/>
-     
-    </div> 
+    </div>
+    <div className='Input-Footer'>
+      <Footer/>
+      </div> 
     </div>
     
   )

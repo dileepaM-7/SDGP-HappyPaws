@@ -22,7 +22,13 @@
     transform: translateY(0);
   }
 }
+.Input-Footer{
+  position: relative;
+  top: 1350px;
+  left: 0px;
+  width: 100%;
 
+}
 
 .Exercise-text1{
   font-size: 400%;
