@@ -19,103 +19,116 @@
 }
 
 
-.App-mdeical{
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #C6DEF1;
-  height: 100%;
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Thaloma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.medical-h2{
-  color: rgb(0, 0, 0);
-  font-size: 50px;
-}
-
-.pet-background {
-  background-image:url(../../../assets/medicalDetailsBgd.jpg);
-  background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-shadow: 0 4px 6px rgba(183, 30, 30, 0.1);
-  padding-bottom: 100px;
-}
-
-.medical-details,
-.pdf-upload {
-  background-color: #fcfcfc;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 100px;
-  margin-bottom: 1px;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.pdf-content{
+/* Header */
+.medical-header {
+  background-color: #c6def19e;
   padding: 20px;
-}
-
-.note-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: rgb(0, 0, 0);
-}
-
-.note {
-  background-color: #C6DEF1;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 10px;
-  width: calc(33.333% - 10px);
+  text-align: center;
   position: relative;
 }
 
-.note-content {
-  padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  min-height: 100px;
-}
-
-.note-actions {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-}
-
-.input-medical-details{
+.medical-header img {
   width: 100%;
-  height: 100px;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  padding: 10px;
-  resize: none;
-  
+  max-height: 300px;
+  object-fit: cover;
 }
 
-.cancel-btn-edit{
-  background-color: #4CAF50;
-  color: white;
-  padding: 5px 10px;
-  margin: 5px;
+.mediHeadName{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #222431;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgba(144, 25, 25, 0.5);
+}
+
+/* Main Content */
+.medical-content {
+  max-width: 800px;
+  margin: 40px auto;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* File Upload */
+.file-upload {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.file-upload input[type="file"] {
+  margin-right: -100px;
+}
+
+.file-upload button {
+  background-color: #C6DEF1;
+  color: #000000;
   border: none;
-  border-radius: 5px;
+  padding: 10px 20px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 100px;
+  margin-top: 2px;
 }
 
-.cancel-btn-edit:hover {
-  background-color: #45a049;
+.file-upload button:hover {
+  background-color: #386799;
 }
 
-embed {
-  border: 2px solid #ccc;
-  border-radius: 10px;
+.upload-status {
+  margin-left: 20px;
+  color: #888;
+}
+
+/* Uploaded Files List */
+.mediUploaded {
+  margin-bottom: 100px;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 250px;
+  font-weight: bolder;
+}
+
+.uploaded-files ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.uploaded-files li {
   margin-bottom: 10px;
+}
+
+.uploaded-files a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.uploaded-files a:hover {
+  text-decoration: underline;
+}
+
+/* Dog Image/GIF */
+.dog-image {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  max-width: 200px;
+}
+
+.dog-image img {
+  width: 100%;
+  height: auto;
 }
