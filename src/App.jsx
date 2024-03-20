@@ -42,7 +42,7 @@ function App() {
         <Route path="/ForgotPassword" element={<ForgotPassword />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/exceisePlanner" element={<ExcerisePlanner />} />
-        <Route path="/excerseInput" element={<InputData />} />
+        <Route path="/exerciseInput" element={<InputData />} />
         <Route path="/consultant" element={<Consultant />} />
         <Route path="/vaccine" element={<Vaccine />} />
         <Route path="/medical" element={<Medical />} />
