@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Medical.css';
 import { Navbar } from '../../NavigationBar/Navbar';
+import Footer from "../../Footer/Footer";
 import { auth } from '../../../firebase-config';
 import { getStorage, ref, listAll, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { v4 } from 'uuid';
@@ -91,6 +92,7 @@ function FirebaseImageUpload() {
           <img src="path/to/dog-image.gif" alt="Dog GIF" />
         </div>
       </main>
+      <Footer/>
     </div>
   );
 }
