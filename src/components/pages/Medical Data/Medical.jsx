@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Medical.css';
 import { Navbar } from '../../NavigationBar/Navbar';
+import Footer from "../../Footer/Footer";
 import { auth } from '../../../firebase-config';
 import { getStorage, ref, listAll, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { v4 } from 'uuid';
@@ -8,6 +9,7 @@ import medicalDetailsHeader from '../../../assets/medicalDetailsHeader.png'
 
 function FirebaseImageUpload() {
   const [file, setFile] = useState(null);
+  const [fileName, setFileName] = useState('');
   const [emailLogged, setEmailLogged] = useState('');
   const [uploadStatus, setUploadStatus] = useState('');
   const [uploadedFiles, setUploadedFiles] = useState([]);
@@ -22,15 +24,20 @@ function FirebaseImageUpload() {
     setFile(event.target.files[0]);
   };
 
+  const handleFileNameChange = (event) => {
+    setFileName(event.target.value);
+  };
+
   const handleClick = async () => {
     if (file) {
       const storage = getStorage();
-      const storageRef = ref(storage, `images/${emailLogged}/${v4()}`);
+      const storageRef = ref(storage, `images/${emailLogged}/${fileName || v4()}`);
       
       try {
         await uploadBytes(storageRef, file);
-        setUploadStatus(`File uploaded successfully for user: ${emailLogged}`);
+        setUploadStatus(`File "${fileName || file.name}" uploaded successfully for user: ${emailLogged}`);
         console.log('File uploaded successfully');
+        setFileName(''); // Reset file name after successful upload
         // Reload uploaded files after successful upload
         loadUploadedFiles();
       } catch (error) {
@@ -50,12 +57,16 @@ function FirebaseImageUpload() {
       const result = await listAll(userStorageRef);
       const files = await Promise.all(result.items.map(async (item) => {
         const downloadURL = await getDownloadURL(item);
-        return { name: item.name, url: downloadURL };
+        return { name: item.name.split('/').pop(), url: downloadURL };
       }));
       setUploadedFiles(files);
     } catch (error) {
       console.error('Error loading uploaded files:', error);
     }
+  };
+
+  const handleFilePreview = (fileUrl) => {
+    window.open(fileUrl, '_blank');
   };
 
   return (
@@ -70,7 +81,15 @@ function FirebaseImageUpload() {
       
       <main className="medical-content">
         <div className="file-upload">
-          <input type="file" onChange={handleFileChange} />
+          <input
+            type="text"
+            placeholder="Enter file name"
+            value={fileName}
+            onChange={handleFileNameChange}
+          />
+          <input 
+            type="file" 
+            onChange={handleFileChange} />
           <button onClick={handleClick}>Upload</button>
           {uploadStatus && <p className="upload-status">{uploadStatus}</p>}
         </div>
@@ -80,7 +99,7 @@ function FirebaseImageUpload() {
           <ul>
             {uploadedFiles.map((file, index) => (
               <li key={index}>
-                <a href={file.url} target="_blank" rel="noopener noreferrer">{file.name}</a>
+                <a href="#" onClick={() => handleFilePreview(file.url)}>{file.name}</a>
               </li>
             ))}
           </ul>
@@ -91,6 +110,7 @@ function FirebaseImageUpload() {
           <img src="path/to/dog-image.gif" alt="Dog GIF" />
         </div>
       </main>
+      <Footer/>
     </div>
   );
 }
