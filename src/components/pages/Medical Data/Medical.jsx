@@ -4,6 +4,7 @@ import { Navbar } from '../../NavigationBar/Navbar';
 import { auth } from '../../../firebase-config';
 import { getStorage, ref, listAll, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { v4 } from 'uuid';
+import medicalDetailsHeader from '../../../assets/medicalDetailsHeader.png'
 
 function FirebaseImageUpload() {
   const [file, setFile] = useState(null);
@@ -60,17 +61,36 @@ function FirebaseImageUpload() {
   return (
     <div className="App-medical">
       <Navbar />
-      <input type="file" onChange={handleFileChange} />
-      <button onClick={handleClick}>Upload</button>
-      {uploadStatus && <p>{uploadStatus}</p>}
-      <h2>Uploaded Files:</h2>
-      <ul>
-        {uploadedFiles.map((file, index) => (
-          <li key={index}>
-            <a href={file.url} target="_blank" rel="noopener noreferrer">{file.name}</a>
-          </li>
-        ))}
-      </ul>
+
+      {/* Add a header section with a dog image */}
+      <header className="medical-header">
+        <img src={medicalDetailsHeader} alt="Dog Header" />
+        <h2 className="mediHeadName">Medical Records</h2>
+      </header>
+      
+      <main className="medical-content">
+        <div className="file-upload">
+          <input type="file" onChange={handleFileChange} />
+          <button onClick={handleClick}>Upload</button>
+          {uploadStatus && <p className="upload-status">{uploadStatus}</p>}
+        </div>
+
+        <div className="uploaded-files">
+          <h3 className='mediUploaded'>Uploaded Files:</h3>
+          <ul>
+            {uploadedFiles.map((file, index) => (
+              <li key={index}>
+                <a href={file.url} target="_blank" rel="noopener noreferrer">{file.name}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Add a dog GIF or image in the main content area */}
+        <div className="dog-image">
+          <img src="path/to/dog-image.gif" alt="Dog GIF" />
+        </div>
+      </main>
     </div>
   );
 }
