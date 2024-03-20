@@ -26,9 +26,13 @@ body {
   padding: 0;
 }
 
+.App-medical{
+  background-color: #C6DEF1;
+}
+
 /* Header */
 .medical-header {
-  background-color: #c6def19e;
+  background-color: #3f4e5b9e;
   padding: 20px;
   text-align: center;
   position: relative;
