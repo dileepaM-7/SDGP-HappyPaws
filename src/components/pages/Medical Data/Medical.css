@@ -67,9 +67,14 @@ body {
 
 /* File Upload */
 .file-upload {
-  display: flex;
+  display:ruby-base;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.file-upload input[type='text']{
+ border-radius: 5px ;
+ background-color: #c6def151;
 }
 
 .file-upload input[type="file"] {
@@ -80,11 +85,11 @@ body {
   background-color: #C6DEF1;
   color: #000000;
   border: none;
-  padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-left: 100px;
-  margin-top: 2px;
+  margin-left: 300px;
+  margin-top: 20px;
+  margin-bottom:20px ;
 }
 
 .file-upload button:hover {
@@ -98,26 +103,29 @@ body {
 
 /* Uploaded Files List */
 .mediUploaded {
-  margin-bottom: 100px;
-  align-items: center;
+  text-align: center;
   font-size: 30px;
-  margin-top: 50px;
-  margin-left: 250px;
   font-weight: bolder;
 }
 
 .uploaded-files ul {
   list-style-type: none;
-  padding: 0;
+  margin-top: 20px;
 }
 
 .uploaded-files li {
   margin-bottom: 10px;
+  background-image: url('../../../assets/medicalList.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px; /* Adjust the size as needed */
+  padding-left: 30px; /* Add some left padding for the image */
 }
 
 .uploaded-files a {
   color: #007bff;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .uploaded-files a:hover {
