@@ -51,12 +51,12 @@ body {
   transform: translate(-50%, -50%);
   color: #222431;
   font-size: 60px;
-  text-shadow: 2px 2px 4px rgba(144, 25, 25, 0.5);
+  text-shadow: 2px 2px 4px rgb(251, 251, 251);
 }
 
 /* Main Content */
 .medical-content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 40px auto;
   margin-top: 50px;
   padding: 30px;
@@ -67,19 +67,22 @@ body {
 
 /* File Upload */
 .file-upload {
-  display:ruby-base;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+}
+
+.file-upload input[type="text"],
+.file-upload input[type="file"],
+.file-upload button {
+  margin: 5px 0;
 }
 
 .file-upload input[type='text']{
  border-radius: 5px ;
- background-color: #c6def151;
+ background-color: #87c2f251;
 }
 
-.file-upload input[type="file"] {
-  margin-right: -100px;
-}
 
 .file-upload button {
   background-color: #C6DEF1;
@@ -87,9 +90,7 @@ body {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-left: 300px;
-  margin-top: 20px;
-  margin-bottom:20px ;
+  margin-bottom: 20px ;
 }
 
 .file-upload button:hover {
@@ -97,8 +98,10 @@ body {
 }
 
 .upload-status {
-  margin-left: 20px;
-  color: #888;
+  text-align: center;
+  color: #864242;
+  font-size: 10px;
+  font-weight: bolder;
 }
 
 /* Uploaded Files List */
@@ -106,11 +109,16 @@ body {
   text-align: center;
   font-size: 30px;
   font-weight: bolder;
+  margin-top: 20px;
 }
 
 .uploaded-files ul {
+  display: grid;
+  align-items: center;
   list-style-type: none;
   margin-top: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Adjust the gap between the columns */
 }
 
 .uploaded-files li {
