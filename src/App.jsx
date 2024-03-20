@@ -17,6 +17,7 @@ import BussinessProfile from "./components/pages/BussinessProfile/BussinessProfi
 import Meals from "./components/pages/Meal-suggestion/Meals";
 import PetProfiles from "./components/pages/UserProfile/PetProfiles";
 import AccountSettings from "./components/pages/UserProfile/AccountSettings";
+import Indoorgames from "./components/pages/excerise planner/Indoorgames";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -50,6 +51,7 @@ function App() {
         <Route path="/meals" element={<Meals />} />
         <Route path="/petProfiles" element={<PetProfiles />} />
         <Route path="/accounntSettings" element={<AccountSettings />} />
+        <Route path="/indoor" element={<Indoorgames/>} />
       </Routes>
     </div>
   );

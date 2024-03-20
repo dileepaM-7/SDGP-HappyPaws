@@ -15,7 +15,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      
 }
-
+.indoor-LinktoPage{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: #4971c5;
+}
 .InputDogImageForTopic{
     position: relative;
     left: 450px;
@@ -427,7 +431,7 @@
 }
 .TinybreedExercises-topic1 {
     font-weight: bold;
-    color: #ff2e2e; /* Red color for topic */
+    color: #164bbd; /* Red color for topic */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     padding-right:0px ;
@@ -465,7 +469,7 @@
 
 /*Active Dog Exercises*/
 .ActivebreedExercises {
-    background-image: url('../../../../assets/ActiveDogBackground.avif');
+    background-image: url('../../../../assets/ActiveDogBackground.jpg');
     width: 80%; 
     height: 500px;  /* Add background image */
     background-size: cover; /* Cover the entire element with the background image */
@@ -512,7 +516,7 @@
 
 .ActivebreedExercises-topic1 {
     font-weight: bold;
-    color: #ff2e2e; /* Red color for topic */
+    color: #164bbd; /* Red color for topic */
     font-family:sans-serif;
     font-size: large;
     left: 30px;
@@ -558,7 +562,7 @@
 }
 .SheddingbreedExercises-topic1{
     font-weight: bold;
-    color: #ff2e2e; /* Red color for topic */
+    color: #164bbd; /* Red color for topic */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     position: relative;
@@ -587,6 +591,16 @@
     top: -300px;
     left: 180px;  
     animation: fadeIn 1s ease-in-out;
+}
+.ActiveExercisePara{
+    text-align:left;
+    padding-left: 11%;
+    color: #333; /* Dark text color */
+    line-height: 1.5; /* Increase line height for better readability */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #20039d;
+    margin-bottom: 10px; 
 }
     
 .TinybreedExercises-header {

@@ -3,13 +3,14 @@ import './inputData.css'
 import { Navbar } from '../../../NavigationBar/Navbar'
 import arrow from '../../../../assets/Arrow.png'
 // import ExerciseCardImage1 from '../../../../assets/ExerciseCard1.png'
-import TinyDog1 from '../../../../assets/tinyDog1.jpg'
+
 import ActiveDogBreed1 from '../../../../assets/ActiveDogBreed1.gif'
 import backgroundex from '../../../../assets/BackgroundTiny.avif'
 import Footer from '../../../Footer/Footer';
 import DogTopicBackgroundimage1 from '../../../../assets/DogTopicBackground1.jpeg'
 import DogTopicBackgroundimage2 from '../../../../assets/DogTopicBackground2.jpeg'
 import { HiArrowCircleRight } from "react-icons/hi";
+import { Link } from 'react-router-dom';
 const InputData = () => {
   const [selectedCard, setSelectedCard] = useState(null);
 
@@ -147,16 +148,16 @@ const InputData = () => {
           <span className='TinybreedExercises-header'>Exercise for Tiny Dog Breeds</span><br/><br/>
           <span className='TinybreedExercises-topic1'>Lower-Weight:</span>
           <p className='ExercisePara'>
-          <span className='extopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, <a href='' className='linkToIndoorGames'>indoor play sessions</a> with toys.<br/>
-          <span className='extopic2'>1-7 years:</span> Moderate walks (15-20 minutes) 2-3 times a day, interactive indoor games.<br/>
+          <span className='extopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
+          <span className='extopic2'>1-7 years:</span> Moderate walks (15-20 minutes) 2-3 times a day, interactive <Link to='/indoor' className='indoor-LinktoPage'>indoor games</Link>.<br/>
           <span className='extopic2'> 7+ years:</span> Short walks (10-15 minutes) 1-2 times a day, gentle indoor exercises like stretching and light play.</p><br/>
           <span className='TinybreedExercises-topic1'>Normal-Weight: </span><br/>
           <p className='ExercisePara'><span className='extopic2'>Up to 1 year:</span> Moderate walks (15-20 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
-          <span className='extopic2'>1-7 years:</span> Regular walks (20-30 minutes) 2-3 times a day, interactive indoor games.<br/>
+          <span className='extopic2'>1-7 years:</span> Regular walks (20-30 minutes) 2-3 times a day, interactive <Link to='/indoor' className='indoor-LinktoPage'>indoor games</Link>.<br/>
           <span className='extopic2'>7+ years: </span>Moderate walks (15-20 minutes) 1-2 times a day, light indoor exercises like gentle fetch.</p><br/>
           <span className='TinybreedExercises-topic1'>Over-Weight: </span><br/>
           <p className='ExercisePara'><span className='extopic2'>Up to 1 year:</span> Controlled walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
-          <span className='extopic2'>1-7 years:</span> Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled indoor activities.<br/>
+          <span className='extopic2'>1-7 years:</span> Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled  <Link to='/indoor' className='indoor-LinktoPage'>indoor activities</Link>.<br/>
           <span className='extopic2'>7+ years:</span> Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p>
           </div>
         </div>
@@ -191,13 +192,13 @@ const InputData = () => {
         <span className='SheddingbreedExercises-header'>Exercise for Low Shedding Dog Breeds</span><br/><br/><br/>
           <span className='SheddingbreedExercises-topic1'>Lower-Weight:</span>
           <p className='SheddingExercisePara'>
-          <span className='Sheddingextopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, <a href='' className='linkToIndoorGames'>indoor play sessions</a> with toys.<br/>
-          <span className='Sheddingextopic2'>1-7 years:</span> Moderate walks (15-20 minutes) 2-3 times a day, interactive indoor games.<br/>
+          <span className='Sheddingextopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day,indoor play sessions with toys.<br/>
+          <span className='Sheddingextopic2'>1-7 years:</span> Moderate walks (15-20 minutes) 2-3 times a day, interactive<Link to='/indoor' className='indoor-LinktoPage'>indoor games</Link> .<br/>
           <span className='Sheddingextopic2'> 7+ years:</span> Short walks (10-15 minutes) 1-2 times a day, gentle indoor exercises like stretching and light play.</p><br/><br/>
           <span className='SheddingbreedExercises-topic1'>Normal-Weight: </span><br/>
           <p className='SheddingExercisePara'>
           <span className='Sheddingextopic2'>Up to 1 year:</span> Moderate walks (15-20 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
-          <span className='Sheddingextopic2'>1-7 years:</span> Regular walks (20-30 minutes) 2-3 times a day, interactive indoor games.<br/>
+          <span className='Sheddingextopic2'>1-7 years:</span> Regular walks (20-30 minutes) 2-3 times a day, interactive <Link to='/indoor' className='indoor-LinktoPage'>indoor games</Link>.<br/>
           <span className='Sheddingextopic2'>7+ years: </span>Moderate walks (15-20 minutes) 1-2 times a day, light indoor exercises like gentle fetch.</p><br/><br/>
           <span className='SheddingbreedExercises-topic1'>Over-Weight: </span><br/>
           <p className='SheddingExercisePara'>
@@ -239,15 +240,15 @@ const InputData = () => {
               <span className='TinybreedExercises-topic1'>Lower-Weight:</span>
             <p className='ApartmentExercisePara'>
               <span className='Apartmentextopic2'>Up to 1 year: </span> Short walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
-              <span className='Apartmentextopic2'>1-7 years:</span> Moderate walks (15-20 minutes) 2-3 times a day, interactive indoor games.<br/>
+              <span className='Apartmentextopic2'>1-7 years:</span> Moderate walks (15-20 minutes) 2-3 times a day, interactive <Link to='/indoor' className='indoor-LinktoPage'>indoor games</Link>.<br/>
               <span className='Apartmentextopic2'> 7+ years:</span> Short walks (10-15 minutes) 1-2 times a day, gentle indoor exercises like stretching and light play.</p><br/><br/>
               <span className='TinybreedExercises-topic1'>Normal-Weight: </span><br/>
             <p className='ApartmentExercisePara'><span className='extopic2'>Up to 1 year:</span> Moderate walks (15-20 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
-              <span className='Apartmentextopic2'>1-7 years:</span> Regular walks (20-30 minutes) 2-3 times a day, interactive indoor games.<br/>
+              <span className='Apartmentextopic2'>1-7 years:</span> Regular walks (20-30 minutes) 2-3 times a day, interactive <Link to='/indoor' className='indoor-LinktoPage'>indoor games</Link>.<br/>
               <span className='Apartmentextopic2'>7+ years: </span>Moderate walks (15-20 minutes) 1-2 times a day, light indoor exercises like gentle fetch.</p><br/><br/>
               <span className='TinybreedExercises-topic1'>Over-Weight: </span><br/>
             <p className='ApartmentExercisePara'><span className='extopic2'>Up to 1 year:</span> Controlled walks (10-15 minutes) 3-4 times a day, indoor play sessions with toys.<br/>
-              <span className='Apartmentextopic2'>1-7 years:</span> Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled indoor activities.<br/>
+              <span className='Apartmentextopic2'>1-7 years:</span> Gradual increase in walks (15-20 minutes) 2-3 times a day, controlled <Link to='/indoor' className='indoor-LinktoPage'>indoor activities</Link>.<br/>
               <span className='Apartmentextopic2'>7+ years:</span> Low-impact walks (10-15 minutes) 1-2 times a day, light indoor exercises focusing on weight management.</p>
             </div>
         </div> 
