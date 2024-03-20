@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './ExcerisePlanner.css'
 import { Navbar } from '../../NavigationBar/Navbar'
 import Footer from "../../Footer/Footer";
@@ -16,6 +16,11 @@ import InputData from './inputData/inputData';
 
 const ExcerisePlanner = () => {
   
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(20, 20);
+    }, 20);
+  }, []);
   
     const scrollToInput = () => {
       window.scrollTo({
