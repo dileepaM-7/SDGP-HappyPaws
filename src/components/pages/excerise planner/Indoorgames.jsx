@@ -13,9 +13,10 @@ import climb from '../../../assets/ClimbStairs.jpeg'
 
 function Indoorgames() {
   return (
-    <div>
+    
+    <div className='IndoorGames-All'>
     <div className='head-indoor'>
-    <h1 className='indoor-games-h1'>Indoor Games 🏠🎲🐾</h1>
+    <span className='indoor-games-h1'>Indoor Games 🏠🎲🐾</span>
    </div>
    <div className='paragraph-indoorgames'>
     <p>Indoor games for dogs are vital for <span class="highlight">mental stimulation and physical activity</span>, especially during inclement weather. <span className='underline1'>From classic fetch 🎾 to interactive puzzles 🧩 and hide-and-seek 🐾</span>, these activities strengthen the bond between pet and owner while providing fun and exercise. With supervision, indoor play ensures safety 🛡️, making it an enjoyable experience for both furry friend and human companion. Rain or shine, indoor games keep tails wagging and minds engaged! 🌧️🐶</p>
@@ -27,6 +28,7 @@ function Indoorgames() {
     <img src={fetch} alt='fetch'/>
 <p>🎾 Embrace the excitement of a living room fetch game with your pup! Soft toys or balls make for safe indoor play, ensuring a paw-some time without damaging household items. Just keep an eye out for lamps and fragile décor! 🐾 Remember, safety first for endless tail-wagging joy! 🐶✨</p>
    </div>
+  
    <div className='activity1'>
   
     <h3>Tug-of-War Tussle</h3>
@@ -88,9 +90,8 @@ Bubble Chase</h3>
 
 
 
-
-
-   </div>
+ </div>
+   
   )
 }
 
