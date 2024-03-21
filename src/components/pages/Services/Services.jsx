@@ -12,9 +12,8 @@ import './Services.css'
 import { HiArrowCircleRight } from "react-icons/hi";
 
 export const Services = () => {
-  
   return (
-    <div id="services">
+    <div id="services" className="services">
       <div className="meal-suggestion">
         <img src={food} alt="" className="food-image"/>
         <b>Meal Suggestion</b><p><br/>"Tailored Temptations: Satisfy Your Pet's Palate with 
@@ -24,8 +23,7 @@ export const Services = () => {
       
       <div className="excerise-suggestion">
       <img src={ex} alt="" className="ex-image"/>
-      <b>Exercise Plans</b>
-      <p><br/>"Keep your pet active and joyful with our Exercise Planner! Personalized <br />workout routines designed 
+      <b>Exercise Plans</b><p><br/>"Keep your pet active and joyful with our Exercise Planner! Personalized <br />workout routines designed 
       for your furry friend's happiness and well-being. <br /> From playful games to easy walks, make every moment 
       together healthy and fun!"</p>
       <Link to="./exceisePlanner"><button className="ex-btn">Get Started <HiArrowCircleRight/></button></Link>
