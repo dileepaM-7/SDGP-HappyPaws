@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './inddorgames.css'
 import fetch from '../../../assets/fetch.jpeg'
 import tug from '../../../assets/TugandWar.jpeg'
@@ -12,6 +12,12 @@ import Treat from '../../../assets/DIYTreat.jpeg'
 import climb from '../../../assets/ClimbStairs.jpeg'
 
 function Indoorgames() {
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 0);
+  }, []);
+
   return (
     
     <div className='IndoorGames-All'>
