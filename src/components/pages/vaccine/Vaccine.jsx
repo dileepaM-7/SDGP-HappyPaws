@@ -6,7 +6,8 @@ const Vaccine = () => {
   const dates = generateDate();
   const days = ["S", "M", "T", "W", "T", "F", "S"];
   return (
-    <div className='custom-grid'>
+    <div className='vaccinate-container'>
+      <div className='custom-grid'>
       <div className='custom-date-grid'>
         {
           days.map((day, index) => {
@@ -29,6 +30,11 @@ const Vaccine = () => {
           })
         }
       </div>
+    </div>
+    <div>
+      <p>Vaccination Details</p>
+      <p>No added details for Today.</p>
+    </div>
     </div>
   );
 }
