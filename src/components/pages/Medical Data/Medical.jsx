@@ -5,7 +5,8 @@ import Footer from "../../Footer/Footer";
 import { auth } from '../../../firebase-config';
 import { getStorage, ref, listAll, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { v4 } from 'uuid';
-import medicalDetailsHeader from '../../../assets/medicalDetailsHeader.png'
+import medicalDetailsHeader from '../../../assets/medicalDetailsHeader.png';
+import medicalBottom from '../../../assets/medical-details-bottom.gif'
 
 function FirebaseImageUpload() {
   const [file, setFile] = useState(null);
@@ -108,7 +109,7 @@ function FirebaseImageUpload() {
 
         {/* Add a dog GIF or image in the main content area */}
         <div className="dog-image">
-          <img src="path/to/dog-image.gif" alt="Dog GIF" />
+          <img src={medicalBottom} alt="Dog GIF" />
         </div>
       </main>
       <Footer/>
