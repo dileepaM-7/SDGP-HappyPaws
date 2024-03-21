@@ -503,20 +503,36 @@
   }
 }
 @media only screen and (max-width: 360px){
+  .services{
+    padding: 10px; /* Adjust padding as per your requirement */
+    margin-bottom: 10px; /* Adjust margin as per your requirement */
+  }
  .meal-suggestion{
   left: 0;
   width: 60%;
+margin-bottom: 30px; 
+margin-top: 50px; 
+
  }
  .excerise-suggestion,.vaccine-date,.consultant-profile{
   right: 0;
   width: 60%;
+  margin-bottom: 30px; 
+  margin-top: 30px; 
+  
  }
  .consultant-search,.medical-data{
   left: 0;
   width: 60%;
+  margin-bottom: 30px; 
+margin-top: 30px; 
+  
  }
 
 }
+
+
+
 
 
 
