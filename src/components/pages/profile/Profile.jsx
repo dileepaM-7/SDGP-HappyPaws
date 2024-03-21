@@ -57,6 +57,7 @@ const Profile = () => {
 
   // Log out function
   const logout = async () => {
+    localStorage.removeItem('userLoggedIn');
     await signOut(auth);
   };
 

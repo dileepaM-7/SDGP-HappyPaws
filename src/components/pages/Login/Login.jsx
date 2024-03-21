@@ -24,6 +24,9 @@ const Login = () => {
     } else {
       try {
         const user = await signInWithEmailAndPassword(auth, email, password);
+
+        // Save user authentication state to local storage upon successful login
+        localStorage.setItem('userLoggedIn', true);
   
         // Check if the user has business details
         const dbRef = ref(getDatabase());
