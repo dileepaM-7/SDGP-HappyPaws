@@ -1,24 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { Link as ScrollLink, Element, scroller } from 'react-scroll';
 import { Link, useLocation } from "react-router-dom";
-import { auth } from "../../firebase-config";
 import logoImage from "../../assets/logo.png";
 import profileImage from "../../assets/profile.png";
+import { auth } from "../../firebase-config";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [user, setUser] = useState(null);
   const [activeSection, setActiveSection] = useState('home');
   const location = useLocation();
-
-  useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user) => {
-      setUser(user);
-    });
-
-    return () => unsubscribe();
-  }, []);
+  const isLoggedIn = !!localStorage.getItem('userLoggedIn'); // Check if user is logged in
 
   const scrollToSection = (section) => {
     setMenuOpen(false);
@@ -105,7 +97,7 @@ export const Navbar = () => {
           </li>
         </ScrollLink>
       </ul>
-      {user ? (
+      {isLoggedIn ? (
         <Link to="/profile">
           <img className="profileImg" src={profileImage} alt="" />
         </Link>
