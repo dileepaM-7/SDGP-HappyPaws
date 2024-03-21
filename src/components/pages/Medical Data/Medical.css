@@ -32,7 +32,7 @@ body {
 
 /* Header */
 .medical-header {
-  background-color: #3f4e5b9e;
+  background-color: #313c469e;
   padding: 20px;
   text-align: center;
   position: relative;
@@ -103,7 +103,9 @@ body {
   color: #864242;
   font-size: 10px;
   font-weight: bolder;
+  margin-bottom: 20px;
 }
+
 
 /* Uploaded Files List */
 .mediUploaded {

@@ -92,7 +92,7 @@ function FirebaseImageUpload() {
             onChange={handleFileChange} />
           <button onClick={handleClick}>Upload</button>
           {uploadStatus && <p className="upload-status">{uploadStatus}</p>}
-          <button onClick={loadUploadedFiles}>Show Uploaded</button>
+          <button onClick={loadUploadedFiles}>Show Uploaded Files</button>
         </div>
 
         <div className="uploaded-files">
