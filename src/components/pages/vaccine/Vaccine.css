@@ -7,9 +7,10 @@
     margin-left: auto; /* mx-auto */
     margin-right: auto; /* mx-auto */
     gap: 1rem; /* gap-10 */
-    height: 400px; /* h-screen */
+    height: 500px; /* h-screen */
     align-items: center; /* items-center */
     margin-top: 100px;
+    border-radius: 20px;
   
 }
 .custom-grid {
@@ -29,10 +30,11 @@
   place-content: center;
   font-size: 0.875rem;
 }
-.gray-text-number{
-  color: rgb(165, 168, 168);
+.gray-text-number {
+  color: rgb(187, 192, 192);
 }
-.red-color-today{
+
+.red-color-today {
   background-color: rgb(238, 51, 51);
   height: 40px;
   width: 40px;
@@ -42,12 +44,45 @@
   color: white;
 }
 .date-content-upper:hover {
-  height: 40px;
-  width: 40px;
-  border-radius: 30px;
-  background-color:black ;
+  
+  background-color: black;
   color: white;
-  transition-property: all;
-  transition-duration: 0.3s;
+  transition: all 0.3s;
   cursor: pointer;
+  place-content: center;
+  border-radius: 30px;
+}
+.vaccine-details-display{
+  height: 24rem; /* h-96 */
+  width: 24rem; /* w-96 */
+  padding-left: 1.25rem; /* px-5 */
+  padding-right: 1.25rem; /* px-5 */
+}
+.Today-division{
+  display: flex;
+  align-items: center;
+  margin-left: 0.625rem;
+}
+.Today-tag{
+  cursor: pointer; /* cursor-pointer */
+}
+.previous-button{
+  width: 1.25rem; /* w-5 */
+  height: 1.25rem; /* h-5 */
+  cursor: pointer; /* cursor-pointer */
+}
+.next-button{
+  width: 1.25rem; /* w-5 */
+  height: 1.25rem; /* h-5 */
+  cursor: pointer; /* cursor-pointer */
+}
+.month-year-division{
+  display: flex; /* flex */
+  justify-content: space-between; /* justify-between */
+}
+.month-tag{
+  font-weight: 600; /* font-semibold */
+}
+.command-adding{
+  font-weight: 600; /* font-semibold */
 }
