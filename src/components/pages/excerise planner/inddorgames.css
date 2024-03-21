@@ -26,8 +26,11 @@
     overflow: auto;
     box-sizing: border-box;
     position: relative;
-    
-    
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: fadeInRight 1s ease-in-out;
+}
+.activity1:hover{
+    transform: scale(1.05);
 }
 .activity1 img{
     width: 100%;
