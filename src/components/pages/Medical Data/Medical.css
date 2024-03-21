@@ -32,7 +32,7 @@ body {
 
 /* Header */
 .medical-header {
-  background-color: #3f4e5b9e;
+  background-color: #313c469e;
   padding: 20px;
   text-align: center;
   position: relative;
@@ -103,7 +103,9 @@ body {
   color: #864242;
   font-size: 10px;
   font-weight: bolder;
+  margin-bottom: 20px;
 }
+
 
 /* Uploaded Files List */
 .mediUploaded {
@@ -123,6 +125,9 @@ body {
 }
 
 .uploaded-files li {
+  display: flex;
+  align-items: center;
+  
   margin-bottom: 10px;
   background-image: url('../../../assets/medicalList.png');
   background-repeat: no-repeat;
@@ -131,10 +136,30 @@ body {
   padding-left: 30px; /* Add some left padding for the image */
 }
 
+.uploaded-files li button {
+  background-color: #C6DEF1;
+  color: #000000;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.uploaded-files li button:hover {
+  background-color: #386799;
+  color: #fff;
+}
+
 .uploaded-files a {
-  color: #007bff;
+  color: #864242;
   text-decoration: none;
   cursor: pointer;
+  word-break: break-word;
+  max-width: 100px; 
+  white-space: normal;
 }
 
 .uploaded-files a:hover {
