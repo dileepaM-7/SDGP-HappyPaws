@@ -3,7 +3,7 @@ import './Medical.css';
 import { Navbar } from '../../NavigationBar/Navbar';
 import Footer from "../../Footer/Footer";
 import { auth } from '../../../firebase-config';
-import { getStorage, ref, listAll, uploadBytes, getDownloadURL } from 'firebase/storage';
+import { getStorage, ref, listAll, uploadBytes, getDownloadURL, deleteObject} from 'firebase/storage';
 import { v4 } from 'uuid';
 import medicalDetailsHeader from '../../../assets/medicalDetailsHeader.png';
 import medicalBottom from '../../../assets/medical-details-bottom.gif'
@@ -70,6 +70,19 @@ function FirebaseImageUpload() {
     window.open(fileUrl, '_blank');
   };
 
+  const deleteUploadedFile = async (fileName) => {
+    const storage = getStorage();
+    const fileRef = ref(storage, `images/${emailLogged}/${fileName}`);
+  
+    try {
+      await deleteObject(fileRef);
+      console.log(`File ${fileName} deleted successfully`);
+      loadUploadedFiles(); // Reload the uploaded files after successful deletion
+    } catch (error) {
+      console.error(`Error deleting file ${fileName}:`, error);
+    }
+  };
+
   return (
     <div className="App-medical">
       <Navbar />
@@ -102,6 +115,7 @@ function FirebaseImageUpload() {
             {uploadedFiles.map((file, index) => (
               <li key={index}>
                 <a href="#" onClick={() => handleFilePreview(file.url)}>{file.name}</a>
+                <button onClick={() => deleteUploadedFile(file.name)}>Delete</button>
               </li>
             ))}
           </ul>
