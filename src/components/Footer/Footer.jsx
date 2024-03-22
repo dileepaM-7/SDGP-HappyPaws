@@ -51,16 +51,15 @@ const Footer = () => {
             <span className='FooterService5'>Search for consultants</span>
             <p className='FooterService1-para5'>If you want get exercises for your pet buddies,<br/>here is the place.find your pets breed category<br/>and get exercises.</p>
    
+
+          <div className='Footer-Contact'>
+          <span className='Footer-Contact-span'>Contact Us </span><br/>
+            <span className='Footer-Contact-p'><br/>Phone Number : <br/>+94 773613102<br/>+94 702441361</span>
+            <span className='Footer-Contact-p'><br/><br/>Email : <br/>happypaws11@gmail.com</span>
           </div>
-          <div className="sb_footer-links-div-contact">
-          <h4>Contact Us</h4>
-            
-            <p>+94 773613102</p>
-              <p>happypaws@gmail.com</p>
-            
           </div>
-          <div className="sb_footer-links-div">
-          </div>
+         
+          
         </div>
       </div>
       <hr />
