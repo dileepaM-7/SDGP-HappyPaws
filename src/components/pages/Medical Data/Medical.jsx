@@ -7,7 +7,7 @@ import { getStorage, ref, listAll, uploadBytes, getDownloadURL } from 'firebase/
 import { v4 } from 'uuid';
 import medicalDetailsHeader from '../../../assets/medicalDetailsHeader.png'
 
-function FirebaseImageUpload() {
+function Medical() {
   const [file, setFile] = useState(null);
   const [fileName, setFileName] = useState('');
   const [emailLogged, setEmailLogged] = useState('');
@@ -116,4 +116,4 @@ function FirebaseImageUpload() {
   );
 }
 
-export default FirebaseImageUpload;
+export default Medical;
