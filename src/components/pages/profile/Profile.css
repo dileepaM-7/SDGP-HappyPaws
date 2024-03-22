@@ -1,56 +1,64 @@
-.userprofile{
-    display: flex;
-    flex-direction: column;
-    background-color:#313e4a ;
+.profile-section {
+  background-color: #d9e1ee;
+  padding: 20px;
+  margin-top: 20px;
 }
 
-h2 {
-    font-size: 60px;
-    margin-top: 20px;
-    color: #ffffff; /* Dark text color */
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
 }
 
-.userprofile .ProfileDetails {
-    margin-top: 20px;
-    background-color: #FFFFFF; /* White background for profile details */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+.profile-Topic {
+  text-align: center;
+  color: #333333;
+  font-size: 50px;
+  font-family: 'Arial', sans-serif;
 }
 
-.userprofilein{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 10vh;
-    gap: 20px;
+.profile-details {
+  margin-top: 20px;
+  color: #922f2f;
+  padding: 20px;
+  line-height: 1.6; 
+  font-family: 'Arial', sans-serif;
 }
 
 
-.userprofile .userprofilein .left{
-    width: 20%;
-    background-color: #a9bfe7;
-    border: 1px solid rgb(28, 26, 26);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    min-height:50vh ;
+.logout-link {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.userprofile .userprofilein .right{
-    width: 70%;
-    background-color: #a9bfe7;
-    border: 1px solid rgb(28, 26, 26);
-    border-radius: 5px;
-    min-height:50vh ;
+.logout-button {
+  background-color: #C6DEF1;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #5ca4e3; /* Blue button color */
-    color: #FFFFFF; /* White text color */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.logout-button:hover {
+  background-color: #386799;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .profile-container {
+    animation: fadeIn 0.5s ease; /* Apply animation to the profile container */
   }
