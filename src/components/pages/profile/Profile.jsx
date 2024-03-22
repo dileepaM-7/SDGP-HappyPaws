@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { auth } from "../../../firebase-config";
 import { signOut } from "firebase/auth";
 import { getDatabase, ref, child, get } from "firebase/database";
-import { useParams } from 'react-router-dom'; // Import useParams hook
+
 
 const Profile = () => {
   const [userData, setUserData] = useState(null);
@@ -62,17 +62,16 @@ const Profile = () => {
   };
 
   return (
-    <section>
-      <div>
-        <h2>My Profile</h2>
-        <div>
+    <section className='profile-section'>
+      <div className='profile-container'>
+        <h2 className='profile-Topic'>My Profile</h2>
+        <div className='profile-details'>
           <p>User Name: {userData?.Name}</p>
           <p>User Email: {auth.currentUser?.email}</p>
-          <p>User Age: {userData?.Age}</p>
           <p>User ID: {auth.currentUser?.uid}</p>
         </div>
-        <Link to="/">
-          <button onClick={logout}>Sign Out</button>
+        <Link to="/" className='logout-link'>
+          <button className='logout-button' onClick={logout}>Sign Out</button>
         </Link>
       </div>
     </section>
