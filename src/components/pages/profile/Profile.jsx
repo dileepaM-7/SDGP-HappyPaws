@@ -61,17 +61,16 @@ const Profile = () => {
   };
 
   return (
-    <section>
-      <div>
-        <h2>My Profile</h2>
-        <div>
-          <p>User Name: {userData?.Name}</p>
-          <p>User Email: {auth.currentUser?.email}</p>
-          <p>User Age: {userData?.Age}</p>
-          <p>User ID: {auth.currentUser?.uid}</p>
+    <section className="profile-section">
+      <div className="profile-container">
+        <h2 className="profile-heading">My Profile</h2>
+        <div className="profile-details">
+          <p className="profile-detail">User Name: {userData?.Name}</p>
+          <p className="profile-detail">User Email: {auth.currentUser?.email}</p>
+          <p className="profile-detail">User ID: {auth.currentUser?.uid}</p>
         </div>
-        <Link to="/">
-          <button onClick={logout}>Sign Out</button>
+        <Link to="/" className="profile-link">
+          <button className="profile-button" onClick={logout}>Sign Out</button>
         </Link>
       </div>
     </section>
@@ -80,3 +79,4 @@ const Profile = () => {
 };
 
 export default Profile;
+
