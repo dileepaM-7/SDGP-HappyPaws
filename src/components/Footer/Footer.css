@@ -55,59 +55,23 @@ a{
 .socialmedia img{
     width: 600px;
 }
-.sb_footer-links-div h4{
-    font-size: 14px; 
-    line-height: 17px;
-    margin-bottom: 0.9rem;
-}
-.sb_footer-links-div input{
-    border: none;
-    width: 160px;
-    height: 30px;
-    display: block;
-    margin: 7px 0;
-}
-.sb_footer-links-div .inputmsg{
-    background-color: rgb(156, 182, 203);
-    height:100px ;
-     
-}
 
 .sb_footer-links-div .submit{
  background-color: rgb(105, 160, 215);
  width: 90px;
 }
-
-
-
 .sb_footer-links-div p{
-    font-size: 12px;
-    line-height: 15px;
     cursor: pointer;
     color: rgb(255, 255, 255);
-    margin-bottom:15px ;
     
 }
-.footer-below{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 0.2rem;
 
-    
-}
 .footer-below-links{
     display: flex;
     flex-direction: row;
     background-color: rgb(40, 41, 49);
 }
-.footer-below-links p{
-    font-size: 13px;
-    line-height: 40px;
-    margin-left: 2rem;
-    color: rgb(133, 165, 240);
-    font-weight: 600;
-}
+
 hr{
    color: rgb(255, 255, 255); 
    width: 100%;
@@ -127,27 +91,11 @@ hr{
     text-decoration: none;
     
 }
-.sb_footer-links-div-services{
-    display: flex;
-    padding-left: 30%;
-    left: 20%;
-    flex-direction: column;
-    color: rgb(235, 235, 235);
-    font-size: medium;
-    text-decoration: none;
-    gap: 0.5rem;
-}
-.sb_footer-links-div-services h4{
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
+
 .sb_footer-links-div-services p{
     cursor: pointer;
     color: #ffffff;
-    text-decoration: none;
 }
 .sb_footer-links-div-contact{
     display: flex;
@@ -159,19 +107,12 @@ hr{
     gap: 0.5rem;
 
 }
-.sb_footer-links-div-contact h4{
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 .footer_upper{
     background-color: rgb(37, 37, 37);
     line-height: 30px;
     font-weight: 800;
-    color:rgb(255, 255, 255);
-    
+    color:rgb(255, 255, 255);    
 }
 .footer_upper p{
     margin-top: 2%;
@@ -250,13 +191,7 @@ hr{
         text-decoration: none;
         gap: 0.5rem;
     }
-    .sb_footer-links-div-services h4{
-        color: #ffffff;
-        text-decoration: none;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+    
     .sb_footer-links-div-services p{
         cursor: pointer;
         color: #ffffff;
@@ -264,12 +199,14 @@ hr{
     }
     .sb_footer-links-div-contact{
         display: flex;
-        padding-left: 5%;
+        position: relative;
+        right: 800px;
         flex-direction: column;
         color: rgb(235, 235, 235);
         font-size: medium;
         text-decoration: none;
         gap: 0.5rem;
+        bottom: -400px;
     
     }
     .sb_footer-links-div-contact h4{
@@ -280,3 +217,86 @@ hr{
         padding-bottom: 10px;
     }
   }
+
+.FooterNewPart{
+    position: relative;
+    top: 20px;
+    right:400px;
+    color: #ffffff;
+    font-size:xx-large;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.FooterNewPart2{
+    position: relative;
+    color: rgb(94, 177, 213);
+    font-size:xx-large;
+    font-weight: 500;
+    left: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.FooterIconImage{
+    position: relative;
+    width: 30px;
+    top:30px;
+    right: 400px;
+}
+.FooterService1{
+    position: relative;
+    top: 1px;
+    right: 360px;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.FooterService1-para1{
+    position: relative;
+    margin-bottom: 10px;
+    top: 1px;
+    font-size: small;
+    right: 360px; 
+    font-family:Arial, Helvetica, sans-serif
+}
+.FooterService3{
+    position: relative;
+    top: -247px;
+    left: 50px;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+
+}
+.FooterIconImage1{
+    position: relative;
+    width: 30px;
+    top:-218px;
+    right: 0px;
+}
+.FooterService1-para2{
+    position: relative;
+    margin-bottom: 10px;
+    top: -246px;
+    font-size: small;
+    left:50px;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+.FooterService5{
+    position: relative;
+    top: -494px;
+    left: 500px;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+
+}
+.FooterIconImage3{
+    position: relative;
+    width: 30px;
+    top:-465px;
+    left: 450px;
+}
+.FooterService1-para5{
+    position: relative;
+    margin-bottom: 10px;
+    top: -495px;
+    font-size: small;
+    left:500px;
+    font-family:Arial, Helvetica, sans-serif
+
+}
