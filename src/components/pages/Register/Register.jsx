@@ -50,6 +50,7 @@ const Register = () => {
         'https://happypaws-authentication-default-rtdb.asia-southeast1.firebasedatabase.app/UserData.json',
         options
       );
+      localStorage.setItem('userLoggedIn', true);
 
       if (!res.ok) {
         setError('Failed to save data. Please try again.');
