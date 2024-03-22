@@ -23,6 +23,7 @@ const BussinessProfile = () => {
   });
 
   const [isPublished, setIsPublished] = useState(false);
+  
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user) {
