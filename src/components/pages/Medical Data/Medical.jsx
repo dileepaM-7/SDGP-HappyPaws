@@ -8,7 +8,7 @@ import { v4 } from 'uuid';
 import medicalDetailsHeader from '../../../assets/medicalDetailsHeader.png';
 import medicalBottom from '../../../assets/medical-details-bottom.gif'
 
-function FirebaseImageUpload() {
+function Medical() {
   const [file, setFile] = useState(null);
   const [fileName, setFileName] = useState('');
   const [emailLogged, setEmailLogged] = useState('');
@@ -131,4 +131,4 @@ function FirebaseImageUpload() {
   );
 }
 
-export default FirebaseImageUpload;
+export default Medical;
