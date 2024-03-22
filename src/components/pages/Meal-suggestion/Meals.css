@@ -139,3 +139,69 @@
         border-radius: 20px;
     }
   }
+  @media only screen and (max-width: 1200px){
+    .meal-data-input{
+        position: absolute;
+        top: 32%;
+        left: 33%;
+        display: grid;
+    }
+    .meal-genarate-btn{
+        position: absolute;
+        left: 46%;
+        top: 58%;
+        border-radius: 20px;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .meal-data-input{
+        position: absolute;
+        top: 35%;
+        left: 23%;
+        display: grid;
+    }
+    .meal-genarate-btn{
+        position: absolute;
+        left: 43%;
+        top: 62%;
+        border-radius: 20px;
+    }
+  }
+  @media only screen and (max-width: 480px){
+    .meal-data-input{
+        position: absolute;
+        top: 45%;
+        left: 7%;
+        display: grid;
+    }
+    .meal-genarate-btn{
+        position: absolute;
+        left: 40%;
+        top: 72%;
+        border-radius: 20px;
+    }
+    .meal-description{
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 360px){
+    .meal-data-input {
+        position: absolute;
+        top: 45%;
+        left: 7%;
+        display: grid;
+        
+    }
+    .meal-data-input input{
+        width: 280px;
+    }
+    .meal-genarate-btn{
+        position: absolute;
+        left: 37%;
+        top: 72%;
+        border-radius: 20px;
+    }
+    .meal-description{
+        font-size: 14px;
+    }
+  }
