@@ -7,6 +7,7 @@ import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 import { auth } from '../../../firebase-config';
 import { useNavigate } from 'react-router-dom';
 import googleImg from '../../../assets/google.png';
+import { Navbar } from '../../NavigationBar/Navbar';
 
 const Register = () => {
   const [user, setUser] = useState({
@@ -144,7 +145,9 @@ const Register = () => {
   };
 
   return (
-    <div className='regform-content'>
+    <section>
+      <Navbar/>
+      <div className='regform-content'>
       <MainContent className='main-content' />
       <div className='form-content'>
         <h3>Please enter your details</h3>
@@ -209,6 +212,7 @@ const Register = () => {
         </button>
       </div>
     </div>
+    </section>
   );
 };
 

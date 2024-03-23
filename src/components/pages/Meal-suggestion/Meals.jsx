@@ -84,15 +84,15 @@ function Meals() {
         Generate
       </button>
       {prediction && (
-  <div className='mealitems'> 
-    <p>Predicted Preferred Foods</p>
-    <ul className='predicted-food-list'>
-    {prediction.split(/,\s| and\s/).map((food, index) => (
-        <li key={index}>{food}</li>
-      ))}
-    </ul>
-  </div>
-)}
+        <div className='mealitems'> 
+          <p>Predicted Preferred Foods</p>
+          <ul className='predicted-food-list'>
+          {prediction.split(/,\s| and\s/).map((food, index) => (
+              <li key={index}>{food}</li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }

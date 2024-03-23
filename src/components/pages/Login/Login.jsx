@@ -7,6 +7,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth, provider } from '../../../firebase-config';
 import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 import { getDatabase, ref, child, get } from 'firebase/database';
+import { Navbar } from '../../NavigationBar/Navbar';
 
 const Login = () => {
   
@@ -80,7 +81,9 @@ const Login = () => {
   };
   
   return (
-    <div className="login-container">
+    <section>
+      <Navbar/>
+      <div className="login-container">
       <MainContent className="main-content" />
       <div className="login-form-content">
         <h3>Enter your Credentials</h3>
@@ -126,6 +129,7 @@ const Login = () => {
         </button>
       </div>
     </div>
+    </section>
   );
 };
 

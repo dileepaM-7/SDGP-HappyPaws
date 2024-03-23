@@ -5,6 +5,7 @@ position: absolute;
   background-color: #C6DEF1;
   height: 100%;
   width: 100%;
+  margin-top: 2rem;
     
 }
 
@@ -67,10 +68,10 @@ position: absolute;
 .google-btn{
     position: absolute;
     top: 260px;
-    left: 18%;
+    left: 12%;
     background-color: #3431c7;
     border-radius: 70px;
-    width: 30%;
+    width: 40%;
 }
 h6{
     position: absolute;
