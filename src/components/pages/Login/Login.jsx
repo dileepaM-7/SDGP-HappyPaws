@@ -71,6 +71,7 @@ const Login = () => {
         // If registered, log in user
         // Perform the necessary actions to handle the login, e.g., redirect to home page
         console.log('User logged in:', existingUser);
+        window.location.href = '/';
       } else {
         // If not registered, handle as needed (show error, redirect, etc.)
         setError('This email is not registered. Please sign up first.');
