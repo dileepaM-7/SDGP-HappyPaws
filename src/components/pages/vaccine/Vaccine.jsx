@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { generateDate, months } from './Calender';
 import "./Vaccine.css";
 import dayjs from 'dayjs';
-import { getDatabase, ref, set, child, get } from 'firebase/database';
+import { getDatabase, ref, set, child, get, push } from 'firebase/database';
 import { auth } from "../../../firebase-config";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
-import {Navbar} from "../../NavigationBar/Navbar"
+import { Navbar } from "../../NavigationBar/Navbar"
 
 const Vaccine = () => {
-  
+
   const days = ["S", "M", "T", "W", "T", "F", "S"];
   const currentDate = dayjs();
   const [today, setToday] = useState(currentDate);
@@ -31,7 +31,7 @@ const Vaccine = () => {
       console.error("Auth state change error:", error);
       // Handle any errors that occur during authentication state change
     });
-    
+
     return () => unsubscribe();
   }, []);
 
@@ -52,7 +52,9 @@ const Vaccine = () => {
       note: vaccinationDetails
     };
 
-    set(userRef, vaccinationData)
+    const newref = push(userRef);
+
+    set(newref, vaccinationData)
       .then(() => {
         console.log('Vaccination details saved successfully');
         // Optionally, you can update the UI or show a confirmation message
@@ -64,14 +66,14 @@ const Vaccine = () => {
   const fetchUserDetails = async () => {
     const dbRef = ref(getDatabase());
     const userRef = child(dbRef, 'UserData');
-  
+
     try {
       const snapshot = await get(userRef);
-  
+
       if (snapshot.exists()) {
         const users = Object.entries(snapshot.val());
         const currentUserEntry = users.find(([key, user]) => user.Email === auth.currentUser?.email);
-  
+
         if (currentUserEntry) {
           const [userId, currentUser] = currentUserEntry;
           setUserData(currentUser);
@@ -100,20 +102,20 @@ const Vaccine = () => {
   return (
     <section>
       <Navbar />
-        <div className='vaccinate-container'>
+      <div className='vaccinate-container'>
         <div className='custom-grid'>
           <div className='month-year-division'>
             <p className='month-tag'>{months[today.month()]},{today.year()}</p>
             <div className='Today-division'>
               <GrFormPrevious className='previous-button' onClick={() => {
                 setToday(today.month(today.month() - 1));
-              }}/>
-                <p className='Today-tag'  onClick={() => {
+              }} />
+              <p className='Today-tag' onClick={() => {
                 setToday(currentDate);
               }}>Today</p>
               <GrFormNext className='next-button' onClick={() => {
                 setToday(today.month(today.month() + 1));
-              }}/>
+              }} />
             </div>
           </div>
           <div className='custom-date-grid'>
@@ -122,15 +124,15 @@ const Vaccine = () => {
             ))}
           </div>
           <div className='custom-date-grid'>
-            {generateDate(today.month(),today.year()).map(({ date, currentMonth, today }, index) => (
+            {generateDate(today.month(), today.year()).map(({ date, currentMonth, today }, index) => (
               <div key={index} className='date-content-upper'>
                 <p className={
                   (currentMonth ? "" : "gray-text-number") + " " + (currentMonth && today ? "red-color-today" : "")
                 }
-              onClick={() => {
-                setSelectDate(date); 
-              }}     
-              >
+                  onClick={() => {
+                    setSelectDate(date);
+                  }}
+                >
                   {date.date()}
                 </p>
               </div>
