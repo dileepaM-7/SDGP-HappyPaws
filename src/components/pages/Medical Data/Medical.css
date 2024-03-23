@@ -4,13 +4,24 @@
 }
 
 /* Small (SM) */
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  /* CSS rules for small screens */
+@media screen and (min-width: 480px) {
+  .medical-header .mediHeadName {
+    font-size: 40px; /* Adjust the font size as needed */
+  }
 }
 
 /* Medium (MD) */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  /* CSS rules for medium screens */
+@media screen and (min-width: 360px)  {
+  .medical-header .mediHeadName {
+    font-size: 35px; /* Adjust the font size as needed */
+  }
+  .medical-content .file-upload button {
+    left:10px;
+  }
+  .dog-image img{
+    display: none;
+  }
+  
 }
 
 /* Large (LG) */
