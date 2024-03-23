@@ -86,3 +86,15 @@
 .command-adding{
   font-weight: 600; /* font-semibold */
 }
+.vaccination-detail-btn{
+  margin-left: 2rem;
+  border-radius:40px;
+  width: 80px;
+  background-color: rgb(37, 37, 113);
+}
+.vaccination-detail-input{
+  background-color: rgb(231, 230, 228);
+  border-radius: 10px;
+  width: 230px;
+  border-color: black;
+}
