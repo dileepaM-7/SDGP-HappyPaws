@@ -98,3 +98,13 @@
   width: 230px;
   border-color: black;
 }
+.vaccine-list h2 {
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.saved-details-button {
+  margin-left: 1rem; /* Add margin to create space between button and vaccine details */
+  border-radius:40px;
+  width: 80px;
+  background-color: rgb(37, 37, 113);
+}

@@ -1,8 +1,10 @@
+// Vaccine.js
+
 import React, { useState, useEffect } from 'react';
 import { generateDate, months } from './Calender';
 import "./Vaccine.css";
 import dayjs from 'dayjs';
-import { getDatabase, ref, set, child, get, push } from 'firebase/database';
+import { getDatabase, ref, set, child, get, push, onValue } from 'firebase/database';
 import { auth } from "../../../firebase-config";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 import { Navbar } from "../../NavigationBar/Navbar"
@@ -17,23 +19,40 @@ const Vaccine = () => {
   const [userId, setUserId] = useState(null);
   const [userData, setUserData] = useState(null);
   const [emailLogged, setEmailLogged] = useState('');
+  const [vaccineData, setVaccineData] = useState([]);
+  const [showDetails, setShowDetails] = useState(false); // State to control visibility of details
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user) {
-        setEmailLogged(user.email); // Use user object directly
+        setEmailLogged(user.email);
         fetchUserDetails();
+        fetchVaccineDetails();
       } else {
         console.log("User is signed out");
-        setEmailLogged(''); // Reset emailLogged state when user is signed out
+        setEmailLogged('');
       }
     }, (error) => {
       console.error("Auth state change error:", error);
-      // Handle any errors that occur during authentication state change
     });
 
     return () => unsubscribe();
   }, []);
+
+  const fetchVaccineDetails = () => {
+    const db = getDatabase();
+    const userVaccineRef = ref(db, `UserData/${userId}/vaccinationDetails`);
+
+    onValue(userVaccineRef, (snapshot) => {
+      if (snapshot.exists()) {
+        const vaccineData = snapshot.val();
+        setVaccineData(Object.values(vaccineData));
+      } else {
+        console.log("No vaccine data available");
+        setVaccineData([]);
+      }
+    });
+  };
 
   const handleVaccinationDetailsChange = (event) => {
     setVaccinationDetails(event.target.value);
@@ -57,12 +76,12 @@ const Vaccine = () => {
     set(newref, vaccinationData)
       .then(() => {
         console.log('Vaccination details saved successfully');
-        // Optionally, you can update the UI or show a confirmation message
       })
       .catch((error) => {
         console.error('Error saving vaccination details:', error);
       });
   }
+
   const fetchUserDetails = async () => {
     const dbRef = ref(getDatabase());
     const userRef = child(dbRef, 'UserData');
@@ -89,14 +108,6 @@ const Vaccine = () => {
     } catch (error) {
       console.error(error);
     }
-  };
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
   };
 
   return (
@@ -143,6 +154,22 @@ const Vaccine = () => {
           <p className='command-adding'>Add your pets' vaccination dates for {selectDate.toDate().toDateString()}</p>
           <input type="text" value={vaccinationDetails} onChange={handleVaccinationDetailsChange} className='vaccination-detail-input' />
           <button onClick={handleAddVaccination} className='vaccination-detail-btn'>Add</button>
+          {/* Button to toggle visibility of vaccine details */}
+          <button onClick={() => setShowDetails(!showDetails)} className='saved-details-button'>Saved Details</button>
+          {/* Display vaccine details if showDetails is true */}
+          {showDetails && (
+            <div className="vaccine-list">
+              <h2>Vaccine Details</h2>
+              <ul>
+                {vaccineData.map((vaccine, index) => (
+                  <li key={index}>
+                    <p>Date: {vaccine.date}</p>
+                    <p>Note: {vaccine.note}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </div>
     </section>
