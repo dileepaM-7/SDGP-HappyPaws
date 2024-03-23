@@ -99,7 +99,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 58%;
+    top: 65%;
     left: 32%;
     width: 500px;
     height: 300px;
@@ -205,3 +205,6 @@
         font-size: 14px;
     }
   }
+.footer-section{
+    margin-top: 17%;
+}

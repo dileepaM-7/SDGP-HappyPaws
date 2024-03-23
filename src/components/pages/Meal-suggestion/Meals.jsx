@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Meals.css';
 import { Navbar } from '../../NavigationBar/Navbar';
+import Footer from '../../Footer/Footer';
 
 function Meals() {
   const [breed, setBreed] = useState('');
@@ -45,7 +46,8 @@ function Meals() {
 };
 
   return (
-    <div className='main'>
+    <section>
+      <div className='main'>
       <Navbar />
       <div className='heading'>
         <h2 className='meal-suggestion-head'>Meal Suggestion</h2>
@@ -94,6 +96,10 @@ function Meals() {
         </div>
       )}
     </div>
+      <div className='footer-section'>
+        <Footer />
+      </div>
+    </section>
   );
 }
 export default Meals;
