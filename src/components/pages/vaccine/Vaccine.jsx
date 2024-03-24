@@ -191,7 +191,10 @@ const Vaccine = () => {
           </div>
         </div>
       )}
-      <Footer className='footer-in-vaccine'/>
+      <div className='footer-in-vaccine'>
+      <Footer />
+      </div>
+      
     </section>
   );
 }
