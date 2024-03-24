@@ -118,6 +118,7 @@ const Vaccine = () => {
   return (
     <section>
       <Navbar />
+      <p className='Title'>VACCINATION CALENDAR</p>
       <div className='vaccinate-container'>
         <div className='custom-grid'>
           <div className='month-year-division'>

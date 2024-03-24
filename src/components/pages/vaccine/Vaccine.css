@@ -1,7 +1,7 @@
 /* Normal CSS equivalent of Tailwind CSS classes */
 .vaccinate-container{
   
-  background-color: aliceblue;
+  background-color: rgba(170, 74, 208, 0.95);
   display: flex;
     width: 50%; /* w-1/2 */
     margin-left: auto; /* mx-auto */
@@ -9,9 +9,9 @@
     gap: 1rem; /* gap-10 */
     height: 500px; /* h-screen */
     align-items: center; /* items-center */
-    margin-top: 100px;
+    margin-top: 20px;
     border-radius: 20px;
-  
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 .custom-grid {
   width: 24rem; /* Equivalent to 'w-96' */
@@ -45,7 +45,7 @@
 }
 .date-content-upper:hover {
   
-  background-color: black;
+  background-color:#252323;
   color: white;
   transition: all 0.3s;
   cursor: pointer;
@@ -110,7 +110,7 @@
 }
 .vaccine-details-container {
   margin-top: 20px; /* Adjust as needed */
-  background-color: aliceblue;
+  background-color: rgba(170, 74, 208, 0.95);
     width: 50%; /* w-1/2 */
     margin-left: auto; /* mx-auto */
     margin-right: auto; /* mx-auto */
@@ -118,16 +118,25 @@
     height: 500px; /* h-screen */
     align-items: center; /* items-center */
     border-radius: 20px;
+    border-color: black;
 }
 
 .vaccine-list {
-  background-color: #f9f9f9;
+  background-color: rgba(170, 74, 208, 0.95);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-color: black;
 }
 
 .vaccine-list h2 {
   font-size: 1.5rem;
   margin-bottom:10px;
+  color: rgb(42, 54, 185);
+}
+.Title{
+  text-align: center;
+  font-weight: 600;
+  font-size: 250%;
+  font-family: Arial, Helvetica, sans-serif;
 }
