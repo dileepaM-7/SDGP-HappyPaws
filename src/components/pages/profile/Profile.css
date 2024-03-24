@@ -1,56 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
 .userprofile{
     display: flex;
     flex-direction: column;
     background-color:#313e4a ;
 }
 
-h2 {
-    font-size: 60px;
-    margin-top: 20px;
+.profile-heading h2 {
+    font-size: 40px;
+    padding-top: 3ch;
     color: #ffffff; /* Dark text color */
+    padding-bottom: 2ch;
+  
+}
+.profile-heading{
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+
 }
 
-.userprofile .ProfileDetails {
-    margin-top: 20px;
-    background-color: #FFFFFF; /* White background for profile details */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+.User-profile {
+    background-color: rgba(255,255,255,0.4);
+    width: 50%; /* Set width to 70% */
+    height: auto; /* Set height to auto */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Arrange items vertically */
+    text-align: center; /* Align text centered */
+    border-radius: 5%; /* Set border-radius to achieve circular shape */
+    position: absolute; /* Use absolute positioning to center */
+    top: 65%; /* Align to 50% from top */
+    left: 50%; /* Align to 50% from left */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    border-color: white;
+    border-style: double;
+    
+    
 }
 
-.userprofilein{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 10vh;
-    gap: 20px;
+
+.User-profile img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.user-name1,.user-email,.user-age,.user-id{
+    color: white;
+    font-size: 150%;
+    background-color: rgba(92, 164, 227, 0.4);;
+    margin: 2ch;
+    border-radius: 20px;
+    font-weight: 300;
+    width: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+   
+}
+.user-data{
+    color: black;
+    font-weight: 200;
+   
+    font-size: 150%;
+    border-radius: 20px;
+    width: 450px;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+
+  
 }
 
-
-.userprofile .userprofilein .left{
-    width: 20%;
-    background-color: #a9bfe7;
-    border: 1px solid rgb(28, 26, 26);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    min-height:50vh ;
+.user-image img{
+    animation: bump 0.5s ease infinite alternate;
 }
 
-.userprofile .userprofilein .right{
-    width: 70%;
-    background-color: #a9bfe7;
-    border: 1px solid rgb(28, 26, 26);
-    border-radius: 5px;
-    min-height:50vh ;
-}
-
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #5ca4e3; /* Blue button color */
-    color: #FFFFFF; /* White text color */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+@keyframes bump {
+  0% {
+    transform: translateY(0);
   }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.user-image{
+    
+}
+.user-info > div {
+    display: flex;
+    margin-bottom: 8px; /* Add margin between each user data pair */
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 1200px){
+  .user-name1,.user-email,.user-age,.user-id{
+    width: 140px;
+
+  }
+  .user-data{
+    width: 300px;
+    font-size: 100%;
+  }
+
+}
+@media only screen and (max-width: 768px){
+  .user-name1,.user-email,.user-age,.user-id{
+    width: 80px;
+    font-size: 95%;
+
+  }
+  .user-data{
+    width: 200px;
+    font-size: 70%;
+  }
+
+}
+@media only screen and (max-width: 480px){
+  .user-name1,.user-email,.user-age,.user-id{
+    width: 80px;
+    font-size: 95%;
+  }
+  .user-data{
+    width: 200px;
+    font-size: 70%;
+  }
+  .User-profile{
+    width:80%;
+  }
+
+}
+@media only screen and (max-width: 480px){
+  .user-name1,.user-email,.user-age,.user-id{
+    width: 80px;
+    font-size: 95%;
+  }
+  .user-data{
+    width: 200px;
+    font-size: 70%;
+  }
+  .User-profile{
+    width:90%;
+  }
+
+}

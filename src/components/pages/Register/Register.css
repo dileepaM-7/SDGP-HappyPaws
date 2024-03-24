@@ -93,23 +93,51 @@
     }
   }
   
-  @media only screen and (max-width: 1700px){
+  @media only screen and (max-width: 1200px)  {
+    
+    .input-field{
+        width: 370px;
+    }
     .form-content{
-        left: 15%;
+        left:120px;
+        top:90px;
+    }
+
+  }
+  @media only screen and (max-width: 768px){
+    .input-field{
+        width: 370px;
+    }
+    .userName-lbl,.confirmPassword-lbl,.confirmPassword-lbl,.email-lbl > .input-field{
+        display: block;
+  margin-bottom: 10px; /* Add margin to create space between label and input */
     }
   }
-  @media only screen and (max-width: 1600px){
-    .form-content{
-        left: 10%;
+  @media only screen and (max-width: 480px){
+    .input-field{
+        width: 300px;
     }
-  }
-  @media only screen and (max-width: 1300px){
-    .form-content{
-        left: 10%;
-        width: 37%;
-        height: 65%;
+    .form-content h3{
+        left:20%;
     }
+
 }
+@media only screen and (max-width: 360px){
+    .input-field{
+        width: 200px;
+    }
+    .form-content h3{
+        top:3%;
+    }
+    .log-label{
+        left:35px;
+    }
+    .reg-btn{
+        width:40%;
+    }
+
+}
+
 @media only screen and (max-width: 1000px){
     .form-content{
         left: 15%;
