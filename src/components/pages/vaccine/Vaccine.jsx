@@ -6,6 +6,7 @@ import { getDatabase, ref, set, child, get, push, onValue } from 'firebase/datab
 import { auth } from "../../../firebase-config";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 import { Navbar } from "../../NavigationBar/Navbar"
+import Footer from "../../Footer/Footer";
 
 const Vaccine = () => {
   const days = ["S", "M", "T", "W", "T", "F", "S"];
@@ -169,21 +170,28 @@ const Vaccine = () => {
         <div className="vaccine-details-container">
           <div className="vaccine-list">
             <h2>Vaccine Details</h2>
+            <div className='loaded-vaccination-dates'>
             {vaccineData.length > 0 ? (
               <ul>
-                {vaccineData.map((vaccine, index) => (
-                  <li key={index}>
-                    <p>Date: {vaccine.date}</p>
-                    <p>Note: {vaccine.note}</p>
-                  </li>
-                ))}
+                {vaccineData.map((vaccine, index) => {
+                  const nextDate = dayjs(vaccine.date).add(1, 'year').toDate();
+                  const formattedDate = `${nextDate.getFullYear()}-${nextDate.getMonth() + 1}-${nextDate.getDate()}`;
+                  return (
+                    <li key={index}>
+                      <p>Next Date: {formattedDate}</p>
+                      <p>Note: {vaccine.note}</p>
+                    </li>
+                  );
+                })}
               </ul>
             ) : (
               <p>No saved vaccination details</p>
             )}
+            </div>
           </div>
         </div>
       )}
+      <Footer className='footer-in-vaccine'/>
     </section>
   );
 }
