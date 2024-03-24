@@ -65,7 +65,7 @@ export const Services = () => {
        Then then the system save them and the Consultant <br />publishes the account then the pet oweners 
        can search for them!"
       </p>
-      <h3>To get this feature - Sign in as a Consutant</h3>
+      <h3>To get this feature - Sign in as a Consultant</h3>
       </div>
     </div>
   );
