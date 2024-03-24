@@ -98,3 +98,32 @@
   width: 230px;
   border-color: black;
 }
+.saved-details-button {
+  margin-left: 1rem; /* Add margin to create space between button and vaccine details */
+  border-radius:40px;
+  width: 120px;
+  background-color: rgb(37, 37, 113);
+}
+.vaccine-details-container {
+  margin-top: 20px; /* Adjust as needed */
+  background-color: aliceblue;
+    width: 50%; /* w-1/2 */
+    margin-left: auto; /* mx-auto */
+    margin-right: auto; /* mx-auto */
+    gap: 1rem; /* gap-10 */
+    height: 500px; /* h-screen */
+    align-items: center; /* items-center */
+    border-radius: 20px;
+}
+
+.vaccine-list {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.vaccine-list h2 {
+  font-size: 1.5rem;
+  margin-bottom:10px;
+}
