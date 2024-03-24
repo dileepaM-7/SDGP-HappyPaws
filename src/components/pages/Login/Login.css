@@ -126,23 +126,10 @@ h6{
     }
    }
   
-@media only screen and (max-width: 360px){
-   /* .login-container{
-        left: 2%;
-        width: 100%;
-        height: 5%;
-        padding-top: 5ch;
-        
-    }*/
+@media only screen and (max-width: 320px){
     .input-field{
         width: auto;
   }
-  /*.login-form-content{
-    width: 80%;
-    left:37px;
-    top:1500px;
-
-  }*/
   .login-form-content .input-field{
        
     width: 150%;
@@ -177,6 +164,8 @@ h6{
 }
 @media only screen and (max-width: 320px){
     .login-form-content{
-        
+        width: 80%;
+        left:37px;
+        top:1500px;
     }
 }
