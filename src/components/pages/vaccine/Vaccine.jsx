@@ -1,5 +1,3 @@
-// Vaccine.js
-
 import React, { useState, useEffect } from 'react';
 import { generateDate, months } from './Calender';
 import "./Vaccine.css";
@@ -10,7 +8,6 @@ import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 import { Navbar } from "../../NavigationBar/Navbar"
 
 const Vaccine = () => {
-
   const days = ["S", "M", "T", "W", "T", "F", "S"];
   const currentDate = dayjs();
   const [today, setToday] = useState(currentDate);
@@ -27,7 +24,6 @@ const Vaccine = () => {
       if (user) {
         setEmailLogged(user.email);
         fetchUserDetails();
-        fetchVaccineDetails();
       } else {
         console.log("User is signed out");
         setEmailLogged('');
@@ -38,6 +34,12 @@ const Vaccine = () => {
 
     return () => unsubscribe();
   }, []);
+
+  useEffect(() => {
+    if (userId) {
+      fetchVaccineDetails();
+    }
+  }, [userId]);
 
   const fetchVaccineDetails = () => {
     const db = getDatabase();
@@ -76,6 +78,8 @@ const Vaccine = () => {
     set(newref, vaccinationData)
       .then(() => {
         console.log('Vaccination details saved successfully');
+        fetchVaccineDetails(); // Fetch updated details after adding new one
+        setVaccinationDetails(''); // Clear the input field after successful addition
       })
       .catch((error) => {
         console.error('Error saving vaccination details:', error);
@@ -99,6 +103,7 @@ const Vaccine = () => {
           setUserId(userId);
           console.log("userData:", currentUser);
           console.log("User ID:", userId);
+          fetchVaccineDetails(); // Fetch vaccine details after user is authenticated
         } else {
           console.log("User not found");
         }
@@ -156,10 +161,14 @@ const Vaccine = () => {
           <button onClick={handleAddVaccination} className='vaccination-detail-btn'>Add</button>
           {/* Button to toggle visibility of vaccine details */}
           <button onClick={() => setShowDetails(!showDetails)} className='saved-details-button'>Saved Details</button>
-          {/* Display vaccine details if showDetails is true */}
-          {showDetails && (
-            <div className="vaccine-list">
-              <h2>Vaccine Details</h2>
+        </div>
+      </div>
+      {/* Separate container for displaying vaccine details */}
+      {showDetails && (
+        <div className="vaccine-details-container">
+          <div className="vaccine-list">
+            <h2>Vaccine Details</h2>
+            {vaccineData.length > 0 ? (
               <ul>
                 {vaccineData.map((vaccine, index) => (
                   <li key={index}>
@@ -168,10 +177,12 @@ const Vaccine = () => {
                   </li>
                 ))}
               </ul>
-            </div>
-          )}
+            ) : (
+              <p>No saved vaccination details</p>
+            )}
+          </div>
         </div>
-      </div>
+      )}
     </section>
   );
 }
