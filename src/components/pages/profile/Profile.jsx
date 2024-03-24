@@ -6,6 +6,7 @@ import { signOut } from "firebase/auth";
 import { getDatabase, ref, child, get } from "firebase/database";
 import { useParams } from 'react-router-dom'; // Import useParams hook
 import ProfilePic from '../../../assets/Profilepic.jpg'
+import { Navbar } from '../../NavigationBar/Navbar';
 
 
 
@@ -75,6 +76,7 @@ const Profile = () => {
   // Function to handle name update
   return (
     <section>
+      <Navbar/>
       <div className='profile-heading'>
         <h2>My Profile</h2>
       </div>
@@ -95,11 +97,11 @@ const Profile = () => {
               )}
             </div>
             <div>
-              <p className='user-email'>User Email </p><p className='user-data'>{auth.currentUser?.email}</p>
+              <p className='user-email'>User Email </p><p className='user-data'> {auth.currentUser?.email}</p>
             </div>
-            <div>
+            {/*<div>
               <p className='user-id'>User ID</p> <p className='user-data'>{auth.currentUser?.uid}</p>
-            </div>
+              </div>*/}
            
             <Link to="/">
               <button onClick={logout}>Sign Out</button>
