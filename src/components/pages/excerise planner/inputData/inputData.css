@@ -687,3 +687,51 @@
 body{
     background-color: #C6DEF1;
 }
+
+@media only screen and (max-width: 360px) {
+    .exercise-card{
+        position: relative;
+        left: 100px;
+        top: 50px;
+    }
+    .Exe-Join-Now{
+        display: none;
+    }
+    .card-header1{
+        font-size: xx-large;
+    } 
+    
+}
+.breed-card1,.breed-card2{
+    width: 200px;    
+}
+.Exe-Join-Now2{
+    display: none;
+}
+.breed-card3{
+    width: 200px;
+    top: 300px;  
+    left: -450px;
+}
+.Exe-Join-Now3{
+    display: none;
+}
+.breed-card4{
+    width: 200px;
+    top: 300px;  
+    left: -450px;
+}
+.Exe-Join-Now4{
+    display: none;
+}
+.breed-card5{
+    width: 200px;
+    top: 550px;  
+    left: -950px;
+}
+.Exe-Join-Now5{
+    display: none;
+}
+.InputDogImageForTopic{
+    left: 200px;
+}

@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="sb_footer-links-div-services">
             <span className='FooterNewPart'>happy to welcome you <br/><span className='FooterNewPart2'> to Our Pet World</span></span>
             <img src={FooterIconImage} alt=""  className='FooterIconImage'/>
-            <span className='FooterService1'>Food Recommendations link</span>
+            <span className='FooterService1' >Food Recommendations </span>
             <p className='FooterService1-para1'>You can input your pets' breed, age,<br/> and weight to receive feeding suggestions<br/> for your adorable pets.</p>
             <img src={FooterIconImage} alt=""  className='FooterIconImage'/>
             <span className='FooterService1'>Vaccination reminder</span>
