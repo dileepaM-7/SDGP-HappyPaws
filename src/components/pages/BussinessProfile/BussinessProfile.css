@@ -48,3 +48,24 @@
     color: rgb(127, 226, 127);
     /* add any other styles you want for the "published" state */
   }
+  @media screen and (max-width: 768px){
+    .bussiness-profile-content{
+        width: 700px;
+        height: 600px;
+    }
+  }
+  @media screen and (max-width: 480px){
+    .bussiness-profile-content{
+        width: 400px;
+  }
+}
+@media screen and (max-width: 360px){
+    .bussiness-profile-content{
+        width: 300px;
+        left: 50px;
+        height: 720px;
+    }
+    .bussiness-resetbtn{
+        top:50px;
+    }
+}
