@@ -166,3 +166,17 @@ nav .menu span {
     top: 2%;
     border-radius: 70px;
 }
+@media only screen and (max-width: 320px){
+    .logoImg{
+        width: 60px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .login p{
+        font-size: x-small;
+    }
+    .login{
+        width: 70px;
+        left: 40%;
+    }
+}

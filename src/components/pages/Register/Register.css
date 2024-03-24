@@ -117,3 +117,34 @@
         height: 65%;
     }
 }
+@media only screen and (max-width: 320px){
+    .form-content h3{
+        font-size: small;
+        left: 40px;
+    }
+    .input-field{
+        width: 180px;
+    }
+    .google-btn-reg p{
+        display: none;
+    }
+    .google-btn-reg{
+        left: 50px;
+        width: 30px;
+        height: 40px;
+    }
+    .google-btn-reg img{
+        left: 10px;
+    }
+    .log-label{
+        font-size: xx-small;
+        left: 50px;
+    }
+    .reg-btn{
+        left: 100px;
+        width: 80px;
+    }
+    .reg-btn p{
+        font-size: xx-small;
+    }
+}

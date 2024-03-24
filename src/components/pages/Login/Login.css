@@ -85,7 +85,7 @@ h6{
 }
 @media only screen and (max-width: 2000px){
     .login-form-content{
-        left: 20%;
+        left: 10%;
     }
   }
   
@@ -166,17 +166,17 @@ h6{
     transform: translate(-50%, -50%);
     width: 300px;
     height: 450px;
-
   }
-
-
-  
-
 }
 .err-msg{
     position: absolute;
     top: 64%;
     left: 0%;
     width: 500px;
+    }
 }
-  }
+@media only screen and (max-width: 320px){
+    .login-form-content{
+        
+    }
+}

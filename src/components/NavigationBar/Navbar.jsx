@@ -103,7 +103,7 @@ export const Navbar = () => {
         </Link>
       ) : (
         <Link to="/Login">
-          <button className="login">Log In</button>
+          <button className="login"><p>Log In</p></button>
         </Link>
       )}
     </nav>

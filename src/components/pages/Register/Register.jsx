@@ -201,14 +201,14 @@ const Register = () => {
           </label>
           {error && <p className='error-message'>{error}</p>}
           <button type='submit' className='reg-btn'>
-            Register
+            <p>Register</p>
           </button>
         </form>
         <Link to='/Login'>
           <h6 className='log-label'>- Already have an account -</h6>
         </Link> 
         <button className='google-btn-reg' onClick={handleGoogleSignIn}>
-          <img src={googleImg} alt='' className='google-image' /> Sign with google
+          <img src={googleImg} alt='' className='google-image' /> <p>Sign with google</p>
         </button>
       </div>
     </div>
