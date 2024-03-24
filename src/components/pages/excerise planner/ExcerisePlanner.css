@@ -386,7 +386,7 @@ grid-gap:1.5em ;
 
 /*responsive styles*/
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 768px) {
   .excersie-section{
     width: 680px;
     

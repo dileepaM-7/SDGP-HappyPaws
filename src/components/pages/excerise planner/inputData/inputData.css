@@ -680,9 +680,7 @@
         width: 80px; /* Adjust width as needed */
         height: 90px;
     }
-   .inputBottom{
-        display: none;
-   }
+  
 }
 body{
     background-color: #C6DEF1;
@@ -701,7 +699,7 @@ body{
         font-size: xx-large;
     } 
     
-}
+
 .breed-card1,.breed-card2{
     width: 200px;    
 }
@@ -734,4 +732,5 @@ body{
 }
 .InputDogImageForTopic{
     left: 200px;
+}
 }
