@@ -5,10 +5,16 @@ import { auth } from "../../../firebase-config";
 import { signOut } from "firebase/auth";
 import { getDatabase, ref, child, get } from "firebase/database";
 import { useParams } from 'react-router-dom'; // Import useParams hook
+import ProfilePic from '../../../assets/Profilepic.jpg'
+
+
+
 
 const Profile = () => {
   const [userData, setUserData] = useState(null);
   const [emailLogged, setEmailLogged] = useState('');
+  const [isEditingName, setIsEditingName] = useState(false); // State to manage the visibility of the input field
+  const [newName, setNewName] = useState(''); // State to store the new name value
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
@@ -61,22 +67,47 @@ const Profile = () => {
     await signOut(auth);
   };
 
+  // Function to toggle the visibility of the input field for updating the name
+  const toggleEditName = () => {
+    setIsEditingName(prevState => !prevState);
+  };
+
+  // Function to handle name update
   return (
     <section>
-      <div>
+      <div className='profile-heading'>
         <h2>My Profile</h2>
-        <div>
-          <p>User Name: {userData?.Name}</p>
-          <p>User Email: {auth.currentUser?.email}</p>
-          <p>User Age: {userData?.Age}</p>
-          <p>User ID: {auth.currentUser?.uid}</p>
+      </div>
+      <div className='User-profile'>
+        <div className='user-image'>
+          <img src={ProfilePic} alt='Profile-Picture' />
+          <div className="user-info">
+            <div>
+              <p className='user-name1'>User Name</p>
+              {isEditingName ? (
+                <input
+                  type="text"
+                  value={newName}
+                  onChange={(e) => setNewName(e.target.value)}
+                />
+              ) : (
+                <p className='user-data'>{userData?.Name}</p>
+              )}
+            </div>
+            <div>
+              <p className='user-email'>User Email </p><p className='user-data'>{auth.currentUser?.email}</p>
+            </div>
+            <div>
+              <p className='user-id'>User ID</p> <p className='user-data'>{auth.currentUser?.uid}</p>
+            </div>
+           
+            <Link to="/">
+              <button onClick={logout}>Sign Out</button>
+            </Link>
+          </div>
         </div>
-        <Link to="/">
-          <button onClick={logout}>Sign Out</button>
-        </Link>
       </div>
     </section>
-    
   );
 };
 
