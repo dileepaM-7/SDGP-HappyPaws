@@ -95,13 +95,17 @@
 .vaccination-detail-input{
   background-color: rgb(231, 230, 228);
   border-radius: 10px;
-  width: 230px;
+  width: 100%;
   border-color: black;
+  padding: 10px; /* Add padding for better spacing */
+  border: 1px solid black;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin-bottom: 10px; /* Add margin bottom for spacing */
 }
 .saved-details-button {
-  margin-left: 1rem; /* Add margin to create space between button and vaccine details */
+  margin-left: 3rem; /* Add margin to create space between button and vaccine details */
   border-radius:40px;
-  width: 120px;
+  width: 130px;
   background-color: rgb(37, 37, 113);
 }
 .vaccine-details-container {
