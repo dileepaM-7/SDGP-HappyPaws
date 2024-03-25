@@ -34,27 +34,21 @@ const Footer = () => {
           
           <div className="sb_footer-links-div-services">
             <span className='FooterNewPart'>happy to welcome you <br/><span className='FooterNewPart2'> to Our Pet World</span></span>
-
             <img src={FooterIconImage} alt=""  className='FooterIconImage'/>
-            <Link to="./meals"><span className='FooterService1'>Food Recommendations </span></Link> 
+            <span className='FooterService1'>Food Recommendations </span>
             <p className='FooterService1-para1'>You can input your pets' breed, age,<br/> and weight to receive feeding suggestions<br/> for your adorable pets.</p>
-
-            
             <img src={FooterIconImage} alt=""  className='FooterIconImage'/>
-            <Link to="./vaccine"><span className='FooterService1'>Vaccination reminder</span></Link>
+            <span className='FooterService1'>Vaccination reminder</span>
             <p className='FooterService1-para1'>Reminders for vaccinations may help pet<br/> owners maintain their pets' health despite<br/> their busy lifestyles.</p>
-
             <img src={FooterIconImage} alt=""  className='FooterIconImage1'/>
-            <Link to="./excerise "><span className='FooterService3'>Exercise planner</span></Link> 
+            <span className='FooterService3'>Exercise planner</span>
             <p className='FooterService1-para2'>If you want get exercises for your pet buddies,<br/>here is the place.find your pets breed category<br/>and get exercises.</p>
-
             <img src={FooterIconImage} alt=""  className='FooterIconImage1'/>
-            <Link to="./Medical"><span className='FooterService3'>Medical records</span></Link>
+            <span className='FooterService3'>medical records</span>
             <p className='FooterService1-para2'>Maintaining a pet’s medical record book is very<br/> important. keeping an online medical record for<br/> pets is easier than the traditional way.</p>
-
             
             <img src={FooterIconImage} alt=""  className='FooterIconImage3'/>
-            <Link to="./consultant"><span className='FooterService5'>Search for consultants</span></Link>
+            <span className='FooterService5'>Search for consultants</span>
             <p className='FooterService1-para5'>Pet owners may need assistance in finding<br/>  the veterinarian's contact information. We<br/>  allow visitors to access registered veterinarian<br/>  information via the website.</p>
    
 

@@ -3,7 +3,7 @@
 }
 .footer{
     background-color: #2b3440;
-    margin-bottom: none;
+    margin-top: 2%;
 }
 .footer_social{
     display: flex;
@@ -68,14 +68,12 @@ hr{
 }
 .footer-copyright{
     width: 100%;
-    margin: 0;
 }
 .footer-copyright p{
     font-size: 13px;
     line-height: 40px;
     color: rgb(133, 165, 240);
     font-weight: 600;
-    margin-bottom: 0;
     
 }
 .footer-copyright a{
@@ -127,7 +125,6 @@ hr{
     position: relative;
     top: 20px;
     right:400px;
-    margin-bottom: 20px;
     color: #ffffff;
     font-size:xx-large;
     font-weight: 500;
@@ -179,7 +176,6 @@ hr{
     top: 1px;
     right: 360px;   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-    color: #ffffff;
 }
 .FooterService1-para1{
     position: relative;
@@ -194,7 +190,7 @@ hr{
     top: -247px;
     left: 50px;   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-    color: #ffffff;
+
 }
 .FooterIconImage1{
     position: relative;
@@ -216,7 +212,7 @@ hr{
     top: -494px;
     left: 500px;   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-    color: #ffffff;
+
 }
 .FooterIconImage3{
     position: relative;
@@ -256,77 +252,13 @@ hr{
          margin-left: 0rem;
          margin-top: 1rem;
     }
-    
-}
-
-@media screen and (max-width: 360px){
-    .footer{
-        background-color: #2b3440;
-        position: relative;
-        bottom: -10px;
-        left:0px;
-        width:950px;
-    }
-    .FooterNewPart2{
-        position: relative;
-        left: 50px;
-
-    }
-    .FooterNewPart{
-        position: relative;
-        left: 0px;
-
-    }
-    .FooterService1-para1{
-        display: none;
-    }
-    .FooterService1-para2{
-        display: none;
-    }
-    .FooterService1-para5{
-        display: none;
-    }
-    .FooterService5{
-        position: relative;
-        left: 50px;
-        top: -20px;
-    }
-    .FooterService3{
-        position: relative;
-        left: 50px;
-        top: -20px;
-    }
-    .FooterService1{
-        position: relative;
-        left: 50px;
-        top: -10px;
-    }
-    .FooterIconImage3{
-        position: relative;
-        left: 10px;
-        top: 5px;
-    }
-    .FooterIconImage1{
-        position: relative;
-        left: 10px;
-        top: 5px;
-    }
-    .FooterIconImage{
-        position: relative;
-        left: 10px;
-        top: 20px;
-    }
-    .Footer-Contact-span{
-        left: 430px;
-        top:400px;
-    }
-    .Footer-Contact-p{
-        left: 430px;
-        top:400px;
+    @media screen and (max-width:400px){
+        .sb_footer-heading h1{
+            font-size: 27px;
+            line-height: 38px;
+        }
     }
 }
-    
-
 
 @media only screen and (max-width: 2000px){
     .footer-copyright p{
