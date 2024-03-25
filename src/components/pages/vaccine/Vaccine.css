@@ -92,12 +92,19 @@
   font-weight: 600; /* font-semibold */
 }
 
-.vaccination-detail-btn{
-  margin-left: 2rem;
-  border-radius:40px;
-  width: 80px;
+.vaccination-detail-btn {
+  border-radius: 40px;
+  width: auto;
+  /* Adjusted for responsiveness */
   background-color: rgb(37, 37, 113);
+  padding: 10px 20px;
+  /* Adjusted for better spacing */
+  text-align: center;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 10px;
 }
+
 
 .vaccination-detail-input{
   background-color: rgb(231, 230, 228);
@@ -111,10 +118,16 @@
 }
 
 .saved-details-button {
-  margin-left: 3rem; /* Add margin to create space between button and vaccine details */
-  border-radius:40px;
-  width: 130px;
+  border-radius: 40px;
+  width: auto;
+  /* Adjusted for responsiveness */
   background-color: rgb(37, 37, 113);
+  padding: 10px 20px;
+  /* Adjusted for better spacing */
+  text-align: center;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 10px;
 }
 
 .vaccine-details-container {
@@ -158,4 +171,11 @@
 
 .footer-in-vaccine{
   margin-top: 25%;
+}
+@media screen and (max-width: 768px) {
+  .vaccinate-container,
+  .vaccine-details-container {
+    width: 90%;
+    /* Adjusted for smaller screens */
+  }
 }
