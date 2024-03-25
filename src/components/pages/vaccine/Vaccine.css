@@ -1,28 +1,29 @@
 /* Normal CSS equivalent of Tailwind CSS classes */
 .vaccinate-container{
-  
-  background-color: rgba(170, 74, 208, 0.95);
+  background-color: rgba(74, 157, 208, 0.95);
   display: flex;
-    width: 50%; /* w-1/2 */
-    margin-left: auto; /* mx-auto */
-    margin-right: auto; /* mx-auto */
-    gap: 1rem; /* gap-10 */
-    height: 500px; /* h-screen */
-    align-items: center; /* items-center */
-    margin-top: 20px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  width: 50%; /* w-1/2 */
+  margin-left: auto; /* mx-auto */
+  margin-right: auto; /* mx-auto */
+  gap: 1rem; /* gap-10 */
+  height: 500px; /* h-screen */
+  align-items: center; /* items-center */
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
+
 .custom-grid {
   width: 24rem; /* Equivalent to 'w-96' */
   height: 24rem; /* Equivalent to 'h-96' */
-
 }
+
 .custom-date-grid{
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   width: 100%;
 }
+
 .date-content-upper{
   height: 3.5rem;
   border-top: 1px solid rgba(118, 116, 116, 0.417);
@@ -30,6 +31,7 @@
   place-content: center;
   font-size: 0.875rem;
 }
+
 .gray-text-number {
   color: rgb(187, 192, 192);
 }
@@ -43,8 +45,8 @@
   place-content: center;
   color: white;
 }
+
 .date-content-upper:hover {
-  
   background-color:#252323;
   color: white;
   transition: all 0.3s;
@@ -52,46 +54,57 @@
   place-content: center;
   border-radius: 30px;
 }
+
 .vaccine-details-display{
   height: 24rem; /* h-96 */
   width: 24rem; /* w-96 */
   padding-left: 1.25rem; /* px-5 */
   padding-right: 1.25rem; /* px-5 */
 }
+
 .Today-division{
   display: flex;
   align-items: center;
   margin-left: 0.625rem;
 }
+
 .Today-tag{
   cursor: pointer; /* cursor-pointer */
 }
-.previous-button{
-  width: 1.25rem; /* w-5 */
-  height: 1.25rem; /* h-5 */
-  cursor: pointer; /* cursor-pointer */
-}
+
+.previous-button,
 .next-button{
   width: 1.25rem; /* w-5 */
   height: 1.25rem; /* h-5 */
   cursor: pointer; /* cursor-pointer */
 }
+
 .month-year-division{
   display: flex; /* flex */
   justify-content: space-between; /* justify-between */
 }
+
 .month-tag{
   font-weight: 600; /* font-semibold */
 }
+
 .command-adding{
   font-weight: 600; /* font-semibold */
 }
-.vaccination-detail-btn{
-  margin-left: 2rem;
-  border-radius:40px;
-  width: 80px;
+
+.vaccination-detail-btn {
+  border-radius: 40px;
+  width: auto;
+  /* Adjusted for responsiveness */
   background-color: rgb(37, 37, 113);
+  padding: 10px 20px;
+  /* Adjusted for better spacing */
+  text-align: center;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 10px;
 }
+
 .vaccination-detail-input{
   background-color: rgb(231, 230, 228);
   border-radius: 10px;
@@ -102,31 +115,39 @@
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
   margin-bottom: 10px; /* Add margin bottom for spacing */
 }
+
 .saved-details-button {
-  margin-left: 3rem; /* Add margin to create space between button and vaccine details */
-  border-radius:40px;
-  width: 130px;
+  border-radius: 40px;
+  width: auto;
+  /* Adjusted for responsiveness */
   background-color: rgb(37, 37, 113);
+  padding: 10px 20px;
+  /* Adjusted for better spacing */
+  text-align: center;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 10px;
 }
+
 .vaccine-details-container {
   margin-top: 20px; /* Adjust as needed */
-  background-color: rgba(170, 74, 208, 0.95);
-    width: 50%; /* w-1/2 */
-    margin-left: auto; /* mx-auto */
-    margin-right: auto; /* mx-auto */
-    gap: 1rem; /* gap-10 */
-    height: 500px; /* h-screen */
-    align-items: center; /* items-center */
-    border-radius: 20px;
-    border-color: black;
+  background-color: rgba(74, 157, 208, 0.95);
+  width: 50%; /* w-1/2 */
+  margin-left: auto; /* mx-auto */
+  margin-right: auto; /* mx-auto */
+  gap: 1rem; /* gap-10 */
+  height: 500px; /* h-screen */
+  align-items: center; /* items-center */
+  border-radius: 20px;
+  border-color: black;
 }
 
 .vaccine-list {
-  background-color: rgba(170, 74, 208, 0.95);
+  background-color: rgba(74, 157, 208, 0.95);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-color: black;
+  box-shadow: 0px 0px 10px rgba(94, 92, 92, 0.1);
+  border-color: rgb(115, 114, 114);
 }
 
 .vaccine-list h2 {
@@ -134,9 +155,29 @@
   margin-bottom:10px;
   color: rgb(42, 54, 185);
 }
+
 .Title{
   text-align: center;
   font-weight: 600;
   font-size: 250%;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.loaded-vaccination-dates{
+  align-items: center;
+  text-align: center;
+}
+
+.footer-in-vaccine{
+  margin-top: 25%;
+}
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+
+  .vaccinate-container,
+  .vaccine-details-container {
+    width: 90%;
+    /* Adjusted for smaller screens */
+  }
 }
