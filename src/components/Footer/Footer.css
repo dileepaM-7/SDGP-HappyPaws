@@ -3,7 +3,7 @@
 }
 .footer{
     background-color: #2b3440;
-    margin-top: 10%;
+    margin-bottom: none;
 }
 .footer_social{
     display: flex;
@@ -68,12 +68,14 @@ hr{
 }
 .footer-copyright{
     width: 100%;
+    margin: 0;
 }
 .footer-copyright p{
     font-size: 13px;
     line-height: 40px;
     color: rgb(133, 165, 240);
     font-weight: 600;
+    margin-bottom: 0;
     
 }
 .footer-copyright a{
@@ -177,6 +179,7 @@ hr{
     top: 1px;
     right: 360px;   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    color: #ffffff;
 }
 .FooterService1-para1{
     position: relative;
@@ -191,7 +194,7 @@ hr{
     top: -247px;
     left: 50px;   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-
+    color: #ffffff;
 }
 .FooterIconImage1{
     position: relative;
@@ -213,7 +216,7 @@ hr{
     top: -494px;
     left: 500px;   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-
+    color: #ffffff;
 }
 .FooterIconImage3{
     position: relative;
